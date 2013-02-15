@@ -1,0 +1,134 @@
+FUNCTIONAL QUESTIONS
+
+Driver working hours?
+will be provided
+
+
+How many days holiday?
+will be provided
+
+
+How many drivers?
+loads/ provided in the database
+
+
+How are replacement drivers assigned?
+based on how many hours each driver should be working, provided in the rostering
+
+
+How are replacement buses assigned?
+depends on avaliability on the buses, try and send free bus
+
+
+What determines a cancellation?
+construction
+maintenence on buses
+minimal
+
+
+How many extra buses at rush hour?
+up to us
+not too much, so theres not too much congestion
+provided
+
+How many buses are there available?
+provided
+
+
+How much does congestion affect bus route and times?
+Its affected badly. Make sure theres enough buses running on this service.
+
+
+Who are the actors?
+Controller - Main boss (Rostering is an automated process)
+Drivers
+Passenger
+Database
+
+How do the controllers interact with the system?
+initiates rostering every week, inputs illness/ holiday/ bus breakdown
+Need to automate the rostering process
+
+
+How do the drivers interact?
+Drivers can lookup timetables / Can only lookup his own timetable
+Cant modify timetable
+
+
+How many days in advance is a bus driver allowed to book a holiday?
+Provided
+
+
+Is there an on-call sheet for replacement bus drivers?
+Provided
+
+
+How many days in advance is the roster generated? 
+Weekly
+
+
+Where are driver details stored?
+Database
+
+
+
+How do the passengers interact with the system?
+Look at any route timetable. Cant modify.
+
+
+How do the passenegers see the timetable?
+
+
+How does the system know when a driver is ill?
+The driver reports an illness to the controller.
+
+How are passengers informed of a cancellation/replacement?
+Through the timetable
+
+
+NON FUNCTIONAL QUESTIONS
+
+How long should it take to create a roster?
+depend on performance. 
+
+How late can a bus be?
+15minute between each service monday/friday
+
+Does it need to be protected from data loss?
+protected - encrypted - user rights
+read only rights and that.
+
+How long should a timetable lookup take?
+performance :|
+
+Any specific use cases?
+no.
+
+
+Go into detail for a few use cases?
+
+
+
+USE CASES
+Controller creates rosters - Controller reports any illness/bus maintenence. Initiates the
+roster creation for the week.
+
+
+Controller deals with replacements - reports into 
+Controller deals with holidays and sickness
+
+Passenger/driver/controller looking up timetable
+Controller doesnt edit the timetable.
+
+Driver requesting a holiday
+Driver calling in sick
+
+
+
+
+WHAT WE HAVE TO DO BY NEXT WEEK.
+
+All look database stoof
+Think of extra questions
+Think of more use cases
+Briefly think about what the UI should do. 
