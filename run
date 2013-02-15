@@ -1,1 +1,1 @@
-java -cp mysql-connector-java-5.1.12-bin.jar:. Main
+java -cp mysql-connector-java-5.1.12-bin.jar:. $1
