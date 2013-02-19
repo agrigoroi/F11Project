@@ -1,31 +1,37 @@
 public class Driver
 {
-	public static Boolean checkDetails(String id, String password)
+	private Boolean exists = false;
+	private int id;
+	private String name;
+	private String number;
+	private String password;
+
+	public Driver(String id)
 	{
 		try
 		{
-			int inputDriverID = Integer.parseInt(id);
-			return checkDetails(inputDriverID, password);
+			this.id = Integer.parseInt(id);
+			this.name = DriverInfo.getName(this.id);
+			this.number = DriverInfo.getNumber(this.id);
+			this.password = DriverInfo.getPass(this.id);
+			this.exists = true;
 		}
 		catch(Exception ex)
 		{
-			return false;
-		}
+			this.exists = false;
+		}	
 	}
-	public static Boolean checkDetails(int id, String password)
+
+	public Boolean checkPassword(String password)
 	{
-		try
-		{
-			database.openBusDatabase();
-			String correctPassword = DriverInfo.getPass(2012);
-			if(correctPassword.equals(password))
+		if(this.exists)
+			if(this.password.equals(password))
 				return true;
-			else
-				return false;
-		}
-		catch(Exception ex)
-		{
-			return false;
-		}
+		return false;
+	}
+
+	public String getName()
+	{
+		return this.name;
 	}
 }
