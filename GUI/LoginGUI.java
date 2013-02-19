@@ -56,8 +56,13 @@ public class LoginGUI extends Window
 	{
 		public void actionPerformed(ActionEvent e)
 		{
-			if(Driver.checkDetails(idTF.getText(), passwordTF.getText()))
-				LoginGUI.window.openWindow(new WelcomeGUI());
+			Driver driver = new Driver(idTF.getText());
+			if(driver.checkPassword(passwordTF.getText()))
+			{
+				WelcomeGUI window = new WelcomeGUI();
+				window.setDriverName(driver.getName());
+				LoginGUI.window.openWindow(window);
+			}
 			else
 				loginText.setText("Wrong details");
 		}

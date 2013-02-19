@@ -19,6 +19,11 @@ public class WelcomeGUI extends Window implements ActionListener
 					btnSeeHolidays		= new JButton("See holidays"),
 					btnRequestHoliday	= new JButton("Request holiday");
 	
+	public void setDriverName(String name)
+	{
+		lblWelcome.setText("Hello " + name);
+	}
+
 	public void show(MainGUI _window)
 	{
 		window = _window;

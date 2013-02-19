@@ -34,8 +34,8 @@ public class MainGUI extends JFrame
 	
 	public static void main(String[] args)
 	{
+		database.openBusDatabase();
 		window = new MainGUI();
-		
 		window.openWindow(new LoginGUI());
 	}
 }
