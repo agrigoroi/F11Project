@@ -41,7 +41,7 @@ public class WelcomeGUI extends Window implements ActionListener
 		if(e.getSource() == btnViewTimetable)
 			;
 		else if(e.getSource() == btnSeeHolidays)
-			;
+			window.openWindow(new HolidayGUI());
 		else if(e.getSource() == btnRequestHoliday)
 			window.openWindow(new RequestHolidayGUI());
 	}
