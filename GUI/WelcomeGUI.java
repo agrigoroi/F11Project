@@ -50,6 +50,6 @@ public class WelcomeGUI extends Window implements ActionListener
 		else if(e.getSource() == btnSeeHolidays)
 			driver.showHolidays();
 		else if(e.getSource() == btnRequestHoliday)
-			window.openWindow(new RequestHolidayGUI());
+			window.openWindow(new RequestHolidayGUI(driver));
 	}
 }

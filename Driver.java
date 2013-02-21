@@ -54,4 +54,9 @@ public class Driver
 	{
 		return totalHolidays-DriverInfo.getHolidaysTaken(id);
 	}
+	
+	public int getID()
+	{
+	  	return this.id;
+	}
 }

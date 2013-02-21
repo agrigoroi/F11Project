@@ -40,9 +40,9 @@ public class RequestInfo {
 		database.busDatabase.set_value("request", request, "status", status);
 	}
 	
-	public static void insert(int id, Date startDate, Date endDate, String status)
+	public static void insert(int driver, Date startDate, Date endDate, String status)
 	{
-	    database.busDatabase.new_record("request", new Object[][]{{"request_id", id}, {"start_date", startDate}, {"end_date", endDate}, {"status", status}});
+	    database.busDatabase.new_record("request", new Object[][]{{"driver_id", driver}, {"start_date", startDate}, {"end_date", endDate}, {"status", status}});
 	}
 	
 	public static int[] findRequestByDriver(int driver)
