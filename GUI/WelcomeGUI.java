@@ -13,15 +13,17 @@ public class WelcomeGUI extends Window implements ActionListener
 {
 	private MainGUI window;
 	public Container contents;
+	private Driver driver;
 	
 	private JLabel	lblWelcome			= new JLabel("Hello <DriverName>");
 	private JButton	btnViewTimetable	= new JButton("View timetable"),
 					btnSeeHolidays		= new JButton("See holidays"),
 					btnRequestHoliday	= new JButton("Request holiday");
 	
-	public void setDriverName(String name)
+	public WelcomeGUI(Driver driver)
 	{
-		lblWelcome.setText("Hello " + name);
+		this.driver = driver;
+		lblWelcome.setText("Hello " + driver.getName());
 	}
 
 	public void show(MainGUI _window)
@@ -46,7 +48,7 @@ public class WelcomeGUI extends Window implements ActionListener
 		if(e.getSource() == btnViewTimetable)
 			;
 		else if(e.getSource() == btnSeeHolidays)
-			window.openWindow(new HolidayGUI());
+			driver.showHolidays();
 		else if(e.getSource() == btnRequestHoliday)
 			window.openWindow(new RequestHolidayGUI());
 	}
