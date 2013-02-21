@@ -4,5 +4,8 @@
 *.jar
 *.war
 *.ear
+# Editor back up files #
 *.bck
 *~
+# Hidden files
+.*
