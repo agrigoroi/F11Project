@@ -1,0 +1,22 @@
+non-func
+
+The system shall protect the data of every driver
+The system shall implement a user-friendly UI
+The system shall provide up to date information on services
+The system shall be robust against user input
+
+
+
+func
+
+The system must allow a driver to make a holiday
+The system must allow a users to look up various timetables
+The system must allow a driver a roster to be generated
+The system must allow a driver to report an illness
+The system must allow passengers to view any service changes
+The system must display route and service information
+The system must find a replacement driver when drivers are ill/on holiday
+The system must find a substitute bus and driver when buses break down
+The system must provide sufficient buses at all times
+
+
