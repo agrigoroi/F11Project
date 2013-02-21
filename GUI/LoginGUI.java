@@ -4,9 +4,7 @@ import java.awt.event.*;
 
 public class LoginGUI extends Window
 {
-	private static final int WIDTH = 350;
-	private static final int HEIGHT = 200;
-	
+
 	private JLabel idL, passwordL, loginText, blank;
 	private JTextField idTF, passwordTF;
 	private JButton loginB, exitB;
@@ -59,9 +57,7 @@ public class LoginGUI extends Window
 			Driver driver = new Driver(idTF.getText());
 			if(driver.checkPassword(passwordTF.getText()))
 			{
-				WelcomeGUI window = new WelcomeGUI();
-				window.setDriverName(driver.getName());
-				LoginGUI.window.openWindow(window);
+				driver.showWelcome();
 			}
 			else
 				loginText.setText("Wrong details");

@@ -5,7 +5,8 @@ import java.awt.event.*;
 public class ConfirmationGUI extends Window implements ActionListener
 {
   private MainGUI window;
-  public Container contents;  
+  public Container contents;
+  private Driver driver;
   
   private JLabel lblWelcome = new JLabel("Hello <DriverName>"),
                  info = new JLabel("You have requested holiday "),
@@ -14,6 +15,11 @@ public class ConfirmationGUI extends Window implements ActionListener
        
   
   private JButton btnReturn = new JButton("Confirm");
+  
+  public ConfirmationGUI(Driver driver)
+  {
+	  this.driver = driver;
+  }
   
   public void show(MainGUI _window)
   {
@@ -35,7 +41,7 @@ public class ConfirmationGUI extends Window implements ActionListener
   public void actionPerformed(ActionEvent e)
   {
     if(e.getSource() == btnReturn)
-      window.openWindow(new WelcomeGUI());
+      driver.showWelcome();
   }
   
 }  
