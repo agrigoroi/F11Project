@@ -15,11 +15,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class RequestHolidayGUI extends Window implements ActionListener
 {
-  private MainGUI window;
   public Container contents;
   private Driver driver;
-  private Date startDate;
-  private Date endDate;
 	
   private JLabel lblWelcome = new JLabel("Welcome"),
                  lblError = new JLabel(""),
@@ -32,7 +29,6 @@ public class RequestHolidayGUI extends Window implements ActionListener
   private JTextField txtStart, txtEnd;
   
   private JButton btnVerify = new JButton("Verify Dates");
-  private JButton btnConfirm = new JButton("Confirm");
   private JButton btnBack = new JButton("Back");
   
   public RequestHolidayGUI(Driver driver)
@@ -72,32 +68,22 @@ public class RequestHolidayGUI extends Window implements ActionListener
     {
       try
       {
-        String start = txtStart.getText();
-        String end = txtEnd.getText();
-        SimpleDateFormat parser = new SimpleDateFormat("dd/MM/yyyy");
-        startDate = parser.parse(start);
-        endDate = parser.parse(end);
-	if(endDate.compareTo(startDate) >= 0)
-	{
-	  int selected = (int)(TimeUnit.MILLISECONDS.toDays(endDate.getTime()
-	                 - startDate.getTime())) + 1;
-	  lblSelected.setText("You have selected " + selected + " days");
-	  
-	  RequestInfo.insert(driver.getID(), startDate, endDate, "Waiting " +
-	                     "approvement");
-	  lblError.setText("Successful Verification");
-	  window.openWindow(new ConfirmationGUI(driver));
-	}
-	else
-	  lblError.setText("The Start date is after the End Date");
-	
+    	  Request request = new Request(txtStart.getText(), txtEnd.getText(), driver);
+    	  lblSelected.setText("You have selected " + request.getLength() + " days");
+    	  lblError.setText("Successful Verification");
+    	  request.save();
+    	  MainGUI.window.openWindow(new ConfirmationGUI(driver, request));
+      }
+      catch(java.text.ParseException exception)
+      {
+    	  lblError.setText("There was an error with the dates input, "
+	                     + "please make sure the dates are in the correct " 
+	                     + "format");
+    	  System.out.println(exception);
       }
       catch(Exception exception)
       {
-	lblError.setText("There was an error with the dates input, "
-	                 + "please make sure the dates are in the correct " 
-	                 + "format");
-	System.out.println(exception);
+    	  lblError.setText(exception.getMessage());
       }
     }
     else if(e.getSource() == btnBack)

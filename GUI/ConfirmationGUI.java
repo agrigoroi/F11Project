@@ -7,6 +7,7 @@ public class ConfirmationGUI extends Window implements ActionListener
   private MainGUI window;
   public Container contents;
   private Driver driver;
+  private Request request;
   
   private JLabel lblWelcome = new JLabel("Hello <DriverName>"),
                  info = new JLabel("You have requested holiday "),
@@ -16,9 +17,13 @@ public class ConfirmationGUI extends Window implements ActionListener
   
   private JButton btnReturn = new JButton("Confirm");
   
-  public ConfirmationGUI(Driver driver)
+  public ConfirmationGUI(Driver driver, Request request)
   {
 	  this.driver = driver;
+	  lblWelcome.setText("Hello " + driver.getName());
+	  this.request = request;
+	  start_date.setText("from " + request.getStartDate());
+	  end_date.setText("to " + request.getEndDate());
   }
   
   public void show(MainGUI _window)
@@ -43,5 +48,4 @@ public class ConfirmationGUI extends Window implements ActionListener
     if(e.getSource() == btnReturn)
       driver.showWelcome();
   }
-  
 }  

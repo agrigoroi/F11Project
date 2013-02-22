@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Driver
 {
 	private Boolean exists = false;
@@ -6,7 +8,7 @@ public class Driver
 	private String number;
 	private String password;
 	private final static int totalHolidays = 25;
-
+	
 	public Driver(String id)
 	{
 		try
@@ -55,8 +57,39 @@ public class Driver
 		return totalHolidays-DriverInfo.getHolidaysTaken(id);
 	}
 	
+	public void takeHoliday(Request request)
+	{
+		int daysTaken = DriverInfo.getHolidaysTaken(id) + request.getLength();
+		DriverInfo.setHolidaysTaken(id, daysTaken);
+		Date date = new Date(request.getStartDate().getTime());
+		while(date.compareTo(request.getEndDate()) <= 0)
+		{
+			DriverInfo.setAvailable(getID(), date, false);
+			date.setTime(date.getTime() + 24*60*60*1000);
+		}
+	}
+	
 	public int getID()
 	{
 	  	return this.id;
+	}
+	
+	public Boolean isAvailable()
+	{
+		return isAvailable(database.today());
+	}
+	
+	public Boolean isAvailable(Date date)
+	{
+		return DriverInfo.isAvailable(this.id, date);
+	}
+	
+	public static Driver[] getDrivers()
+	{
+		int[] driver_ids = DriverInfo.getDrivers();
+		Driver[] drivers = new Driver[driver_ids.length];
+		for(int index = 0; index < driver_ids.length; index++)
+			drivers[index] = new Driver(((Integer)driver_ids[index]).toString());
+		return drivers;
 	}
 }

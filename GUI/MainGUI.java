@@ -11,7 +11,7 @@ import java.awt.event.*;
  */
 public class MainGUI extends JFrame
 {
-	private static MainGUI window;
+	public static MainGUI window;
 	public Container contents;
 	
 	public MainGUI()
