@@ -8,21 +8,24 @@ public class HolidayGUI extends Window implements ActionListener
   private MainGUI window;
   public Container contents;
   private Driver driver;
+  private Request[] requests;
   
   private JLabel lblWelcome = new JLabel("Hello <DriverName>"),
-                 start_date = new JLabel("<start_date>"),
-                 end_date = new JLabel("<end_date>"),
                  holidays_left = new JLabel("<holidays_left>");
+  private JLabel[] start_date, end_date;
        
-  public HolidayGUI(Driver driver, Request request)
+  public HolidayGUI(Driver driver, Request requests[])
   {
 	  this.driver = driver;
+	  this.requests = requests;
+	  this.start_date = new JLabel[requests.length];
+	  this.end_date = new JLabel[requests.length];	  
 	  lblWelcome.setText("Hello " + driver.getName());
-	  holidays_left.setText(driver.getHolidaysLeft() + " days");
-	  if(!(request == null))
+	  holidays_left.setText(driver.getHolidaysLeft() + " days left");
+	  for(int i = 0; i < requests.length; i++)
 	  {
-		  start_date.setText(request.getStartDate().toString());
-		  end_date.setText(request.getEndDate().toString());
+		start_date[i] = new JLabel(requests[i].getStartDate().toString());
+		end_date[i] = new JLabel(requests[i].getEndDate().toString());		
 	  }
   }
   
@@ -33,12 +36,17 @@ public class HolidayGUI extends Window implements ActionListener
     window = _window;
     contents = window.getContentPane();
 		
-    contents.setLayout(new GridLayout(5, 1));
+    contents.setLayout(new GridLayout(requests.length + 3, 2));
     
     contents.add(lblWelcome);
-    contents.add(start_date);
-    contents.add(end_date);
     contents.add(holidays_left);
+    contents.add( new JLabel("Start Dates"));
+    contents.add(new JLabel("End Dates"));
+    for(int i=0; i< requests.length; i++)
+    {
+      contents.add(start_date[i]);
+      contents.add(end_date[i]);
+    }
     contents.add(btnReturn);
     
     btnReturn.addActionListener(this);

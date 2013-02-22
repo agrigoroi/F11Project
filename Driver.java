@@ -44,7 +44,7 @@ public class Driver
 		if(requests.length == 0)
 			LoginGUI.window.openWindow(new HolidayGUI(this, null));
 		else
-			LoginGUI.window.openWindow(new HolidayGUI(this, requests[0]));
+			LoginGUI.window.openWindow(new HolidayGUI(this, requests));
 	}
 	
 	public String getName()
