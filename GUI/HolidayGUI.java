@@ -2,6 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 import java.util.Date;
+import java.text.DateFormat;
 
 public class HolidayGUI extends Window implements ActionListener
 {
@@ -24,8 +25,8 @@ public class HolidayGUI extends Window implements ActionListener
 	  holidays_left.setText(driver.getHolidaysLeft() + " days left");
 	  for(int i = 0; i < requests.length; i++)
 	  {
-		start_date[i] = new JLabel(requests[i].getStartDate().toString());
-		end_date[i] = new JLabel(requests[i].getEndDate().toString());		
+		start_date[i] = new JLabel(DateFormat.getDateInstance().format(requests[i].getStartDate()));
+		end_date[i] = new JLabel(DateFormat.getDateInstance().format(requests[i].getEndDate()));		
 	  }
   }
   
