@@ -1,9 +1,10 @@
-JFLAGS = -classpath .:./GUI/ 
+JCFLAGS = -classpath .:./GUI 
+JRFLAGS = -classpath .:..:../mysql-connector-java-5.1.12-bin.jar
 JC = javac
 JR = java
 .SUFFIXES: .java .class
 .java.class:
-		$(JC) $(JFLAGS) $*.java
+		$(JC) $(JCFLAGS) $*.java
 
 CLASSES = \
 		GUI/LoginGUI.java \
@@ -27,6 +28,11 @@ CLASSES = \
 default: classes
 
 classes: $(CLASSES:.java=.class)
+
+run: default
+		cd ./GUI; $(JR) $(JRFLAGS) MainGUI
+
+recompile: clean default
 
 clean:
 		$(RM) *.class
