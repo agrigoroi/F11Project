@@ -107,6 +107,32 @@ no.
 
 Go into detail for a few use cases?
 
+New Questions
+
+Which day of the week is the roster generated?
+doesnt matter.
+sunday
+
+How are sick days taken into account?
+dont need to deal with sick days just yet.
+Just focus on roster generation
+Dont take into account rest days on first algorithm
+
+How does the driver request a replacement bus?
+dont take it into account.
+just make a rostering algo
+
+
+What happens to drivers that havent got sufficient hours in the week?
+no minimum hours
+fainess - take that into account
+
+How do drivers specify their resting days?
+drivers dont specify rest days, we do that. fairness.
+
+
+
+
 
 
 USE CASES
@@ -123,12 +149,3 @@ Controller doesnt edit the timetable.
 Driver requesting a holiday
 Driver calling in sick
 
-
-
-
-WHAT WE HAVE TO DO BY NEXT WEEK.
-
-All look database stoof
-Think of extra questions
-Think of more use cases
-Briefly think about what the UI should do. 
