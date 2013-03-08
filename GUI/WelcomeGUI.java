@@ -15,10 +15,11 @@ public class WelcomeGUI extends Window implements ActionListener
 	public Container contents;
 	private Driver driver;
 	
-	private JLabel	lblWelcome			= new JLabel("Hello <DriverName>");
+	private JLabel	lblWelcome		= new JLabel("Hello <DriverName>");
 	private JButton	btnViewTimetable	= new JButton("View timetable"),
-					btnSeeHolidays		= new JButton("See holidays"),
-					btnRequestHoliday	= new JButton("Request holiday");
+			btnSeeHolidays		= new JButton("See holidays"),
+			btnRequestHoliday	= new JButton("Request holiday"),
+	    		btnLogout		= new JButton("Log Out");
 	
 	public WelcomeGUI(Driver driver)
 	{
@@ -37,6 +38,7 @@ public class WelcomeGUI extends Window implements ActionListener
 		contents.add(btnViewTimetable);
 		contents.add(btnSeeHolidays);
 		contents.add(btnRequestHoliday);
+		contents.add(btnLogout);
 		
 		btnViewTimetable.addActionListener(this);
 		btnSeeHolidays.addActionListener(this);
@@ -51,5 +53,10 @@ public class WelcomeGUI extends Window implements ActionListener
 			driver.showHolidays();
 		else if(e.getSource() == btnRequestHoliday)
 			window.openWindow(new RequestHolidayGUI(driver));
+		else if(e.getSource() == btnLogout)
+		{
+		  	driver = null;
+		  	window.openWindow(new LoginGUI());
+		}
 	}
 }

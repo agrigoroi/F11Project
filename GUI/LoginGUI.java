@@ -19,7 +19,7 @@ public class LoginGUI extends Window
 	{
 		window = _window;
 		
-		idL = new JLabel("User ID", SwingConstants.LEFT);
+		idL = new JLabel("Driver Number", SwingConstants.LEFT);
 		passwordL = new JLabel("Password", SwingConstants.LEFT);
 		loginText = new JLabel ("Please enter your details", SwingConstants.LEFT);
 		blank = new JLabel ("", SwingConstants.LEFT);

@@ -131,9 +131,9 @@ public class RequestHolidayGUI extends Window implements ActionListener
       }
       catch(java.text.ParseException exception)
       {
-    	  lblError.setText("There was an error with the dates input, "
-	                     + "please make sure the dates are in the correct " 
-	                     + "format");
+    	  lblError.setText("There was an error with the dates input,\n "
+	                     + "please make sure the dates \n"
+	                     + "are in the correct format");
     	  System.out.println(exception);
       }
       catch(Exception exception)
