@@ -32,7 +32,7 @@ public class WelcomeGUI extends Window implements ActionListener
 		window = _window;
 		contents = window.getContentPane();
 		
-		contents.setLayout(new GridLayout(4, 1));
+		contents.setLayout(new GridLayout(5, 1));
 		
 		contents.add(lblWelcome);
 		contents.add(btnViewTimetable);
