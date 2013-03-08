@@ -6,14 +6,12 @@ import java.awt.event.*;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.concurrent.TimeUnit;
-import com.toedter.calendar.*;
 
 
 /**
  * Class
  *
  * @author Alex Davies
- * @author Alex Grigoroi
  */
 public class RequestHolidayGUI extends Window implements ActionListener
 {
@@ -22,14 +20,13 @@ public class RequestHolidayGUI extends Window implements ActionListener
 	
   private JLabel lblWelcome = new JLabel("Welcome"),
                  lblError = new JLabel(""),
-                 lblStart = new JLabel("Holiday Starting Date"),
-                 lblEnd = new JLabel("Holiday Ending Date)"),
+                 lblStart = new JLabel("Holiday Starting Date (dd/mm/yyyy)"),
+                 lblEnd = new JLabel("Holiday Ending Date (dd/mm/yyyy)"),
                  lblRemaining = new JLabel("You have 0 days" +
                                            "remaining"),
                  lblSelected = new JLabel("You have selected 0 days");
   
-  //private JTextField txtStart, txtEnd;
-  private JCalendar calStart =new JCalendar(), calEnd = new JCalendar();
+  private JTextField txtStart, txtEnd;
   
   private JButton btnVerify = new JButton("Verify Dates");
   private JButton btnBack = new JButton("Back");
@@ -44,76 +41,24 @@ public class RequestHolidayGUI extends Window implements ActionListener
 	
   public void show(MainGUI window)
   {
-	// Create new window
     contents = window.getContentPane();
-    // Set the layout to Grid Bag Layout
-    contents.setLayout(new GridBagLayout());
-    // Set the layout constraints
-    GridBagConstraints c = new GridBagConstraints();
-    c.fill = GridBagConstraints.HORIZONTAL;
-    c.weighty = 0.2;
+    contents.setLayout(new GridLayout(5, 2));
+    contents.add(lblWelcome);
+    contents.add(lblError);
+    contents.add(lblStart);
+    contents.add(lblEnd);
     
-    // Add the welcome message
-    c.weightx = 0.33;
-    c.gridx = 0;
-    c.gridy = 0;
-    contents.add(lblWelcome, c);
+    txtStart = new JTextField(10);
+    contents.add(txtStart);
+    txtEnd = new JTextField(10);
+    contents.add(txtEnd);
     
-    // Add the error message
-    c.weightx = 0.66;
-    c.gridx = 1;
-    c.gridy = 0;
-    contents.add(lblError, c);
+    contents.add(lblRemaining);
+    contents.add(lblSelected);
     
-    // Set weight x back to normal
-    c.weightx = 0.5;
-    
-    // Add the text for startDate
-    c.gridx = 0;
-    c.gridy = 1;
-    contents.add(lblStart, c);
-    
-    // Add the text for startDate
-    c.gridx = 1;
-    c.gridy = 1;
-    contents.add(lblEnd, c);
-    
-    // Add the calendars. They should take more space
-    c.weighty = 0.4;
-    
-    // Add calendar for start date
-    c.gridx = 0;
-    c.gridy = 2;
-    contents.add(calStart, c);
-    
-    // Add calendar for end date
-    c.gridx = 1;
-    c.gridy = 2;
-    contents.add(calEnd, c);
-    
-    // Change weight y back
-    c.weighty = 0.2;
-
-    // Add the number of remaining days
-    c.gridx = 0;
-    c.gridy = 3;
-    contents.add(lblRemaining, c);
-    
-    // Add the number of selected days
-    c.gridx = 1;
-    c.gridy = 3;
-    contents.add(lblSelected, c);
-    
-    // Add one button
-    c.gridx = 0;
-    c.gridy = 4;
-    contents.add(btnVerify, c);
+    contents.add(btnVerify);
     btnVerify.addActionListener(this);
-    
-    // Add the other button
-    c.gridx = 1;
-    c.gridy = 4;
-    contents.add(btnBack, c);
+    contents.add(btnBack);
     btnBack.addActionListener(this);
   }
   
@@ -123,7 +68,7 @@ public class RequestHolidayGUI extends Window implements ActionListener
     {
       try
       {
-    	  Request request = new Request(calStart.getDate(), calEnd.getDate(), driver);
+    	  Request request = new Request(txtStart.getText(), txtEnd.getText(), driver);
     	  lblSelected.setText("You have selected " + request.getLength() + " days");
     	  lblError.setText("Successful Verification");
     	  request.save();
