@@ -43,6 +43,7 @@ public class WelcomeGUI extends Window implements ActionListener
 		btnViewTimetable.addActionListener(this);
 		btnSeeHolidays.addActionListener(this);
 		btnRequestHoliday.addActionListener(this);
+		btnLogout.addActionListener(this);
 	}
 	
 	public void actionPerformed(ActionEvent e)
