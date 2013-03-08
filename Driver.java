@@ -3,17 +3,33 @@ import java.util.Date;
 public class Driver
 {
 	private Boolean exists = false;
-	private int id;
+	private int id = -1;
 	private String name;
 	private String number;
 	private String password;
 	private final static int totalHolidays = 25;
 	
-	public Driver(String id)
+	public Driver(String driverNumber) throws Exception
 	{
 		try
 		{
-			this.id = Integer.parseInt(id);
+			int driverIds[] = DriverInfo.getDrivers(), driverNumbers[] = new int[driverIds.length];
+			
+			//get driver numbers
+			for(int i = 0; i < driverIds.length; i++)
+				driverNumbers[i] = Integer.parseInt(DriverInfo.getNumber(driverIds[i]));
+			
+			//get the drivers id
+			for(int i = 0; i < driverNumbers.length; i++)
+				if(Integer.parseInt(driverNumber) == driverNumbers[i])
+				{
+					this.id = driverIds[i];
+					break;
+				}
+			
+			if(this.id == -1)
+				throw new Exception();
+			
 			this.name = DriverInfo.getName(this.id);
 			this.number = DriverInfo.getNumber(this.id);
 			this.password = DriverInfo.getPass(this.id);
@@ -22,6 +38,8 @@ public class Driver
 		catch(Exception ex)
 		{
 			this.exists = false;
+			
+			throw new Exception("Driver does not exist");
 		}	
 	}
 
@@ -89,7 +107,11 @@ public class Driver
 		int[] driver_ids = DriverInfo.getDrivers();
 		Driver[] drivers = new Driver[driver_ids.length];
 		for(int index = 0; index < driver_ids.length; index++)
-			drivers[index] = new Driver(((Integer)driver_ids[index]).toString());
+			try
+			{
+				drivers[index] = new Driver(((Integer)driver_ids[index]).toString());
+			}
+			catch(Exception e){}
 		return drivers;
 	}
 }
