@@ -6,7 +6,8 @@ public class LoginGUI extends Window
 {
 
 	private JLabel idL, passwordL, loginText, blank;
-	private JTextField idTF, passwordTF;
+	private JTextField idTF;
+	private JPasswordField passwordTF;
 	private JButton loginB, exitB;
 	
 	//Button handlers:
@@ -25,7 +26,7 @@ public class LoginGUI extends Window
 		blank = new JLabel ("", SwingConstants.LEFT);
 		
 		idTF = new JTextField(10);
-		passwordTF = new JTextField(10);
+		passwordTF = new JPasswordField(10);
 
 		//SPecify handlers for each button and add (register) ActionListeners to each button.
 		loginB = new JButton("Login");
@@ -54,13 +55,19 @@ public class LoginGUI extends Window
 	{
 		public void actionPerformed(ActionEvent e)
 		{
-			Driver driver = new Driver(idTF.getText());
-			if(driver.checkPassword(passwordTF.getText()))
+			try
 			{
-				driver.showWelcome();
+				Driver driver = new Driver(idTF.getText());
+			
+				if(driver.checkPassword(passwordTF.getText()))
+					driver.showWelcome();
+				else
+					loginText.setText("Wrong details");
 			}
-			else
+			catch(Exception ex)
+			{
 				loginText.setText("Wrong details");
+			}
 		}
 	}
 	
