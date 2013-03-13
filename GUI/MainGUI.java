@@ -5,37 +5,45 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
- * Class
- *
  * @author Jack Farrelly
+ *
+ * GUI Class and centre of the application
+ * 
  */
 public class MainGUI extends JFrame
 {
-	public static MainGUI window;
-	public Container contents;
+  public static MainGUI window;
+  public Container contents;
 	
-	public MainGUI()
-	{
-		contents = getContentPane();
+  public MainGUI()
+  {
+    contents = getContentPane();
 		
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
-	}
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+  }
 	
-	public void openWindow(Window newWindow)
-	{
-		contents.removeAll();
+  /**
+   * Method that displays a new window
+   * It destroys the existing window
+   */
+  public void openWindow(Window newWindow)
+  {
+    contents.removeAll();
 		
-		newWindow.show(window);
+    newWindow.show(window);
 		
-		window.setSize(640, 480);
-		window.repaint();
-		window.setVisible(true);
-	}
+    window.setSize(640, 480);
+    window.repaint();
+    window.setVisible(true);
+  }  
 	
-	public static void main(String[] args)
-	{
-	        database.openBusDatabase();
-		window = new MainGUI();
-		window.openWindow(new LoginGUI());
-	}
+  /**
+   * The Main thread of the application
+   */
+  public static void main(String[] args)
+  {
+    database.openBusDatabase();
+    window = new MainGUI();
+    window.openWindow(new LoginGUI());
+  }
 }

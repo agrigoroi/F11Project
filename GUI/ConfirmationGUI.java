@@ -2,6 +2,12 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
+/**
+ * GUI Class
+ * Simple GUI window for a driver to confirm his Holiday request
+ * The window displays the starting and ending date of the request
+ */
+
 public class ConfirmationGUI extends Window implements ActionListener
 {
   private MainGUI window;
@@ -26,6 +32,9 @@ public class ConfirmationGUI extends Window implements ActionListener
 	  end_date.setText("to " + request.getEndDate());
   }
   
+  /**
+   * Shows the GUI window and adds the labels and buttons
+   */
   public void show(MainGUI _window)
   {
     window = _window;
@@ -43,6 +52,9 @@ public class ConfirmationGUI extends Window implements ActionListener
     
   }
  
+  /**
+   * If a button has been pressed, do the appropriate response
+   */
   public void actionPerformed(ActionEvent e)
   {
     if(e.getSource() == btnReturn)
