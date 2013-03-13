@@ -1,5 +1,5 @@
-JCFLAGS = -classpath .:./GUI 
-JRFLAGS = -classpath .:..:../mysql-connector-java-5.1.12-bin.jar
+JCFLAGS = -classpath .:./GUI:./GUI/jcalendar-1.4.jar
+JRFLAGS = -classpath .:..:./jcalendar-1.4.jar:../mysql-connector-java-5.1.12-bin.jar
 JC = javac
 JR = java
 .SUFFIXES: .java .class

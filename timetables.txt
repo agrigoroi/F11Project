@@ -1,0 +1,4500 @@
+Route: 358back, weekday
+--------------------------------------------
+Service number: 6512
+Start time: 06:13
+Timming point:06:16
+Timming point:06:19
+End time: 06:22
+Duration: 9 minutes
+
+Service number: 6513
+Start time: 06:15
+Timming point:06:24
+Timming point:06:34
+Timming point:06:36
+Timming point:06:39
+Timming point:06:45
+Timming point:06:49
+Timming point:06:52
+End time: 06:55
+Duration: 40 minutes
+
+Service number: 6514
+Start time: 06:52
+Timming point:07:01
+Timming point:07:11
+Timming point:07:13
+Timming point:07:18
+Timming point:07:29
+Timming point:07:34
+Timming point:07:37
+End time: 07:40
+Duration: 48 minutes
+
+Service number: 6515
+Start time: 07:25
+Timming point:07:37
+Timming point:07:48
+Timming point:07:51
+Timming point:07:57
+Timming point:08:08
+Timming point:08:13
+Timming point:08:16
+End time: 08:19
+Duration: 54 minutes
+
+Service number: 6516
+Start time: 08:22
+Timming point:08:37
+Timming point:08:53
+Timming point:08:56
+Timming point:09:02
+Timming point:09:13
+Timming point:09:18
+Timming point:09:21
+End time: 09:24
+Duration: 62 minutes
+
+Service number: 6517
+Start time: 09:30
+Timming point:09:42
+Timming point:09:53
+Timming point:09:56
+Timming point:10:02
+Timming point:10:13
+Timming point:10:18
+Timming point:10:21
+End time: 10:24
+Duration: 54 minutes
+
+Service number: 6518
+Start time: 10:30
+Timming point:10:42
+Timming point:10:53
+Timming point:10:56
+Timming point:11:02
+Timming point:11:13
+Timming point:11:18
+Timming point:11:21
+End time: 11:24
+Duration: 54 minutes
+
+Service number: 6519
+Start time: 11:30
+Timming point:11:42
+Timming point:11:53
+Timming point:11:56
+Timming point:12:02
+Timming point:12:13
+Timming point:12:18
+Timming point:12:21
+End time: 12:24
+Duration: 54 minutes
+
+Service number: 6520
+Start time: 12:30
+Timming point:12:42
+Timming point:12:53
+Timming point:12:56
+Timming point:13:02
+Timming point:13:13
+Timming point:13:18
+Timming point:13:21
+End time: 13:24
+Duration: 54 minutes
+
+Service number: 6521
+Start time: 13:30
+Timming point:13:42
+Timming point:13:53
+Timming point:13:56
+Timming point:14:02
+Timming point:14:13
+Timming point:14:18
+Timming point:14:21
+End time: 14:24
+Duration: 54 minutes
+
+Service number: 6522
+Start time: 14:30
+Timming point:14:42
+Timming point:14:53
+Timming point:14:56
+Timming point:15:02
+Timming point:15:13
+Timming point:15:18
+Timming point:15:21
+End time: 15:24
+Duration: 54 minutes
+
+Service number: 6523
+Start time: 15:45
+Timming point:15:57
+Timming point:16:08
+Timming point:16:10
+Timming point:16:16
+Timming point:16:24
+Timming point:16:29
+Timming point:16:32
+End time: 16:35
+Duration: 50 minutes
+
+Service number: 6524
+Start time: 16:45
+Timming point:16:58
+Timming point:17:10
+Timming point:17:12
+Timming point:17:18
+Timming point:17:26
+Timming point:17:31
+Timming point:17:34
+End time: 17:37
+Duration: 52 minutes
+
+Service number: 6525
+Start time: 18:00
+Timming point:18:13
+Timming point:18:25
+Timming point:18:27
+Timming point:18:33
+Timming point:18:40
+Timming point:18:45
+Timming point:18:48
+End time: 18:51
+Duration: 51 minutes
+
+Service number: 6526
+Start time: 19:15
+Timming point:19:24
+Timming point:19:34
+Timming point:19:36
+Timming point:19:41
+Timming point:19:47
+Timming point:19:51
+Timming point:19:54
+End time: 19:57
+Duration: 42 minutes
+
+Service number: 6527
+Start time: 20:15
+Timming point:20:24
+Timming point:20:34
+Timming point:20:36
+Timming point:20:41
+Timming point:20:47
+Timming point:20:51
+Timming point:20:54
+End time: 20:57
+Duration: 42 minutes
+
+Service number: 6528
+Start time: 21:15
+Timming point:21:24
+Timming point:21:34
+Timming point:21:36
+Timming point:21:41
+Timming point:21:47
+Timming point:21:51
+Timming point:21:54
+End time: 21:57
+Duration: 42 minutes
+
+Service number: 6529
+Start time: 22:15
+Timming point:22:24
+Timming point:22:34
+Timming point:22:36
+Timming point:22:41
+Timming point:22:47
+Timming point:22:51
+Timming point:22:54
+Timming point:22:57
+Timming point:22:59
+Timming point:23:05
+End time: 23:12
+Duration: 57 minutes
+
+Service number: 6530
+Start time: 23:15
+Timming point:23:24
+Timming point:23:34
+Timming point:23:36
+Timming point:23:41
+Timming point:23:47
+Timming point:23:51
+Timming point:23:54
+End time: 23:57
+Duration: 42 minutes
+
+
+Route: 358out, weekday
+--------------------------------------------
+Service number: 6460
+Start time: 06:02
+Timming point:06:05
+Timming point:06:08
+End time: 06:11
+Duration: 9 minutes
+
+Service number: 6461
+Start time: 06:27
+Timming point:06:30
+Timming point:06:33
+Timming point:06:36
+Timming point:06:41
+Timming point:06:50
+Timming point:06:56
+Timming point:06:57
+Timming point:07:08
+End time: 07:19
+Duration: 52 minutes
+
+Service number: 6462
+Start time: 07:00
+Timming point:07:03
+Timming point:07:06
+Timming point:07:09
+Timming point:07:14
+Timming point:07:23
+Timming point:07:31
+Timming point:07:33
+Timming point:07:49
+End time: 08:08
+Duration: 68 minutes
+
+Service number: 6463
+Start time: 07:45
+Timming point:07:48
+Timming point:07:51
+Timming point:07:54
+Timming point:07:59
+Timming point:08:08
+Timming point:08:16
+Timming point:08:18
+Timming point:08:34
+End time: 08:53
+Duration: 68 minutes
+
+Service number: 6464
+Start time: 08:29
+Timming point:08:32
+Timming point:08:35
+Timming point:08:40
+Timming point:08:49
+Timming point:08:57
+Timming point:08:59
+Timming point:09:15
+End time: 09:34
+Duration: 65 minutes
+
+Service number: 6465
+Start time: 09:29
+Timming point:09:32
+Timming point:09:35
+Timming point:09:40
+Timming point:09:49
+Timming point:09:55
+Timming point:09:57
+Timming point:10:08
+End time: 10:19
+Duration: 50 minutes
+
+Service number: 6466
+Start time: 10:29
+Timming point:10:32
+Timming point:10:35
+Timming point:10:40
+Timming point:10:49
+Timming point:10:55
+Timming point:10:57
+Timming point:11:08
+End time: 11:19
+Duration: 50 minutes
+
+Service number: 6467
+Start time: 11:29
+Timming point:11:32
+Timming point:11:35
+Timming point:11:40
+Timming point:11:49
+Timming point:11:55
+Timming point:11:57
+Timming point:12:08
+End time: 12:19
+Duration: 50 minutes
+
+Service number: 6468
+Start time: 12:29
+Timming point:12:32
+Timming point:12:35
+Timming point:12:40
+Timming point:12:49
+Timming point:12:55
+Timming point:12:57
+Timming point:13:08
+End time: 13:19
+Duration: 50 minutes
+
+Service number: 6469
+Start time: 13:29
+Timming point:13:32
+Timming point:13:35
+Timming point:13:40
+Timming point:13:49
+Timming point:13:55
+Timming point:13:57
+Timming point:14:08
+End time: 14:19
+Duration: 50 minutes
+
+Service number: 6470
+Start time: 14:29
+Timming point:14:32
+Timming point:14:35
+Timming point:14:40
+Timming point:14:49
+Timming point:14:55
+Timming point:14:57
+Timming point:15:08
+End time: 15:19
+Duration: 50 minutes
+
+Service number: 6471
+Start time: 15:29
+Timming point:15:32
+Timming point:15:35
+Timming point:15:40
+Timming point:15:49
+Timming point:15:55
+Timming point:15:57
+Timming point:16:08
+End time: 16:19
+Duration: 50 minutes
+
+Service number: 6472
+Start time: 16:45
+Timming point:16:48
+Timming point:16:51
+Timming point:16:56
+Timming point:17:05
+Timming point:17:11
+Timming point:17:13
+Timming point:17:24
+End time: 17:35
+Duration: 50 minutes
+
+Service number: 6473
+Start time: 17:53
+Timming point:17:56
+Timming point:17:59
+Timming point:18:04
+Timming point:18:13
+Timming point:18:19
+Timming point:18:20
+Timming point:18:32
+End time: 18:43
+Duration: 50 minutes
+
+Service number: 6474
+Start time: 19:05
+Timming point:19:08
+Timming point:19:11
+Timming point:19:16
+Timming point:19:25
+Timming point:19:31
+Timming point:19:32
+Timming point:19:42
+End time: 19:51
+Duration: 46 minutes
+
+Service number: 6475
+Start time: 20:10
+Timming point:20:13
+Timming point:20:16
+Timming point:20:20
+Timming point:20:26
+Timming point:20:31
+Timming point:20:32
+Timming point:20:42
+End time: 20:51
+Duration: 41 minutes
+
+Service number: 6476
+Start time: 21:10
+Timming point:21:13
+Timming point:21:16
+Timming point:21:20
+Timming point:21:26
+Timming point:21:31
+Timming point:21:32
+Timming point:21:42
+End time: 21:51
+Duration: 41 minutes
+
+Service number: 6477
+Start time: 22:10
+Timming point:22:13
+Timming point:22:16
+Timming point:22:20
+Timming point:22:26
+Timming point:22:31
+Timming point:22:32
+Timming point:22:42
+End time: 22:51
+Duration: 41 minutes
+
+Service number: 6478
+Start time: 00:02
+Timming point:00:11
+Timming point:23:15
+Timming point:23:22
+Timming point:23:28
+Timming point:23:30
+Timming point:23:33
+Timming point:23:36
+Timming point:23:40
+Timming point:23:46
+Timming point:23:51
+End time: 23:52
+Duration: 1430 minutes
+
+Service number: 6479
+Start time: 00:03
+Timming point:00:06
+Timming point:00:10
+Timming point:00:16
+Timming point:00:21
+Timming point:00:22
+Timming point:00:32
+Timming point:00:41
+End time: 00:00
+Duration: 1437 minutes
+
+
+Route: 383, weekday
+--------------------------------------------
+Service number: 6177
+Start time: 05:40
+Timming point:05:52
+Timming point:06:04
+Timming point:06:08
+Timming point:06:14
+Timming point:06:19
+Timming point:06:26
+End time: 06:40
+Duration: 60 minutes
+
+Service number: 6178
+Start time: 05:59
+Timming point:06:11
+Timming point:06:23
+Timming point:06:27
+Timming point:06:33
+Timming point:06:38
+Timming point:06:45
+End time: 06:59
+Duration: 60 minutes
+
+Service number: 6179
+Start time: 06:15
+Timming point:06:27
+Timming point:06:39
+Timming point:06:43
+Timming point:06:49
+Timming point:06:54
+Timming point:07:01
+End time: 07:17
+Duration: 62 minutes
+
+Service number: 6180
+Start time: 06:24
+Timming point:06:36
+Timming point:06:48
+Timming point:06:52
+Timming point:06:58
+Timming point:07:03
+Timming point:07:16
+End time: 07:32
+Duration: 68 minutes
+
+Service number: 6181
+Start time: 06:36
+Timming point:06:48
+Timming point:07:00
+Timming point:07:06
+Timming point:07:12
+Timming point:07:19
+Timming point:07:32
+End time: 07:47
+Duration: 71 minutes
+
+Service number: 6182
+Start time: 06:47
+Timming point:06:59
+Timming point:07:15
+Timming point:07:21
+Timming point:07:27
+Timming point:07:34
+Timming point:07:47
+End time: 08:05
+Duration: 78 minutes
+
+Service number: 6183
+Start time: 07:00
+Timming point:07:14
+Timming point:07:30
+Timming point:07:36
+Timming point:07:42
+Timming point:07:49
+Timming point:08:02
+End time: 08:20
+Duration: 80 minutes
+
+Service number: 6184
+Start time: 07:15
+Timming point:07:29
+Timming point:07:45
+Timming point:07:51
+Timming point:07:57
+Timming point:08:04
+Timming point:08:17
+End time: 08:35
+Duration: 80 minutes
+
+Service number: 6185
+Start time: 07:30
+Timming point:07:44
+Timming point:08:00
+Timming point:08:06
+Timming point:08:12
+Timming point:08:19
+Timming point:08:32
+End time: 08:50
+Duration: 80 minutes
+
+Service number: 6186
+Start time: 07:42
+Timming point:07:57
+Timming point:08:15
+Timming point:08:21
+Timming point:08:27
+Timming point:08:34
+Timming point:08:47
+End time: 09:05
+Duration: 83 minutes
+
+Service number: 6187
+Start time: 07:55
+Timming point:08:11
+Timming point:08:30
+Timming point:08:36
+Timming point:08:42
+Timming point:08:49
+Timming point:09:02
+End time: 09:20
+Duration: 85 minutes
+
+Service number: 6188
+Start time: 08:10
+Timming point:08:26
+Timming point:08:45
+Timming point:08:51
+Timming point:08:57
+Timming point:09:04
+Timming point:09:17
+End time: 09:35
+Duration: 85 minutes
+
+Service number: 6189
+Start time: 08:34
+Timming point:08:48
+Timming point:09:04
+Timming point:09:10
+Timming point:09:16
+Timming point:09:23
+Timming point:09:36
+End time: 09:50
+Duration: 76 minutes
+
+Service number: 6190
+Start time: 08:57
+Timming point:09:11
+Timming point:09:27
+Timming point:09:33
+Timming point:09:39
+Timming point:09:44
+Timming point:09:51
+End time: 10:05
+Duration: 68 minutes
+
+Service number: 6191
+Start time: 09:17
+Timming point:09:30
+Timming point:09:46
+Timming point:09:50
+Timming point:09:56
+Timming point:10:01
+Timming point:10:08
+End time: 10:22
+Duration: 65 minutes
+
+Service number: 6192
+Start time: 09:35
+Timming point:09:48
+Timming point:10:01
+Timming point:10:05
+Timming point:10:11
+Timming point:10:16
+Timming point:10:23
+End time: 10:37
+Duration: 62 minutes
+
+Service number: 6193
+Start time: 09:52
+Timming point:10:04
+Timming point:10:16
+Timming point:10:20
+Timming point:10:26
+Timming point:10:31
+Timming point:10:38
+End time: 10:52
+Duration: 60 minutes
+
+Service number: 6194
+Start time: 10:07
+Timming point:10:19
+Timming point:10:31
+Timming point:10:35
+Timming point:10:41
+Timming point:10:46
+Timming point:10:53
+End time: 11:07
+Duration: 60 minutes
+
+Service number: 6195
+Start time: 10:22
+Timming point:10:34
+Timming point:10:46
+Timming point:10:50
+Timming point:10:56
+Timming point:11:01
+Timming point:11:08
+End time: 11:22
+Duration: 60 minutes
+
+Service number: 6196
+Start time: 10:37
+Timming point:10:49
+Timming point:11:01
+Timming point:11:05
+Timming point:11:11
+Timming point:11:16
+Timming point:11:23
+End time: 11:37
+Duration: 60 minutes
+
+Service number: 6197
+Start time: 10:52
+Timming point:11:04
+Timming point:11:16
+Timming point:11:20
+Timming point:11:26
+Timming point:11:31
+Timming point:11:38
+End time: 11:52
+Duration: 60 minutes
+
+Service number: 6198
+Start time: 11:07
+Timming point:11:19
+Timming point:11:31
+Timming point:11:35
+Timming point:11:41
+Timming point:11:46
+Timming point:11:53
+End time: 12:07
+Duration: 60 minutes
+
+Service number: 6199
+Start time: 11:22
+Timming point:11:34
+Timming point:11:46
+Timming point:11:50
+Timming point:11:56
+Timming point:12:01
+Timming point:12:08
+End time: 12:22
+Duration: 60 minutes
+
+Service number: 6200
+Start time: 11:37
+Timming point:11:49
+Timming point:12:01
+Timming point:12:05
+Timming point:12:11
+Timming point:12:16
+Timming point:12:23
+End time: 12:37
+Duration: 60 minutes
+
+Service number: 6201
+Start time: 11:52
+Timming point:12:04
+Timming point:12:16
+Timming point:12:20
+Timming point:12:26
+Timming point:12:31
+Timming point:12:38
+End time: 12:52
+Duration: 60 minutes
+
+Service number: 6202
+Start time: 12:07
+Timming point:12:19
+Timming point:12:31
+Timming point:12:35
+Timming point:12:41
+Timming point:12:46
+Timming point:12:53
+End time: 13:07
+Duration: 60 minutes
+
+Service number: 6203
+Start time: 12:22
+Timming point:12:34
+Timming point:12:46
+Timming point:12:50
+Timming point:12:56
+Timming point:13:01
+Timming point:13:08
+End time: 13:22
+Duration: 60 minutes
+
+Service number: 6204
+Start time: 12:37
+Timming point:12:49
+Timming point:13:01
+Timming point:13:05
+Timming point:13:11
+Timming point:13:16
+Timming point:13:23
+End time: 13:37
+Duration: 60 minutes
+
+Service number: 6205
+Start time: 12:52
+Timming point:13:04
+Timming point:13:16
+Timming point:13:20
+Timming point:13:26
+Timming point:13:31
+Timming point:13:38
+End time: 13:52
+Duration: 60 minutes
+
+Service number: 6206
+Start time: 13:07
+Timming point:13:19
+Timming point:13:31
+Timming point:13:35
+Timming point:13:41
+Timming point:13:46
+Timming point:13:53
+End time: 14:07
+Duration: 60 minutes
+
+Service number: 6207
+Start time: 13:22
+Timming point:13:34
+Timming point:13:46
+Timming point:13:50
+Timming point:13:56
+Timming point:14:01
+Timming point:14:08
+End time: 14:22
+Duration: 60 minutes
+
+Service number: 6208
+Start time: 13:37
+Timming point:13:49
+Timming point:14:01
+Timming point:14:05
+Timming point:14:11
+Timming point:14:16
+Timming point:14:23
+End time: 14:37
+Duration: 60 minutes
+
+Service number: 6209
+Start time: 13:52
+Timming point:14:04
+Timming point:14:16
+Timming point:14:20
+Timming point:14:26
+Timming point:14:31
+Timming point:14:38
+End time: 14:52
+Duration: 60 minutes
+
+Service number: 6210
+Start time: 14:07
+Timming point:14:19
+Timming point:14:31
+Timming point:14:35
+Timming point:14:41
+Timming point:14:46
+Timming point:14:53
+End time: 15:07
+Duration: 60 minutes
+
+Service number: 6211
+Start time: 14:22
+Timming point:14:34
+Timming point:14:46
+Timming point:14:50
+Timming point:14:56
+Timming point:15:01
+Timming point:15:08
+End time: 15:23
+Duration: 61 minutes
+
+Service number: 6212
+Start time: 14:37
+Timming point:14:49
+Timming point:15:01
+Timming point:15:05
+Timming point:15:11
+Timming point:15:16
+Timming point:15:23
+End time: 15:39
+Duration: 62 minutes
+
+Service number: 6213
+Start time: 14:52
+Timming point:15:04
+Timming point:15:20
+Timming point:15:24
+Timming point:15:30
+Timming point:15:35
+Timming point:15:43
+End time: 15:58
+Duration: 66 minutes
+
+Service number: 6214
+Start time: 15:07
+Timming point:15:21
+Timming point:15:37
+Timming point:15:41
+Timming point:15:47
+Timming point:15:52
+Timming point:16:00
+End time: 16:15
+Duration: 68 minutes
+
+Service number: 6215
+Start time: 15:22
+Timming point:15:36
+Timming point:15:52
+Timming point:15:56
+Timming point:16:02
+Timming point:16:07
+Timming point:16:15
+End time: 16:30
+Duration: 68 minutes
+
+Service number: 6216
+Start time: 15:37
+Timming point:15:51
+Timming point:16:07
+Timming point:16:11
+Timming point:16:17
+Timming point:16:22
+Timming point:16:30
+End time: 16:45
+Duration: 68 minutes
+
+Service number: 6217
+Start time: 15:52
+Timming point:16:06
+Timming point:16:22
+Timming point:16:26
+Timming point:16:32
+Timming point:16:37
+Timming point:16:45
+End time: 17:00
+Duration: 68 minutes
+
+Service number: 6218
+Start time: 16:07
+Timming point:16:21
+Timming point:16:37
+Timming point:16:41
+Timming point:16:47
+Timming point:16:52
+Timming point:17:00
+End time: 17:15
+Duration: 68 minutes
+
+Service number: 6219
+Start time: 16:22
+Timming point:16:36
+Timming point:16:52
+Timming point:16:56
+Timming point:17:02
+Timming point:17:07
+Timming point:17:15
+End time: 17:30
+Duration: 68 minutes
+
+Service number: 6220
+Start time: 16:37
+Timming point:16:51
+Timming point:17:07
+Timming point:17:11
+Timming point:17:17
+Timming point:17:22
+Timming point:17:30
+End time: 17:45
+Duration: 68 minutes
+
+Service number: 6221
+Start time: 16:52
+Timming point:17:06
+Timming point:17:22
+Timming point:17:26
+Timming point:17:32
+Timming point:17:37
+Timming point:17:45
+End time: 18:00
+Duration: 68 minutes
+
+Service number: 6222
+Start time: 17:07
+Timming point:17:21
+Timming point:17:37
+Timming point:17:41
+Timming point:17:47
+Timming point:17:52
+Timming point:18:00
+End time: 18:15
+Duration: 68 minutes
+
+Service number: 6223
+Start time: 17:22
+Timming point:17:36
+Timming point:17:52
+Timming point:17:56
+Timming point:18:02
+Timming point:18:07
+Timming point:18:15
+End time: 18:30
+Duration: 68 minutes
+
+Service number: 6224
+Start time: 17:37
+Timming point:17:51
+Timming point:18:07
+Timming point:18:11
+Timming point:18:17
+Timming point:18:22
+Timming point:18:29
+End time: 18:43
+Duration: 66 minutes
+
+Service number: 6225
+Start time: 17:52
+Timming point:18:06
+Timming point:18:22
+Timming point:18:26
+Timming point:18:32
+Timming point:18:37
+Timming point:18:44
+End time: 18:58
+Duration: 66 minutes
+
+Service number: 6226
+Start time: 18:07
+Timming point:18:21
+Timming point:18:37
+Timming point:18:41
+Timming point:18:47
+Timming point:18:52
+Timming point:18:59
+End time: 19:13
+Duration: 66 minutes
+
+Service number: 6227
+Start time: 18:22
+Timming point:18:34
+Timming point:18:46
+Timming point:18:50
+Timming point:18:56
+Timming point:19:01
+Timming point:19:08
+End time: 19:19
+Duration: 57 minutes
+
+Service number: 6228
+Start time: 18:40
+Timming point:18:52
+Timming point:19:04
+Timming point:19:08
+Timming point:19:13
+Timming point:19:17
+Timming point:19:24
+End time: 19:35
+Duration: 55 minutes
+
+Service number: 6229
+Start time: 19:00
+Timming point:19:11
+Timming point:19:21
+Timming point:19:25
+Timming point:19:30
+Timming point:19:34
+Timming point:19:41
+End time: 19:52
+Duration: 52 minutes
+
+Service number: 6230
+Start time: 19:30
+Timming point:19:41
+Timming point:19:51
+Timming point:19:55
+Timming point:20:00
+Timming point:20:04
+Timming point:20:11
+End time: 20:22
+Duration: 52 minutes
+
+Service number: 6231
+Start time: 20:00
+Timming point:20:11
+Timming point:20:21
+Timming point:20:25
+Timming point:20:30
+Timming point:20:34
+Timming point:20:41
+End time: 20:52
+Duration: 52 minutes
+
+Service number: 6232
+Start time: 20:30
+Timming point:20:41
+Timming point:20:51
+Timming point:20:55
+Timming point:21:00
+Timming point:21:04
+Timming point:21:11
+End time: 21:22
+Duration: 52 minutes
+
+Service number: 6233
+Start time: 21:00
+Timming point:21:11
+Timming point:21:21
+Timming point:21:25
+Timming point:21:30
+Timming point:21:34
+Timming point:21:41
+End time: 21:52
+Duration: 52 minutes
+
+Service number: 6234
+Start time: 21:30
+Timming point:21:41
+Timming point:21:51
+Timming point:21:55
+Timming point:22:00
+Timming point:22:04
+Timming point:22:11
+End time: 22:22
+Duration: 52 minutes
+
+Service number: 6235
+Start time: 22:00
+Timming point:22:11
+Timming point:22:21
+Timming point:22:25
+Timming point:22:30
+Timming point:22:34
+Timming point:22:41
+End time: 22:52
+Duration: 52 minutes
+
+Service number: 6236
+Start time: 22:30
+Timming point:22:41
+Timming point:22:51
+Timming point:22:55
+Timming point:23:00
+Timming point:23:04
+Timming point:23:11
+End time: 23:22
+Duration: 52 minutes
+
+Service number: 6237
+Start time: 00:02
+Timming point:23:10
+Timming point:23:21
+Timming point:23:31
+Timming point:23:35
+Timming point:23:40
+Timming point:23:44
+End time: 23:51
+Duration: 1429 minutes
+
+
+Route: 384, weekday
+--------------------------------------------
+Service number: 6317
+Start time: 05:45
+Timming point:05:48
+Timming point:05:55
+Timming point:06:02
+Timming point:06:06
+Timming point:06:11
+Timming point:06:16
+Timming point:06:26
+End time: 06:36
+Duration: 51 minutes
+
+Service number: 6318
+Start time: 06:09
+Timming point:06:12
+Timming point:06:19
+Timming point:06:26
+Timming point:06:30
+Timming point:06:35
+Timming point:06:40
+Timming point:06:50
+End time: 07:00
+Duration: 51 minutes
+
+Service number: 6319
+Start time: 06:50
+Timming point:07:00
+End time: 07:10
+Duration: 20 minutes
+
+Service number: 6320
+Start time: 06:29
+Timming point:06:32
+Timming point:06:39
+Timming point:06:46
+Timming point:06:50
+Timming point:06:55
+Timming point:07:00
+Timming point:07:10
+End time: 07:29
+Duration: 60 minutes
+
+Service number: 6321
+Start time: 07:10
+Timming point:07:26
+End time: 07:45
+Duration: 35 minutes
+
+Service number: 6322
+Start time: 06:51
+Timming point:06:54
+Timming point:07:01
+Timming point:07:08
+Timming point:07:12
+Timming point:07:18
+Timming point:07:25
+Timming point:07:41
+End time: 08:00
+Duration: 69 minutes
+
+Service number: 6323
+Start time: 07:04
+Timming point:07:07
+Timming point:07:14
+Timming point:07:23
+Timming point:07:27
+Timming point:07:33
+Timming point:07:40
+Timming point:07:56
+End time: 08:15
+Duration: 71 minutes
+
+Service number: 6324
+Start time: 07:12
+Timming point:07:17
+Timming point:07:29
+Timming point:07:38
+Timming point:07:42
+Timming point:07:48
+Timming point:07:55
+Timming point:08:11
+End time: 08:30
+Duration: 78 minutes
+
+Service number: 6325
+Start time: 07:22
+Timming point:07:27
+Timming point:07:39
+Timming point:07:48
+Timming point:07:52
+Timming point:07:58
+Timming point:08:10
+Timming point:08:26
+End time: 08:45
+Duration: 83 minutes
+
+Service number: 6326
+Start time: 08:34
+End time: 08:53
+Duration: 19 minutes
+
+Service number: 6327
+Start time: 07:32
+Timming point:07:37
+Timming point:07:49
+Timming point:08:00
+Timming point:08:04
+Timming point:08:13
+Timming point:08:25
+Timming point:08:41
+End time: 09:00
+Duration: 88 minutes
+
+Service number: 6328
+Start time: 08:35
+Timming point:08:51
+End time: 09:10
+Duration: 35 minutes
+
+Service number: 6329
+Start time: 07:52
+Timming point:07:57
+Timming point:08:09
+Timming point:08:20
+Timming point:08:24
+Timming point:08:33
+Timming point:08:45
+Timming point:09:01
+End time: 09:20
+Duration: 88 minutes
+
+Service number: 6330
+Start time: 08:57
+Timming point:09:13
+End time: 09:30
+Duration: 33 minutes
+
+Service number: 6331
+Start time: 08:15
+Timming point:08:20
+Timming point:08:32
+Timming point:08:43
+Timming point:08:47
+Timming point:08:56
+Timming point:09:08
+Timming point:09:24
+End time: 09:39
+Duration: 84 minutes
+
+Service number: 6332
+Start time: 08:35
+Timming point:08:40
+Timming point:08:52
+Timming point:09:01
+Timming point:09:05
+Timming point:09:13
+Timming point:09:23
+Timming point:09:34
+End time: 09:49
+Duration: 74 minutes
+
+Service number: 6333
+Start time: 08:55
+Timming point:09:00
+Timming point:09:12
+Timming point:09:21
+Timming point:09:25
+Timming point:09:31
+Timming point:09:38
+Timming point:09:49
+End time: 10:00
+Duration: 65 minutes
+
+Service number: 6334
+Start time: 09:15
+Timming point:09:20
+Timming point:09:30
+Timming point:09:38
+Timming point:09:42
+Timming point:09:48
+Timming point:09:53
+Timming point:10:04
+End time: 10:15
+Duration: 60 minutes
+
+Service number: 6335
+Start time: 09:30
+Timming point:09:35
+Timming point:09:45
+Timming point:09:53
+Timming point:09:57
+Timming point:10:03
+Timming point:10:08
+Timming point:10:19
+End time: 10:30
+Duration: 60 minutes
+
+Service number: 6336
+Start time: 09:45
+Timming point:09:50
+Timming point:10:00
+Timming point:10:08
+Timming point:10:12
+Timming point:10:18
+Timming point:10:23
+Timming point:10:34
+End time: 10:45
+Duration: 60 minutes
+
+Service number: 6337
+Start time: 10:00
+Timming point:10:05
+Timming point:10:15
+Timming point:10:23
+Timming point:10:27
+Timming point:10:33
+Timming point:10:38
+Timming point:10:49
+End time: 11:00
+Duration: 60 minutes
+
+Service number: 6338
+Start time: 10:15
+Timming point:10:20
+Timming point:10:30
+Timming point:10:38
+Timming point:10:42
+Timming point:10:48
+Timming point:10:53
+Timming point:11:04
+End time: 11:15
+Duration: 60 minutes
+
+Service number: 6339
+Start time: 10:30
+Timming point:10:35
+Timming point:10:45
+Timming point:10:53
+Timming point:10:57
+Timming point:11:03
+Timming point:11:08
+Timming point:11:19
+End time: 11:30
+Duration: 60 minutes
+
+Service number: 6340
+Start time: 10:45
+Timming point:10:50
+Timming point:11:00
+Timming point:11:08
+Timming point:11:12
+Timming point:11:18
+Timming point:11:23
+Timming point:11:34
+End time: 11:45
+Duration: 60 minutes
+
+Service number: 6341
+Start time: 11:00
+Timming point:11:05
+Timming point:11:15
+Timming point:11:23
+Timming point:11:27
+Timming point:11:33
+Timming point:11:38
+Timming point:11:49
+End time: 12:00
+Duration: 60 minutes
+
+Service number: 6342
+Start time: 11:15
+Timming point:11:20
+Timming point:11:30
+Timming point:11:38
+Timming point:11:42
+Timming point:11:48
+Timming point:11:53
+Timming point:12:04
+End time: 12:15
+Duration: 60 minutes
+
+Service number: 6343
+Start time: 11:30
+Timming point:11:35
+Timming point:11:45
+Timming point:11:53
+Timming point:11:57
+Timming point:12:03
+Timming point:12:08
+Timming point:12:19
+End time: 12:30
+Duration: 60 minutes
+
+Service number: 6344
+Start time: 11:45
+Timming point:11:50
+Timming point:12:00
+Timming point:12:08
+Timming point:12:12
+Timming point:12:18
+Timming point:12:23
+Timming point:12:34
+End time: 12:45
+Duration: 60 minutes
+
+Service number: 6345
+Start time: 12:00
+Timming point:12:05
+Timming point:12:15
+Timming point:12:23
+Timming point:12:27
+Timming point:12:33
+Timming point:12:38
+Timming point:12:49
+End time: 13:00
+Duration: 60 minutes
+
+Service number: 6346
+Start time: 12:15
+Timming point:12:20
+Timming point:12:30
+Timming point:12:38
+Timming point:12:42
+Timming point:12:48
+Timming point:12:53
+Timming point:13:04
+End time: 13:15
+Duration: 60 minutes
+
+Service number: 6347
+Start time: 12:30
+Timming point:12:35
+Timming point:12:45
+Timming point:12:53
+Timming point:12:57
+Timming point:13:03
+Timming point:13:08
+Timming point:13:19
+End time: 13:30
+Duration: 60 minutes
+
+Service number: 6348
+Start time: 12:45
+Timming point:12:50
+Timming point:13:00
+Timming point:13:08
+Timming point:13:12
+Timming point:13:18
+Timming point:13:23
+Timming point:13:34
+End time: 13:45
+Duration: 60 minutes
+
+Service number: 6349
+Start time: 13:00
+Timming point:13:05
+Timming point:13:15
+Timming point:13:23
+Timming point:13:27
+Timming point:13:33
+Timming point:13:38
+Timming point:13:49
+End time: 14:00
+Duration: 60 minutes
+
+Service number: 6350
+Start time: 13:15
+Timming point:13:20
+Timming point:13:30
+Timming point:13:38
+Timming point:13:42
+Timming point:13:48
+Timming point:13:53
+Timming point:14:04
+End time: 14:15
+Duration: 60 minutes
+
+Service number: 6351
+Start time: 13:30
+Timming point:13:35
+Timming point:13:45
+Timming point:13:53
+Timming point:13:57
+Timming point:14:03
+Timming point:14:08
+Timming point:14:19
+End time: 14:30
+Duration: 60 minutes
+
+Service number: 6352
+Start time: 13:45
+Timming point:13:50
+Timming point:14:00
+Timming point:14:08
+Timming point:14:12
+Timming point:14:18
+Timming point:14:23
+Timming point:14:34
+End time: 14:45
+Duration: 60 minutes
+
+Service number: 6353
+Start time: 14:00
+Timming point:14:05
+Timming point:14:15
+Timming point:14:23
+Timming point:14:27
+Timming point:14:33
+Timming point:14:38
+Timming point:14:49
+End time: 15:00
+Duration: 60 minutes
+
+Service number: 6354
+Start time: 14:15
+Timming point:14:20
+Timming point:14:30
+Timming point:14:38
+Timming point:14:42
+Timming point:14:48
+Timming point:14:53
+Timming point:15:04
+End time: 15:15
+Duration: 60 minutes
+
+Service number: 6355
+Start time: 14:30
+Timming point:14:35
+Timming point:14:45
+Timming point:14:53
+Timming point:14:57
+Timming point:15:03
+Timming point:15:09
+Timming point:15:20
+End time: 15:31
+Duration: 61 minutes
+
+Service number: 6356
+Start time: 14:45
+Timming point:14:50
+Timming point:15:00
+Timming point:15:09
+Timming point:15:13
+Timming point:15:20
+Timming point:15:26
+Timming point:15:37
+End time: 15:48
+Duration: 63 minutes
+
+Service number: 6357
+Start time: 15:00
+Timming point:15:05
+Timming point:15:19
+Timming point:15:28
+Timming point:15:32
+Timming point:15:39
+Timming point:15:45
+Timming point:15:56
+End time: 16:07
+Duration: 67 minutes
+
+Service number: 6358
+Start time: 15:15
+Timming point:15:20
+Timming point:15:34
+Timming point:15:43
+Timming point:15:47
+Timming point:15:54
+Timming point:16:00
+Timming point:16:11
+End time: 16:22
+Duration: 67 minutes
+
+Service number: 6359
+Start time: 15:30
+Timming point:15:35
+Timming point:15:49
+Timming point:15:58
+Timming point:16:02
+Timming point:16:09
+Timming point:16:15
+Timming point:16:26
+End time: 16:37
+Duration: 67 minutes
+
+Service number: 6360
+Start time: 15:45
+Timming point:15:50
+Timming point:16:04
+Timming point:16:13
+Timming point:16:17
+Timming point:16:24
+Timming point:16:30
+Timming point:16:41
+End time: 16:52
+Duration: 67 minutes
+
+Service number: 6361
+Start time: 16:00
+Timming point:16:05
+Timming point:16:19
+Timming point:16:28
+Timming point:16:32
+Timming point:16:39
+Timming point:16:45
+Timming point:16:56
+End time: 17:07
+Duration: 67 minutes
+
+Service number: 6362
+Start time: 16:15
+Timming point:16:20
+Timming point:16:36
+Timming point:16:45
+Timming point:16:49
+Timming point:16:56
+Timming point:17:02
+Timming point:17:13
+End time: 17:24
+Duration: 69 minutes
+
+Service number: 6363
+Start time: 16:30
+Timming point:16:35
+Timming point:16:53
+Timming point:17:03
+Timming point:17:07
+Timming point:17:14
+Timming point:17:20
+Timming point:17:31
+End time: 17:42
+Duration: 72 minutes
+
+Service number: 6364
+Start time: 16:45
+Timming point:16:50
+Timming point:17:08
+Timming point:17:18
+Timming point:17:22
+Timming point:17:29
+Timming point:17:35
+Timming point:17:46
+End time: 17:57
+Duration: 72 minutes
+
+Service number: 6365
+Start time: 17:00
+Timming point:17:05
+Timming point:17:23
+Timming point:17:33
+Timming point:17:37
+Timming point:17:44
+Timming point:17:50
+Timming point:18:01
+End time: 18:12
+Duration: 72 minutes
+
+Service number: 6366
+Start time: 17:15
+Timming point:17:20
+Timming point:17:38
+Timming point:17:48
+Timming point:17:52
+Timming point:17:59
+Timming point:18:05
+Timming point:18:16
+End time: 18:27
+Duration: 72 minutes
+
+Service number: 6367
+Start time: 17:30
+Timming point:17:35
+Timming point:17:53
+Timming point:18:03
+Timming point:18:07
+Timming point:18:14
+Timming point:18:20
+Timming point:18:31
+End time: 18:42
+Duration: 72 minutes
+
+Service number: 6368
+Start time: 17:45
+Timming point:17:50
+Timming point:18:06
+Timming point:18:16
+Timming point:18:20
+Timming point:18:26
+Timming point:18:31
+Timming point:18:42
+End time: 18:53
+Duration: 68 minutes
+
+Service number: 6369
+Start time: 18:00
+Timming point:18:05
+Timming point:18:19
+Timming point:18:28
+Timming point:18:32
+Timming point:18:38
+Timming point:18:43
+Timming point:18:54
+End time: 19:05
+Duration: 65 minutes
+
+Service number: 6370
+Start time: 18:20
+Timming point:18:25
+Timming point:18:35
+Timming point:18:43
+Timming point:18:47
+Timming point:18:53
+Timming point:18:58
+Timming point:19:09
+End time: 19:19
+Duration: 59 minutes
+
+Service number: 6371
+Start time: 18:45
+Timming point:18:50
+Timming point:19:00
+Timming point:19:07
+Timming point:19:11
+Timming point:19:16
+Timming point:19:21
+Timming point:19:31
+End time: 19:41
+Duration: 56 minutes
+
+Service number: 6372
+Start time: 19:15
+Timming point:19:18
+Timming point:19:25
+Timming point:19:32
+Timming point:19:36
+Timming point:19:41
+Timming point:19:46
+Timming point:19:56
+End time: 20:06
+Duration: 51 minutes
+
+Service number: 6373
+Start time: 19:45
+Timming point:19:48
+Timming point:19:55
+Timming point:20:02
+Timming point:20:06
+Timming point:20:11
+Timming point:20:16
+Timming point:20:26
+End time: 20:36
+Duration: 51 minutes
+
+Service number: 6374
+Start time: 20:15
+Timming point:20:18
+Timming point:20:25
+Timming point:20:32
+Timming point:20:36
+Timming point:20:41
+Timming point:20:46
+Timming point:20:56
+End time: 21:06
+Duration: 51 minutes
+
+Service number: 6375
+Start time: 20:45
+Timming point:20:48
+Timming point:20:55
+Timming point:21:02
+Timming point:21:06
+Timming point:21:11
+Timming point:21:16
+Timming point:21:26
+End time: 21:36
+Duration: 51 minutes
+
+Service number: 6376
+Start time: 21:15
+Timming point:21:18
+Timming point:21:25
+Timming point:21:32
+Timming point:21:36
+Timming point:21:41
+Timming point:21:46
+Timming point:21:56
+End time: 22:06
+Duration: 51 minutes
+
+Service number: 6377
+Start time: 21:45
+Timming point:21:48
+Timming point:21:55
+Timming point:22:02
+Timming point:22:06
+Timming point:22:11
+Timming point:22:16
+Timming point:22:26
+End time: 22:36
+Duration: 51 minutes
+
+Service number: 6378
+Start time: 22:15
+Timming point:22:18
+Timming point:22:25
+Timming point:22:32
+Timming point:22:36
+Timming point:22:41
+Timming point:22:46
+Timming point:22:56
+End time: 23:06
+Duration: 51 minutes
+
+Service number: 6379
+Start time: 22:45
+Timming point:22:48
+Timming point:22:55
+Timming point:23:02
+Timming point:23:06
+Timming point:23:11
+Timming point:23:16
+Timming point:23:26
+End time: 23:36
+Duration: 51 minutes
+
+Service number: 6380
+Start time: 23:15
+Timming point:23:18
+Timming point:23:25
+Timming point:23:32
+Timming point:23:36
+Timming point:23:41
+Timming point:23:46
+Timming point:23:56
+End time: 00:06
+Duration: 51 minutes
+
+
+Route: 358back, saturday
+--------------------------------------------
+Service number: 6531
+Start time: 06:45
+Timming point:06:54
+Timming point:07:04
+Timming point:07:06
+Timming point:07:11
+Timming point:07:17
+Timming point:07:21
+Timming point:07:24
+End time: 07:27
+Duration: 42 minutes
+
+Service number: 6532
+Start time: 07:45
+Timming point:07:54
+Timming point:08:04
+Timming point:08:06
+Timming point:08:11
+Timming point:08:17
+Timming point:08:21
+Timming point:08:24
+End time: 08:27
+Duration: 42 minutes
+
+Service number: 6533
+Start time: 08:30
+Timming point:08:42
+Timming point:08:53
+Timming point:08:56
+Timming point:09:02
+Timming point:09:13
+Timming point:09:18
+Timming point:09:21
+End time: 09:24
+Duration: 54 minutes
+
+Service number: 6534
+Start time: 09:30
+Timming point:09:42
+Timming point:09:53
+Timming point:09:56
+Timming point:10:02
+Timming point:10:13
+Timming point:10:18
+Timming point:10:21
+End time: 10:24
+Duration: 54 minutes
+
+Service number: 6535
+Start time: 10:30
+Timming point:10:42
+Timming point:10:53
+Timming point:10:56
+Timming point:11:02
+Timming point:11:13
+Timming point:11:18
+Timming point:11:21
+End time: 11:24
+Duration: 54 minutes
+
+Service number: 6536
+Start time: 11:30
+Timming point:11:42
+Timming point:11:53
+Timming point:11:56
+Timming point:12:02
+Timming point:12:13
+Timming point:12:18
+Timming point:12:21
+End time: 12:24
+Duration: 54 minutes
+
+Service number: 6537
+Start time: 12:30
+Timming point:12:42
+Timming point:12:53
+Timming point:12:56
+Timming point:13:02
+Timming point:13:13
+Timming point:13:18
+Timming point:13:21
+End time: 13:24
+Duration: 54 minutes
+
+Service number: 6538
+Start time: 13:30
+Timming point:13:42
+Timming point:13:53
+Timming point:13:56
+Timming point:14:02
+Timming point:14:13
+Timming point:14:18
+Timming point:14:21
+End time: 14:24
+Duration: 54 minutes
+
+Service number: 6539
+Start time: 14:30
+Timming point:14:42
+Timming point:14:53
+Timming point:14:56
+Timming point:15:02
+Timming point:15:13
+Timming point:15:18
+Timming point:15:21
+End time: 15:24
+Duration: 54 minutes
+
+Service number: 6540
+Start time: 15:45
+Timming point:15:57
+Timming point:16:08
+Timming point:16:10
+Timming point:16:16
+Timming point:16:24
+Timming point:16:29
+Timming point:16:32
+End time: 16:35
+Duration: 50 minutes
+
+Service number: 6541
+Start time: 16:45
+Timming point:16:57
+Timming point:17:08
+Timming point:17:10
+Timming point:17:16
+Timming point:17:24
+Timming point:17:29
+Timming point:17:32
+End time: 17:35
+Duration: 50 minutes
+
+Service number: 6542
+Start time: 18:00
+Timming point:18:12
+Timming point:18:23
+Timming point:18:25
+Timming point:18:30
+Timming point:18:36
+Timming point:18:40
+Timming point:18:43
+End time: 18:46
+Duration: 46 minutes
+
+Service number: 6543
+Start time: 19:15
+Timming point:19:24
+Timming point:19:34
+Timming point:19:36
+Timming point:19:41
+Timming point:19:47
+Timming point:19:51
+Timming point:19:54
+End time: 19:57
+Duration: 42 minutes
+
+Service number: 6544
+Start time: 20:15
+Timming point:20:24
+Timming point:20:34
+Timming point:20:36
+Timming point:20:41
+Timming point:20:47
+Timming point:20:51
+Timming point:20:54
+End time: 20:57
+Duration: 42 minutes
+
+Service number: 6545
+Start time: 21:15
+Timming point:21:24
+Timming point:21:34
+Timming point:21:36
+Timming point:21:41
+Timming point:21:47
+Timming point:21:51
+Timming point:21:54
+End time: 21:57
+Duration: 42 minutes
+
+Service number: 6546
+Start time: 22:15
+Timming point:22:24
+Timming point:22:34
+Timming point:22:36
+Timming point:22:41
+Timming point:22:47
+Timming point:22:51
+Timming point:22:54
+Timming point:22:57
+Timming point:22:59
+Timming point:23:05
+End time: 23:12
+Duration: 57 minutes
+
+Service number: 6547
+Start time: 23:15
+Timming point:23:24
+Timming point:23:34
+Timming point:23:36
+Timming point:23:41
+Timming point:23:47
+Timming point:23:51
+Timming point:23:54
+End time: 23:57
+Duration: 42 minutes
+
+
+Route: 358out, saturday
+--------------------------------------------
+Service number: 6480
+Start time: 07:29
+Timming point:07:32
+Timming point:07:35
+Timming point:07:40
+Timming point:07:49
+Timming point:07:55
+Timming point:07:57
+Timming point:08:08
+End time: 08:19
+Duration: 50 minutes
+
+Service number: 6481
+Start time: 08:29
+Timming point:08:32
+Timming point:08:35
+Timming point:08:40
+Timming point:08:49
+Timming point:08:55
+Timming point:08:57
+Timming point:09:08
+End time: 09:19
+Duration: 50 minutes
+
+Service number: 6482
+Start time: 09:29
+Timming point:09:32
+Timming point:09:35
+Timming point:09:40
+Timming point:09:49
+Timming point:09:55
+Timming point:09:57
+Timming point:10:08
+End time: 10:19
+Duration: 50 minutes
+
+Service number: 6483
+Start time: 10:29
+Timming point:10:32
+Timming point:10:35
+Timming point:10:40
+Timming point:10:49
+Timming point:10:55
+Timming point:10:57
+Timming point:11:08
+End time: 11:19
+Duration: 50 minutes
+
+Service number: 6484
+Start time: 11:29
+Timming point:11:32
+Timming point:11:35
+Timming point:11:40
+Timming point:11:49
+Timming point:11:55
+Timming point:11:57
+Timming point:12:08
+End time: 12:19
+Duration: 50 minutes
+
+Service number: 6485
+Start time: 12:29
+Timming point:12:32
+Timming point:12:35
+Timming point:12:40
+Timming point:12:49
+Timming point:12:55
+Timming point:12:57
+Timming point:13:08
+End time: 13:19
+Duration: 50 minutes
+
+Service number: 6486
+Start time: 13:29
+Timming point:13:32
+Timming point:13:35
+Timming point:13:40
+Timming point:13:49
+Timming point:13:55
+Timming point:13:57
+Timming point:14:08
+End time: 14:19
+Duration: 50 minutes
+
+Service number: 6487
+Start time: 14:29
+Timming point:14:32
+Timming point:14:35
+Timming point:14:40
+Timming point:14:49
+Timming point:14:55
+Timming point:14:57
+Timming point:15:08
+End time: 15:19
+Duration: 50 minutes
+
+Service number: 6488
+Start time: 15:29
+Timming point:15:32
+Timming point:15:35
+Timming point:15:40
+Timming point:15:49
+Timming point:15:55
+Timming point:15:57
+Timming point:16:08
+End time: 16:19
+Duration: 50 minutes
+
+Service number: 6489
+Start time: 16:45
+Timming point:16:48
+Timming point:16:51
+Timming point:16:56
+Timming point:17:05
+Timming point:17:11
+Timming point:17:13
+Timming point:17:24
+End time: 17:35
+Duration: 50 minutes
+
+Service number: 6490
+Start time: 17:53
+Timming point:17:56
+Timming point:17:59
+Timming point:18:04
+Timming point:18:13
+Timming point:18:19
+Timming point:18:21
+Timming point:18:32
+End time: 18:43
+Duration: 50 minutes
+
+Service number: 6491
+Start time: 19:05
+Timming point:19:08
+Timming point:19:11
+Timming point:19:16
+Timming point:19:25
+Timming point:19:31
+Timming point:19:32
+Timming point:19:42
+End time: 19:51
+Duration: 46 minutes
+
+Service number: 6492
+Start time: 20:10
+Timming point:20:13
+Timming point:20:16
+Timming point:20:20
+Timming point:20:26
+Timming point:20:31
+Timming point:20:32
+Timming point:20:42
+End time: 20:51
+Duration: 41 minutes
+
+Service number: 6493
+Start time: 21:10
+Timming point:21:13
+Timming point:21:16
+Timming point:21:20
+Timming point:21:26
+Timming point:21:31
+Timming point:21:32
+Timming point:21:42
+End time: 21:51
+Duration: 41 minutes
+
+Service number: 6494
+Start time: 22:10
+Timming point:22:13
+Timming point:22:16
+Timming point:22:20
+Timming point:22:26
+Timming point:22:31
+Timming point:22:32
+Timming point:22:42
+End time: 22:51
+Duration: 41 minutes
+
+Service number: 6495
+Start time: 00:02
+Timming point:00:11
+Timming point:23:15
+Timming point:23:22
+Timming point:23:28
+Timming point:23:30
+Timming point:23:33
+Timming point:23:36
+Timming point:23:40
+Timming point:23:46
+Timming point:23:51
+End time: 23:52
+Duration: 1430 minutes
+
+Service number: 6496
+Start time: 00:03
+Timming point:00:06
+Timming point:00:10
+Timming point:00:16
+Timming point:00:21
+Timming point:00:22
+Timming point:00:32
+Timming point:00:41
+End time: 00:00
+Duration: 1437 minutes
+
+
+Route: 383, saturday
+--------------------------------------------
+Service number: 6238
+Start time: 06:30
+Timming point:06:41
+Timming point:06:51
+Timming point:06:55
+Timming point:07:00
+Timming point:07:04
+Timming point:07:11
+End time: 07:22
+Duration: 52 minutes
+
+Service number: 6239
+Start time: 07:00
+Timming point:07:11
+Timming point:07:21
+Timming point:07:25
+Timming point:07:30
+Timming point:07:34
+Timming point:07:41
+End time: 07:52
+Duration: 52 minutes
+
+Service number: 6240
+Start time: 07:30
+Timming point:07:41
+Timming point:07:51
+Timming point:07:55
+Timming point:08:00
+Timming point:08:04
+Timming point:08:11
+End time: 08:22
+Duration: 52 minutes
+
+Service number: 6241
+Start time: 08:00
+Timming point:08:11
+Timming point:08:21
+Timming point:08:25
+Timming point:08:30
+Timming point:08:35
+Timming point:08:42
+End time: 08:56
+Duration: 56 minutes
+
+Service number: 6242
+Start time: 08:20
+Timming point:08:31
+Timming point:08:43
+Timming point:08:47
+Timming point:08:53
+Timming point:08:58
+Timming point:09:05
+End time: 09:19
+Duration: 59 minutes
+
+Service number: 6243
+Start time: 08:37
+Timming point:08:49
+Timming point:09:01
+Timming point:09:05
+Timming point:09:11
+Timming point:09:16
+Timming point:09:23
+End time: 09:37
+Duration: 60 minutes
+
+Service number: 6244
+Start time: 08:52
+Timming point:09:04
+Timming point:09:16
+Timming point:09:20
+Timming point:09:26
+Timming point:09:31
+Timming point:09:38
+End time: 09:52
+Duration: 60 minutes
+
+Service number: 6245
+Start time: 09:07
+Timming point:09:19
+Timming point:09:31
+Timming point:09:35
+Timming point:09:41
+Timming point:09:46
+Timming point:09:53
+End time: 10:07
+Duration: 60 minutes
+
+Service number: 6246
+Start time: 09:22
+Timming point:09:34
+Timming point:09:46
+Timming point:09:50
+Timming point:09:56
+Timming point:10:01
+Timming point:10:08
+End time: 10:22
+Duration: 60 minutes
+
+Service number: 6247
+Start time: 09:37
+Timming point:09:49
+Timming point:10:01
+Timming point:10:05
+Timming point:10:11
+Timming point:10:16
+Timming point:10:23
+End time: 10:37
+Duration: 60 minutes
+
+Service number: 6248
+Start time: 09:52
+Timming point:10:04
+Timming point:10:16
+Timming point:10:20
+Timming point:10:26
+Timming point:10:31
+Timming point:10:38
+End time: 10:52
+Duration: 60 minutes
+
+Service number: 6249
+Start time: 10:07
+Timming point:10:19
+Timming point:10:31
+Timming point:10:35
+Timming point:10:41
+Timming point:10:46
+Timming point:10:53
+End time: 11:07
+Duration: 60 minutes
+
+Service number: 6250
+Start time: 10:22
+Timming point:10:34
+Timming point:10:46
+Timming point:10:50
+Timming point:10:56
+Timming point:11:01
+Timming point:11:08
+End time: 11:22
+Duration: 60 minutes
+
+Service number: 6251
+Start time: 10:37
+Timming point:10:49
+Timming point:11:01
+Timming point:11:05
+Timming point:11:11
+Timming point:11:16
+Timming point:11:23
+End time: 11:37
+Duration: 60 minutes
+
+Service number: 6252
+Start time: 10:52
+Timming point:11:04
+Timming point:11:16
+Timming point:11:20
+Timming point:11:26
+Timming point:11:31
+Timming point:11:38
+End time: 11:52
+Duration: 60 minutes
+
+Service number: 6253
+Start time: 11:07
+Timming point:11:19
+Timming point:11:31
+Timming point:11:35
+Timming point:11:41
+Timming point:11:46
+Timming point:11:53
+End time: 12:07
+Duration: 60 minutes
+
+Service number: 6254
+Start time: 11:22
+Timming point:11:34
+Timming point:11:46
+Timming point:11:50
+Timming point:11:56
+Timming point:12:01
+Timming point:12:08
+End time: 12:22
+Duration: 60 minutes
+
+Service number: 6255
+Start time: 11:37
+Timming point:11:49
+Timming point:12:01
+Timming point:12:05
+Timming point:12:11
+Timming point:12:16
+Timming point:12:23
+End time: 12:37
+Duration: 60 minutes
+
+Service number: 6256
+Start time: 11:52
+Timming point:12:04
+Timming point:12:16
+Timming point:12:20
+Timming point:12:26
+Timming point:12:31
+Timming point:12:38
+End time: 12:52
+Duration: 60 minutes
+
+Service number: 6257
+Start time: 12:07
+Timming point:12:19
+Timming point:12:31
+Timming point:12:35
+Timming point:12:41
+Timming point:12:46
+Timming point:12:53
+End time: 13:07
+Duration: 60 minutes
+
+Service number: 6258
+Start time: 12:22
+Timming point:12:34
+Timming point:12:46
+Timming point:12:50
+Timming point:12:56
+Timming point:13:01
+Timming point:13:08
+End time: 13:22
+Duration: 60 minutes
+
+Service number: 6259
+Start time: 12:37
+Timming point:12:49
+Timming point:13:01
+Timming point:13:05
+Timming point:13:11
+Timming point:13:16
+Timming point:13:23
+End time: 13:37
+Duration: 60 minutes
+
+Service number: 6260
+Start time: 12:52
+Timming point:13:04
+Timming point:13:16
+Timming point:13:20
+Timming point:13:26
+Timming point:13:31
+Timming point:13:38
+End time: 13:52
+Duration: 60 minutes
+
+Service number: 6261
+Start time: 13:07
+Timming point:13:19
+Timming point:13:31
+Timming point:13:35
+Timming point:13:41
+Timming point:13:46
+Timming point:13:53
+End time: 14:07
+Duration: 60 minutes
+
+Service number: 6262
+Start time: 13:22
+Timming point:13:34
+Timming point:13:46
+Timming point:13:50
+Timming point:13:56
+Timming point:14:01
+Timming point:14:08
+End time: 14:22
+Duration: 60 minutes
+
+Service number: 6263
+Start time: 13:37
+Timming point:13:49
+Timming point:14:01
+Timming point:14:05
+Timming point:14:11
+Timming point:14:16
+Timming point:14:23
+End time: 14:37
+Duration: 60 minutes
+
+Service number: 6264
+Start time: 13:52
+Timming point:14:04
+Timming point:14:16
+Timming point:14:20
+Timming point:14:26
+Timming point:14:31
+Timming point:14:38
+End time: 14:52
+Duration: 60 minutes
+
+Service number: 6265
+Start time: 14:07
+Timming point:14:19
+Timming point:14:31
+Timming point:14:35
+Timming point:14:41
+Timming point:14:46
+Timming point:14:53
+End time: 15:07
+Duration: 60 minutes
+
+Service number: 6266
+Start time: 14:22
+Timming point:14:34
+Timming point:14:46
+Timming point:14:50
+Timming point:14:56
+Timming point:15:01
+Timming point:15:08
+End time: 15:22
+Duration: 60 minutes
+
+Service number: 6267
+Start time: 14:37
+Timming point:14:49
+Timming point:15:01
+Timming point:15:05
+Timming point:15:11
+Timming point:15:16
+Timming point:15:23
+End time: 15:37
+Duration: 60 minutes
+
+Service number: 6268
+Start time: 14:52
+Timming point:15:04
+Timming point:15:16
+Timming point:15:20
+Timming point:15:26
+Timming point:15:31
+Timming point:15:38
+End time: 15:52
+Duration: 60 minutes
+
+Service number: 6269
+Start time: 15:07
+Timming point:15:19
+Timming point:15:31
+Timming point:15:35
+Timming point:15:41
+Timming point:15:46
+Timming point:15:53
+End time: 16:07
+Duration: 60 minutes
+
+Service number: 6270
+Start time: 15:22
+Timming point:15:34
+Timming point:15:46
+Timming point:15:50
+Timming point:15:56
+Timming point:16:01
+Timming point:16:08
+End time: 16:22
+Duration: 60 minutes
+
+Service number: 6271
+Start time: 15:37
+Timming point:15:49
+Timming point:16:01
+Timming point:16:05
+Timming point:16:11
+Timming point:16:16
+Timming point:16:23
+End time: 16:37
+Duration: 60 minutes
+
+Service number: 6272
+Start time: 15:52
+Timming point:16:04
+Timming point:16:16
+Timming point:16:20
+Timming point:16:26
+Timming point:16:31
+Timming point:16:38
+End time: 16:52
+Duration: 60 minutes
+
+Service number: 6273
+Start time: 16:07
+Timming point:16:19
+Timming point:16:31
+Timming point:16:35
+Timming point:16:41
+Timming point:16:46
+Timming point:16:53
+End time: 17:07
+Duration: 60 minutes
+
+Service number: 6274
+Start time: 16:22
+Timming point:16:34
+Timming point:16:46
+Timming point:16:50
+Timming point:16:56
+Timming point:17:01
+Timming point:17:08
+End time: 17:22
+Duration: 60 minutes
+
+Service number: 6275
+Start time: 16:37
+Timming point:16:49
+Timming point:17:01
+Timming point:17:05
+Timming point:17:11
+Timming point:17:16
+Timming point:17:23
+End time: 17:37
+Duration: 60 minutes
+
+Service number: 6276
+Start time: 16:52
+Timming point:17:04
+Timming point:17:16
+Timming point:17:20
+Timming point:17:26
+Timming point:17:31
+Timming point:17:38
+End time: 17:52
+Duration: 60 minutes
+
+Service number: 6277
+Start time: 17:10
+Timming point:17:22
+Timming point:17:34
+Timming point:17:38
+Timming point:17:44
+Timming point:17:49
+Timming point:17:56
+End time: 18:10
+Duration: 60 minutes
+
+Service number: 6278
+Start time: 17:30
+Timming point:17:42
+Timming point:17:54
+Timming point:17:58
+Timming point:18:04
+Timming point:18:09
+Timming point:18:16
+End time: 18:30
+Duration: 60 minutes
+
+Service number: 6279
+Start time: 17:50
+Timming point:18:02
+Timming point:18:14
+Timming point:18:18
+Timming point:18:24
+Timming point:18:29
+Timming point:18:36
+End time: 18:47
+Duration: 57 minutes
+
+Service number: 6280
+Start time: 18:10
+Timming point:18:22
+Timming point:18:34
+Timming point:18:38
+Timming point:18:43
+Timming point:18:47
+Timming point:18:54
+End time: 19:05
+Duration: 55 minutes
+
+Service number: 6281
+Start time: 18:30
+Timming point:18:41
+Timming point:18:51
+Timming point:18:55
+Timming point:19:00
+Timming point:19:04
+Timming point:19:11
+End time: 19:22
+Duration: 52 minutes
+
+Service number: 6282
+Start time: 19:00
+Timming point:19:11
+Timming point:19:21
+Timming point:19:25
+Timming point:19:30
+Timming point:19:34
+Timming point:19:41
+End time: 19:52
+Duration: 52 minutes
+
+Service number: 6283
+Start time: 19:30
+Timming point:19:41
+Timming point:19:51
+Timming point:19:55
+Timming point:20:00
+Timming point:20:04
+Timming point:20:11
+End time: 20:22
+Duration: 52 minutes
+
+Service number: 6284
+Start time: 20:00
+Timming point:20:11
+Timming point:20:21
+Timming point:20:25
+Timming point:20:30
+Timming point:20:34
+Timming point:20:41
+End time: 20:52
+Duration: 52 minutes
+
+Service number: 6285
+Start time: 20:30
+Timming point:20:41
+Timming point:20:51
+Timming point:20:55
+Timming point:21:00
+Timming point:21:04
+Timming point:21:11
+End time: 21:22
+Duration: 52 minutes
+
+Service number: 6286
+Start time: 21:00
+Timming point:21:11
+Timming point:21:21
+Timming point:21:25
+Timming point:21:30
+Timming point:21:34
+Timming point:21:41
+End time: 21:52
+Duration: 52 minutes
+
+Service number: 6287
+Start time: 21:30
+Timming point:21:41
+Timming point:21:51
+Timming point:21:55
+Timming point:22:00
+Timming point:22:04
+Timming point:22:11
+End time: 22:22
+Duration: 52 minutes
+
+Service number: 6288
+Start time: 22:00
+Timming point:22:11
+Timming point:22:21
+Timming point:22:25
+Timming point:22:30
+Timming point:22:34
+Timming point:22:41
+End time: 22:52
+Duration: 52 minutes
+
+Service number: 6289
+Start time: 22:30
+Timming point:22:41
+Timming point:22:51
+Timming point:22:55
+Timming point:23:00
+Timming point:23:04
+Timming point:23:11
+End time: 23:22
+Duration: 52 minutes
+
+Service number: 6290
+Start time: 00:02
+Timming point:23:10
+Timming point:23:21
+Timming point:23:31
+Timming point:23:35
+Timming point:23:40
+Timming point:23:44
+End time: 23:51
+Duration: 1429 minutes
+
+
+Route: 384, saturday
+--------------------------------------------
+Service number: 6381
+Start time: 06:45
+Timming point:06:48
+Timming point:06:55
+Timming point:07:02
+Timming point:07:06
+Timming point:07:11
+Timming point:07:16
+Timming point:07:26
+End time: 07:36
+Duration: 51 minutes
+
+Service number: 6382
+Start time: 07:15
+Timming point:07:18
+Timming point:07:25
+Timming point:07:32
+Timming point:07:36
+Timming point:07:41
+Timming point:07:46
+Timming point:07:56
+End time: 08:06
+Duration: 51 minutes
+
+Service number: 6383
+Start time: 07:45
+Timming point:07:48
+Timming point:07:55
+Timming point:08:02
+Timming point:08:06
+Timming point:08:11
+Timming point:08:16
+Timming point:08:26
+End time: 08:36
+Duration: 51 minutes
+
+Service number: 6384
+Start time: 08:10
+Timming point:08:13
+Timming point:08:20
+Timming point:08:27
+Timming point:08:31
+Timming point:08:37
+Timming point:08:42
+Timming point:08:53
+End time: 09:04
+Duration: 54 minutes
+
+Service number: 6385
+Start time: 08:30
+Timming point:08:35
+Timming point:08:45
+Timming point:08:53
+Timming point:08:57
+Timming point:09:03
+Timming point:09:08
+Timming point:09:19
+End time: 09:30
+Duration: 60 minutes
+
+Service number: 6386
+Start time: 08:45
+Timming point:08:50
+Timming point:09:00
+Timming point:09:08
+Timming point:09:12
+Timming point:09:18
+Timming point:09:23
+Timming point:09:34
+End time: 09:45
+Duration: 60 minutes
+
+Service number: 6387
+Start time: 09:00
+Timming point:09:05
+Timming point:09:15
+Timming point:09:23
+Timming point:09:27
+Timming point:09:33
+Timming point:09:38
+Timming point:09:49
+End time: 10:00
+Duration: 60 minutes
+
+Service number: 6388
+Start time: 09:15
+Timming point:09:20
+Timming point:09:30
+Timming point:09:38
+Timming point:09:42
+Timming point:09:48
+Timming point:09:53
+Timming point:10:04
+End time: 10:15
+Duration: 60 minutes
+
+Service number: 6389
+Start time: 09:30
+Timming point:09:35
+Timming point:09:45
+Timming point:09:53
+Timming point:09:57
+Timming point:10:03
+Timming point:10:08
+Timming point:10:19
+End time: 10:30
+Duration: 60 minutes
+
+Service number: 6390
+Start time: 09:45
+Timming point:09:50
+Timming point:10:00
+Timming point:10:08
+Timming point:10:12
+Timming point:10:18
+Timming point:10:23
+Timming point:10:34
+End time: 10:45
+Duration: 60 minutes
+
+Service number: 6391
+Start time: 10:00
+Timming point:10:05
+Timming point:10:15
+Timming point:10:23
+Timming point:10:27
+Timming point:10:33
+Timming point:10:38
+Timming point:10:49
+End time: 11:00
+Duration: 60 minutes
+
+Service number: 6392
+Start time: 10:15
+Timming point:10:20
+Timming point:10:30
+Timming point:10:38
+Timming point:10:42
+Timming point:10:48
+Timming point:10:53
+Timming point:11:04
+End time: 11:15
+Duration: 60 minutes
+
+Service number: 6393
+Start time: 10:30
+Timming point:10:35
+Timming point:10:45
+Timming point:10:53
+Timming point:10:57
+Timming point:11:03
+Timming point:11:08
+Timming point:11:19
+End time: 11:30
+Duration: 60 minutes
+
+Service number: 6394
+Start time: 10:45
+Timming point:10:50
+Timming point:11:00
+Timming point:11:08
+Timming point:11:12
+Timming point:11:18
+Timming point:11:23
+Timming point:11:34
+End time: 11:45
+Duration: 60 minutes
+
+Service number: 6395
+Start time: 11:00
+Timming point:11:05
+Timming point:11:15
+Timming point:11:23
+Timming point:11:27
+Timming point:11:33
+Timming point:11:38
+Timming point:11:49
+End time: 12:00
+Duration: 60 minutes
+
+Service number: 6396
+Start time: 11:15
+Timming point:11:20
+Timming point:11:30
+Timming point:11:38
+Timming point:11:42
+Timming point:11:48
+Timming point:11:53
+Timming point:12:04
+End time: 12:15
+Duration: 60 minutes
+
+Service number: 6397
+Start time: 11:30
+Timming point:11:35
+Timming point:11:45
+Timming point:11:53
+Timming point:11:57
+Timming point:12:03
+Timming point:12:08
+Timming point:12:19
+End time: 12:30
+Duration: 60 minutes
+
+Service number: 6398
+Start time: 11:45
+Timming point:11:50
+Timming point:12:00
+Timming point:12:08
+Timming point:12:12
+Timming point:12:18
+Timming point:12:23
+Timming point:12:34
+End time: 12:45
+Duration: 60 minutes
+
+Service number: 6399
+Start time: 12:00
+Timming point:12:05
+Timming point:12:15
+Timming point:12:23
+Timming point:12:27
+Timming point:12:33
+Timming point:12:38
+Timming point:12:49
+End time: 13:00
+Duration: 60 minutes
+
+Service number: 6400
+Start time: 12:15
+Timming point:12:20
+Timming point:12:30
+Timming point:12:38
+Timming point:12:42
+Timming point:12:48
+Timming point:12:53
+Timming point:13:04
+End time: 13:15
+Duration: 60 minutes
+
+Service number: 6401
+Start time: 12:30
+Timming point:12:35
+Timming point:12:45
+Timming point:12:53
+Timming point:12:57
+Timming point:13:03
+Timming point:13:08
+Timming point:13:19
+End time: 13:30
+Duration: 60 minutes
+
+Service number: 6402
+Start time: 12:45
+Timming point:12:50
+Timming point:13:00
+Timming point:13:08
+Timming point:13:12
+Timming point:13:18
+Timming point:13:23
+Timming point:13:34
+End time: 13:45
+Duration: 60 minutes
+
+Service number: 6403
+Start time: 13:00
+Timming point:13:05
+Timming point:13:15
+Timming point:13:23
+Timming point:13:27
+Timming point:13:33
+Timming point:13:38
+Timming point:13:49
+End time: 14:00
+Duration: 60 minutes
+
+Service number: 6404
+Start time: 13:15
+Timming point:13:20
+Timming point:13:30
+Timming point:13:38
+Timming point:13:42
+Timming point:13:48
+Timming point:13:53
+Timming point:14:04
+End time: 14:15
+Duration: 60 minutes
+
+Service number: 6405
+Start time: 13:30
+Timming point:13:35
+Timming point:13:45
+Timming point:13:53
+Timming point:13:57
+Timming point:14:03
+Timming point:14:08
+Timming point:14:19
+End time: 14:30
+Duration: 60 minutes
+
+Service number: 6406
+Start time: 13:45
+Timming point:13:50
+Timming point:14:00
+Timming point:14:08
+Timming point:14:12
+Timming point:14:18
+Timming point:14:23
+Timming point:14:34
+End time: 14:45
+Duration: 60 minutes
+
+Service number: 6407
+Start time: 14:00
+Timming point:14:05
+Timming point:14:15
+Timming point:14:23
+Timming point:14:27
+Timming point:14:33
+Timming point:14:38
+Timming point:14:49
+End time: 15:00
+Duration: 60 minutes
+
+Service number: 6408
+Start time: 14:15
+Timming point:14:20
+Timming point:14:30
+Timming point:14:38
+Timming point:14:42
+Timming point:14:48
+Timming point:14:53
+Timming point:15:04
+End time: 15:15
+Duration: 60 minutes
+
+Service number: 6409
+Start time: 14:30
+Timming point:14:35
+Timming point:14:45
+Timming point:14:53
+Timming point:14:57
+Timming point:15:03
+Timming point:15:08
+Timming point:15:19
+End time: 15:30
+Duration: 60 minutes
+
+Service number: 6410
+Start time: 14:45
+Timming point:14:50
+Timming point:15:00
+Timming point:15:08
+Timming point:15:12
+Timming point:15:18
+Timming point:15:23
+Timming point:15:34
+End time: 15:45
+Duration: 60 minutes
+
+Service number: 6411
+Start time: 15:00
+Timming point:15:05
+Timming point:15:15
+Timming point:15:23
+Timming point:15:27
+Timming point:15:33
+Timming point:15:38
+Timming point:15:49
+End time: 16:00
+Duration: 60 minutes
+
+Service number: 6412
+Start time: 15:15
+Timming point:15:20
+Timming point:15:30
+Timming point:15:38
+Timming point:15:42
+Timming point:15:48
+Timming point:15:53
+Timming point:16:04
+End time: 16:15
+Duration: 60 minutes
+
+Service number: 6413
+Start time: 15:30
+Timming point:15:35
+Timming point:15:45
+Timming point:15:53
+Timming point:15:57
+Timming point:16:03
+Timming point:16:08
+Timming point:16:19
+End time: 16:30
+Duration: 60 minutes
+
+Service number: 6414
+Start time: 15:45
+Timming point:15:50
+Timming point:16:00
+Timming point:16:08
+Timming point:16:12
+Timming point:16:18
+Timming point:16:23
+Timming point:16:34
+End time: 16:45
+Duration: 60 minutes
+
+Service number: 6415
+Start time: 16:00
+Timming point:16:05
+Timming point:16:15
+Timming point:16:23
+Timming point:16:27
+Timming point:16:33
+Timming point:16:38
+Timming point:16:49
+End time: 17:00
+Duration: 60 minutes
+
+Service number: 6416
+Start time: 16:15
+Timming point:16:20
+Timming point:16:30
+Timming point:16:38
+Timming point:16:42
+Timming point:16:48
+Timming point:16:53
+Timming point:17:04
+End time: 17:15
+Duration: 60 minutes
+
+Service number: 6417
+Start time: 16:30
+Timming point:16:35
+Timming point:16:45
+Timming point:16:53
+Timming point:16:57
+Timming point:17:03
+Timming point:17:08
+Timming point:17:19
+End time: 17:30
+Duration: 60 minutes
+
+Service number: 6418
+Start time: 16:45
+Timming point:16:50
+Timming point:17:00
+Timming point:17:08
+Timming point:17:12
+Timming point:17:18
+Timming point:17:23
+Timming point:17:34
+End time: 17:45
+Duration: 60 minutes
+
+Service number: 6419
+Start time: 17:00
+Timming point:17:05
+Timming point:17:15
+Timming point:17:23
+Timming point:17:27
+Timming point:17:33
+Timming point:17:38
+Timming point:17:49
+End time: 18:00
+Duration: 60 minutes
+
+Service number: 6420
+Start time: 17:20
+Timming point:17:25
+Timming point:17:35
+Timming point:17:43
+Timming point:17:47
+Timming point:17:53
+Timming point:17:58
+Timming point:18:09
+End time: 18:20
+Duration: 60 minutes
+
+Service number: 6421
+Start time: 17:40
+Timming point:17:45
+Timming point:17:55
+Timming point:18:03
+Timming point:18:07
+Timming point:18:13
+Timming point:18:18
+Timming point:18:29
+End time: 18:40
+Duration: 60 minutes
+
+Service number: 6422
+Start time: 18:00
+Timming point:18:05
+Timming point:18:15
+Timming point:18:23
+Timming point:18:27
+Timming point:18:33
+Timming point:18:38
+Timming point:18:48
+End time: 18:58
+Duration: 58 minutes
+
+Service number: 6423
+Start time: 18:20
+Timming point:18:25
+Timming point:18:35
+Timming point:18:42
+Timming point:18:46
+Timming point:18:51
+Timming point:18:56
+Timming point:19:06
+End time: 19:16
+Duration: 56 minutes
+
+Service number: 6424
+Start time: 18:45
+Timming point:18:48
+Timming point:18:55
+Timming point:19:02
+Timming point:19:06
+Timming point:19:11
+Timming point:19:16
+Timming point:19:26
+End time: 19:36
+Duration: 51 minutes
+
+Service number: 6425
+Start time: 19:15
+Timming point:19:18
+Timming point:19:25
+Timming point:19:32
+Timming point:19:36
+Timming point:19:41
+Timming point:19:46
+Timming point:19:56
+End time: 20:06
+Duration: 51 minutes
+
+Service number: 6426
+Start time: 19:45
+Timming point:19:48
+Timming point:19:55
+Timming point:20:02
+Timming point:20:06
+Timming point:20:11
+Timming point:20:16
+Timming point:20:26
+End time: 20:36
+Duration: 51 minutes
+
+Service number: 6427
+Start time: 20:15
+Timming point:20:18
+Timming point:20:25
+Timming point:20:32
+Timming point:20:36
+Timming point:20:41
+Timming point:20:46
+Timming point:20:56
+End time: 21:06
+Duration: 51 minutes
+
+Service number: 6428
+Start time: 20:45
+Timming point:20:48
+Timming point:20:55
+Timming point:21:02
+Timming point:21:06
+Timming point:21:11
+Timming point:21:16
+Timming point:21:26
+End time: 21:36
+Duration: 51 minutes
+
+Service number: 6429
+Start time: 21:15
+Timming point:21:18
+Timming point:21:25
+Timming point:21:32
+Timming point:21:36
+Timming point:21:41
+Timming point:21:46
+Timming point:21:56
+End time: 22:06
+Duration: 51 minutes
+
+Service number: 6430
+Start time: 21:45
+Timming point:21:48
+Timming point:21:55
+Timming point:22:02
+Timming point:22:06
+Timming point:22:11
+Timming point:22:16
+Timming point:22:26
+End time: 22:36
+Duration: 51 minutes
+
+Service number: 6431
+Start time: 22:15
+Timming point:22:18
+Timming point:22:25
+Timming point:22:32
+Timming point:22:36
+Timming point:22:41
+Timming point:22:46
+Timming point:22:56
+End time: 23:06
+Duration: 51 minutes
+
+Service number: 6432
+Start time: 22:45
+Timming point:22:48
+Timming point:22:55
+Timming point:23:02
+Timming point:23:06
+Timming point:23:11
+Timming point:23:16
+Timming point:23:26
+End time: 23:36
+Duration: 51 minutes
+
+Service number: 6433
+Start time: 23:15
+Timming point:23:18
+Timming point:23:25
+Timming point:23:32
+Timming point:23:36
+Timming point:23:41
+Timming point:23:46
+Timming point:23:56
+End time: 00:06
+Duration: 51 minutes
+
+
+Route: 358back, sunday
+--------------------------------------------
+Service number: 6548
+Start time: 08:45
+Timming point:08:57
+Timming point:09:08
+Timming point:09:11
+Timming point:09:17
+Timming point:09:28
+Timming point:09:33
+Timming point:09:36
+End time: 09:39
+Duration: 54 minutes
+
+Service number: 6549
+Start time: 09:45
+Timming point:09:57
+Timming point:10:08
+Timming point:10:11
+Timming point:10:17
+Timming point:10:28
+Timming point:10:33
+Timming point:10:36
+End time: 10:39
+Duration: 54 minutes
+
+Service number: 6550
+Start time: 10:45
+Timming point:10:57
+Timming point:11:08
+Timming point:11:11
+Timming point:11:17
+Timming point:11:28
+Timming point:11:33
+Timming point:11:36
+End time: 11:39
+Duration: 54 minutes
+
+Service number: 6551
+Start time: 11:45
+Timming point:11:57
+Timming point:12:08
+Timming point:12:11
+Timming point:12:17
+Timming point:12:28
+Timming point:12:33
+Timming point:12:36
+End time: 12:39
+Duration: 54 minutes
+
+Service number: 6552
+Start time: 12:45
+Timming point:12:57
+Timming point:13:08
+Timming point:13:11
+Timming point:13:17
+Timming point:13:28
+Timming point:13:33
+Timming point:13:36
+End time: 13:39
+Duration: 54 minutes
+
+Service number: 6553
+Start time: 13:45
+Timming point:13:57
+Timming point:14:08
+Timming point:14:11
+Timming point:14:17
+Timming point:14:28
+Timming point:14:33
+Timming point:14:36
+End time: 14:39
+Duration: 54 minutes
+
+Service number: 6554
+Start time: 14:45
+Timming point:14:57
+Timming point:15:08
+Timming point:15:11
+Timming point:15:17
+Timming point:15:28
+Timming point:15:33
+Timming point:15:36
+End time: 15:39
+Duration: 54 minutes
+
+Service number: 6555
+Start time: 15:45
+Timming point:15:57
+Timming point:16:08
+Timming point:16:11
+Timming point:16:17
+Timming point:16:28
+Timming point:16:33
+Timming point:16:36
+End time: 16:39
+Duration: 54 minutes
+
+Service number: 6556
+Start time: 16:45
+Timming point:16:57
+Timming point:17:08
+Timming point:17:11
+Timming point:17:17
+Timming point:17:28
+Timming point:17:33
+Timming point:17:36
+End time: 17:39
+Duration: 54 minutes
+
+Service number: 6557
+Start time: 17:45
+Timming point:17:57
+Timming point:18:08
+Timming point:18:11
+Timming point:18:17
+Timming point:18:28
+Timming point:18:33
+Timming point:18:36
+End time: 18:39
+Duration: 54 minutes
+
+Service number: 6558
+Start time: 18:45
+Timming point:18:54
+Timming point:19:04
+Timming point:19:06
+Timming point:19:11
+Timming point:19:17
+Timming point:19:21
+Timming point:19:24
+End time: 19:27
+Duration: 42 minutes
+
+Service number: 6559
+Start time: 19:45
+Timming point:19:54
+Timming point:20:04
+Timming point:20:06
+Timming point:20:11
+Timming point:20:17
+Timming point:20:21
+Timming point:20:24
+End time: 20:27
+Duration: 42 minutes
+
+Service number: 6560
+Start time: 20:30
+Timming point:20:39
+Timming point:20:49
+Timming point:20:51
+Timming point:20:56
+Timming point:21:02
+Timming point:21:06
+Timming point:21:09
+End time: 21:12
+Duration: 42 minutes
+
+Service number: 6561
+Start time: 21:30
+Timming point:21:39
+Timming point:21:49
+Timming point:21:51
+Timming point:21:56
+Timming point:22:02
+Timming point:22:06
+Timming point:22:09
+End time: 22:12
+Duration: 42 minutes
+
+Service number: 6562
+Start time: 22:30
+Timming point:22:39
+Timming point:22:49
+Timming point:22:51
+Timming point:22:56
+Timming point:23:02
+Timming point:23:06
+Timming point:23:09
+End time: 23:12
+Duration: 42 minutes
+
+
+Route: 358out, sunday
+--------------------------------------------
+Service number: 6497
+Start time: 09:45
+Timming point:09:48
+Timming point:09:51
+Timming point:09:56
+Timming point:10:05
+Timming point:10:11
+Timming point:10:13
+Timming point:10:24
+End time: 10:35
+Duration: 50 minutes
+
+Service number: 6498
+Start time: 10:45
+Timming point:10:48
+Timming point:10:51
+Timming point:10:56
+Timming point:11:05
+Timming point:11:11
+Timming point:11:13
+Timming point:11:24
+End time: 11:35
+Duration: 50 minutes
+
+Service number: 6499
+Start time: 11:45
+Timming point:11:48
+Timming point:11:51
+Timming point:11:56
+Timming point:12:05
+Timming point:12:11
+Timming point:12:13
+Timming point:12:24
+End time: 12:35
+Duration: 50 minutes
+
+Service number: 6500
+Start time: 12:45
+Timming point:12:48
+Timming point:12:51
+Timming point:12:56
+Timming point:13:05
+Timming point:13:11
+Timming point:13:13
+Timming point:13:24
+End time: 13:35
+Duration: 50 minutes
+
+Service number: 6501
+Start time: 13:45
+Timming point:13:48
+Timming point:13:51
+Timming point:13:56
+Timming point:14:05
+Timming point:14:11
+Timming point:14:13
+Timming point:14:24
+End time: 14:35
+Duration: 50 minutes
+
+Service number: 6502
+Start time: 14:45
+Timming point:14:48
+Timming point:14:51
+Timming point:14:56
+Timming point:15:05
+Timming point:15:11
+Timming point:15:13
+Timming point:15:24
+End time: 15:35
+Duration: 50 minutes
+
+Service number: 6503
+Start time: 15:45
+Timming point:15:48
+Timming point:15:51
+Timming point:15:56
+Timming point:16:05
+Timming point:16:11
+Timming point:16:13
+Timming point:16:24
+End time: 16:35
+Duration: 50 minutes
+
+Service number: 6504
+Start time: 16:45
+Timming point:16:48
+Timming point:16:51
+Timming point:16:56
+Timming point:17:05
+Timming point:17:10
+Timming point:17:11
+Timming point:17:21
+End time: 17:30
+Duration: 45 minutes
+
+Service number: 6505
+Start time: 17:45
+Timming point:17:48
+Timming point:17:51
+Timming point:17:55
+Timming point:18:01
+Timming point:18:06
+Timming point:18:07
+Timming point:18:17
+End time: 18:26
+Duration: 41 minutes
+
+Service number: 6506
+Start time: 18:45
+Timming point:18:48
+Timming point:18:51
+Timming point:18:55
+Timming point:19:01
+Timming point:19:06
+Timming point:19:07
+Timming point:19:17
+End time: 19:26
+Duration: 41 minutes
+
+Service number: 6507
+Start time: 19:30
+Timming point:19:33
+Timming point:19:36
+Timming point:19:40
+Timming point:19:46
+Timming point:19:51
+Timming point:19:52
+Timming point:20:02
+End time: 20:11
+Duration: 41 minutes
+
+Service number: 6508
+Start time: 20:30
+Timming point:20:33
+Timming point:20:36
+Timming point:20:40
+Timming point:20:46
+Timming point:20:51
+Timming point:20:52
+Timming point:21:02
+End time: 21:11
+Duration: 41 minutes
+
+Service number: 6509
+Start time: 21:30
+Timming point:21:33
+Timming point:21:36
+Timming point:21:40
+Timming point:21:46
+Timming point:21:51
+Timming point:21:52
+Timming point:22:02
+End time: 22:11
+Duration: 41 minutes
+
+Service number: 6510
+Start time: 22:30
+Timming point:22:33
+Timming point:22:36
+Timming point:22:40
+Timming point:22:46
+Timming point:22:51
+Timming point:22:52
+Timming point:23:02
+End time: 23:11
+Duration: 41 minutes
+
+Service number: 6511
+Start time: 23:15
+Timming point:23:18
+Timming point:23:21
+Timming point:23:25
+Timming point:23:31
+Timming point:23:36
+Timming point:23:37
+Timming point:23:47
+End time: 23:56
+Duration: 41 minutes
+
+
+Route: 383, sunday
+--------------------------------------------
+Service number: 6291
+Start time: 09:00
+Timming point:09:11
+Timming point:09:21
+Timming point:09:25
+Timming point:09:30
+Timming point:09:34
+Timming point:09:41
+End time: 09:52
+Duration: 52 minutes
+
+Service number: 6292
+Start time: 09:30
+Timming point:09:41
+Timming point:09:51
+Timming point:09:55
+Timming point:10:00
+Timming point:10:05
+Timming point:10:12
+End time: 10:26
+Duration: 56 minutes
+
+Service number: 6293
+Start time: 10:00
+Timming point:10:12
+Timming point:10:24
+Timming point:10:28
+Timming point:10:34
+Timming point:10:39
+Timming point:10:46
+End time: 11:00
+Duration: 60 minutes
+
+Service number: 6294
+Start time: 10:30
+Timming point:10:42
+Timming point:10:54
+Timming point:10:58
+Timming point:11:04
+Timming point:11:09
+Timming point:11:16
+End time: 11:30
+Duration: 60 minutes
+
+Service number: 6295
+Start time: 11:00
+Timming point:11:12
+Timming point:11:24
+Timming point:11:28
+Timming point:11:34
+Timming point:11:39
+Timming point:11:46
+End time: 12:00
+Duration: 60 minutes
+
+Service number: 6296
+Start time: 11:30
+Timming point:11:42
+Timming point:11:54
+Timming point:11:58
+Timming point:12:04
+Timming point:12:09
+Timming point:12:16
+End time: 12:30
+Duration: 60 minutes
+
+Service number: 6297
+Start time: 12:00
+Timming point:12:12
+Timming point:12:24
+Timming point:12:28
+Timming point:12:34
+Timming point:12:39
+Timming point:12:46
+End time: 13:00
+Duration: 60 minutes
+
+Service number: 6298
+Start time: 12:30
+Timming point:12:42
+Timming point:12:54
+Timming point:12:58
+Timming point:13:04
+Timming point:13:09
+Timming point:13:16
+End time: 13:30
+Duration: 60 minutes
+
+Service number: 6299
+Start time: 13:00
+Timming point:13:12
+Timming point:13:24
+Timming point:13:28
+Timming point:13:34
+Timming point:13:39
+Timming point:13:46
+End time: 14:00
+Duration: 60 minutes
+
+Service number: 6300
+Start time: 13:30
+Timming point:13:42
+Timming point:13:54
+Timming point:13:58
+Timming point:14:04
+Timming point:14:09
+Timming point:14:16
+End time: 14:30
+Duration: 60 minutes
+
+Service number: 6301
+Start time: 14:00
+Timming point:14:12
+Timming point:14:24
+Timming point:14:28
+Timming point:14:34
+Timming point:14:39
+Timming point:14:46
+End time: 15:00
+Duration: 60 minutes
+
+Service number: 6302
+Start time: 14:30
+Timming point:14:42
+Timming point:14:54
+Timming point:14:58
+Timming point:15:04
+Timming point:15:09
+Timming point:15:16
+End time: 15:30
+Duration: 60 minutes
+
+Service number: 6303
+Start time: 15:00
+Timming point:15:12
+Timming point:15:24
+Timming point:15:28
+Timming point:15:34
+Timming point:15:39
+Timming point:15:46
+End time: 16:00
+Duration: 60 minutes
+
+Service number: 6304
+Start time: 15:30
+Timming point:15:42
+Timming point:15:54
+Timming point:15:58
+Timming point:16:04
+Timming point:16:09
+Timming point:16:16
+End time: 16:30
+Duration: 60 minutes
+
+Service number: 6305
+Start time: 16:00
+Timming point:16:12
+Timming point:16:24
+Timming point:16:28
+Timming point:16:34
+Timming point:16:39
+Timming point:16:46
+End time: 17:00
+Duration: 60 minutes
+
+Service number: 6306
+Start time: 16:30
+Timming point:16:42
+Timming point:16:54
+Timming point:16:58
+Timming point:17:04
+Timming point:17:09
+Timming point:17:16
+End time: 17:30
+Duration: 60 minutes
+
+Service number: 6307
+Start time: 17:00
+Timming point:17:12
+Timming point:17:24
+Timming point:17:28
+Timming point:17:34
+Timming point:17:38
+Timming point:17:45
+End time: 17:56
+Duration: 56 minutes
+
+Service number: 6308
+Start time: 17:30
+Timming point:17:41
+Timming point:17:51
+Timming point:17:55
+Timming point:18:00
+Timming point:18:04
+Timming point:18:11
+End time: 18:22
+Duration: 52 minutes
+
+Service number: 6309
+Start time: 18:00
+Timming point:18:11
+Timming point:18:21
+Timming point:18:25
+Timming point:18:30
+Timming point:18:34
+Timming point:18:41
+End time: 18:52
+Duration: 52 minutes
+
+Service number: 6310
+Start time: 18:30
+Timming point:18:41
+Timming point:18:51
+Timming point:18:55
+Timming point:19:00
+Timming point:19:04
+Timming point:19:11
+End time: 19:22
+Duration: 52 minutes
+
+Service number: 6311
+Start time: 19:00
+Timming point:19:11
+Timming point:19:21
+Timming point:19:25
+Timming point:19:30
+Timming point:19:34
+Timming point:19:41
+End time: 19:52
+Duration: 52 minutes
+
+Service number: 6312
+Start time: 19:30
+Timming point:19:41
+Timming point:19:51
+Timming point:19:55
+Timming point:20:00
+Timming point:20:04
+Timming point:20:11
+End time: 20:22
+Duration: 52 minutes
+
+Service number: 6313
+Start time: 20:00
+Timming point:20:11
+Timming point:20:21
+Timming point:20:25
+Timming point:20:30
+Timming point:20:34
+Timming point:20:41
+End time: 20:52
+Duration: 52 minutes
+
+Service number: 6314
+Start time: 21:00
+Timming point:21:11
+Timming point:21:21
+Timming point:21:25
+Timming point:21:30
+Timming point:21:34
+Timming point:21:41
+End time: 21:52
+Duration: 52 minutes
+
+Service number: 6315
+Start time: 22:00
+Timming point:22:11
+Timming point:22:21
+Timming point:22:25
+Timming point:22:30
+Timming point:22:34
+Timming point:22:41
+End time: 22:52
+Duration: 52 minutes
+
+Service number: 6316
+Start time: 00:02
+Timming point:23:10
+Timming point:23:21
+Timming point:23:31
+Timming point:23:35
+Timming point:23:40
+Timming point:23:44
+End time: 23:51
+Duration: 1429 minutes
+
+
+Route: 384, sunday
+--------------------------------------------
+Service number: 6434
+Start time: 08:15
+Timming point:08:18
+Timming point:08:25
+Timming point:08:32
+Timming point:08:36
+Timming point:08:41
+Timming point:08:46
+Timming point:08:56
+End time: 09:06
+Duration: 51 minutes
+
+Service number: 6435
+Start time: 09:15
+Timming point:09:18
+Timming point:09:25
+Timming point:09:32
+Timming point:09:36
+Timming point:09:41
+Timming point:09:46
+Timming point:09:57
+End time: 10:08
+Duration: 53 minutes
+
+Service number: 6436
+Start time: 09:45
+Timming point:09:50
+Timming point:10:00
+Timming point:10:08
+Timming point:10:12
+Timming point:10:18
+Timming point:10:23
+Timming point:10:34
+End time: 10:45
+Duration: 60 minutes
+
+Service number: 6437
+Start time: 10:15
+Timming point:10:20
+Timming point:10:30
+Timming point:10:38
+Timming point:10:42
+Timming point:10:48
+Timming point:10:53
+Timming point:11:04
+End time: 11:15
+Duration: 60 minutes
+
+Service number: 6438
+Start time: 10:45
+Timming point:10:50
+Timming point:11:00
+Timming point:11:08
+Timming point:11:12
+Timming point:11:18
+Timming point:11:23
+Timming point:11:34
+End time: 11:45
+Duration: 60 minutes
+
+Service number: 6439
+Start time: 11:15
+Timming point:11:20
+Timming point:11:30
+Timming point:11:38
+Timming point:11:42
+Timming point:11:48
+Timming point:11:53
+Timming point:12:04
+End time: 12:15
+Duration: 60 minutes
+
+Service number: 6440
+Start time: 11:45
+Timming point:11:50
+Timming point:12:00
+Timming point:12:08
+Timming point:12:12
+Timming point:12:18
+Timming point:12:23
+Timming point:12:34
+End time: 12:45
+Duration: 60 minutes
+
+Service number: 6441
+Start time: 12:15
+Timming point:12:20
+Timming point:12:30
+Timming point:12:38
+Timming point:12:42
+Timming point:12:48
+Timming point:12:53
+Timming point:13:04
+End time: 13:15
+Duration: 60 minutes
+
+Service number: 6442
+Start time: 12:45
+Timming point:12:50
+Timming point:13:00
+Timming point:13:08
+Timming point:13:12
+Timming point:13:18
+Timming point:13:23
+Timming point:13:34
+End time: 13:45
+Duration: 60 minutes
+
+Service number: 6443
+Start time: 13:15
+Timming point:13:20
+Timming point:13:30
+Timming point:13:38
+Timming point:13:42
+Timming point:13:48
+Timming point:13:53
+Timming point:14:04
+End time: 14:15
+Duration: 60 minutes
+
+Service number: 6444
+Start time: 13:45
+Timming point:13:50
+Timming point:14:00
+Timming point:14:08
+Timming point:14:12
+Timming point:14:18
+Timming point:14:23
+Timming point:14:34
+End time: 14:45
+Duration: 60 minutes
+
+Service number: 6445
+Start time: 14:15
+Timming point:14:20
+Timming point:14:30
+Timming point:14:38
+Timming point:14:42
+Timming point:14:48
+Timming point:14:53
+Timming point:15:04
+End time: 15:15
+Duration: 60 minutes
+
+Service number: 6446
+Start time: 14:45
+Timming point:14:50
+Timming point:15:00
+Timming point:15:08
+Timming point:15:12
+Timming point:15:18
+Timming point:15:23
+Timming point:15:34
+End time: 15:45
+Duration: 60 minutes
+
+Service number: 6447
+Start time: 15:15
+Timming point:15:20
+Timming point:15:30
+Timming point:15:38
+Timming point:15:42
+Timming point:15:48
+Timming point:15:53
+Timming point:16:04
+End time: 16:15
+Duration: 60 minutes
+
+Service number: 6448
+Start time: 15:45
+Timming point:15:50
+Timming point:16:00
+Timming point:16:08
+Timming point:16:12
+Timming point:16:18
+Timming point:16:23
+Timming point:16:34
+End time: 16:45
+Duration: 60 minutes
+
+Service number: 6449
+Start time: 16:15
+Timming point:16:20
+Timming point:16:30
+Timming point:16:38
+Timming point:16:42
+Timming point:16:48
+Timming point:16:53
+Timming point:17:04
+End time: 17:15
+Duration: 60 minutes
+
+Service number: 6450
+Start time: 16:45
+Timming point:16:50
+Timming point:17:00
+Timming point:17:08
+Timming point:17:12
+Timming point:17:18
+Timming point:17:23
+Timming point:17:33
+End time: 17:43
+Duration: 58 minutes
+
+Service number: 6451
+Start time: 17:15
+Timming point:17:18
+Timming point:17:25
+Timming point:17:32
+Timming point:17:36
+Timming point:17:41
+Timming point:17:46
+Timming point:17:56
+End time: 18:06
+Duration: 51 minutes
+
+Service number: 6452
+Start time: 17:45
+Timming point:17:48
+Timming point:17:55
+Timming point:18:02
+Timming point:18:06
+Timming point:18:11
+Timming point:18:16
+Timming point:18:26
+End time: 18:36
+Duration: 51 minutes
+
+Service number: 6453
+Start time: 18:15
+Timming point:18:18
+Timming point:18:25
+Timming point:18:32
+Timming point:18:36
+Timming point:18:41
+Timming point:18:46
+Timming point:18:56
+End time: 19:06
+Duration: 51 minutes
+
+Service number: 6454
+Start time: 18:45
+Timming point:18:48
+Timming point:18:55
+Timming point:19:02
+Timming point:19:06
+Timming point:19:11
+Timming point:19:16
+Timming point:19:26
+End time: 19:36
+Duration: 51 minutes
+
+Service number: 6455
+Start time: 19:15
+Timming point:19:18
+Timming point:19:25
+Timming point:19:32
+Timming point:19:36
+Timming point:19:41
+Timming point:19:46
+Timming point:19:56
+End time: 20:06
+Duration: 51 minutes
+
+Service number: 6456
+Start time: 19:45
+Timming point:19:48
+Timming point:19:55
+Timming point:20:02
+Timming point:20:06
+Timming point:20:11
+Timming point:20:16
+Timming point:20:26
+End time: 20:36
+Duration: 51 minutes
+
+Service number: 6457
+Start time: 20:45
+Timming point:20:48
+Timming point:20:55
+Timming point:21:02
+Timming point:21:06
+Timming point:21:11
+Timming point:21:16
+Timming point:21:26
+End time: 21:36
+Duration: 51 minutes
+
+Service number: 6458
+Start time: 21:45
+Timming point:21:48
+Timming point:21:55
+Timming point:22:02
+Timming point:22:06
+Timming point:22:11
+Timming point:22:16
+Timming point:22:26
+End time: 22:36
+Duration: 51 minutes
+
+Service number: 6459
+Start time: 22:45
+Timming point:22:48
+Timming point:22:55
+Timming point:23:02
+Timming point:23:06
+Timming point:23:11
+Timming point:23:16
+Timming point:23:26
+End time: 23:36
+Duration: 51 minutes
