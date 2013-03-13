@@ -1,0 +1,1274 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dri",
+				"driver"
+			],
+			[
+				"minutes",
+				"minutesWorked"
+			],
+			[
+				"ro",
+				"rosterDrivers"
+			],
+			[
+				"du",
+				"getDuration"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"min",
+				"minutesWorked"
+			],
+			[
+				"mi",
+				"minutesWorked"
+			],
+			[
+				"tim",
+				"timetableKind"
+			],
+			[
+				"s",
+				"services"
+			],
+			[
+				"Ar",
+				"Arrays"
+			],
+			[
+				"Arra",
+				"ArrayList"
+			],
+			[
+				"pri",
+				"printFullTimetable"
+			],
+			[
+				"getD",
+				"getDuration"
+			],
+			[
+				"get",
+				"getStops"
+			],
+			[
+				"getT",
+				"getTimes"
+			],
+			[
+				"route",
+				"routeID"
+			],
+			[
+				"to",
+				"getTotalDuration"
+			],
+			[
+				"num",
+				"numOfStops"
+			],
+			[
+				"fi",
+				"firstStop"
+			],
+			[
+				"pr",
+				"printFullTimetable"
+			],
+			[
+				"st",
+				"stops"
+			],
+			[
+				"rou",
+				"routeID"
+			],
+			[
+				"stop",
+				"stopIndex"
+			],
+			[
+				"T",
+				"TimetableInfo"
+			],
+			[
+				"day",
+				"dayType"
+			],
+			[
+				"JR",
+				"JRFLAGS"
+			],
+			[
+				"ti",
+				"timetableKind"
+			],
+			[
+				"th",
+				"thisDuration"
+			],
+			[
+				"cal",
+				"calStart"
+			],
+			[
+				"Mai",
+				"MainGUI"
+			],
+			[
+				"P",
+				"PortB"
+			],
+			[
+				"Prt",
+				"Port"
+			],
+			[
+				"Se",
+				"send_command"
+			],
+			[
+				"Sta",
+				"StackSuper"
+			],
+			[
+				"Po",
+				"PortB"
+			],
+			[
+				"MO",
+				"MOVS"
+			],
+			[
+				"LCD",
+				"LCDman"
+			],
+			[
+				"LC",
+				"LCDman"
+			],
+			[
+				"stac",
+				"StackSuper"
+			],
+			[
+				"set",
+				"setDriverName"
+			],
+			[
+				"pa",
+				"passwordTF"
+			],
+			[
+				"Drive",
+				"DriverInfo"
+			],
+			[
+				"ex",
+				"exists"
+			],
+			[
+				"S",
+				"System"
+			],
+			[
+				"in",
+				"inputDriverID"
+			],
+			[
+				"c",
+				"checkDetails"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"str",
+				"strcmp"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"res",
+				"responseBody"
+			],
+			[
+				"g",
+				"getBookings"
+			],
+			[
+				"co",
+				"continue"
+			],
+			[
+				"slo",
+				"slot_id"
+			],
+			[
+				"J",
+				"JUMP_ITER"
+			],
+			[
+				"JU",
+				"JUMP_SIZE"
+			],
+			[
+				"de",
+				"deltay"
+			],
+			[
+				"GL",
+				"GLfloat"
+			],
+			[
+				"ml",
+				"mlon"
+			],
+			[
+				"center",
+				"centerz"
+			],
+			[
+				"eye",
+				"eyey"
+			],
+			[
+				"cen",
+				"centerx"
+			],
+			[
+				"D",
+				"DEG_TO_RAD"
+			],
+			[
+				"Gl",
+				"GLdouble"
+			],
+			[
+				"GLd",
+				"GLdouble"
+			],
+			[
+				"total",
+				"total_cmp"
+			],
+			[
+				"tota",
+				"total_finds"
+			],
+			[
+				"tot",
+				"total_finds"
+			],
+			[
+				"print",
+				"printf	printf …"
+			],
+			[
+				"t",
+				"tree_ptr"
+			],
+			[
+				"tre",
+				"tree_ptr"
+			],
+			[
+				"n",
+				"newNode"
+			],
+			[
+				"tr",
+				"tree_ptr"
+			],
+			[
+				"glut",
+				"glutInit"
+			],
+			[
+				"gl",
+				"glutInit"
+			],
+			[
+				"key",
+				"keyboard"
+			],
+			[
+				"Serv",
+				"servlet"
+			],
+			[
+				"Clin",
+				"toClient"
+			],
+			[
+				"se",
+				"serverName"
+			],
+			[
+				"seq",
+				"sequenceNumber"
+			],
+			[
+				"Is",
+				"isPresent"
+			],
+			[
+				"is",
+				"Its"
+			],
+			[
+				"olde",
+				"oldestPage"
+			],
+			[
+				"las",
+				"lastTimeUsed"
+			],
+			[
+				"page",
+				"pages"
+			],
+			[
+				"ol",
+				"oldestPage"
+			],
+			[
+				"m",
+				"mice"
+			],
+			[
+				"p",
+				"pangolin"
+			],
+			[
+				"qu",
+				"isQuestion"
+			],
+			[
+				"V",
+				"VIEW_SCANDAL"
+			],
+			[
+				"CA",
+				"CATALOGUEENTRY"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"Ma",
+				"MasterTrack"
+			],
+			[
+				"M",
+				"MasterTrack"
+			],
+			[
+				"I",
+				"INTO"
+			],
+			[
+				"ALbuT",
+				"AlbumTracks"
+			],
+			[
+				"IN",
+				"INTO"
+			],
+			[
+				"A",
+				"AlbumTracks"
+			],
+			[
+				"Vi",
+				"Vinyl"
+			],
+			[
+				"B",
+				"Blox"
+			],
+			[
+				"Z",
+				"Zero7"
+			],
+			[
+				"Ja",
+				"Jaher"
+			],
+			[
+				"R",
+				"Rowl"
+			],
+			[
+				"Ju",
+				"Julie"
+			],
+			[
+				"F",
+				"Flut"
+			],
+			[
+				"In",
+				"INSERT"
+			],
+			[
+				"fr",
+				"fprintf"
+			],
+			[
+				"te",
+				"testlabels"
+			],
+			[
+				"this",
+				"thislabel"
+			],
+			[
+				"di",
+				"digdata"
+			],
+			[
+				"H",
+				"HOW_MANY"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"no",
+				"noProcs"
+			],
+			[
+				"ne",
+				"nextRunner"
+			],
+			[
+				"next",
+				"nextRunner"
+			],
+			[
+				"wa",
+				"wavg"
+			],
+			[
+				"maxj",
+				"maxj"
+			],
+			[
+				"char",
+				"charCount"
+			],
+			[
+				"part",
+				"part4"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"max",
+				"maxindex"
+			],
+			[
+				"ma",
+				"maxlen"
+			],
+			[
+				"prin",
+				"printBoard"
+			],
+			[
+				"con",
+				"constraint_type"
+			],
+			[
+				"U",
+				"UsernameNotFound"
+			],
+			[
+				"User",
+				"UsernameNotFound"
+			],
+			[
+				"u",
+				"userBox"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/S11/grigora1/COMP26120/ex11/bnb.c",
+			"settings":
+			{
+				"buffer_size": 5724,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/S11/grigora1/COMP26120/ex11/dp.c",
+			"settings":
+			{
+				"buffer_size": 2869,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/S11/grigora1/COMP26120/ex11/enum.c",
+			"settings":
+			{
+				"buffer_size": 2025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/S11/grigora1/COMP26120/ex11/greedy.c",
+			"settings":
+			{
+				"buffer_size": 1147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 937,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BusStopInfo.java",
+			"settings":
+			{
+				"buffer_size": 6846,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "TimetableInfo.java",
+			"settings":
+			{
+				"buffer_size": 4819,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "DriverInfo.java",
+			"settings":
+			{
+				"buffer_size": 5287,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Driver.java",
+			"settings":
+			{
+				"buffer_size": 4078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BusInfo.java",
+			"settings":
+			{
+				"buffer_size": 2733,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Someclass.java",
+			"settings":
+			{
+				"buffer_size": 3988,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Service.java",
+			"settings":
+			{
+				"buffer_size": 2794,
+				"line_ending": "Unix",
+				"name": "public class Service"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"selected_items":
+		[
+			[
+				"projec",
+				"Project: Close"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/S11/grigora1/dojo/1.in",
+		"/home/S11/grigora1/COMP23420/F11Project/Request.java",
+		"/home/S11/grigora1/COMP23420/F11Project/untitled.sublime-workspace",
+		"/home/S11/grigora1/COMP23420/F11Project/BusInfo.java",
+		"/home/S11/grigora1/COMP26120/ex11/answers",
+		"/home/info/courses/COMP20262/Code_examples/bcd_convert.s",
+		"/home/S11/grigora1/COMP22712/ex1/constants.s",
+		"/home/S11/grigora1/COMP22712/ex1/lab2.s",
+		"/home/S11/grigora1/COMP22712/ex1/program.s",
+		"/home/S11/grigora1/COMP23420/project/F11Project/GUI/RequestHolidayGUI.java",
+		"/home/S11/grigora1/COMP26120/ex10/dict-tree.c",
+		"/home/S11/grigora1/COMP26120/ex10/dict-hash.c",
+		"/home/S11/grigora1/COMP26120/ex10/makefile",
+		"/home/S11/grigora1/COMP23420/F11Project/timetables.txt",
+		"/home/S11/grigora1/COMP23420/project/F11Project/Makefile",
+		"/home/S11/grigora1/COMP24412/ex2/ex2.pl",
+		"/home/S11/grigora1/COMP22712/ex1/os.s",
+		"/home/info/courses/COMP20262/Code_examples/bcd.s",
+		"/home/S11/grigora1/.config/sublime-text-2/Packages/ARM/ARM.tmLanguage",
+		"/home/S11/grigora1/.config/sublime-text-2/Packages/ARM/ARM.JSON-tmLanguage",
+		"/home/S11/grigora1/COMP28112/ex2/code.py",
+		"/home/S11/grigora1/Downloads/SystemCall",
+		"/home/S11/grigora1/Downloads/Nicknames.s",
+		"/home/S11/grigora1/COMP22712/ex1/lab1",
+		"/home/S11/grigora1/COMP23420/project/F11Project/GUI/MainGUI.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/GUI/WelcomeGUI.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/GUI/LoginGUI.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/Driver.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/database.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/DriverInfo.java",
+		"/home/S11/grigora1/COMP27112/cwk2/cwk2.obj",
+		"/home/S11/grigora1/COMP23420/project/F11Project/GUI/Window.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/Database.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/Database",
+		"/home/S11/grigora1/COMP28112/ex2/code.js",
+		"/home/S11/grigora1/COMP26120/ex10/speller.h",
+		"/home/S11/grigora1/COMP26120/ex10/speller.c",
+		"/home/S11/grigora1/COMP26120/ex10/dict.h",
+		"/home/S11/grigora1/COMP23420/project/F11Project/BusStopInfo.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/BusRoot.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/BusInfo.java",
+		"/home/S11/grigora1/COMP27112/ex1/ex1.c",
+		"/home/S11/grigora1/COMP23420/project/F11Project/TimetableInfo.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/Main.java",
+		"/home/S11/grigora1/COMP23420/project/F11Project/InvalidQueryException.java",
+		"/home/S11/grigora1/COMP27112/ex1/ex1",
+		"/home/S11/grigora1/COMP26120/ex10/*h.",
+		"/home/S11/grigora1/COMP24412/lab1.pl",
+		"/home/S11/grigora1/COMP23420/project/database.java",
+		"/home/S11/grigora1/COMP23420/project/TimetableInfo.java",
+		"/home/S11/grigora1/COMP23420/project/BusInfo.java",
+		"/home/S11/grigora1/COMP23420/project/BusStopInfo.java",
+		"/home/S11/grigora1/COMP23420/project/DriverInfo.java",
+		"/home/S11/grigora1/COMP23420/project/Main.java",
+		"/home/S11/grigora1/COMP23420/project/InvalidQueryException.java",
+		"/home/S11/grigora1/COMP23420/project/BusRoot.java",
+		"/home/S11/grigora1/COMP27112/cwk1/teapot.c",
+		"/home/S11/grigora1/COMP27112/tut/ex4.c",
+		"/home/S11/grigora1/COMP28112/ex1/SocketServer.java",
+		"/home/S11/grigora1/COMP28112/ex1/SimpleServlet.java",
+		"/home/S11/grigora1/COMP26120/ex8/lists.c",
+		"/home/S11/grigora1/COMP27112/tut/ex1.c",
+		"/home/S11/grigora1/COMP28112/ex1/servlet.properties",
+		"/home/S11/grigora1/COMP28112/ex1/RemoteServer.java",
+		"/home/S11/grigora1/COMP28112/ex1/RMServer.java",
+		"/home/S11/grigora1/COMP28112/ex1/RMClient.java",
+		"/home/S11/grigora1/COMP28112/ex1/ServletClient.html",
+		"/home/S11/grigora1/COMP25111/ex3/MMUSim.java",
+		"/home/S11/grigora1/COMP25111/ex3/MMU.java",
+		"/home/S11/grigora1/COMP25111/ex2/TestScheduler.java",
+		"/home/S11/grigora1/COMP25111/ex2/TestBarrier.java",
+		"/home/S11/grigora1/COMP25111/ex2/Semaphore.java",
+		"/home/S11/grigora1/COMP25111/ex2/RoundRobinScheduler.java",
+		"/home/S11/grigora1/COMP25111/ex2/PriorityScheduler.java",
+		"/home/S11/grigora1/COMP25111/ex2/SimProc.java",
+		"/home/S11/grigora1/COMP25111/ex2/SemScheduler.java",
+		"/home/S11/grigora1/COMP25111/ex2/SemProc.java",
+		"/home/S11/grigora1/COMP25111/ex2/Scheduler.java",
+		"/home/S11/grigora1/COMP25111/ex2/RandomScheduler.java",
+		"/home/S11/grigora1/Downloads/conferinta.html",
+		"/home/S11/grigora1/COMP26120/ex9/somecode.c",
+		"/home/S11/grigora1/COMP26120/ex8/somecode.c",
+		"/home/S11/grigora1/COMP23111/ex4/somefile.sql",
+		"/home/S11/grigora1/COMP23111/ex4/part4.sql",
+		"/home/S11/grigora1/fjsdg/B.cpp",
+		"/home/S11/grigora1/COMP23111/ex3/part4.sql",
+		"/home/S11/grigora1/COMP23111/ex3/population.sql",
+		"/home/S11/grigora1/COMP23111/ex3/create-extended-tables.sql",
+		"/home/S11/grigora1/fjsdg/C.cpp",
+		"/home/S11/grigora1/fjsdg/A.cpp",
+		"/home/S11/grigora1/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/S11/grigora1/.config/sublime-text-2/Packages/User/SQL.sublime-settings",
+		"/home/S11/grigora1/COMP24111/ex2/part2.m",
+		"/home/S11/grigora1/COMP24111/ex2/divide9regions.m",
+		"/home/S11/grigora1/COMP24111/ex2/extractmyfeatures.m",
+		"/home/S11/grigora1/COMP24111/ex2/part1.m",
+		"/home/S11/grigora1/COMP26120/ex5/part1.c",
+		"/home/S11/grigora1/COMP26120/ex5/part2.c",
+		"/home/S11/grigora1/COMP26120/ex5/part3.c",
+		"/home/S11/grigora1/COMP26120/ex5/arrays.c",
+		"/home/S11/grigora1/COMP26120/ex4/part1.c",
+		"/home/S11/grigora1/Downloads/grigoroi.html",
+		"/home/S11/grigora1/Downloads/ci.html",
+		"/home/S11/grigora1/Downloads/cimm.html",
+		"/home/S11/grigora1/Downloads/bc.html",
+		"/home/S11/grigora1/COMP23111/ex1/part2.sql",
+		"/home/S11/grigora1/COMP23111/ex1/part1.sql",
+		"/home/S11/grigora1/COMP24111/ex2/part1.matlab",
+		"/home/S11/grigora1/COMP26120/ex4/part5.c",
+		"/home/S11/grigora1/COMP26120/ex4/makefile",
+		"/home/S11/grigora1/COMP26120/ex4/part4.c",
+		"/home/S11/grigora1/COMP26120/ex4/part3.c",
+		"/home/S11/grigora1/COMP26120/ex4/part2.c",
+		"/home/S11/grigora1/COMP23111/ex1/ex2.sql",
+		"/home/S11/grigora1/COMP23111/ex1/ex1.sql",
+		"/home/S11/grigora1/COMP26120/ex4/part4. c",
+		"/home/S11/grigora1/COMP26120/ex4/part3.s",
+		"/home/S11/grigora1/ex1v3.sql",
+		"/home/S11/grigora1/COMP25111/ex1/answer.ltx",
+		"/home/S11/grigora1/COMP26120/ex2/Algorithms.txt",
+		"/home/S11/grigora1/COMP18112/ex3/gui/helloWorld.py",
+		"/home/S11/grigora1/COMP18112/ex3/client.py",
+		"/home/S11/grigora1/COMP18112/ex3/gui/base.py",
+		"/home/S11/grigora1/COMP10120/FinalReport/report.tex",
+		"/home/S11/grigora1/COMP18112/ex3/server.py",
+		"/home/S11/grigora1/COMP18112/ex3/gui/client.py",
+		"/home/S11/grigora1/COMP18112/ex3/ex3.py",
+		"/home/S11/grigora1/COMP14112/ex3/markov/Answer.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"int",
+			"6463",
+			"service",
+			"BEQ",
+			"LCDman",
+			"bcd_convert",
+			"stackU",
+			"string",
+			"char",
+			"com",
+			"add",
+			"b",
+			";",
+			":",
+			"comment",
+			"get",
+			"database",
+			";\n",
+			"opene",
+			"\"\"",
+			"xml",
+			"jump",
+			"spin",
+			"mouse_m",
+			"lon",
+			"find",
+			"dir",
+			"True",
+			"st",
+			"butt",
+			"delay",
+			"end1",
+			"isDirty",
+			"writebacks",
+			"max Spring",
+			"static",
+			"stat",
+			"stati",
+			"static",
+			"sema",
+			"featureDimension",
+			"feature",
+			"normal",
+			"FEATUREdIMENSION",
+			"set",
+			"get",
+			"send",
+			"sendALL",
+			"select",
+			"10",
+			"\">",
+			"is",
+			"warp",
+			" = ",
+			"The",
+			"3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/S11/grigora1/COMP26120/ex11/bnb.c",
+					"settings":
+					{
+						"buffer_size": 5724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/S11/grigora1/COMP26120/ex11/dp.c",
+					"settings":
+					{
+						"buffer_size": 2869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/S11/grigora1/COMP26120/ex11/enum.c",
+					"settings":
+					{
+						"buffer_size": 2025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/S11/grigora1/COMP26120/ex11/greedy.c",
+					"settings":
+					{
+						"buffer_size": 1147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Makefile",
+					"settings":
+					{
+						"buffer_size": 937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "BusStopInfo.java",
+					"settings":
+					{
+						"buffer_size": 6846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "TimetableInfo.java",
+					"settings":
+					{
+						"buffer_size": 4819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2716,
+								2716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "DriverInfo.java",
+					"settings":
+					{
+						"buffer_size": 5287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								890,
+								890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Driver.java",
+					"settings":
+					{
+						"buffer_size": 4078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "BusInfo.java",
+					"settings":
+					{
+						"buffer_size": 2733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Someclass.java",
+					"settings":
+					{
+						"buffer_size": 3988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3457,
+								3457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1395.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Service.java",
+					"settings":
+					{
+						"buffer_size": 2794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"auto_name": "public class Service",
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 269.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/S11/grigora1/COMP23420/F11Project/untitled.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
