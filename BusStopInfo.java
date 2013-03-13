@@ -97,7 +97,7 @@ public class BusStopInfo
   }
 
   /**
-   * Get al the bus stops in a given area
+   * Get all the bus stops in a given area
    */
   public static int[] getBusStopsInArea(int area)
   {

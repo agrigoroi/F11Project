@@ -9,9 +9,12 @@ import java.util.concurrent.TimeUnit;
 
 
 /**
- * Class
- *
  * @author Alex Davies
+ *
+ * GUI Class
+ * GUI window for a driver to request holidays.
+ * It displays the current number of holidays remaining
+ * as well as the number of days currently selected.
  */
 public class RequestHolidayGUI extends Window implements ActionListener
 {
@@ -39,6 +42,9 @@ public class RequestHolidayGUI extends Window implements ActionListener
 	                 " days remaining");
   }
 	
+  /**
+   * Shows the GUI window and adds the labels and buttons
+   */
   public void show(MainGUI window)
   {
     contents = window.getContentPane();
@@ -62,8 +68,12 @@ public class RequestHolidayGUI extends Window implements ActionListener
     btnBack.addActionListener(this);
   }
   
+  /**
+   * If a button has been pressed, do the appropriate response
+   */
   public void actionPerformed(ActionEvent e)
   {
+    //Verify the input and then open a confirmation window if successful
     if(e.getSource() == btnVerify)
     {
       try
@@ -74,6 +84,7 @@ public class RequestHolidayGUI extends Window implements ActionListener
     	  request.save();
     	  MainGUI.window.openWindow(new ConfirmationGUI(driver, request));
       }
+      //catch date format errors
       catch(java.text.ParseException exception)
       {
     	  lblError.setText("There was an error with the dates input,\n "
@@ -81,13 +92,14 @@ public class RequestHolidayGUI extends Window implements ActionListener
 	                     + "are in the correct format");
     	  System.out.println(exception);
       }
+      //catch any unexpected errors
       catch(Exception exception)
       {
     	  lblError.setText(exception.getMessage());
       }
     }
+    //Open up previous window
     else if(e.getSource() == btnBack)
-      
       driver.showWelcome();
   }
 }

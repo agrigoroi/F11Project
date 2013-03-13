@@ -1,82 +1,78 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
+/**
+ * @author Anthony Glover
+ *
+ * GUI Class
+ * Initial window for the application, provides a log in screen
+ * for a driver. Driver uses his driver number as an ID
+ */
 
-public class LoginGUI extends Window
+public class LoginGUI extends Window implements ActionListener
 {
+  public Container pane;
+  private JLabel idL = new JLabel("Driver Number"),
+                 passwordL = new JLabel("Password"), 
+                 loginText = new JLabel ("Please enter your details"), 
+                 blank = new JLabel("");
+  
+  private JTextField idTF;
+  private JPasswordField passwordTF;
+  private JButton loginB, exitB;
+  
+  public static MainGUI window;
+	
+  /**
+   * Shows the GUI window and adds the labels and buttons
+   */
+  public void show(MainGUI _window)
+  {
+    window = _window;
+    pane = window.getContentPane();
+    pane.setLayout(new GridLayout(4, 2));
+    
+    pane.add(idL);
+    idTF = new JTextField(10);
+    pane.add(idTF);
+    
+    pane.add(passwordL);
+    passwordTF = new JPasswordField(10);
+    pane.add(passwordTF);
+    
+    pane.add(loginText);
+    pane.add(blank);
+    
+    exitB = new JButton("Exit");
+    exitB.addActionListener(this);
+    pane.add(exitB);
+    loginB = new JButton("Login");
+    loginB.addActionListener(this);
+    pane.add(loginB);
+  }
+	
+  /**
+   * If a button has been pressed, do the appropriate response
+   */
+  public void actionPerformed(ActionEvent e)
+  {
+    if(e.getSource() == loginB)
+    {
+      try
+      {
+        Driver driver = new Driver(idTF.getText());
 
-	private JLabel idL, passwordL, loginText, blank;
-	private JTextField idTF;
-	private JPasswordField passwordTF;
-	private JButton loginB, exitB;
-	
-	//Button handlers:
-	private LoginButtonHandler loginHandler;
-	private ExitButtonHandler ebHandler;
-	
-	public static MainGUI window;
-	
-	public void show(MainGUI _window)
-	{
-		window = _window;
-		
-		idL = new JLabel("Driver Number", SwingConstants.LEFT);
-		passwordL = new JLabel("Password", SwingConstants.LEFT);
-		loginText = new JLabel ("Please enter your details", SwingConstants.LEFT);
-		blank = new JLabel ("", SwingConstants.LEFT);
-		
-		idTF = new JTextField(10);
-		passwordTF = new JPasswordField(10);
-
-		//SPecify handlers for each button and add (register) ActionListeners to each button.
-		loginB = new JButton("Login");
-		loginHandler = new LoginButtonHandler();
-		loginB.addActionListener(loginHandler);
-		exitB = new JButton("Exit");
-		ebHandler = new ExitButtonHandler();
-		exitB.addActionListener(ebHandler);
-		
-		//setTitle("Login");
-		Container pane = window.getContentPane();
-		pane.setLayout(new GridLayout(4, 2));
-		
-		//Add things to the pane in the order you want them to appear (left to right, top to bottom)
-		pane.add(idL);
-		pane.add(idTF);
-		pane.add(passwordL);
-		pane.add(passwordTF);
-		pane.add(loginText);
-		pane.add(blank);
-		pane.add(exitB);
-		pane.add(loginB);
-	}
-	
-	private class LoginButtonHandler implements ActionListener
-	{
-		public void actionPerformed(ActionEvent e)
-		{
-			try
-			{
-				Driver driver = new Driver(idTF.getText());
-			
-				if(driver.checkPassword(passwordTF.getText()))
-					driver.showWelcome();
-				else
-					loginText.setText("Wrong details");
-			}
-			catch(Exception ex)
-			{
-				loginText.setText("Wrong details");
-			}
-		}
-	}
-	
-	public class ExitButtonHandler implements ActionListener
-	{
-		public void actionPerformed(ActionEvent e)
-		{
-			System.exit(0);
-		}
-	}
-	
+        if(driver.checkPassword(passwordTF.getText()))
+          driver.showWelcome();
+        else
+          loginText.setText("Incorrect Login\n information");
+      }
+      catch(Exception ex)
+      {
+	loginText.setText("Incorrect Login\n information");
+      }
+    }
+    else if(e.getSource() == exitB)
+      System.exit(0);
+  }
 }

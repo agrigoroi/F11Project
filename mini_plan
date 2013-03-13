@@ -1,10 +1,14 @@
-Update our domain models
-Update glossary / user requirement
-Update driver request
-Create rostering algo
+//Update our domain models
+
+//Update driver request
+
+
+//Produce design classes
+//Sequence Diagrams
+
 Design/Create rostering interface
-Produce design classes
-Sequence Diagrams
+Update glossary / user requirement
+Create rostering algo
 
 
 week 2 iteration 2
@@ -16,3 +20,23 @@ update domain model and glossary
 Alex G and Alex D
 sequence for rostering
 update driver request gui
+
+
+
+week 3 iteration 2
+
+Jack and Ant
+create rostering interface
+driver see his timetable
+
+Leonid and Alex G
+initial rostering algo
+
+Alex D
+comment code
+test algo
+create new tables for roster
+
+
+
+

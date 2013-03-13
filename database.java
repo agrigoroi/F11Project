@@ -37,7 +37,10 @@ public class database
     this.connection_url = connection_url;
     this.driver_name    = driver_name;
   }
-
+  
+  /**
+   * Opens the Database for access
+   */
   public static void openBusDatabase()
   {
     try
@@ -52,7 +55,10 @@ public class database
       throw new InvalidQueryException("Unable to open database " + ex.getMessage());
     }
   }
-
+  
+  /**
+   * Returns the date today
+   */
   public static java.util.Date today()
   {
     Calendar c = new GregorianCalendar();
@@ -60,6 +66,9 @@ public class database
     return c.getTime();
   }
 
+  /**
+   * 
+   */
   public Boolean open()
   {
     if (find_driver())
@@ -71,6 +80,9 @@ public class database
       return false;
   }
 
+  /**
+   * 
+   */
   private Boolean execute(String sql_command)
   {
      try
@@ -87,6 +99,9 @@ public class database
      }
   }
 
+  /**
+   * 
+   */
   public int record_count(String target, String source, String criteria)
   {
     try
@@ -109,16 +124,25 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public int record_count(String target, String source, String field, Object value)
   {
     return record_count(target, source, field + " = " + value_string(value));
   }
 
+  /**
+   * 
+   */
   public int record_count(String target, String source, String field1, Object value1, String field2, Object value2)
   {
     return record_count(target, source, field1 + " = " + value_string(value1) + " And " + field2 + " = " + value_string(value2));
   }
 
+  /**
+   * 
+   */
   public void select(String target, String source, String criteria, String order)
   {
     try
@@ -139,18 +163,27 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public Boolean select_record(String target, String source, String field, Object value)
   {
     select("*", source, field + " = " + value_string(value), "");
     return move_first();
   }
 
+  /**
+   * 
+   */
   public Boolean select_record(String source, String field1, Object value1, String field2, Object value2)
   {
     select("*", source, field1 + " = " + value_string(value1) + " And " + field2 + " = " + value_string(value2), "");
     return move_first();
   }
 
+  /**
+   * 
+   */
   public int find_id(String table, String field, Object value)
   {
     select(table + "_id", table, field + " = " + value_string(value), "");
@@ -158,6 +191,9 @@ public class database
     else return 0;
   }
 
+  /**
+   * 
+   */
   public int find_id(String id_field, String source, String field1, Object value1, String field2, Object value2)
   {
     select(id_field, source, field1 + " = " + value_string(value1) + " And " + field2 + " = " + value_string(value2), "");
@@ -165,6 +201,9 @@ public class database
     else return 0;
   }
 
+  /**
+   * 
+   */
   public int[] select_ids(String id_field, String source, String order)
   {
     int    count    = record_count(id_field, source, "");
@@ -175,6 +214,9 @@ public class database
     return results;
   }
 
+  /**
+   * 
+   */
   public int[] select_ids(String id_field, String source, String field, Object value, String order)
   {
     int    count    = record_count(id_field, source, field + " = " + value_string(value));
@@ -185,6 +227,9 @@ public class database
     return results;
   }
 
+  /**
+   * 
+   */
   public int[] select_ids(String id_field, String source, String field1, Object value1, String field2, Object value2, String order)
   {
     int    count    = record_count(id_field, source, field1 + " = " + value_string(value1) + " And " + field2 + " = " + value_string(value2));
@@ -195,6 +240,9 @@ public class database
     return results;
   }
 
+  /**
+   * 
+   */
   public int get_int(String table, int id, String field_name)
   {
     select(field_name, table, table + "_id = " + id, "");
@@ -203,6 +251,9 @@ public class database
     else return 0;
   }
 
+  /**
+   * 
+   */
   public String get_string(String table, int id, String field_name)
   {
     select(field_name, table, table + "_id = " + id, "");
@@ -211,6 +262,9 @@ public class database
     else return "";
   }
 
+  /**
+   * 
+   */
   public void set_value(String table, int id, String field_name, Object value)
   {
     begin_update(table, id);
@@ -218,6 +272,9 @@ public class database
     end_update();
   }
 
+  /**
+   * 
+   */
   public java.util.Date get_date(String table, int id, String field_name)
   {
     select(field_name, table, table + "_id = " + id, "");
@@ -226,11 +283,17 @@ public class database
     else return database.today();
   }
 
+  /**
+   * 
+   */
   public static String join(String referring_table, String referenced_table, String referring_field)
   {
     return referring_table + " Inner Join " + referenced_table + " On (" + referenced_table + "." + referenced_table + "_id = " + referring_table + "." + referring_field + ")";
   }
 
+  /**
+   * 
+   */
   public Boolean move_first()
   {
     try
@@ -243,6 +306,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public Boolean move_next()
   {
     try
@@ -255,6 +321,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public Object get_field(String field_name)
   {
     try
@@ -267,6 +336,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public Boolean set_field(String field_name, Object value)
   {
     try
@@ -280,6 +352,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public Boolean begin_update(String table, Integer id)
   {
     try
@@ -298,6 +373,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public Boolean end_update()
   {
     if (error)
@@ -306,6 +384,9 @@ public class database
       return commit();
   }
 
+  /**
+   * 
+   */
   public void update_record(String table, int id, Object[][] fields)
   {
     begin_update(table, id);
@@ -318,6 +399,9 @@ public class database
     end_update();
   }
 
+  /**
+   * 
+   */
   public Boolean begin_new_record(String table)
   {
     try
@@ -337,6 +421,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public Integer end_new_record()
   {
     if (error)
@@ -354,6 +441,9 @@ public class database
       }
   }
 
+  /**
+   * 
+   */
   public void new_record(String table, Object[][] fields)
   {
     begin_new_record(table);
@@ -366,6 +456,9 @@ public class database
     end_new_record();
   }
 
+  /**
+   * 
+   */
   public Boolean select_record(String table_name, String criteria)
   {
     if (criteria.isEmpty())
@@ -374,26 +467,41 @@ public class database
       return execute("Select * From " + table_name + " Where " + criteria);
   }
 
+  /**
+   * 
+   */
   public Boolean delete_record(String table, Integer id)
   {
     return execute("Delete From " + table + " Where " + table + "_id = " + id.toString());
   }
 
+  /**
+   * 
+   */
   public Boolean delete_record(String table, String criteria)
   {
     return execute("Delete From " + table + " Where " + criteria);
   }
 
+  /**
+   * 
+   */
   public Boolean delete_record(String table, String field, Object value)
   {
     return execute("Delete From " + table + " Where field = " + value_string(value));
   }
 
+  /**
+   * 
+   */
   public Boolean delete_record(String table, String field1, Object value1, String field2, Object value2)
   {
     return execute("Delete From " + table + " Where " + field1 + " = " + value_string(value1) + " And " + field2 + " = " + value_string(value2));
   }
 
+  /**
+   * 
+   */
   public Boolean close()
   {
     try
@@ -409,6 +517,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   public String value_string(Object x)
   {
     if (x == null                      ) return "''";
@@ -417,6 +528,9 @@ public class database
     else                                 return x.toString();
   }
 
+  /**
+   * 
+   */
   public static String sql_date(java.util.Date d)
   {
     Calendar c = new GregorianCalendar();
@@ -424,6 +538,9 @@ public class database
     return "'" + c.get(Calendar.YEAR)  + "," + (c.get(Calendar.MONTH) + 1)  + "," + c.get(Calendar.DAY_OF_MONTH)  + "'";
   }
 
+  /**
+   * 
+   */
   private Boolean commit()
   {
     try
@@ -437,6 +554,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   private Boolean connect()
   {
     try
@@ -450,6 +570,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   private Boolean disconnect()
   {
     try
@@ -464,6 +587,9 @@ public class database
     }
   }
 
+  /**
+   * 
+   */
   private Boolean find_driver()
   {
     try

@@ -7,19 +7,31 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author Alexandru Grigoroi
  *
+ * Instantiatable Class which represents information about Requests.
+ * It also allows the application to get the starting and ending
+ * dates of a particular request as well as to get and set the status
+ * of a particular request.<br><br>
+ * 
+ * As well as an ID, requests have numbers which are traditionally
+ * used to identify them. <br><br>
+ * 
+ * The methods contain checks for invalid request, which will result in
+ * Exceptions being thrown, and also enforces some "business
+ * rules" such as checking for dates in the past.
+ *
  */
 public class Request {
 	
 	private static final int MINIMUM_DRIVERS_AVAILABLE = 10;
-	private static String[] statusMessage = new String[]{"Awaiting Approval", "Approved", "Rejectect"};
-	private static SimpleDateFormat parser = new SimpleDateFormat("dd/MM/yyyy");
+	private static String[] statusMessage = new String[]{"Awaiting Approval", "Approved", "Rejected"};
+	private static SimpleDateFormat parser = new SimpleDateFormat("dd/MM/yyyy"); //Used to parse Date strings
 	
-	private Boolean exists = false;
+	private Boolean exists = false;	
 	private int id;
 	private Date startDate;
 	private Date endDate;
-	private int status;
-	private Driver driver;
+	private int status;		//can take values of 0, 1 or 2. Each value corresponds to a different status message
+	private Driver driver;		
 	
 	public Request(int id)
 	{
@@ -38,6 +50,7 @@ public class Request {
 			this.exists = false;
 		}
 	}
+	
 	public Request(Date startDate, Date endDate, Driver driver) throws Exception
 	{
 		if(startDate.after(endDate))
@@ -49,17 +62,17 @@ public class Request {
 			throw new Exception("Holiday duration is too big");
 		Date date = new Date(startDate.getTime());
 		Driver[] drivers = Driver.getDrivers();
-		while(date.compareTo(endDate) <= 0)
+		while(date.compareTo(endDate) <= 0)  //iterate through every day in request
 		{
-			int availableDrivers = 0;
+			int availableDrivers = 0;  //Available drivers must be initialised to 0 for each new day
 			for(Driver thisDriver: drivers)
 			{
-				if(thisDriver.isAvailable(date))
+				if(thisDriver.isAvailable(date))  //Checks whether a driver is available to work
 					availableDrivers++;
-				if(availableDrivers > MINIMUM_DRIVERS_AVAILABLE)
-					break;
+				if(availableDrivers > MINIMUM_DRIVERS_AVAILABLE)  //Exit for loop if available drivers
+					break;					  //exceeds the minimum no. of drivers
 			}
-			if(availableDrivers <= MINIMUM_DRIVERS_AVAILABLE)
+			if(availableDrivers <= MINIMUM_DRIVERS_AVAILABLE)  //throw an exception if there isn't enough drivers
 				throw new Exception("Holidays for " + date + " are already fully booked");
 			date.setTime(date.getTime() + 24*60*60*1000);
 		}
@@ -71,42 +84,74 @@ public class Request {
 	{
 		this(parser.parse(start), parser.parse(end), driver);
 	}
-	
+
+	/**
+         * Returns the duration of the request in days
+         */
 	public int getLength()
 	{
 		return (int)(TimeUnit.MILLISECONDS.toDays(endDate.getTime()
                 - startDate.getTime())) + 1;
 	}
 	
-	public Boolean getExists() {
+	/**
+         * Returns whether the Requests exists
+         */
+	public Boolean getExists() 
+	{
 		return exists;
 	}
 
-	public int getId() {
+	/**
+         * Returns the database ID of the request
+         */
+	public int getId() 
+	{
 		return id;
 	}
 
-	public Date getStartDate() {
+	/**
+         * Returns the starting date of the request
+         */
+	public Date getStartDate() 
+	{
 		return startDate;
 	}
 
-	public Date getEndDate() {
+	/**
+         * Returns the ending date of the request
+         */
+	public Date getEndDate() 
+	{
 		return endDate;
 	}
 
-	public int getStatus() {
+	/**
+         * Returns the status of the request
+         */
+	public int getStatus() 
+	{
 		return status;
 	}
 
-	public void save()
+	/**
+         * Inserts the request into the database
+         */
+	public void save() throws Exception
 	{
 		if(!exists)
 		{
 			RequestInfo.insert(driver.getID(), this.startDate, this.endDate, this.status);
 			driver.takeHoliday(this);
 		}
+		else
+		  throw new Exception("This request has already been sent");
 	}
-	
+
+	/**
+         * Returns requests requested by a driver
+	 * @param the driver id of the driver
+         */	
 	public static Request[] getByDriver(int driver)
 	{
 		int[] ids = RequestInfo.findRequestByDriver(driver);
@@ -116,11 +161,18 @@ public class Request {
 		return requests;
 	}
 	
+	/**
+         * Returns the requests requested by a driver
+	 * @param an instance of a driver
+         */	
 	public static Request[] getByDriver(Driver driver)
 	{
 		return getByDriver(driver.getID());
 	}
 	
+	/**
+         * 
+         */
 	public String getStatusMessage()
 	{
 		return statusMessage[this.status];

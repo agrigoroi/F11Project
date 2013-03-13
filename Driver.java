@@ -1,5 +1,19 @@
 import java.util.Date;
 
+/**
+ * Instantiatable Class which represents information about drivers and their availability.
+ * It also allows the application to get and set the number of hours a
+ * driver has worked over time periods of a week or a year, and the
+ * holidays taken by a driver in the current calendar year.<br><br>
+ * 
+ * As well as an ID, drivers (like buses) have numbers which are traditionally
+ * used to identify them. You can also get the name of a specified driver<br><br>
+ * 
+ * This Class also contains a few methods used to show GUI windows necessary for
+ * the application.
+ *
+ */
+ 
 public class Driver
 {
 	private Boolean exists = false;
@@ -43,6 +57,10 @@ public class Driver
 		}	
 	}
 
+	/**
+         * Checks a password a returns whether that password is valid
+	 * @param password
+         */
 	public Boolean checkPassword(String password)
 	{
 		if(this.exists)
@@ -51,11 +69,17 @@ public class Driver
 		return false;
 	}
 	
+	/**
+         * Method to open up showWelcome GUI
+         */
 	public void showWelcome()
 	{
 		LoginGUI.window.openWindow(new WelcomeGUI(this));
 	}
 	
+	/**
+         * Method to open up showHolidays GUI
+         */
 	public void showHolidays()
 	{
 		Request[] requests = Request.getByDriver(id);
@@ -65,16 +89,27 @@ public class Driver
 			LoginGUI.window.openWindow(new HolidayGUI(this, requests));
 	}
 	
+	/**
+         * Returns the name of this driver
+         */
 	public String getName()
 	{
 		return this.name;
 	}
 	
+	/**
+         * Returns the number of holidays a driver has remaining
+         */
 	public int getHolidaysLeft()
 	{
 		return totalHolidays-DriverInfo.getHolidaysTaken(id);
 	}
 	
+	/**
+         * Method to submit a holiday request that has been validated
+	 * Updates variuos driver information
+	 * @param the request instance of the request
+         */
 	public void takeHoliday(Request request)
 	{
 		int daysTaken = DriverInfo.getHolidaysTaken(id) + request.getLength();
@@ -87,21 +122,34 @@ public class Driver
 		}
 	}
 	
+	/**
+         * Returns the ID of this driver
+         */
 	public int getID()
 	{
 	  	return this.id;
 	}
 	
+	/**
+         * Returns whether the driver is available today
+         */
 	public Boolean isAvailable()
 	{
 		return isAvailable(database.today());
 	}
 	
+	/**
+         * Returns whether the driver is avilable for a particular date
+	 * @param date wanted to check driver availability for
+         */
 	public Boolean isAvailable(Date date)
 	{
 		return DriverInfo.isAvailable(this.id, date);
 	}
 	
+	/**
+         * Returns all the drivers in database
+         */
 	public static Driver[] getDrivers()
 	{
 		int[] driver_ids = DriverInfo.getDrivers();
