@@ -85,7 +85,7 @@ public class Service
 		return this.timingPoints[index].getTime();
 	}
 
-	public int getNumberOfTimingPoint()
+	public int getNumberOfTimingPoints()
 	{
 		return timingPoints.length;
 	}

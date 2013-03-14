@@ -1,7 +1,8 @@
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class Someclass {
+public class Someclass 
+{
 
 	public static int getTotalDuration()
 	{
@@ -62,33 +63,57 @@ public class Someclass {
 	{
 		database.openBusDatabase();
 
-		printFullTimetable();
+		// printFullTimetable();
+
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
 		
 		HashMap<Integer, Integer> rosterDrivers = new HashMap<Integer, Integer>();
 		HashMap<Integer, Integer> rosterBusses = new HashMap<Integer, Integer>();
 		
 		TimetableInfo.timetableKind dayType = TimetableInfo.timetableKind.weekday;
 		int drivers[] = DriverInfo.getDrivers();
+		Arrays.sort(drivers);
+		int routes[] = BusStopInfo.getRoutes();
 
-		int minutesWorked[drivers.length] = new int[drivers.length];
-		minutesWorked = {0};
+		int minutesWorked[] = new int[drivers.length];
 
 		int numberOfDrivers = DriverInfo.getDrivers().length;
 		double workPerDay = (getTotalDuration()*1.0)/(numberOfDrivers*7.0);
-
-		for(int i = 0; i < routes.length; i++)
+		for (int driver = 0; driver < drivers.length ;driver++)
 		{
-			int routeID = routes[i];
-			int numberOfServices = TimetableInfo.getServices(routeID, dayType).length;
-			rosterDrivers.put(services[0], drivers[0]);
-			minutesWorked[0] += new Service(service[0], routeID, dayType).getDuration();
-			if(minutesWorked)
-
-			for(int index = 1; index < numberOfServices; index++)
+			int driverID = drivers[driver];
+			Date nextAvailable = TimingPoint.getMidnight();
+			System.out.print(driverID + ":");
+			for(int route = 0; route < routes.length; route++)
 			{
-				Service service = new Service(index, routeID, dayType);
-				//rosterDrivers.put(service.getID());
+				int routeID = routes[route];
+				// System.out.println("    Trying route " + routeID);
+				int numberOfServices = TimetableInfo.getServices(routeID, dayType).length;
+				for(int index = 1; index < numberOfServices; index++)
+				{
+					Service service = new Service(index, routeID, dayType);
+					// System.out.println("        Trying Service " + service.getID());
+					if(service.getTime(0).after(nextAvailable))
+						if(!rosterDrivers.containsKey(service.getID()))
+						{
+							rosterDrivers.put(service.getID(), driverID);
+							minutesWorked[driver] += service.getDuration();
+							nextAvailable = service.getTime(service.getNumberOfTimingPoints()-1);
+							System.out.print(" " + service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + ")");
+							// System.out.print("            Driver is assigned to " + service.getID());
+							// System.out.println(" next available is " + simpleDateFormat.format(nextAvailable));
+							if(minutesWorked[driver] > workPerDay)
+								break;
+						}
+						// else
+							// System.out.println("            Service is already assigned");
+					// else
+						// System.out.println("            Driver is not available for this service");
+				}					
+				if(nextAvailable.getTime() - TimingPoint.getMidnight().getTime() > 0)
+					break;
 			}
+			System.out.println(" ");
 		}
 	}
 }

@@ -2,14 +2,14 @@ java -classpath .:./GUI:./GUI/jcalendar-1.4.jar:./mysql-connector-java-5.1.12-bi
 
 Route: 358back, weekday
 --------------------------------------------
-Service number: 0
+Service number: 6512
 Newtown, Train Station: 06:13
 Low Leighton, Ollerset View Hospital: 06:16
 Birch Vale, Grouse Hotel: 06:19
 Hayfield, Bus Station: 06:22
 Duration: 9 minutes
 
-Service number: 1
+Service number: 6513
 Stockport, Bus Station: 06:15
 Marple, Offerton Fold: 06:24
 Marple, Navigation Hotel: 06:34
@@ -21,7 +21,7 @@ Birch Vale, Grouse Hotel: 06:52
 Hayfield, Bus Station: 06:55
 Duration: 40 minutes
 
-Service number: 2
+Service number: 6514
 Stockport, Bus Station: 06:52
 Marple, Offerton Fold: 07:01
 Marple, Navigation Hotel: 07:11
@@ -33,7 +33,7 @@ Birch Vale, Grouse Hotel: 07:37
 Hayfield, Bus Station: 07:40
 Duration: 48 minutes
 
-Service number: 3
+Service number: 6515
 Stockport, Bus Station: 07:25
 Marple, Offerton Fold: 07:37
 Marple, Navigation Hotel: 07:48
@@ -45,7 +45,7 @@ Birch Vale, Grouse Hotel: 08:16
 Hayfield, Bus Station: 08:19
 Duration: 54 minutes
 
-Service number: 4
+Service number: 6516
 Stockport, Bus Station: 08:22
 Marple, Offerton Fold: 08:37
 Marple, Navigation Hotel: 08:53
@@ -57,7 +57,7 @@ Birch Vale, Grouse Hotel: 09:21
 Hayfield, Bus Station: 09:24
 Duration: 62 minutes
 
-Service number: 5
+Service number: 6517
 Stockport, Bus Station: 09:30
 Marple, Offerton Fold: 09:42
 Marple, Navigation Hotel: 09:53
@@ -69,7 +69,7 @@ Birch Vale, Grouse Hotel: 10:21
 Hayfield, Bus Station: 10:24
 Duration: 54 minutes
 
-Service number: 6
+Service number: 6518
 Stockport, Bus Station: 10:30
 Marple, Offerton Fold: 10:42
 Marple, Navigation Hotel: 10:53
@@ -81,7 +81,7 @@ Birch Vale, Grouse Hotel: 11:21
 Hayfield, Bus Station: 11:24
 Duration: 54 minutes
 
-Service number: 7
+Service number: 6519
 Stockport, Bus Station: 11:30
 Marple, Offerton Fold: 11:42
 Marple, Navigation Hotel: 11:53
@@ -93,7 +93,7 @@ Birch Vale, Grouse Hotel: 12:21
 Hayfield, Bus Station: 12:24
 Duration: 54 minutes
 
-Service number: 8
+Service number: 6520
 Stockport, Bus Station: 12:30
 Marple, Offerton Fold: 12:42
 Marple, Navigation Hotel: 12:53
@@ -105,7 +105,7 @@ Birch Vale, Grouse Hotel: 13:21
 Hayfield, Bus Station: 13:24
 Duration: 54 minutes
 
-Service number: 9
+Service number: 6521
 Stockport, Bus Station: 13:30
 Marple, Offerton Fold: 13:42
 Marple, Navigation Hotel: 13:53
@@ -117,7 +117,7 @@ Birch Vale, Grouse Hotel: 14:21
 Hayfield, Bus Station: 14:24
 Duration: 54 minutes
 
-Service number: 10
+Service number: 6522
 Stockport, Bus Station: 14:30
 Marple, Offerton Fold: 14:42
 Marple, Navigation Hotel: 14:53
@@ -129,7 +129,7 @@ Birch Vale, Grouse Hotel: 15:21
 Hayfield, Bus Station: 15:24
 Duration: 54 minutes
 
-Service number: 11
+Service number: 6523
 Stockport, Bus Station: 15:45
 Marple, Offerton Fold: 15:57
 Marple, Navigation Hotel: 16:08
@@ -141,7 +141,7 @@ Birch Vale, Grouse Hotel: 16:32
 Hayfield, Bus Station: 16:35
 Duration: 50 minutes
 
-Service number: 12
+Service number: 6524
 Stockport, Bus Station: 16:45
 Marple, Offerton Fold: 16:58
 Marple, Navigation Hotel: 17:10
@@ -153,7 +153,7 @@ Birch Vale, Grouse Hotel: 17:34
 Hayfield, Bus Station: 17:37
 Duration: 52 minutes
 
-Service number: 13
+Service number: 6525
 Stockport, Bus Station: 18:00
 Marple, Offerton Fold: 18:13
 Marple, Navigation Hotel: 18:25
@@ -165,7 +165,7 @@ Birch Vale, Grouse Hotel: 18:48
 Hayfield, Bus Station: 18:51
 Duration: 51 minutes
 
-Service number: 14
+Service number: 6526
 Stockport, Bus Station: 19:15
 Marple, Offerton Fold: 19:24
 Marple, Navigation Hotel: 19:34
@@ -177,7 +177,7 @@ Birch Vale, Grouse Hotel: 19:54
 Hayfield, Bus Station: 19:57
 Duration: 42 minutes
 
-Service number: 15
+Service number: 6527
 Stockport, Bus Station: 20:15
 Marple, Offerton Fold: 20:24
 Marple, Navigation Hotel: 20:34
@@ -189,7 +189,7 @@ Birch Vale, Grouse Hotel: 20:54
 Hayfield, Bus Station: 20:57
 Duration: 42 minutes
 
-Service number: 16
+Service number: 6528
 Stockport, Bus Station: 21:15
 Marple, Offerton Fold: 21:24
 Marple, Navigation Hotel: 21:34
@@ -201,7 +201,7 @@ Birch Vale, Grouse Hotel: 21:54
 Hayfield, Bus Station: 21:57
 Duration: 42 minutes
 
-Service number: 17
+Service number: 6529
 Stockport, Bus Station: 22:15
 Marple, Offerton Fold: 22:24
 Marple, Navigation Hotel: 22:34
@@ -216,7 +216,7 @@ Glossop, Grouse Inn: 23:05
 Glossop, Henry Street: 23:12
 Duration: 57 minutes
 
-Service number: 18
+Service number: 6530
 Stockport, Bus Station: 23:15
 Marple, Offerton Fold: 23:24
 Marple, Navigation Hotel: 23:34
@@ -231,14 +231,14 @@ Duration: 42 minutes
 
 Route: 358out, weekday
 --------------------------------------------
-Service number: 0
+Service number: 6460
 Hayfield, Bus Station: 06:02
 Birch Vale, Grouse Hotel: 06:05
 Low Leighton, Ollerset View Hospital: 06:08
 Newtown, Train Station: 06:11
 Duration: 9 minutes
 
-Service number: 1
+Service number: 6461
 Hayfield, Bus Station: 06:27
 Birch Vale, Grouse Hotel: 06:30
 Low Leighton, Ollerset View Hospital: 06:33
@@ -251,7 +251,7 @@ Marple, Offerton Fold: 07:08
 Stockport, Bus Station: 07:19
 Duration: 52 minutes
 
-Service number: 2
+Service number: 6462
 Hayfield, Bus Station: 07:00
 Birch Vale, Grouse Hotel: 07:03
 Low Leighton, Ollerset View Hospital: 07:06
@@ -264,7 +264,7 @@ Marple, Offerton Fold: 07:49
 Stockport, Bus Station: 08:08
 Duration: 68 minutes
 
-Service number: 3
+Service number: 6463
 Hayfield, Bus Station: 07:45
 Birch Vale, Grouse Hotel: 07:48
 Low Leighton, Ollerset View Hospital: 07:51
@@ -277,7 +277,7 @@ Marple, Offerton Fold: 08:34
 Stockport, Bus Station: 08:53
 Duration: 68 minutes
 
-Service number: 4
+Service number: 6464
 Hayfield, Bus Station: 08:29
 Birch Vale, Grouse Hotel: 08:32
 Low Leighton, Ollerset View Hospital: 08:35
@@ -289,7 +289,7 @@ Marple, Offerton Fold: 09:15
 Stockport, Bus Station: 09:34
 Duration: 65 minutes
 
-Service number: 5
+Service number: 6465
 Hayfield, Bus Station: 09:29
 Birch Vale, Grouse Hotel: 09:32
 Low Leighton, Ollerset View Hospital: 09:35
@@ -301,7 +301,7 @@ Marple, Offerton Fold: 10:08
 Stockport, Bus Station: 10:19
 Duration: 50 minutes
 
-Service number: 6
+Service number: 6466
 Hayfield, Bus Station: 10:29
 Birch Vale, Grouse Hotel: 10:32
 Low Leighton, Ollerset View Hospital: 10:35
@@ -313,7 +313,7 @@ Marple, Offerton Fold: 11:08
 Stockport, Bus Station: 11:19
 Duration: 50 minutes
 
-Service number: 7
+Service number: 6467
 Hayfield, Bus Station: 11:29
 Birch Vale, Grouse Hotel: 11:32
 Low Leighton, Ollerset View Hospital: 11:35
@@ -325,7 +325,7 @@ Marple, Offerton Fold: 12:08
 Stockport, Bus Station: 12:19
 Duration: 50 minutes
 
-Service number: 8
+Service number: 6468
 Hayfield, Bus Station: 12:29
 Birch Vale, Grouse Hotel: 12:32
 Low Leighton, Ollerset View Hospital: 12:35
@@ -337,7 +337,7 @@ Marple, Offerton Fold: 13:08
 Stockport, Bus Station: 13:19
 Duration: 50 minutes
 
-Service number: 9
+Service number: 6469
 Hayfield, Bus Station: 13:29
 Birch Vale, Grouse Hotel: 13:32
 Low Leighton, Ollerset View Hospital: 13:35
@@ -349,7 +349,7 @@ Marple, Offerton Fold: 14:08
 Stockport, Bus Station: 14:19
 Duration: 50 minutes
 
-Service number: 10
+Service number: 6470
 Hayfield, Bus Station: 14:29
 Birch Vale, Grouse Hotel: 14:32
 Low Leighton, Ollerset View Hospital: 14:35
@@ -361,7 +361,7 @@ Marple, Offerton Fold: 15:08
 Stockport, Bus Station: 15:19
 Duration: 50 minutes
 
-Service number: 11
+Service number: 6471
 Hayfield, Bus Station: 15:29
 Birch Vale, Grouse Hotel: 15:32
 Low Leighton, Ollerset View Hospital: 15:35
@@ -373,7 +373,7 @@ Marple, Offerton Fold: 16:08
 Stockport, Bus Station: 16:19
 Duration: 50 minutes
 
-Service number: 12
+Service number: 6472
 Hayfield, Bus Station: 16:45
 Birch Vale, Grouse Hotel: 16:48
 Low Leighton, Ollerset View Hospital: 16:51
@@ -385,7 +385,7 @@ Marple, Offerton Fold: 17:24
 Stockport, Bus Station: 17:35
 Duration: 50 minutes
 
-Service number: 13
+Service number: 6473
 Hayfield, Bus Station: 17:53
 Birch Vale, Grouse Hotel: 17:56
 Low Leighton, Ollerset View Hospital: 17:59
@@ -397,7 +397,7 @@ Marple, Offerton Fold: 18:32
 Stockport, Bus Station: 18:43
 Duration: 50 minutes
 
-Service number: 14
+Service number: 6474
 Hayfield, Bus Station: 19:05
 Birch Vale, Grouse Hotel: 19:08
 Low Leighton, Ollerset View Hospital: 19:11
@@ -409,7 +409,7 @@ Marple, Offerton Fold: 19:42
 Stockport, Bus Station: 19:51
 Duration: 46 minutes
 
-Service number: 15
+Service number: 6475
 Hayfield, Bus Station: 20:10
 Birch Vale, Grouse Hotel: 20:13
 Low Leighton, Ollerset View Hospital: 20:16
@@ -421,7 +421,7 @@ Marple, Offerton Fold: 20:42
 Stockport, Bus Station: 20:51
 Duration: 41 minutes
 
-Service number: 16
+Service number: 6476
 Hayfield, Bus Station: 21:10
 Birch Vale, Grouse Hotel: 21:13
 Low Leighton, Ollerset View Hospital: 21:16
@@ -433,7 +433,7 @@ Marple, Offerton Fold: 21:42
 Stockport, Bus Station: 21:51
 Duration: 41 minutes
 
-Service number: 17
+Service number: 6477
 Hayfield, Bus Station: 22:10
 Birch Vale, Grouse Hotel: 22:13
 Low Leighton, Ollerset View Hospital: 22:16
@@ -445,7 +445,7 @@ Marple, Offerton Fold: 22:42
 Stockport, Bus Station: 22:51
 Duration: 41 minutes
 
-Service number: 18
+Service number: 6478
 Glossop, Henry Street: 23:15
 Glossop, Grouse Inn: 23:22
 Glossop, Little Hayfield: 23:28
@@ -460,7 +460,7 @@ Marple, Offerton Fold: 00:02
 Stockport, Bus Station: 00:11
 Duration: 56 minutes
 
-Service number: 19
+Service number: 6479
 Hayfield, Bus Station: 00:00
 Birch Vale, Grouse Hotel: 00:03
 Low Leighton, Ollerset View Hospital: 00:06
@@ -475,7 +475,7 @@ Duration: 41 minutes
 
 Route: 383, weekday
 --------------------------------------------
-Service number: 0
+Service number: 6177
 Stockport, Bus Station: 05:40
 Stockport, Dialstone Lane/Hillcrest Road: 05:52
 Marple, Navigation Hotel: 06:04
@@ -486,7 +486,7 @@ Stockport, Lower Bents Lane/Stockport Road: 06:26
 Stockport, Bus Station: 06:40
 Duration: 60 minutes
 
-Service number: 1
+Service number: 6178
 Stockport, Bus Station: 05:59
 Stockport, Dialstone Lane/Hillcrest Road: 06:11
 Marple, Navigation Hotel: 06:23
@@ -497,7 +497,7 @@ Stockport, Lower Bents Lane/Stockport Road: 06:45
 Stockport, Bus Station: 06:59
 Duration: 60 minutes
 
-Service number: 2
+Service number: 6179
 Stockport, Bus Station: 06:15
 Stockport, Dialstone Lane/Hillcrest Road: 06:27
 Marple, Navigation Hotel: 06:39
@@ -508,7 +508,7 @@ Stockport, Lower Bents Lane/Stockport Road: 07:01
 Stockport, Bus Station: 07:17
 Duration: 62 minutes
 
-Service number: 3
+Service number: 6180
 Stockport, Bus Station: 06:24
 Stockport, Dialstone Lane/Hillcrest Road: 06:36
 Marple, Navigation Hotel: 06:48
@@ -519,7 +519,7 @@ Stockport, Lower Bents Lane/Stockport Road: 07:16
 Stockport, Bus Station: 07:32
 Duration: 68 minutes
 
-Service number: 4
+Service number: 6181
 Stockport, Bus Station: 06:36
 Stockport, Dialstone Lane/Hillcrest Road: 06:48
 Marple, Navigation Hotel: 07:00
@@ -530,7 +530,7 @@ Stockport, Lower Bents Lane/Stockport Road: 07:32
 Stockport, Bus Station: 07:47
 Duration: 71 minutes
 
-Service number: 5
+Service number: 6182
 Stockport, Bus Station: 06:47
 Stockport, Dialstone Lane/Hillcrest Road: 06:59
 Marple, Navigation Hotel: 07:15
@@ -541,7 +541,7 @@ Stockport, Lower Bents Lane/Stockport Road: 07:47
 Stockport, Bus Station: 08:05
 Duration: 78 minutes
 
-Service number: 6
+Service number: 6183
 Stockport, Bus Station: 07:00
 Stockport, Dialstone Lane/Hillcrest Road: 07:14
 Marple, Navigation Hotel: 07:30
@@ -552,7 +552,7 @@ Stockport, Lower Bents Lane/Stockport Road: 08:02
 Stockport, Bus Station: 08:20
 Duration: 80 minutes
 
-Service number: 7
+Service number: 6184
 Stockport, Bus Station: 07:15
 Stockport, Dialstone Lane/Hillcrest Road: 07:29
 Marple, Navigation Hotel: 07:45
@@ -563,7 +563,7 @@ Stockport, Lower Bents Lane/Stockport Road: 08:17
 Stockport, Bus Station: 08:35
 Duration: 80 minutes
 
-Service number: 8
+Service number: 6185
 Stockport, Bus Station: 07:30
 Stockport, Dialstone Lane/Hillcrest Road: 07:44
 Marple, Navigation Hotel: 08:00
@@ -574,7 +574,7 @@ Stockport, Lower Bents Lane/Stockport Road: 08:32
 Stockport, Bus Station: 08:50
 Duration: 80 minutes
 
-Service number: 9
+Service number: 6186
 Stockport, Bus Station: 07:42
 Stockport, Dialstone Lane/Hillcrest Road: 07:57
 Marple, Navigation Hotel: 08:15
@@ -585,7 +585,7 @@ Stockport, Lower Bents Lane/Stockport Road: 08:47
 Stockport, Bus Station: 09:05
 Duration: 83 minutes
 
-Service number: 10
+Service number: 6187
 Stockport, Bus Station: 07:55
 Stockport, Dialstone Lane/Hillcrest Road: 08:11
 Marple, Navigation Hotel: 08:30
@@ -596,7 +596,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:02
 Stockport, Bus Station: 09:20
 Duration: 85 minutes
 
-Service number: 11
+Service number: 6188
 Stockport, Bus Station: 08:10
 Stockport, Dialstone Lane/Hillcrest Road: 08:26
 Marple, Navigation Hotel: 08:45
@@ -607,7 +607,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:17
 Stockport, Bus Station: 09:35
 Duration: 85 minutes
 
-Service number: 12
+Service number: 6189
 Stockport, Bus Station: 08:34
 Stockport, Dialstone Lane/Hillcrest Road: 08:48
 Marple, Navigation Hotel: 09:04
@@ -618,7 +618,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:36
 Stockport, Bus Station: 09:50
 Duration: 76 minutes
 
-Service number: 13
+Service number: 6190
 Stockport, Bus Station: 08:57
 Stockport, Dialstone Lane/Hillcrest Road: 09:11
 Marple, Navigation Hotel: 09:27
@@ -629,7 +629,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:51
 Stockport, Bus Station: 10:05
 Duration: 68 minutes
 
-Service number: 14
+Service number: 6191
 Stockport, Bus Station: 09:17
 Stockport, Dialstone Lane/Hillcrest Road: 09:30
 Marple, Navigation Hotel: 09:46
@@ -640,7 +640,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:08
 Stockport, Bus Station: 10:22
 Duration: 65 minutes
 
-Service number: 15
+Service number: 6192
 Stockport, Bus Station: 09:35
 Stockport, Dialstone Lane/Hillcrest Road: 09:48
 Marple, Navigation Hotel: 10:01
@@ -651,7 +651,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:23
 Stockport, Bus Station: 10:37
 Duration: 62 minutes
 
-Service number: 16
+Service number: 6193
 Stockport, Bus Station: 09:52
 Stockport, Dialstone Lane/Hillcrest Road: 10:04
 Marple, Navigation Hotel: 10:16
@@ -662,7 +662,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:38
 Stockport, Bus Station: 10:52
 Duration: 60 minutes
 
-Service number: 17
+Service number: 6194
 Stockport, Bus Station: 10:07
 Stockport, Dialstone Lane/Hillcrest Road: 10:19
 Marple, Navigation Hotel: 10:31
@@ -673,7 +673,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:53
 Stockport, Bus Station: 11:07
 Duration: 60 minutes
 
-Service number: 18
+Service number: 6195
 Stockport, Bus Station: 10:22
 Stockport, Dialstone Lane/Hillcrest Road: 10:34
 Marple, Navigation Hotel: 10:46
@@ -684,7 +684,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:08
 Stockport, Bus Station: 11:22
 Duration: 60 minutes
 
-Service number: 19
+Service number: 6196
 Stockport, Bus Station: 10:37
 Stockport, Dialstone Lane/Hillcrest Road: 10:49
 Marple, Navigation Hotel: 11:01
@@ -695,7 +695,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:23
 Stockport, Bus Station: 11:37
 Duration: 60 minutes
 
-Service number: 20
+Service number: 6197
 Stockport, Bus Station: 10:52
 Stockport, Dialstone Lane/Hillcrest Road: 11:04
 Marple, Navigation Hotel: 11:16
@@ -706,7 +706,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:38
 Stockport, Bus Station: 11:52
 Duration: 60 minutes
 
-Service number: 21
+Service number: 6198
 Stockport, Bus Station: 11:07
 Stockport, Dialstone Lane/Hillcrest Road: 11:19
 Marple, Navigation Hotel: 11:31
@@ -717,7 +717,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:53
 Stockport, Bus Station: 12:07
 Duration: 60 minutes
 
-Service number: 22
+Service number: 6199
 Stockport, Bus Station: 11:22
 Stockport, Dialstone Lane/Hillcrest Road: 11:34
 Marple, Navigation Hotel: 11:46
@@ -728,7 +728,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:08
 Stockport, Bus Station: 12:22
 Duration: 60 minutes
 
-Service number: 23
+Service number: 6200
 Stockport, Bus Station: 11:37
 Stockport, Dialstone Lane/Hillcrest Road: 11:49
 Marple, Navigation Hotel: 12:01
@@ -739,7 +739,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:23
 Stockport, Bus Station: 12:37
 Duration: 60 minutes
 
-Service number: 24
+Service number: 6201
 Stockport, Bus Station: 11:52
 Stockport, Dialstone Lane/Hillcrest Road: 12:04
 Marple, Navigation Hotel: 12:16
@@ -750,7 +750,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:38
 Stockport, Bus Station: 12:52
 Duration: 60 minutes
 
-Service number: 25
+Service number: 6202
 Stockport, Bus Station: 12:07
 Stockport, Dialstone Lane/Hillcrest Road: 12:19
 Marple, Navigation Hotel: 12:31
@@ -761,7 +761,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:53
 Stockport, Bus Station: 13:07
 Duration: 60 minutes
 
-Service number: 26
+Service number: 6203
 Stockport, Bus Station: 12:22
 Stockport, Dialstone Lane/Hillcrest Road: 12:34
 Marple, Navigation Hotel: 12:46
@@ -772,7 +772,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:08
 Stockport, Bus Station: 13:22
 Duration: 60 minutes
 
-Service number: 27
+Service number: 6204
 Stockport, Bus Station: 12:37
 Stockport, Dialstone Lane/Hillcrest Road: 12:49
 Marple, Navigation Hotel: 13:01
@@ -783,7 +783,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:23
 Stockport, Bus Station: 13:37
 Duration: 60 minutes
 
-Service number: 28
+Service number: 6205
 Stockport, Bus Station: 12:52
 Stockport, Dialstone Lane/Hillcrest Road: 13:04
 Marple, Navigation Hotel: 13:16
@@ -794,7 +794,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:38
 Stockport, Bus Station: 13:52
 Duration: 60 minutes
 
-Service number: 29
+Service number: 6206
 Stockport, Bus Station: 13:07
 Stockport, Dialstone Lane/Hillcrest Road: 13:19
 Marple, Navigation Hotel: 13:31
@@ -805,7 +805,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:53
 Stockport, Bus Station: 14:07
 Duration: 60 minutes
 
-Service number: 30
+Service number: 6207
 Stockport, Bus Station: 13:22
 Stockport, Dialstone Lane/Hillcrest Road: 13:34
 Marple, Navigation Hotel: 13:46
@@ -816,7 +816,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:08
 Stockport, Bus Station: 14:22
 Duration: 60 minutes
 
-Service number: 31
+Service number: 6208
 Stockport, Bus Station: 13:37
 Stockport, Dialstone Lane/Hillcrest Road: 13:49
 Marple, Navigation Hotel: 14:01
@@ -827,7 +827,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:23
 Stockport, Bus Station: 14:37
 Duration: 60 minutes
 
-Service number: 32
+Service number: 6209
 Stockport, Bus Station: 13:52
 Stockport, Dialstone Lane/Hillcrest Road: 14:04
 Marple, Navigation Hotel: 14:16
@@ -838,7 +838,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:38
 Stockport, Bus Station: 14:52
 Duration: 60 minutes
 
-Service number: 33
+Service number: 6210
 Stockport, Bus Station: 14:07
 Stockport, Dialstone Lane/Hillcrest Road: 14:19
 Marple, Navigation Hotel: 14:31
@@ -849,7 +849,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:53
 Stockport, Bus Station: 15:07
 Duration: 60 minutes
 
-Service number: 34
+Service number: 6211
 Stockport, Bus Station: 14:22
 Stockport, Dialstone Lane/Hillcrest Road: 14:34
 Marple, Navigation Hotel: 14:46
@@ -860,7 +860,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:08
 Stockport, Bus Station: 15:23
 Duration: 61 minutes
 
-Service number: 35
+Service number: 6212
 Stockport, Bus Station: 14:37
 Stockport, Dialstone Lane/Hillcrest Road: 14:49
 Marple, Navigation Hotel: 15:01
@@ -871,7 +871,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:23
 Stockport, Bus Station: 15:39
 Duration: 62 minutes
 
-Service number: 36
+Service number: 6213
 Stockport, Bus Station: 14:52
 Stockport, Dialstone Lane/Hillcrest Road: 15:04
 Marple, Navigation Hotel: 15:20
@@ -882,7 +882,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:43
 Stockport, Bus Station: 15:58
 Duration: 66 minutes
 
-Service number: 37
+Service number: 6214
 Stockport, Bus Station: 15:07
 Stockport, Dialstone Lane/Hillcrest Road: 15:21
 Marple, Navigation Hotel: 15:37
@@ -893,7 +893,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:00
 Stockport, Bus Station: 16:15
 Duration: 68 minutes
 
-Service number: 38
+Service number: 6215
 Stockport, Bus Station: 15:22
 Stockport, Dialstone Lane/Hillcrest Road: 15:36
 Marple, Navigation Hotel: 15:52
@@ -904,7 +904,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:15
 Stockport, Bus Station: 16:30
 Duration: 68 minutes
 
-Service number: 39
+Service number: 6216
 Stockport, Bus Station: 15:37
 Stockport, Dialstone Lane/Hillcrest Road: 15:51
 Marple, Navigation Hotel: 16:07
@@ -915,7 +915,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:30
 Stockport, Bus Station: 16:45
 Duration: 68 minutes
 
-Service number: 40
+Service number: 6217
 Stockport, Bus Station: 15:52
 Stockport, Dialstone Lane/Hillcrest Road: 16:06
 Marple, Navigation Hotel: 16:22
@@ -926,7 +926,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:45
 Stockport, Bus Station: 17:00
 Duration: 68 minutes
 
-Service number: 41
+Service number: 6218
 Stockport, Bus Station: 16:07
 Stockport, Dialstone Lane/Hillcrest Road: 16:21
 Marple, Navigation Hotel: 16:37
@@ -937,7 +937,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:00
 Stockport, Bus Station: 17:15
 Duration: 68 minutes
 
-Service number: 42
+Service number: 6219
 Stockport, Bus Station: 16:22
 Stockport, Dialstone Lane/Hillcrest Road: 16:36
 Marple, Navigation Hotel: 16:52
@@ -948,7 +948,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:15
 Stockport, Bus Station: 17:30
 Duration: 68 minutes
 
-Service number: 43
+Service number: 6220
 Stockport, Bus Station: 16:37
 Stockport, Dialstone Lane/Hillcrest Road: 16:51
 Marple, Navigation Hotel: 17:07
@@ -959,7 +959,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:30
 Stockport, Bus Station: 17:45
 Duration: 68 minutes
 
-Service number: 44
+Service number: 6221
 Stockport, Bus Station: 16:52
 Stockport, Dialstone Lane/Hillcrest Road: 17:06
 Marple, Navigation Hotel: 17:22
@@ -970,7 +970,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:45
 Stockport, Bus Station: 18:00
 Duration: 68 minutes
 
-Service number: 45
+Service number: 6222
 Stockport, Bus Station: 17:07
 Stockport, Dialstone Lane/Hillcrest Road: 17:21
 Marple, Navigation Hotel: 17:37
@@ -981,7 +981,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:00
 Stockport, Bus Station: 18:15
 Duration: 68 minutes
 
-Service number: 46
+Service number: 6223
 Stockport, Bus Station: 17:22
 Stockport, Dialstone Lane/Hillcrest Road: 17:36
 Marple, Navigation Hotel: 17:52
@@ -992,7 +992,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:15
 Stockport, Bus Station: 18:30
 Duration: 68 minutes
 
-Service number: 47
+Service number: 6224
 Stockport, Bus Station: 17:37
 Stockport, Dialstone Lane/Hillcrest Road: 17:51
 Marple, Navigation Hotel: 18:07
@@ -1003,7 +1003,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:29
 Stockport, Bus Station: 18:43
 Duration: 66 minutes
 
-Service number: 48
+Service number: 6225
 Stockport, Bus Station: 17:52
 Stockport, Dialstone Lane/Hillcrest Road: 18:06
 Marple, Navigation Hotel: 18:22
@@ -1014,7 +1014,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:44
 Stockport, Bus Station: 18:58
 Duration: 66 minutes
 
-Service number: 49
+Service number: 6226
 Stockport, Bus Station: 18:07
 Stockport, Dialstone Lane/Hillcrest Road: 18:21
 Marple, Navigation Hotel: 18:37
@@ -1025,7 +1025,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:59
 Stockport, Bus Station: 19:13
 Duration: 66 minutes
 
-Service number: 50
+Service number: 6227
 Stockport, Bus Station: 18:22
 Stockport, Dialstone Lane/Hillcrest Road: 18:34
 Marple, Navigation Hotel: 18:46
@@ -1036,7 +1036,7 @@ Stockport, Lower Bents Lane/Stockport Road: 19:08
 Stockport, Bus Station: 19:19
 Duration: 57 minutes
 
-Service number: 51
+Service number: 6228
 Stockport, Bus Station: 18:40
 Stockport, Dialstone Lane/Hillcrest Road: 18:52
 Marple, Navigation Hotel: 19:04
@@ -1047,7 +1047,7 @@ Stockport, Lower Bents Lane/Stockport Road: 19:24
 Stockport, Bus Station: 19:35
 Duration: 55 minutes
 
-Service number: 52
+Service number: 6229
 Stockport, Bus Station: 19:00
 Stockport, Dialstone Lane/Hillcrest Road: 19:11
 Marple, Navigation Hotel: 19:21
@@ -1058,7 +1058,7 @@ Stockport, Lower Bents Lane/Stockport Road: 19:41
 Stockport, Bus Station: 19:52
 Duration: 52 minutes
 
-Service number: 53
+Service number: 6230
 Stockport, Bus Station: 19:30
 Stockport, Dialstone Lane/Hillcrest Road: 19:41
 Marple, Navigation Hotel: 19:51
@@ -1069,7 +1069,7 @@ Stockport, Lower Bents Lane/Stockport Road: 20:11
 Stockport, Bus Station: 20:22
 Duration: 52 minutes
 
-Service number: 54
+Service number: 6231
 Stockport, Bus Station: 20:00
 Stockport, Dialstone Lane/Hillcrest Road: 20:11
 Marple, Navigation Hotel: 20:21
@@ -1080,7 +1080,7 @@ Stockport, Lower Bents Lane/Stockport Road: 20:41
 Stockport, Bus Station: 20:52
 Duration: 52 minutes
 
-Service number: 55
+Service number: 6232
 Stockport, Bus Station: 20:30
 Stockport, Dialstone Lane/Hillcrest Road: 20:41
 Marple, Navigation Hotel: 20:51
@@ -1091,7 +1091,7 @@ Stockport, Lower Bents Lane/Stockport Road: 21:11
 Stockport, Bus Station: 21:22
 Duration: 52 minutes
 
-Service number: 56
+Service number: 6233
 Stockport, Bus Station: 21:00
 Stockport, Dialstone Lane/Hillcrest Road: 21:11
 Marple, Navigation Hotel: 21:21
@@ -1102,7 +1102,7 @@ Stockport, Lower Bents Lane/Stockport Road: 21:41
 Stockport, Bus Station: 21:52
 Duration: 52 minutes
 
-Service number: 57
+Service number: 6234
 Stockport, Bus Station: 21:30
 Stockport, Dialstone Lane/Hillcrest Road: 21:41
 Marple, Navigation Hotel: 21:51
@@ -1113,7 +1113,7 @@ Stockport, Lower Bents Lane/Stockport Road: 22:11
 Stockport, Bus Station: 22:22
 Duration: 52 minutes
 
-Service number: 58
+Service number: 6235
 Stockport, Bus Station: 22:00
 Stockport, Dialstone Lane/Hillcrest Road: 22:11
 Marple, Navigation Hotel: 22:21
@@ -1124,7 +1124,7 @@ Stockport, Lower Bents Lane/Stockport Road: 22:41
 Stockport, Bus Station: 22:52
 Duration: 52 minutes
 
-Service number: 59
+Service number: 6236
 Stockport, Bus Station: 22:30
 Stockport, Dialstone Lane/Hillcrest Road: 22:41
 Marple, Navigation Hotel: 22:51
@@ -1135,7 +1135,7 @@ Stockport, Lower Bents Lane/Stockport Road: 23:11
 Stockport, Bus Station: 23:22
 Duration: 52 minutes
 
-Service number: 60
+Service number: 6237
 Stockport, Bus Station: 23:10
 Stockport, Dialstone Lane/Hillcrest Road: 23:21
 Marple, Navigation Hotel: 23:31
@@ -1149,7 +1149,7 @@ Duration: 52 minutes
 
 Route: 384, weekday
 --------------------------------------------
-Service number: 0
+Service number: 6317
 Stockport, Bus Station: 05:45
 Stockport, Asda/Sainsbury's: 05:48
 Stockport, Lower Bents Lane/Stockport Road: 05:55
@@ -1161,7 +1161,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 06:26
 Stockport, Bus Station: 06:36
 Duration: 51 minutes
 
-Service number: 1
+Service number: 6318
 Stockport, Bus Station: 06:09
 Stockport, Asda/Sainsbury's: 06:12
 Stockport, Lower Bents Lane/Stockport Road: 06:19
@@ -1173,13 +1173,13 @@ Stockport, Dialstone Lane/Hillcrest Road: 06:50
 Stockport, Bus Station: 07:00
 Duration: 51 minutes
 
-Service number: 2
+Service number: 6319
 Marple, Navigation Hotel: 06:50
 Stockport, Dialstone Lane/Hillcrest Road: 07:00
 Stockport, Bus Station: 07:10
 Duration: 20 minutes
 
-Service number: 3
+Service number: 6320
 Stockport, Bus Station: 06:29
 Stockport, Asda/Sainsbury's: 06:32
 Stockport, Lower Bents Lane/Stockport Road: 06:39
@@ -1191,13 +1191,13 @@ Stockport, Dialstone Lane/Hillcrest Road: 07:10
 Stockport, Bus Station: 07:29
 Duration: 60 minutes
 
-Service number: 4
+Service number: 6321
 Marple, Navigation Hotel: 07:10
 Stockport, Dialstone Lane/Hillcrest Road: 07:26
 Stockport, Bus Station: 07:45
 Duration: 35 minutes
 
-Service number: 5
+Service number: 6322
 Stockport, Bus Station: 06:51
 Stockport, Asda/Sainsbury's: 06:54
 Stockport, Lower Bents Lane/Stockport Road: 07:01
@@ -1209,7 +1209,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 07:41
 Stockport, Bus Station: 08:00
 Duration: 69 minutes
 
-Service number: 6
+Service number: 6323
 Stockport, Bus Station: 07:04
 Stockport, Asda/Sainsbury's: 07:07
 Stockport, Lower Bents Lane/Stockport Road: 07:14
@@ -1221,7 +1221,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 07:56
 Stockport, Bus Station: 08:15
 Duration: 71 minutes
 
-Service number: 7
+Service number: 6324
 Stockport, Bus Station: 07:12
 Stockport, Asda/Sainsbury's: 07:17
 Stockport, Lower Bents Lane/Stockport Road: 07:29
@@ -1233,7 +1233,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 08:11
 Stockport, Bus Station: 08:30
 Duration: 78 minutes
 
-Service number: 8
+Service number: 6325
 Stockport, Bus Station: 07:22
 Stockport, Asda/Sainsbury's: 07:27
 Stockport, Lower Bents Lane/Stockport Road: 07:39
@@ -1245,12 +1245,12 @@ Stockport, Dialstone Lane/Hillcrest Road: 08:26
 Stockport, Bus Station: 08:45
 Duration: 83 minutes
 
-Service number: 9
+Service number: 6326
 Stockport, Dialstone Lane/Hillcrest Road: 08:34
 Stockport, Bus Station: 08:53
 Duration: 19 minutes
 
-Service number: 10
+Service number: 6327
 Stockport, Bus Station: 07:32
 Stockport, Asda/Sainsbury's: 07:37
 Stockport, Lower Bents Lane/Stockport Road: 07:49
@@ -1262,13 +1262,13 @@ Stockport, Dialstone Lane/Hillcrest Road: 08:41
 Stockport, Bus Station: 09:00
 Duration: 88 minutes
 
-Service number: 11
+Service number: 6328
 Marple, Navigation Hotel: 08:35
 Stockport, Dialstone Lane/Hillcrest Road: 08:51
 Stockport, Bus Station: 09:10
 Duration: 35 minutes
 
-Service number: 12
+Service number: 6329
 Stockport, Bus Station: 07:52
 Stockport, Asda/Sainsbury's: 07:57
 Stockport, Lower Bents Lane/Stockport Road: 08:09
@@ -1280,13 +1280,13 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:01
 Stockport, Bus Station: 09:20
 Duration: 88 minutes
 
-Service number: 13
+Service number: 6330
 Marple, Navigation Hotel: 08:57
 Stockport, Dialstone Lane/Hillcrest Road: 09:13
 Stockport, Bus Station: 09:30
 Duration: 33 minutes
 
-Service number: 14
+Service number: 6331
 Stockport, Bus Station: 08:15
 Stockport, Asda/Sainsbury's: 08:20
 Stockport, Lower Bents Lane/Stockport Road: 08:32
@@ -1298,7 +1298,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:24
 Stockport, Bus Station: 09:39
 Duration: 84 minutes
 
-Service number: 15
+Service number: 6332
 Stockport, Bus Station: 08:35
 Stockport, Asda/Sainsbury's: 08:40
 Stockport, Lower Bents Lane/Stockport Road: 08:52
@@ -1310,7 +1310,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:34
 Stockport, Bus Station: 09:49
 Duration: 74 minutes
 
-Service number: 16
+Service number: 6333
 Stockport, Bus Station: 08:55
 Stockport, Asda/Sainsbury's: 09:00
 Stockport, Lower Bents Lane/Stockport Road: 09:12
@@ -1322,7 +1322,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:49
 Stockport, Bus Station: 10:00
 Duration: 65 minutes
 
-Service number: 17
+Service number: 6334
 Stockport, Bus Station: 09:15
 Stockport, Asda/Sainsbury's: 09:20
 Stockport, Lower Bents Lane/Stockport Road: 09:30
@@ -1334,7 +1334,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:04
 Stockport, Bus Station: 10:15
 Duration: 60 minutes
 
-Service number: 18
+Service number: 6335
 Stockport, Bus Station: 09:30
 Stockport, Asda/Sainsbury's: 09:35
 Stockport, Lower Bents Lane/Stockport Road: 09:45
@@ -1346,7 +1346,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:19
 Stockport, Bus Station: 10:30
 Duration: 60 minutes
 
-Service number: 19
+Service number: 6336
 Stockport, Bus Station: 09:45
 Stockport, Asda/Sainsbury's: 09:50
 Stockport, Lower Bents Lane/Stockport Road: 10:00
@@ -1358,7 +1358,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:34
 Stockport, Bus Station: 10:45
 Duration: 60 minutes
 
-Service number: 20
+Service number: 6337
 Stockport, Bus Station: 10:00
 Stockport, Asda/Sainsbury's: 10:05
 Stockport, Lower Bents Lane/Stockport Road: 10:15
@@ -1370,7 +1370,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:49
 Stockport, Bus Station: 11:00
 Duration: 60 minutes
 
-Service number: 21
+Service number: 6338
 Stockport, Bus Station: 10:15
 Stockport, Asda/Sainsbury's: 10:20
 Stockport, Lower Bents Lane/Stockport Road: 10:30
@@ -1382,7 +1382,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:04
 Stockport, Bus Station: 11:15
 Duration: 60 minutes
 
-Service number: 22
+Service number: 6339
 Stockport, Bus Station: 10:30
 Stockport, Asda/Sainsbury's: 10:35
 Stockport, Lower Bents Lane/Stockport Road: 10:45
@@ -1394,7 +1394,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:19
 Stockport, Bus Station: 11:30
 Duration: 60 minutes
 
-Service number: 23
+Service number: 6340
 Stockport, Bus Station: 10:45
 Stockport, Asda/Sainsbury's: 10:50
 Stockport, Lower Bents Lane/Stockport Road: 11:00
@@ -1406,7 +1406,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:34
 Stockport, Bus Station: 11:45
 Duration: 60 minutes
 
-Service number: 24
+Service number: 6341
 Stockport, Bus Station: 11:00
 Stockport, Asda/Sainsbury's: 11:05
 Stockport, Lower Bents Lane/Stockport Road: 11:15
@@ -1418,7 +1418,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:49
 Stockport, Bus Station: 12:00
 Duration: 60 minutes
 
-Service number: 25
+Service number: 6342
 Stockport, Bus Station: 11:15
 Stockport, Asda/Sainsbury's: 11:20
 Stockport, Lower Bents Lane/Stockport Road: 11:30
@@ -1430,7 +1430,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:04
 Stockport, Bus Station: 12:15
 Duration: 60 minutes
 
-Service number: 26
+Service number: 6343
 Stockport, Bus Station: 11:30
 Stockport, Asda/Sainsbury's: 11:35
 Stockport, Lower Bents Lane/Stockport Road: 11:45
@@ -1442,7 +1442,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:19
 Stockport, Bus Station: 12:30
 Duration: 60 minutes
 
-Service number: 27
+Service number: 6344
 Stockport, Bus Station: 11:45
 Stockport, Asda/Sainsbury's: 11:50
 Stockport, Lower Bents Lane/Stockport Road: 12:00
@@ -1454,7 +1454,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:34
 Stockport, Bus Station: 12:45
 Duration: 60 minutes
 
-Service number: 28
+Service number: 6345
 Stockport, Bus Station: 12:00
 Stockport, Asda/Sainsbury's: 12:05
 Stockport, Lower Bents Lane/Stockport Road: 12:15
@@ -1466,7 +1466,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:49
 Stockport, Bus Station: 13:00
 Duration: 60 minutes
 
-Service number: 29
+Service number: 6346
 Stockport, Bus Station: 12:15
 Stockport, Asda/Sainsbury's: 12:20
 Stockport, Lower Bents Lane/Stockport Road: 12:30
@@ -1478,7 +1478,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:04
 Stockport, Bus Station: 13:15
 Duration: 60 minutes
 
-Service number: 30
+Service number: 6347
 Stockport, Bus Station: 12:30
 Stockport, Asda/Sainsbury's: 12:35
 Stockport, Lower Bents Lane/Stockport Road: 12:45
@@ -1490,7 +1490,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:19
 Stockport, Bus Station: 13:30
 Duration: 60 minutes
 
-Service number: 31
+Service number: 6348
 Stockport, Bus Station: 12:45
 Stockport, Asda/Sainsbury's: 12:50
 Stockport, Lower Bents Lane/Stockport Road: 13:00
@@ -1502,7 +1502,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:34
 Stockport, Bus Station: 13:45
 Duration: 60 minutes
 
-Service number: 32
+Service number: 6349
 Stockport, Bus Station: 13:00
 Stockport, Asda/Sainsbury's: 13:05
 Stockport, Lower Bents Lane/Stockport Road: 13:15
@@ -1514,7 +1514,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:49
 Stockport, Bus Station: 14:00
 Duration: 60 minutes
 
-Service number: 33
+Service number: 6350
 Stockport, Bus Station: 13:15
 Stockport, Asda/Sainsbury's: 13:20
 Stockport, Lower Bents Lane/Stockport Road: 13:30
@@ -1526,7 +1526,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:04
 Stockport, Bus Station: 14:15
 Duration: 60 minutes
 
-Service number: 34
+Service number: 6351
 Stockport, Bus Station: 13:30
 Stockport, Asda/Sainsbury's: 13:35
 Stockport, Lower Bents Lane/Stockport Road: 13:45
@@ -1538,7 +1538,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:19
 Stockport, Bus Station: 14:30
 Duration: 60 minutes
 
-Service number: 35
+Service number: 6352
 Stockport, Bus Station: 13:45
 Stockport, Asda/Sainsbury's: 13:50
 Stockport, Lower Bents Lane/Stockport Road: 14:00
@@ -1550,7 +1550,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:34
 Stockport, Bus Station: 14:45
 Duration: 60 minutes
 
-Service number: 36
+Service number: 6353
 Stockport, Bus Station: 14:00
 Stockport, Asda/Sainsbury's: 14:05
 Stockport, Lower Bents Lane/Stockport Road: 14:15
@@ -1562,7 +1562,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:49
 Stockport, Bus Station: 15:00
 Duration: 60 minutes
 
-Service number: 37
+Service number: 6354
 Stockport, Bus Station: 14:15
 Stockport, Asda/Sainsbury's: 14:20
 Stockport, Lower Bents Lane/Stockport Road: 14:30
@@ -1574,7 +1574,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:04
 Stockport, Bus Station: 15:15
 Duration: 60 minutes
 
-Service number: 38
+Service number: 6355
 Stockport, Bus Station: 14:30
 Stockport, Asda/Sainsbury's: 14:35
 Stockport, Lower Bents Lane/Stockport Road: 14:45
@@ -1586,7 +1586,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:20
 Stockport, Bus Station: 15:31
 Duration: 61 minutes
 
-Service number: 39
+Service number: 6356
 Stockport, Bus Station: 14:45
 Stockport, Asda/Sainsbury's: 14:50
 Stockport, Lower Bents Lane/Stockport Road: 15:00
@@ -1598,7 +1598,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:37
 Stockport, Bus Station: 15:48
 Duration: 63 minutes
 
-Service number: 40
+Service number: 6357
 Stockport, Bus Station: 15:00
 Stockport, Asda/Sainsbury's: 15:05
 Stockport, Lower Bents Lane/Stockport Road: 15:19
@@ -1610,7 +1610,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:56
 Stockport, Bus Station: 16:07
 Duration: 67 minutes
 
-Service number: 41
+Service number: 6358
 Stockport, Bus Station: 15:15
 Stockport, Asda/Sainsbury's: 15:20
 Stockport, Lower Bents Lane/Stockport Road: 15:34
@@ -1622,7 +1622,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:11
 Stockport, Bus Station: 16:22
 Duration: 67 minutes
 
-Service number: 42
+Service number: 6359
 Stockport, Bus Station: 15:30
 Stockport, Asda/Sainsbury's: 15:35
 Stockport, Lower Bents Lane/Stockport Road: 15:49
@@ -1634,7 +1634,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:26
 Stockport, Bus Station: 16:37
 Duration: 67 minutes
 
-Service number: 43
+Service number: 6360
 Stockport, Bus Station: 15:45
 Stockport, Asda/Sainsbury's: 15:50
 Stockport, Lower Bents Lane/Stockport Road: 16:04
@@ -1646,7 +1646,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:41
 Stockport, Bus Station: 16:52
 Duration: 67 minutes
 
-Service number: 44
+Service number: 6361
 Stockport, Bus Station: 16:00
 Stockport, Asda/Sainsbury's: 16:05
 Stockport, Lower Bents Lane/Stockport Road: 16:19
@@ -1658,7 +1658,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:56
 Stockport, Bus Station: 17:07
 Duration: 67 minutes
 
-Service number: 45
+Service number: 6362
 Stockport, Bus Station: 16:15
 Stockport, Asda/Sainsbury's: 16:20
 Stockport, Lower Bents Lane/Stockport Road: 16:36
@@ -1670,7 +1670,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:13
 Stockport, Bus Station: 17:24
 Duration: 69 minutes
 
-Service number: 46
+Service number: 6363
 Stockport, Bus Station: 16:30
 Stockport, Asda/Sainsbury's: 16:35
 Stockport, Lower Bents Lane/Stockport Road: 16:53
@@ -1682,7 +1682,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:31
 Stockport, Bus Station: 17:42
 Duration: 72 minutes
 
-Service number: 47
+Service number: 6364
 Stockport, Bus Station: 16:45
 Stockport, Asda/Sainsbury's: 16:50
 Stockport, Lower Bents Lane/Stockport Road: 17:08
@@ -1694,7 +1694,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:46
 Stockport, Bus Station: 17:57
 Duration: 72 minutes
 
-Service number: 48
+Service number: 6365
 Stockport, Bus Station: 17:00
 Stockport, Asda/Sainsbury's: 17:05
 Stockport, Lower Bents Lane/Stockport Road: 17:23
@@ -1706,7 +1706,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:01
 Stockport, Bus Station: 18:12
 Duration: 72 minutes
 
-Service number: 49
+Service number: 6366
 Stockport, Bus Station: 17:15
 Stockport, Asda/Sainsbury's: 17:20
 Stockport, Lower Bents Lane/Stockport Road: 17:38
@@ -1718,7 +1718,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:16
 Stockport, Bus Station: 18:27
 Duration: 72 minutes
 
-Service number: 50
+Service number: 6367
 Stockport, Bus Station: 17:30
 Stockport, Asda/Sainsbury's: 17:35
 Stockport, Lower Bents Lane/Stockport Road: 17:53
@@ -1730,7 +1730,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:31
 Stockport, Bus Station: 18:42
 Duration: 72 minutes
 
-Service number: 51
+Service number: 6368
 Stockport, Bus Station: 17:45
 Stockport, Asda/Sainsbury's: 17:50
 Stockport, Lower Bents Lane/Stockport Road: 18:06
@@ -1742,7 +1742,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:42
 Stockport, Bus Station: 18:53
 Duration: 68 minutes
 
-Service number: 52
+Service number: 6369
 Stockport, Bus Station: 18:00
 Stockport, Asda/Sainsbury's: 18:05
 Stockport, Lower Bents Lane/Stockport Road: 18:19
@@ -1754,7 +1754,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:54
 Stockport, Bus Station: 19:05
 Duration: 65 minutes
 
-Service number: 53
+Service number: 6370
 Stockport, Bus Station: 18:20
 Stockport, Asda/Sainsbury's: 18:25
 Stockport, Lower Bents Lane/Stockport Road: 18:35
@@ -1766,7 +1766,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:09
 Stockport, Bus Station: 19:19
 Duration: 59 minutes
 
-Service number: 54
+Service number: 6371
 Stockport, Bus Station: 18:45
 Stockport, Asda/Sainsbury's: 18:50
 Stockport, Lower Bents Lane/Stockport Road: 19:00
@@ -1778,7 +1778,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:31
 Stockport, Bus Station: 19:41
 Duration: 56 minutes
 
-Service number: 55
+Service number: 6372
 Stockport, Bus Station: 19:15
 Stockport, Asda/Sainsbury's: 19:18
 Stockport, Lower Bents Lane/Stockport Road: 19:25
@@ -1790,7 +1790,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:56
 Stockport, Bus Station: 20:06
 Duration: 51 minutes
 
-Service number: 56
+Service number: 6373
 Stockport, Bus Station: 19:45
 Stockport, Asda/Sainsbury's: 19:48
 Stockport, Lower Bents Lane/Stockport Road: 19:55
@@ -1802,7 +1802,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 20:26
 Stockport, Bus Station: 20:36
 Duration: 51 minutes
 
-Service number: 57
+Service number: 6374
 Stockport, Bus Station: 20:15
 Stockport, Asda/Sainsbury's: 20:18
 Stockport, Lower Bents Lane/Stockport Road: 20:25
@@ -1814,7 +1814,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 20:56
 Stockport, Bus Station: 21:06
 Duration: 51 minutes
 
-Service number: 58
+Service number: 6375
 Stockport, Bus Station: 20:45
 Stockport, Asda/Sainsbury's: 20:48
 Stockport, Lower Bents Lane/Stockport Road: 20:55
@@ -1826,7 +1826,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 21:26
 Stockport, Bus Station: 21:36
 Duration: 51 minutes
 
-Service number: 59
+Service number: 6376
 Stockport, Bus Station: 21:15
 Stockport, Asda/Sainsbury's: 21:18
 Stockport, Lower Bents Lane/Stockport Road: 21:25
@@ -1838,7 +1838,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 21:56
 Stockport, Bus Station: 22:06
 Duration: 51 minutes
 
-Service number: 60
+Service number: 6377
 Stockport, Bus Station: 21:45
 Stockport, Asda/Sainsbury's: 21:48
 Stockport, Lower Bents Lane/Stockport Road: 21:55
@@ -1850,7 +1850,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 22:26
 Stockport, Bus Station: 22:36
 Duration: 51 minutes
 
-Service number: 61
+Service number: 6378
 Stockport, Bus Station: 22:15
 Stockport, Asda/Sainsbury's: 22:18
 Stockport, Lower Bents Lane/Stockport Road: 22:25
@@ -1862,7 +1862,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 22:56
 Stockport, Bus Station: 23:06
 Duration: 51 minutes
 
-Service number: 62
+Service number: 6379
 Stockport, Bus Station: 22:45
 Stockport, Asda/Sainsbury's: 22:48
 Stockport, Lower Bents Lane/Stockport Road: 22:55
@@ -1874,7 +1874,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 23:26
 Stockport, Bus Station: 23:36
 Duration: 51 minutes
 
-Service number: 63
+Service number: 6380
 Stockport, Bus Station: 23:15
 Stockport, Asda/Sainsbury's: 23:18
 Stockport, Lower Bents Lane/Stockport Road: 23:25
@@ -1889,7 +1889,7 @@ Duration: 51 minutes
 
 Route: 358back, saturday
 --------------------------------------------
-Service number: 0
+Service number: 6531
 Stockport, Bus Station: 06:45
 Marple, Offerton Fold: 06:54
 Marple, Navigation Hotel: 07:04
@@ -1901,7 +1901,7 @@ Birch Vale, Grouse Hotel: 07:24
 Hayfield, Bus Station: 07:27
 Duration: 42 minutes
 
-Service number: 1
+Service number: 6532
 Stockport, Bus Station: 07:45
 Marple, Offerton Fold: 07:54
 Marple, Navigation Hotel: 08:04
@@ -1913,7 +1913,7 @@ Birch Vale, Grouse Hotel: 08:24
 Hayfield, Bus Station: 08:27
 Duration: 42 minutes
 
-Service number: 2
+Service number: 6533
 Stockport, Bus Station: 08:30
 Marple, Offerton Fold: 08:42
 Marple, Navigation Hotel: 08:53
@@ -1925,7 +1925,7 @@ Birch Vale, Grouse Hotel: 09:21
 Hayfield, Bus Station: 09:24
 Duration: 54 minutes
 
-Service number: 3
+Service number: 6534
 Stockport, Bus Station: 09:30
 Marple, Offerton Fold: 09:42
 Marple, Navigation Hotel: 09:53
@@ -1937,7 +1937,7 @@ Birch Vale, Grouse Hotel: 10:21
 Hayfield, Bus Station: 10:24
 Duration: 54 minutes
 
-Service number: 4
+Service number: 6535
 Stockport, Bus Station: 10:30
 Marple, Offerton Fold: 10:42
 Marple, Navigation Hotel: 10:53
@@ -1949,7 +1949,7 @@ Birch Vale, Grouse Hotel: 11:21
 Hayfield, Bus Station: 11:24
 Duration: 54 minutes
 
-Service number: 5
+Service number: 6536
 Stockport, Bus Station: 11:30
 Marple, Offerton Fold: 11:42
 Marple, Navigation Hotel: 11:53
@@ -1961,7 +1961,7 @@ Birch Vale, Grouse Hotel: 12:21
 Hayfield, Bus Station: 12:24
 Duration: 54 minutes
 
-Service number: 6
+Service number: 6537
 Stockport, Bus Station: 12:30
 Marple, Offerton Fold: 12:42
 Marple, Navigation Hotel: 12:53
@@ -1973,7 +1973,7 @@ Birch Vale, Grouse Hotel: 13:21
 Hayfield, Bus Station: 13:24
 Duration: 54 minutes
 
-Service number: 7
+Service number: 6538
 Stockport, Bus Station: 13:30
 Marple, Offerton Fold: 13:42
 Marple, Navigation Hotel: 13:53
@@ -1985,7 +1985,7 @@ Birch Vale, Grouse Hotel: 14:21
 Hayfield, Bus Station: 14:24
 Duration: 54 minutes
 
-Service number: 8
+Service number: 6539
 Stockport, Bus Station: 14:30
 Marple, Offerton Fold: 14:42
 Marple, Navigation Hotel: 14:53
@@ -1997,7 +1997,7 @@ Birch Vale, Grouse Hotel: 15:21
 Hayfield, Bus Station: 15:24
 Duration: 54 minutes
 
-Service number: 9
+Service number: 6540
 Stockport, Bus Station: 15:45
 Marple, Offerton Fold: 15:57
 Marple, Navigation Hotel: 16:08
@@ -2009,7 +2009,7 @@ Birch Vale, Grouse Hotel: 16:32
 Hayfield, Bus Station: 16:35
 Duration: 50 minutes
 
-Service number: 10
+Service number: 6541
 Stockport, Bus Station: 16:45
 Marple, Offerton Fold: 16:57
 Marple, Navigation Hotel: 17:08
@@ -2021,7 +2021,7 @@ Birch Vale, Grouse Hotel: 17:32
 Hayfield, Bus Station: 17:35
 Duration: 50 minutes
 
-Service number: 11
+Service number: 6542
 Stockport, Bus Station: 18:00
 Marple, Offerton Fold: 18:12
 Marple, Navigation Hotel: 18:23
@@ -2033,7 +2033,7 @@ Birch Vale, Grouse Hotel: 18:43
 Hayfield, Bus Station: 18:46
 Duration: 46 minutes
 
-Service number: 12
+Service number: 6543
 Stockport, Bus Station: 19:15
 Marple, Offerton Fold: 19:24
 Marple, Navigation Hotel: 19:34
@@ -2045,7 +2045,7 @@ Birch Vale, Grouse Hotel: 19:54
 Hayfield, Bus Station: 19:57
 Duration: 42 minutes
 
-Service number: 13
+Service number: 6544
 Stockport, Bus Station: 20:15
 Marple, Offerton Fold: 20:24
 Marple, Navigation Hotel: 20:34
@@ -2057,7 +2057,7 @@ Birch Vale, Grouse Hotel: 20:54
 Hayfield, Bus Station: 20:57
 Duration: 42 minutes
 
-Service number: 14
+Service number: 6545
 Stockport, Bus Station: 21:15
 Marple, Offerton Fold: 21:24
 Marple, Navigation Hotel: 21:34
@@ -2069,7 +2069,7 @@ Birch Vale, Grouse Hotel: 21:54
 Hayfield, Bus Station: 21:57
 Duration: 42 minutes
 
-Service number: 15
+Service number: 6546
 Stockport, Bus Station: 22:15
 Marple, Offerton Fold: 22:24
 Marple, Navigation Hotel: 22:34
@@ -2084,7 +2084,7 @@ Glossop, Grouse Inn: 23:05
 Glossop, Henry Street: 23:12
 Duration: 57 minutes
 
-Service number: 16
+Service number: 6547
 Stockport, Bus Station: 23:15
 Marple, Offerton Fold: 23:24
 Marple, Navigation Hotel: 23:34
@@ -2099,7 +2099,7 @@ Duration: 42 minutes
 
 Route: 358out, saturday
 --------------------------------------------
-Service number: 0
+Service number: 6480
 Hayfield, Bus Station: 07:29
 Birch Vale, Grouse Hotel: 07:32
 Low Leighton, Ollerset View Hospital: 07:35
@@ -2111,7 +2111,7 @@ Marple, Offerton Fold: 08:08
 Stockport, Bus Station: 08:19
 Duration: 50 minutes
 
-Service number: 1
+Service number: 6481
 Hayfield, Bus Station: 08:29
 Birch Vale, Grouse Hotel: 08:32
 Low Leighton, Ollerset View Hospital: 08:35
@@ -2123,7 +2123,7 @@ Marple, Offerton Fold: 09:08
 Stockport, Bus Station: 09:19
 Duration: 50 minutes
 
-Service number: 2
+Service number: 6482
 Hayfield, Bus Station: 09:29
 Birch Vale, Grouse Hotel: 09:32
 Low Leighton, Ollerset View Hospital: 09:35
@@ -2135,7 +2135,7 @@ Marple, Offerton Fold: 10:08
 Stockport, Bus Station: 10:19
 Duration: 50 minutes
 
-Service number: 3
+Service number: 6483
 Hayfield, Bus Station: 10:29
 Birch Vale, Grouse Hotel: 10:32
 Low Leighton, Ollerset View Hospital: 10:35
@@ -2147,7 +2147,7 @@ Marple, Offerton Fold: 11:08
 Stockport, Bus Station: 11:19
 Duration: 50 minutes
 
-Service number: 4
+Service number: 6484
 Hayfield, Bus Station: 11:29
 Birch Vale, Grouse Hotel: 11:32
 Low Leighton, Ollerset View Hospital: 11:35
@@ -2159,7 +2159,7 @@ Marple, Offerton Fold: 12:08
 Stockport, Bus Station: 12:19
 Duration: 50 minutes
 
-Service number: 5
+Service number: 6485
 Hayfield, Bus Station: 12:29
 Birch Vale, Grouse Hotel: 12:32
 Low Leighton, Ollerset View Hospital: 12:35
@@ -2171,7 +2171,7 @@ Marple, Offerton Fold: 13:08
 Stockport, Bus Station: 13:19
 Duration: 50 minutes
 
-Service number: 6
+Service number: 6486
 Hayfield, Bus Station: 13:29
 Birch Vale, Grouse Hotel: 13:32
 Low Leighton, Ollerset View Hospital: 13:35
@@ -2183,7 +2183,7 @@ Marple, Offerton Fold: 14:08
 Stockport, Bus Station: 14:19
 Duration: 50 minutes
 
-Service number: 7
+Service number: 6487
 Hayfield, Bus Station: 14:29
 Birch Vale, Grouse Hotel: 14:32
 Low Leighton, Ollerset View Hospital: 14:35
@@ -2195,7 +2195,7 @@ Marple, Offerton Fold: 15:08
 Stockport, Bus Station: 15:19
 Duration: 50 minutes
 
-Service number: 8
+Service number: 6488
 Hayfield, Bus Station: 15:29
 Birch Vale, Grouse Hotel: 15:32
 Low Leighton, Ollerset View Hospital: 15:35
@@ -2207,7 +2207,7 @@ Marple, Offerton Fold: 16:08
 Stockport, Bus Station: 16:19
 Duration: 50 minutes
 
-Service number: 9
+Service number: 6489
 Hayfield, Bus Station: 16:45
 Birch Vale, Grouse Hotel: 16:48
 Low Leighton, Ollerset View Hospital: 16:51
@@ -2219,7 +2219,7 @@ Marple, Offerton Fold: 17:24
 Stockport, Bus Station: 17:35
 Duration: 50 minutes
 
-Service number: 10
+Service number: 6490
 Hayfield, Bus Station: 17:53
 Birch Vale, Grouse Hotel: 17:56
 Low Leighton, Ollerset View Hospital: 17:59
@@ -2231,7 +2231,7 @@ Marple, Offerton Fold: 18:32
 Stockport, Bus Station: 18:43
 Duration: 50 minutes
 
-Service number: 11
+Service number: 6491
 Hayfield, Bus Station: 19:05
 Birch Vale, Grouse Hotel: 19:08
 Low Leighton, Ollerset View Hospital: 19:11
@@ -2243,7 +2243,7 @@ Marple, Offerton Fold: 19:42
 Stockport, Bus Station: 19:51
 Duration: 46 minutes
 
-Service number: 12
+Service number: 6492
 Hayfield, Bus Station: 20:10
 Birch Vale, Grouse Hotel: 20:13
 Low Leighton, Ollerset View Hospital: 20:16
@@ -2255,7 +2255,7 @@ Marple, Offerton Fold: 20:42
 Stockport, Bus Station: 20:51
 Duration: 41 minutes
 
-Service number: 13
+Service number: 6493
 Hayfield, Bus Station: 21:10
 Birch Vale, Grouse Hotel: 21:13
 Low Leighton, Ollerset View Hospital: 21:16
@@ -2267,7 +2267,7 @@ Marple, Offerton Fold: 21:42
 Stockport, Bus Station: 21:51
 Duration: 41 minutes
 
-Service number: 14
+Service number: 6494
 Hayfield, Bus Station: 22:10
 Birch Vale, Grouse Hotel: 22:13
 Low Leighton, Ollerset View Hospital: 22:16
@@ -2279,7 +2279,7 @@ Marple, Offerton Fold: 22:42
 Stockport, Bus Station: 22:51
 Duration: 41 minutes
 
-Service number: 15
+Service number: 6495
 Glossop, Henry Street: 23:15
 Glossop, Grouse Inn: 23:22
 Glossop, Little Hayfield: 23:28
@@ -2294,7 +2294,7 @@ Marple, Offerton Fold: 00:02
 Stockport, Bus Station: 00:11
 Duration: 56 minutes
 
-Service number: 16
+Service number: 6496
 Hayfield, Bus Station: 00:00
 Birch Vale, Grouse Hotel: 00:03
 Low Leighton, Ollerset View Hospital: 00:06
@@ -2309,7 +2309,7 @@ Duration: 41 minutes
 
 Route: 383, saturday
 --------------------------------------------
-Service number: 0
+Service number: 6238
 Stockport, Bus Station: 06:30
 Stockport, Dialstone Lane/Hillcrest Road: 06:41
 Marple, Navigation Hotel: 06:51
@@ -2320,7 +2320,7 @@ Stockport, Lower Bents Lane/Stockport Road: 07:11
 Stockport, Bus Station: 07:22
 Duration: 52 minutes
 
-Service number: 1
+Service number: 6239
 Stockport, Bus Station: 07:00
 Stockport, Dialstone Lane/Hillcrest Road: 07:11
 Marple, Navigation Hotel: 07:21
@@ -2331,7 +2331,7 @@ Stockport, Lower Bents Lane/Stockport Road: 07:41
 Stockport, Bus Station: 07:52
 Duration: 52 minutes
 
-Service number: 2
+Service number: 6240
 Stockport, Bus Station: 07:30
 Stockport, Dialstone Lane/Hillcrest Road: 07:41
 Marple, Navigation Hotel: 07:51
@@ -2342,7 +2342,7 @@ Stockport, Lower Bents Lane/Stockport Road: 08:11
 Stockport, Bus Station: 08:22
 Duration: 52 minutes
 
-Service number: 3
+Service number: 6241
 Stockport, Bus Station: 08:00
 Stockport, Dialstone Lane/Hillcrest Road: 08:11
 Marple, Navigation Hotel: 08:21
@@ -2353,7 +2353,7 @@ Stockport, Lower Bents Lane/Stockport Road: 08:42
 Stockport, Bus Station: 08:56
 Duration: 56 minutes
 
-Service number: 4
+Service number: 6242
 Stockport, Bus Station: 08:20
 Stockport, Dialstone Lane/Hillcrest Road: 08:31
 Marple, Navigation Hotel: 08:43
@@ -2364,7 +2364,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:05
 Stockport, Bus Station: 09:19
 Duration: 59 minutes
 
-Service number: 5
+Service number: 6243
 Stockport, Bus Station: 08:37
 Stockport, Dialstone Lane/Hillcrest Road: 08:49
 Marple, Navigation Hotel: 09:01
@@ -2375,7 +2375,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:23
 Stockport, Bus Station: 09:37
 Duration: 60 minutes
 
-Service number: 6
+Service number: 6244
 Stockport, Bus Station: 08:52
 Stockport, Dialstone Lane/Hillcrest Road: 09:04
 Marple, Navigation Hotel: 09:16
@@ -2386,7 +2386,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:38
 Stockport, Bus Station: 09:52
 Duration: 60 minutes
 
-Service number: 7
+Service number: 6245
 Stockport, Bus Station: 09:07
 Stockport, Dialstone Lane/Hillcrest Road: 09:19
 Marple, Navigation Hotel: 09:31
@@ -2397,7 +2397,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:53
 Stockport, Bus Station: 10:07
 Duration: 60 minutes
 
-Service number: 8
+Service number: 6246
 Stockport, Bus Station: 09:22
 Stockport, Dialstone Lane/Hillcrest Road: 09:34
 Marple, Navigation Hotel: 09:46
@@ -2408,7 +2408,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:08
 Stockport, Bus Station: 10:22
 Duration: 60 minutes
 
-Service number: 9
+Service number: 6247
 Stockport, Bus Station: 09:37
 Stockport, Dialstone Lane/Hillcrest Road: 09:49
 Marple, Navigation Hotel: 10:01
@@ -2419,7 +2419,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:23
 Stockport, Bus Station: 10:37
 Duration: 60 minutes
 
-Service number: 10
+Service number: 6248
 Stockport, Bus Station: 09:52
 Stockport, Dialstone Lane/Hillcrest Road: 10:04
 Marple, Navigation Hotel: 10:16
@@ -2430,7 +2430,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:38
 Stockport, Bus Station: 10:52
 Duration: 60 minutes
 
-Service number: 11
+Service number: 6249
 Stockport, Bus Station: 10:07
 Stockport, Dialstone Lane/Hillcrest Road: 10:19
 Marple, Navigation Hotel: 10:31
@@ -2441,7 +2441,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:53
 Stockport, Bus Station: 11:07
 Duration: 60 minutes
 
-Service number: 12
+Service number: 6250
 Stockport, Bus Station: 10:22
 Stockport, Dialstone Lane/Hillcrest Road: 10:34
 Marple, Navigation Hotel: 10:46
@@ -2452,7 +2452,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:08
 Stockport, Bus Station: 11:22
 Duration: 60 minutes
 
-Service number: 13
+Service number: 6251
 Stockport, Bus Station: 10:37
 Stockport, Dialstone Lane/Hillcrest Road: 10:49
 Marple, Navigation Hotel: 11:01
@@ -2463,7 +2463,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:23
 Stockport, Bus Station: 11:37
 Duration: 60 minutes
 
-Service number: 14
+Service number: 6252
 Stockport, Bus Station: 10:52
 Stockport, Dialstone Lane/Hillcrest Road: 11:04
 Marple, Navigation Hotel: 11:16
@@ -2474,7 +2474,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:38
 Stockport, Bus Station: 11:52
 Duration: 60 minutes
 
-Service number: 15
+Service number: 6253
 Stockport, Bus Station: 11:07
 Stockport, Dialstone Lane/Hillcrest Road: 11:19
 Marple, Navigation Hotel: 11:31
@@ -2485,7 +2485,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:53
 Stockport, Bus Station: 12:07
 Duration: 60 minutes
 
-Service number: 16
+Service number: 6254
 Stockport, Bus Station: 11:22
 Stockport, Dialstone Lane/Hillcrest Road: 11:34
 Marple, Navigation Hotel: 11:46
@@ -2496,7 +2496,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:08
 Stockport, Bus Station: 12:22
 Duration: 60 minutes
 
-Service number: 17
+Service number: 6255
 Stockport, Bus Station: 11:37
 Stockport, Dialstone Lane/Hillcrest Road: 11:49
 Marple, Navigation Hotel: 12:01
@@ -2507,7 +2507,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:23
 Stockport, Bus Station: 12:37
 Duration: 60 minutes
 
-Service number: 18
+Service number: 6256
 Stockport, Bus Station: 11:52
 Stockport, Dialstone Lane/Hillcrest Road: 12:04
 Marple, Navigation Hotel: 12:16
@@ -2518,7 +2518,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:38
 Stockport, Bus Station: 12:52
 Duration: 60 minutes
 
-Service number: 19
+Service number: 6257
 Stockport, Bus Station: 12:07
 Stockport, Dialstone Lane/Hillcrest Road: 12:19
 Marple, Navigation Hotel: 12:31
@@ -2529,7 +2529,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:53
 Stockport, Bus Station: 13:07
 Duration: 60 minutes
 
-Service number: 20
+Service number: 6258
 Stockport, Bus Station: 12:22
 Stockport, Dialstone Lane/Hillcrest Road: 12:34
 Marple, Navigation Hotel: 12:46
@@ -2540,7 +2540,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:08
 Stockport, Bus Station: 13:22
 Duration: 60 minutes
 
-Service number: 21
+Service number: 6259
 Stockport, Bus Station: 12:37
 Stockport, Dialstone Lane/Hillcrest Road: 12:49
 Marple, Navigation Hotel: 13:01
@@ -2551,7 +2551,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:23
 Stockport, Bus Station: 13:37
 Duration: 60 minutes
 
-Service number: 22
+Service number: 6260
 Stockport, Bus Station: 12:52
 Stockport, Dialstone Lane/Hillcrest Road: 13:04
 Marple, Navigation Hotel: 13:16
@@ -2562,7 +2562,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:38
 Stockport, Bus Station: 13:52
 Duration: 60 minutes
 
-Service number: 23
+Service number: 6261
 Stockport, Bus Station: 13:07
 Stockport, Dialstone Lane/Hillcrest Road: 13:19
 Marple, Navigation Hotel: 13:31
@@ -2573,7 +2573,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:53
 Stockport, Bus Station: 14:07
 Duration: 60 minutes
 
-Service number: 24
+Service number: 6262
 Stockport, Bus Station: 13:22
 Stockport, Dialstone Lane/Hillcrest Road: 13:34
 Marple, Navigation Hotel: 13:46
@@ -2584,7 +2584,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:08
 Stockport, Bus Station: 14:22
 Duration: 60 minutes
 
-Service number: 25
+Service number: 6263
 Stockport, Bus Station: 13:37
 Stockport, Dialstone Lane/Hillcrest Road: 13:49
 Marple, Navigation Hotel: 14:01
@@ -2595,7 +2595,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:23
 Stockport, Bus Station: 14:37
 Duration: 60 minutes
 
-Service number: 26
+Service number: 6264
 Stockport, Bus Station: 13:52
 Stockport, Dialstone Lane/Hillcrest Road: 14:04
 Marple, Navigation Hotel: 14:16
@@ -2606,7 +2606,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:38
 Stockport, Bus Station: 14:52
 Duration: 60 minutes
 
-Service number: 27
+Service number: 6265
 Stockport, Bus Station: 14:07
 Stockport, Dialstone Lane/Hillcrest Road: 14:19
 Marple, Navigation Hotel: 14:31
@@ -2617,7 +2617,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:53
 Stockport, Bus Station: 15:07
 Duration: 60 minutes
 
-Service number: 28
+Service number: 6266
 Stockport, Bus Station: 14:22
 Stockport, Dialstone Lane/Hillcrest Road: 14:34
 Marple, Navigation Hotel: 14:46
@@ -2628,7 +2628,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:08
 Stockport, Bus Station: 15:22
 Duration: 60 minutes
 
-Service number: 29
+Service number: 6267
 Stockport, Bus Station: 14:37
 Stockport, Dialstone Lane/Hillcrest Road: 14:49
 Marple, Navigation Hotel: 15:01
@@ -2639,7 +2639,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:23
 Stockport, Bus Station: 15:37
 Duration: 60 minutes
 
-Service number: 30
+Service number: 6268
 Stockport, Bus Station: 14:52
 Stockport, Dialstone Lane/Hillcrest Road: 15:04
 Marple, Navigation Hotel: 15:16
@@ -2650,7 +2650,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:38
 Stockport, Bus Station: 15:52
 Duration: 60 minutes
 
-Service number: 31
+Service number: 6269
 Stockport, Bus Station: 15:07
 Stockport, Dialstone Lane/Hillcrest Road: 15:19
 Marple, Navigation Hotel: 15:31
@@ -2661,7 +2661,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:53
 Stockport, Bus Station: 16:07
 Duration: 60 minutes
 
-Service number: 32
+Service number: 6270
 Stockport, Bus Station: 15:22
 Stockport, Dialstone Lane/Hillcrest Road: 15:34
 Marple, Navigation Hotel: 15:46
@@ -2672,7 +2672,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:08
 Stockport, Bus Station: 16:22
 Duration: 60 minutes
 
-Service number: 33
+Service number: 6271
 Stockport, Bus Station: 15:37
 Stockport, Dialstone Lane/Hillcrest Road: 15:49
 Marple, Navigation Hotel: 16:01
@@ -2683,7 +2683,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:23
 Stockport, Bus Station: 16:37
 Duration: 60 minutes
 
-Service number: 34
+Service number: 6272
 Stockport, Bus Station: 15:52
 Stockport, Dialstone Lane/Hillcrest Road: 16:04
 Marple, Navigation Hotel: 16:16
@@ -2694,7 +2694,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:38
 Stockport, Bus Station: 16:52
 Duration: 60 minutes
 
-Service number: 35
+Service number: 6273
 Stockport, Bus Station: 16:07
 Stockport, Dialstone Lane/Hillcrest Road: 16:19
 Marple, Navigation Hotel: 16:31
@@ -2705,7 +2705,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:53
 Stockport, Bus Station: 17:07
 Duration: 60 minutes
 
-Service number: 36
+Service number: 6274
 Stockport, Bus Station: 16:22
 Stockport, Dialstone Lane/Hillcrest Road: 16:34
 Marple, Navigation Hotel: 16:46
@@ -2716,7 +2716,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:08
 Stockport, Bus Station: 17:22
 Duration: 60 minutes
 
-Service number: 37
+Service number: 6275
 Stockport, Bus Station: 16:37
 Stockport, Dialstone Lane/Hillcrest Road: 16:49
 Marple, Navigation Hotel: 17:01
@@ -2727,7 +2727,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:23
 Stockport, Bus Station: 17:37
 Duration: 60 minutes
 
-Service number: 38
+Service number: 6276
 Stockport, Bus Station: 16:52
 Stockport, Dialstone Lane/Hillcrest Road: 17:04
 Marple, Navigation Hotel: 17:16
@@ -2738,7 +2738,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:38
 Stockport, Bus Station: 17:52
 Duration: 60 minutes
 
-Service number: 39
+Service number: 6277
 Stockport, Bus Station: 17:10
 Stockport, Dialstone Lane/Hillcrest Road: 17:22
 Marple, Navigation Hotel: 17:34
@@ -2749,7 +2749,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:56
 Stockport, Bus Station: 18:10
 Duration: 60 minutes
 
-Service number: 40
+Service number: 6278
 Stockport, Bus Station: 17:30
 Stockport, Dialstone Lane/Hillcrest Road: 17:42
 Marple, Navigation Hotel: 17:54
@@ -2760,7 +2760,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:16
 Stockport, Bus Station: 18:30
 Duration: 60 minutes
 
-Service number: 41
+Service number: 6279
 Stockport, Bus Station: 17:50
 Stockport, Dialstone Lane/Hillcrest Road: 18:02
 Marple, Navigation Hotel: 18:14
@@ -2771,7 +2771,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:36
 Stockport, Bus Station: 18:47
 Duration: 57 minutes
 
-Service number: 42
+Service number: 6280
 Stockport, Bus Station: 18:10
 Stockport, Dialstone Lane/Hillcrest Road: 18:22
 Marple, Navigation Hotel: 18:34
@@ -2782,7 +2782,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:54
 Stockport, Bus Station: 19:05
 Duration: 55 minutes
 
-Service number: 43
+Service number: 6281
 Stockport, Bus Station: 18:30
 Stockport, Dialstone Lane/Hillcrest Road: 18:41
 Marple, Navigation Hotel: 18:51
@@ -2793,7 +2793,7 @@ Stockport, Lower Bents Lane/Stockport Road: 19:11
 Stockport, Bus Station: 19:22
 Duration: 52 minutes
 
-Service number: 44
+Service number: 6282
 Stockport, Bus Station: 19:00
 Stockport, Dialstone Lane/Hillcrest Road: 19:11
 Marple, Navigation Hotel: 19:21
@@ -2804,7 +2804,7 @@ Stockport, Lower Bents Lane/Stockport Road: 19:41
 Stockport, Bus Station: 19:52
 Duration: 52 minutes
 
-Service number: 45
+Service number: 6283
 Stockport, Bus Station: 19:30
 Stockport, Dialstone Lane/Hillcrest Road: 19:41
 Marple, Navigation Hotel: 19:51
@@ -2815,7 +2815,7 @@ Stockport, Lower Bents Lane/Stockport Road: 20:11
 Stockport, Bus Station: 20:22
 Duration: 52 minutes
 
-Service number: 46
+Service number: 6284
 Stockport, Bus Station: 20:00
 Stockport, Dialstone Lane/Hillcrest Road: 20:11
 Marple, Navigation Hotel: 20:21
@@ -2826,7 +2826,7 @@ Stockport, Lower Bents Lane/Stockport Road: 20:41
 Stockport, Bus Station: 20:52
 Duration: 52 minutes
 
-Service number: 47
+Service number: 6285
 Stockport, Bus Station: 20:30
 Stockport, Dialstone Lane/Hillcrest Road: 20:41
 Marple, Navigation Hotel: 20:51
@@ -2837,7 +2837,7 @@ Stockport, Lower Bents Lane/Stockport Road: 21:11
 Stockport, Bus Station: 21:22
 Duration: 52 minutes
 
-Service number: 48
+Service number: 6286
 Stockport, Bus Station: 21:00
 Stockport, Dialstone Lane/Hillcrest Road: 21:11
 Marple, Navigation Hotel: 21:21
@@ -2848,7 +2848,7 @@ Stockport, Lower Bents Lane/Stockport Road: 21:41
 Stockport, Bus Station: 21:52
 Duration: 52 minutes
 
-Service number: 49
+Service number: 6287
 Stockport, Bus Station: 21:30
 Stockport, Dialstone Lane/Hillcrest Road: 21:41
 Marple, Navigation Hotel: 21:51
@@ -2859,7 +2859,7 @@ Stockport, Lower Bents Lane/Stockport Road: 22:11
 Stockport, Bus Station: 22:22
 Duration: 52 minutes
 
-Service number: 50
+Service number: 6288
 Stockport, Bus Station: 22:00
 Stockport, Dialstone Lane/Hillcrest Road: 22:11
 Marple, Navigation Hotel: 22:21
@@ -2870,7 +2870,7 @@ Stockport, Lower Bents Lane/Stockport Road: 22:41
 Stockport, Bus Station: 22:52
 Duration: 52 minutes
 
-Service number: 51
+Service number: 6289
 Stockport, Bus Station: 22:30
 Stockport, Dialstone Lane/Hillcrest Road: 22:41
 Marple, Navigation Hotel: 22:51
@@ -2881,7 +2881,7 @@ Stockport, Lower Bents Lane/Stockport Road: 23:11
 Stockport, Bus Station: 23:22
 Duration: 52 minutes
 
-Service number: 52
+Service number: 6290
 Stockport, Bus Station: 23:10
 Stockport, Dialstone Lane/Hillcrest Road: 23:21
 Marple, Navigation Hotel: 23:31
@@ -2895,7 +2895,7 @@ Duration: 52 minutes
 
 Route: 384, saturday
 --------------------------------------------
-Service number: 0
+Service number: 6381
 Stockport, Bus Station: 06:45
 Stockport, Asda/Sainsbury's: 06:48
 Stockport, Lower Bents Lane/Stockport Road: 06:55
@@ -2907,7 +2907,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 07:26
 Stockport, Bus Station: 07:36
 Duration: 51 minutes
 
-Service number: 1
+Service number: 6382
 Stockport, Bus Station: 07:15
 Stockport, Asda/Sainsbury's: 07:18
 Stockport, Lower Bents Lane/Stockport Road: 07:25
@@ -2919,7 +2919,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 07:56
 Stockport, Bus Station: 08:06
 Duration: 51 minutes
 
-Service number: 2
+Service number: 6383
 Stockport, Bus Station: 07:45
 Stockport, Asda/Sainsbury's: 07:48
 Stockport, Lower Bents Lane/Stockport Road: 07:55
@@ -2931,7 +2931,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 08:26
 Stockport, Bus Station: 08:36
 Duration: 51 minutes
 
-Service number: 3
+Service number: 6384
 Stockport, Bus Station: 08:10
 Stockport, Asda/Sainsbury's: 08:13
 Stockport, Lower Bents Lane/Stockport Road: 08:20
@@ -2943,7 +2943,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 08:53
 Stockport, Bus Station: 09:04
 Duration: 54 minutes
 
-Service number: 4
+Service number: 6385
 Stockport, Bus Station: 08:30
 Stockport, Asda/Sainsbury's: 08:35
 Stockport, Lower Bents Lane/Stockport Road: 08:45
@@ -2955,7 +2955,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:19
 Stockport, Bus Station: 09:30
 Duration: 60 minutes
 
-Service number: 5
+Service number: 6386
 Stockport, Bus Station: 08:45
 Stockport, Asda/Sainsbury's: 08:50
 Stockport, Lower Bents Lane/Stockport Road: 09:00
@@ -2967,7 +2967,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:34
 Stockport, Bus Station: 09:45
 Duration: 60 minutes
 
-Service number: 6
+Service number: 6387
 Stockport, Bus Station: 09:00
 Stockport, Asda/Sainsbury's: 09:05
 Stockport, Lower Bents Lane/Stockport Road: 09:15
@@ -2979,7 +2979,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:49
 Stockport, Bus Station: 10:00
 Duration: 60 minutes
 
-Service number: 7
+Service number: 6388
 Stockport, Bus Station: 09:15
 Stockport, Asda/Sainsbury's: 09:20
 Stockport, Lower Bents Lane/Stockport Road: 09:30
@@ -2991,7 +2991,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:04
 Stockport, Bus Station: 10:15
 Duration: 60 minutes
 
-Service number: 8
+Service number: 6389
 Stockport, Bus Station: 09:30
 Stockport, Asda/Sainsbury's: 09:35
 Stockport, Lower Bents Lane/Stockport Road: 09:45
@@ -3003,7 +3003,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:19
 Stockport, Bus Station: 10:30
 Duration: 60 minutes
 
-Service number: 9
+Service number: 6390
 Stockport, Bus Station: 09:45
 Stockport, Asda/Sainsbury's: 09:50
 Stockport, Lower Bents Lane/Stockport Road: 10:00
@@ -3015,7 +3015,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:34
 Stockport, Bus Station: 10:45
 Duration: 60 minutes
 
-Service number: 10
+Service number: 6391
 Stockport, Bus Station: 10:00
 Stockport, Asda/Sainsbury's: 10:05
 Stockport, Lower Bents Lane/Stockport Road: 10:15
@@ -3027,7 +3027,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:49
 Stockport, Bus Station: 11:00
 Duration: 60 minutes
 
-Service number: 11
+Service number: 6392
 Stockport, Bus Station: 10:15
 Stockport, Asda/Sainsbury's: 10:20
 Stockport, Lower Bents Lane/Stockport Road: 10:30
@@ -3039,7 +3039,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:04
 Stockport, Bus Station: 11:15
 Duration: 60 minutes
 
-Service number: 12
+Service number: 6393
 Stockport, Bus Station: 10:30
 Stockport, Asda/Sainsbury's: 10:35
 Stockport, Lower Bents Lane/Stockport Road: 10:45
@@ -3051,7 +3051,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:19
 Stockport, Bus Station: 11:30
 Duration: 60 minutes
 
-Service number: 13
+Service number: 6394
 Stockport, Bus Station: 10:45
 Stockport, Asda/Sainsbury's: 10:50
 Stockport, Lower Bents Lane/Stockport Road: 11:00
@@ -3063,7 +3063,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:34
 Stockport, Bus Station: 11:45
 Duration: 60 minutes
 
-Service number: 14
+Service number: 6395
 Stockport, Bus Station: 11:00
 Stockport, Asda/Sainsbury's: 11:05
 Stockport, Lower Bents Lane/Stockport Road: 11:15
@@ -3075,7 +3075,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:49
 Stockport, Bus Station: 12:00
 Duration: 60 minutes
 
-Service number: 15
+Service number: 6396
 Stockport, Bus Station: 11:15
 Stockport, Asda/Sainsbury's: 11:20
 Stockport, Lower Bents Lane/Stockport Road: 11:30
@@ -3087,7 +3087,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:04
 Stockport, Bus Station: 12:15
 Duration: 60 minutes
 
-Service number: 16
+Service number: 6397
 Stockport, Bus Station: 11:30
 Stockport, Asda/Sainsbury's: 11:35
 Stockport, Lower Bents Lane/Stockport Road: 11:45
@@ -3099,7 +3099,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:19
 Stockport, Bus Station: 12:30
 Duration: 60 minutes
 
-Service number: 17
+Service number: 6398
 Stockport, Bus Station: 11:45
 Stockport, Asda/Sainsbury's: 11:50
 Stockport, Lower Bents Lane/Stockport Road: 12:00
@@ -3111,7 +3111,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:34
 Stockport, Bus Station: 12:45
 Duration: 60 minutes
 
-Service number: 18
+Service number: 6399
 Stockport, Bus Station: 12:00
 Stockport, Asda/Sainsbury's: 12:05
 Stockport, Lower Bents Lane/Stockport Road: 12:15
@@ -3123,7 +3123,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:49
 Stockport, Bus Station: 13:00
 Duration: 60 minutes
 
-Service number: 19
+Service number: 6400
 Stockport, Bus Station: 12:15
 Stockport, Asda/Sainsbury's: 12:20
 Stockport, Lower Bents Lane/Stockport Road: 12:30
@@ -3135,7 +3135,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:04
 Stockport, Bus Station: 13:15
 Duration: 60 minutes
 
-Service number: 20
+Service number: 6401
 Stockport, Bus Station: 12:30
 Stockport, Asda/Sainsbury's: 12:35
 Stockport, Lower Bents Lane/Stockport Road: 12:45
@@ -3147,7 +3147,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:19
 Stockport, Bus Station: 13:30
 Duration: 60 minutes
 
-Service number: 21
+Service number: 6402
 Stockport, Bus Station: 12:45
 Stockport, Asda/Sainsbury's: 12:50
 Stockport, Lower Bents Lane/Stockport Road: 13:00
@@ -3159,7 +3159,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:34
 Stockport, Bus Station: 13:45
 Duration: 60 minutes
 
-Service number: 22
+Service number: 6403
 Stockport, Bus Station: 13:00
 Stockport, Asda/Sainsbury's: 13:05
 Stockport, Lower Bents Lane/Stockport Road: 13:15
@@ -3171,7 +3171,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:49
 Stockport, Bus Station: 14:00
 Duration: 60 minutes
 
-Service number: 23
+Service number: 6404
 Stockport, Bus Station: 13:15
 Stockport, Asda/Sainsbury's: 13:20
 Stockport, Lower Bents Lane/Stockport Road: 13:30
@@ -3183,7 +3183,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:04
 Stockport, Bus Station: 14:15
 Duration: 60 minutes
 
-Service number: 24
+Service number: 6405
 Stockport, Bus Station: 13:30
 Stockport, Asda/Sainsbury's: 13:35
 Stockport, Lower Bents Lane/Stockport Road: 13:45
@@ -3195,7 +3195,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:19
 Stockport, Bus Station: 14:30
 Duration: 60 minutes
 
-Service number: 25
+Service number: 6406
 Stockport, Bus Station: 13:45
 Stockport, Asda/Sainsbury's: 13:50
 Stockport, Lower Bents Lane/Stockport Road: 14:00
@@ -3207,7 +3207,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:34
 Stockport, Bus Station: 14:45
 Duration: 60 minutes
 
-Service number: 26
+Service number: 6407
 Stockport, Bus Station: 14:00
 Stockport, Asda/Sainsbury's: 14:05
 Stockport, Lower Bents Lane/Stockport Road: 14:15
@@ -3219,7 +3219,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:49
 Stockport, Bus Station: 15:00
 Duration: 60 minutes
 
-Service number: 27
+Service number: 6408
 Stockport, Bus Station: 14:15
 Stockport, Asda/Sainsbury's: 14:20
 Stockport, Lower Bents Lane/Stockport Road: 14:30
@@ -3231,7 +3231,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:04
 Stockport, Bus Station: 15:15
 Duration: 60 minutes
 
-Service number: 28
+Service number: 6409
 Stockport, Bus Station: 14:30
 Stockport, Asda/Sainsbury's: 14:35
 Stockport, Lower Bents Lane/Stockport Road: 14:45
@@ -3243,7 +3243,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:19
 Stockport, Bus Station: 15:30
 Duration: 60 minutes
 
-Service number: 29
+Service number: 6410
 Stockport, Bus Station: 14:45
 Stockport, Asda/Sainsbury's: 14:50
 Stockport, Lower Bents Lane/Stockport Road: 15:00
@@ -3255,7 +3255,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:34
 Stockport, Bus Station: 15:45
 Duration: 60 minutes
 
-Service number: 30
+Service number: 6411
 Stockport, Bus Station: 15:00
 Stockport, Asda/Sainsbury's: 15:05
 Stockport, Lower Bents Lane/Stockport Road: 15:15
@@ -3267,7 +3267,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:49
 Stockport, Bus Station: 16:00
 Duration: 60 minutes
 
-Service number: 31
+Service number: 6412
 Stockport, Bus Station: 15:15
 Stockport, Asda/Sainsbury's: 15:20
 Stockport, Lower Bents Lane/Stockport Road: 15:30
@@ -3279,7 +3279,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:04
 Stockport, Bus Station: 16:15
 Duration: 60 minutes
 
-Service number: 32
+Service number: 6413
 Stockport, Bus Station: 15:30
 Stockport, Asda/Sainsbury's: 15:35
 Stockport, Lower Bents Lane/Stockport Road: 15:45
@@ -3291,7 +3291,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:19
 Stockport, Bus Station: 16:30
 Duration: 60 minutes
 
-Service number: 33
+Service number: 6414
 Stockport, Bus Station: 15:45
 Stockport, Asda/Sainsbury's: 15:50
 Stockport, Lower Bents Lane/Stockport Road: 16:00
@@ -3303,7 +3303,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:34
 Stockport, Bus Station: 16:45
 Duration: 60 minutes
 
-Service number: 34
+Service number: 6415
 Stockport, Bus Station: 16:00
 Stockport, Asda/Sainsbury's: 16:05
 Stockport, Lower Bents Lane/Stockport Road: 16:15
@@ -3315,7 +3315,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:49
 Stockport, Bus Station: 17:00
 Duration: 60 minutes
 
-Service number: 35
+Service number: 6416
 Stockport, Bus Station: 16:15
 Stockport, Asda/Sainsbury's: 16:20
 Stockport, Lower Bents Lane/Stockport Road: 16:30
@@ -3327,7 +3327,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:04
 Stockport, Bus Station: 17:15
 Duration: 60 minutes
 
-Service number: 36
+Service number: 6417
 Stockport, Bus Station: 16:30
 Stockport, Asda/Sainsbury's: 16:35
 Stockport, Lower Bents Lane/Stockport Road: 16:45
@@ -3339,7 +3339,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:19
 Stockport, Bus Station: 17:30
 Duration: 60 minutes
 
-Service number: 37
+Service number: 6418
 Stockport, Bus Station: 16:45
 Stockport, Asda/Sainsbury's: 16:50
 Stockport, Lower Bents Lane/Stockport Road: 17:00
@@ -3351,7 +3351,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:34
 Stockport, Bus Station: 17:45
 Duration: 60 minutes
 
-Service number: 38
+Service number: 6419
 Stockport, Bus Station: 17:00
 Stockport, Asda/Sainsbury's: 17:05
 Stockport, Lower Bents Lane/Stockport Road: 17:15
@@ -3363,7 +3363,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:49
 Stockport, Bus Station: 18:00
 Duration: 60 minutes
 
-Service number: 39
+Service number: 6420
 Stockport, Bus Station: 17:20
 Stockport, Asda/Sainsbury's: 17:25
 Stockport, Lower Bents Lane/Stockport Road: 17:35
@@ -3375,7 +3375,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:09
 Stockport, Bus Station: 18:20
 Duration: 60 minutes
 
-Service number: 40
+Service number: 6421
 Stockport, Bus Station: 17:40
 Stockport, Asda/Sainsbury's: 17:45
 Stockport, Lower Bents Lane/Stockport Road: 17:55
@@ -3387,7 +3387,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:29
 Stockport, Bus Station: 18:40
 Duration: 60 minutes
 
-Service number: 41
+Service number: 6422
 Stockport, Bus Station: 18:00
 Stockport, Asda/Sainsbury's: 18:05
 Stockport, Lower Bents Lane/Stockport Road: 18:15
@@ -3399,7 +3399,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:48
 Stockport, Bus Station: 18:58
 Duration: 58 minutes
 
-Service number: 42
+Service number: 6423
 Stockport, Bus Station: 18:20
 Stockport, Asda/Sainsbury's: 18:25
 Stockport, Lower Bents Lane/Stockport Road: 18:35
@@ -3411,7 +3411,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:06
 Stockport, Bus Station: 19:16
 Duration: 56 minutes
 
-Service number: 43
+Service number: 6424
 Stockport, Bus Station: 18:45
 Stockport, Asda/Sainsbury's: 18:48
 Stockport, Lower Bents Lane/Stockport Road: 18:55
@@ -3423,7 +3423,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:26
 Stockport, Bus Station: 19:36
 Duration: 51 minutes
 
-Service number: 44
+Service number: 6425
 Stockport, Bus Station: 19:15
 Stockport, Asda/Sainsbury's: 19:18
 Stockport, Lower Bents Lane/Stockport Road: 19:25
@@ -3435,7 +3435,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:56
 Stockport, Bus Station: 20:06
 Duration: 51 minutes
 
-Service number: 45
+Service number: 6426
 Stockport, Bus Station: 19:45
 Stockport, Asda/Sainsbury's: 19:48
 Stockport, Lower Bents Lane/Stockport Road: 19:55
@@ -3447,7 +3447,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 20:26
 Stockport, Bus Station: 20:36
 Duration: 51 minutes
 
-Service number: 46
+Service number: 6427
 Stockport, Bus Station: 20:15
 Stockport, Asda/Sainsbury's: 20:18
 Stockport, Lower Bents Lane/Stockport Road: 20:25
@@ -3459,7 +3459,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 20:56
 Stockport, Bus Station: 21:06
 Duration: 51 minutes
 
-Service number: 47
+Service number: 6428
 Stockport, Bus Station: 20:45
 Stockport, Asda/Sainsbury's: 20:48
 Stockport, Lower Bents Lane/Stockport Road: 20:55
@@ -3471,7 +3471,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 21:26
 Stockport, Bus Station: 21:36
 Duration: 51 minutes
 
-Service number: 48
+Service number: 6429
 Stockport, Bus Station: 21:15
 Stockport, Asda/Sainsbury's: 21:18
 Stockport, Lower Bents Lane/Stockport Road: 21:25
@@ -3483,7 +3483,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 21:56
 Stockport, Bus Station: 22:06
 Duration: 51 minutes
 
-Service number: 49
+Service number: 6430
 Stockport, Bus Station: 21:45
 Stockport, Asda/Sainsbury's: 21:48
 Stockport, Lower Bents Lane/Stockport Road: 21:55
@@ -3495,7 +3495,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 22:26
 Stockport, Bus Station: 22:36
 Duration: 51 minutes
 
-Service number: 50
+Service number: 6431
 Stockport, Bus Station: 22:15
 Stockport, Asda/Sainsbury's: 22:18
 Stockport, Lower Bents Lane/Stockport Road: 22:25
@@ -3507,7 +3507,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 22:56
 Stockport, Bus Station: 23:06
 Duration: 51 minutes
 
-Service number: 51
+Service number: 6432
 Stockport, Bus Station: 22:45
 Stockport, Asda/Sainsbury's: 22:48
 Stockport, Lower Bents Lane/Stockport Road: 22:55
@@ -3519,7 +3519,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 23:26
 Stockport, Bus Station: 23:36
 Duration: 51 minutes
 
-Service number: 52
+Service number: 6433
 Stockport, Bus Station: 23:15
 Stockport, Asda/Sainsbury's: 23:18
 Stockport, Lower Bents Lane/Stockport Road: 23:25
@@ -3534,7 +3534,7 @@ Duration: 51 minutes
 
 Route: 358back, sunday
 --------------------------------------------
-Service number: 0
+Service number: 6548
 Stockport, Bus Station: 08:45
 Marple, Offerton Fold: 08:57
 Marple, Navigation Hotel: 09:08
@@ -3546,7 +3546,7 @@ Birch Vale, Grouse Hotel: 09:36
 Hayfield, Bus Station: 09:39
 Duration: 54 minutes
 
-Service number: 1
+Service number: 6549
 Stockport, Bus Station: 09:45
 Marple, Offerton Fold: 09:57
 Marple, Navigation Hotel: 10:08
@@ -3558,7 +3558,7 @@ Birch Vale, Grouse Hotel: 10:36
 Hayfield, Bus Station: 10:39
 Duration: 54 minutes
 
-Service number: 2
+Service number: 6550
 Stockport, Bus Station: 10:45
 Marple, Offerton Fold: 10:57
 Marple, Navigation Hotel: 11:08
@@ -3570,7 +3570,7 @@ Birch Vale, Grouse Hotel: 11:36
 Hayfield, Bus Station: 11:39
 Duration: 54 minutes
 
-Service number: 3
+Service number: 6551
 Stockport, Bus Station: 11:45
 Marple, Offerton Fold: 11:57
 Marple, Navigation Hotel: 12:08
@@ -3582,7 +3582,7 @@ Birch Vale, Grouse Hotel: 12:36
 Hayfield, Bus Station: 12:39
 Duration: 54 minutes
 
-Service number: 4
+Service number: 6552
 Stockport, Bus Station: 12:45
 Marple, Offerton Fold: 12:57
 Marple, Navigation Hotel: 13:08
@@ -3594,7 +3594,7 @@ Birch Vale, Grouse Hotel: 13:36
 Hayfield, Bus Station: 13:39
 Duration: 54 minutes
 
-Service number: 5
+Service number: 6553
 Stockport, Bus Station: 13:45
 Marple, Offerton Fold: 13:57
 Marple, Navigation Hotel: 14:08
@@ -3606,7 +3606,7 @@ Birch Vale, Grouse Hotel: 14:36
 Hayfield, Bus Station: 14:39
 Duration: 54 minutes
 
-Service number: 6
+Service number: 6554
 Stockport, Bus Station: 14:45
 Marple, Offerton Fold: 14:57
 Marple, Navigation Hotel: 15:08
@@ -3618,7 +3618,7 @@ Birch Vale, Grouse Hotel: 15:36
 Hayfield, Bus Station: 15:39
 Duration: 54 minutes
 
-Service number: 7
+Service number: 6555
 Stockport, Bus Station: 15:45
 Marple, Offerton Fold: 15:57
 Marple, Navigation Hotel: 16:08
@@ -3630,7 +3630,7 @@ Birch Vale, Grouse Hotel: 16:36
 Hayfield, Bus Station: 16:39
 Duration: 54 minutes
 
-Service number: 8
+Service number: 6556
 Stockport, Bus Station: 16:45
 Marple, Offerton Fold: 16:57
 Marple, Navigation Hotel: 17:08
@@ -3642,7 +3642,7 @@ Birch Vale, Grouse Hotel: 17:36
 Hayfield, Bus Station: 17:39
 Duration: 54 minutes
 
-Service number: 9
+Service number: 6557
 Stockport, Bus Station: 17:45
 Marple, Offerton Fold: 17:57
 Marple, Navigation Hotel: 18:08
@@ -3654,7 +3654,7 @@ Birch Vale, Grouse Hotel: 18:36
 Hayfield, Bus Station: 18:39
 Duration: 54 minutes
 
-Service number: 10
+Service number: 6558
 Stockport, Bus Station: 18:45
 Marple, Offerton Fold: 18:54
 Marple, Navigation Hotel: 19:04
@@ -3666,7 +3666,7 @@ Birch Vale, Grouse Hotel: 19:24
 Hayfield, Bus Station: 19:27
 Duration: 42 minutes
 
-Service number: 11
+Service number: 6559
 Stockport, Bus Station: 19:45
 Marple, Offerton Fold: 19:54
 Marple, Navigation Hotel: 20:04
@@ -3678,7 +3678,7 @@ Birch Vale, Grouse Hotel: 20:24
 Hayfield, Bus Station: 20:27
 Duration: 42 minutes
 
-Service number: 12
+Service number: 6560
 Stockport, Bus Station: 20:30
 Marple, Offerton Fold: 20:39
 Marple, Navigation Hotel: 20:49
@@ -3690,7 +3690,7 @@ Birch Vale, Grouse Hotel: 21:09
 Hayfield, Bus Station: 21:12
 Duration: 42 minutes
 
-Service number: 13
+Service number: 6561
 Stockport, Bus Station: 21:30
 Marple, Offerton Fold: 21:39
 Marple, Navigation Hotel: 21:49
@@ -3702,7 +3702,7 @@ Birch Vale, Grouse Hotel: 22:09
 Hayfield, Bus Station: 22:12
 Duration: 42 minutes
 
-Service number: 14
+Service number: 6562
 Stockport, Bus Station: 22:30
 Marple, Offerton Fold: 22:39
 Marple, Navigation Hotel: 22:49
@@ -3717,7 +3717,7 @@ Duration: 42 minutes
 
 Route: 358out, sunday
 --------------------------------------------
-Service number: 0
+Service number: 6497
 Hayfield, Bus Station: 09:45
 Birch Vale, Grouse Hotel: 09:48
 Low Leighton, Ollerset View Hospital: 09:51
@@ -3729,7 +3729,7 @@ Marple, Offerton Fold: 10:24
 Stockport, Bus Station: 10:35
 Duration: 50 minutes
 
-Service number: 1
+Service number: 6498
 Hayfield, Bus Station: 10:45
 Birch Vale, Grouse Hotel: 10:48
 Low Leighton, Ollerset View Hospital: 10:51
@@ -3741,7 +3741,7 @@ Marple, Offerton Fold: 11:24
 Stockport, Bus Station: 11:35
 Duration: 50 minutes
 
-Service number: 2
+Service number: 6499
 Hayfield, Bus Station: 11:45
 Birch Vale, Grouse Hotel: 11:48
 Low Leighton, Ollerset View Hospital: 11:51
@@ -3753,7 +3753,7 @@ Marple, Offerton Fold: 12:24
 Stockport, Bus Station: 12:35
 Duration: 50 minutes
 
-Service number: 3
+Service number: 6500
 Hayfield, Bus Station: 12:45
 Birch Vale, Grouse Hotel: 12:48
 Low Leighton, Ollerset View Hospital: 12:51
@@ -3765,7 +3765,7 @@ Marple, Offerton Fold: 13:24
 Stockport, Bus Station: 13:35
 Duration: 50 minutes
 
-Service number: 4
+Service number: 6501
 Hayfield, Bus Station: 13:45
 Birch Vale, Grouse Hotel: 13:48
 Low Leighton, Ollerset View Hospital: 13:51
@@ -3777,7 +3777,7 @@ Marple, Offerton Fold: 14:24
 Stockport, Bus Station: 14:35
 Duration: 50 minutes
 
-Service number: 5
+Service number: 6502
 Hayfield, Bus Station: 14:45
 Birch Vale, Grouse Hotel: 14:48
 Low Leighton, Ollerset View Hospital: 14:51
@@ -3789,7 +3789,7 @@ Marple, Offerton Fold: 15:24
 Stockport, Bus Station: 15:35
 Duration: 50 minutes
 
-Service number: 6
+Service number: 6503
 Hayfield, Bus Station: 15:45
 Birch Vale, Grouse Hotel: 15:48
 Low Leighton, Ollerset View Hospital: 15:51
@@ -3801,7 +3801,7 @@ Marple, Offerton Fold: 16:24
 Stockport, Bus Station: 16:35
 Duration: 50 minutes
 
-Service number: 7
+Service number: 6504
 Hayfield, Bus Station: 16:45
 Birch Vale, Grouse Hotel: 16:48
 Low Leighton, Ollerset View Hospital: 16:51
@@ -3813,7 +3813,7 @@ Marple, Offerton Fold: 17:21
 Stockport, Bus Station: 17:30
 Duration: 45 minutes
 
-Service number: 8
+Service number: 6505
 Hayfield, Bus Station: 17:45
 Birch Vale, Grouse Hotel: 17:48
 Low Leighton, Ollerset View Hospital: 17:51
@@ -3825,7 +3825,7 @@ Marple, Offerton Fold: 18:17
 Stockport, Bus Station: 18:26
 Duration: 41 minutes
 
-Service number: 9
+Service number: 6506
 Hayfield, Bus Station: 18:45
 Birch Vale, Grouse Hotel: 18:48
 Low Leighton, Ollerset View Hospital: 18:51
@@ -3837,7 +3837,7 @@ Marple, Offerton Fold: 19:17
 Stockport, Bus Station: 19:26
 Duration: 41 minutes
 
-Service number: 10
+Service number: 6507
 Hayfield, Bus Station: 19:30
 Birch Vale, Grouse Hotel: 19:33
 Low Leighton, Ollerset View Hospital: 19:36
@@ -3849,7 +3849,7 @@ Marple, Offerton Fold: 20:02
 Stockport, Bus Station: 20:11
 Duration: 41 minutes
 
-Service number: 11
+Service number: 6508
 Hayfield, Bus Station: 20:30
 Birch Vale, Grouse Hotel: 20:33
 Low Leighton, Ollerset View Hospital: 20:36
@@ -3861,7 +3861,7 @@ Marple, Offerton Fold: 21:02
 Stockport, Bus Station: 21:11
 Duration: 41 minutes
 
-Service number: 12
+Service number: 6509
 Hayfield, Bus Station: 21:30
 Birch Vale, Grouse Hotel: 21:33
 Low Leighton, Ollerset View Hospital: 21:36
@@ -3873,7 +3873,7 @@ Marple, Offerton Fold: 22:02
 Stockport, Bus Station: 22:11
 Duration: 41 minutes
 
-Service number: 13
+Service number: 6510
 Hayfield, Bus Station: 22:30
 Birch Vale, Grouse Hotel: 22:33
 Low Leighton, Ollerset View Hospital: 22:36
@@ -3885,7 +3885,7 @@ Marple, Offerton Fold: 23:02
 Stockport, Bus Station: 23:11
 Duration: 41 minutes
 
-Service number: 14
+Service number: 6511
 Hayfield, Bus Station: 23:15
 Birch Vale, Grouse Hotel: 23:18
 Low Leighton, Ollerset View Hospital: 23:21
@@ -3900,7 +3900,7 @@ Duration: 41 minutes
 
 Route: 383, sunday
 --------------------------------------------
-Service number: 0
+Service number: 6291
 Stockport, Bus Station: 09:00
 Stockport, Dialstone Lane/Hillcrest Road: 09:11
 Marple, Navigation Hotel: 09:21
@@ -3911,7 +3911,7 @@ Stockport, Lower Bents Lane/Stockport Road: 09:41
 Stockport, Bus Station: 09:52
 Duration: 52 minutes
 
-Service number: 1
+Service number: 6292
 Stockport, Bus Station: 09:30
 Stockport, Dialstone Lane/Hillcrest Road: 09:41
 Marple, Navigation Hotel: 09:51
@@ -3922,7 +3922,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:12
 Stockport, Bus Station: 10:26
 Duration: 56 minutes
 
-Service number: 2
+Service number: 6293
 Stockport, Bus Station: 10:00
 Stockport, Dialstone Lane/Hillcrest Road: 10:12
 Marple, Navigation Hotel: 10:24
@@ -3933,7 +3933,7 @@ Stockport, Lower Bents Lane/Stockport Road: 10:46
 Stockport, Bus Station: 11:00
 Duration: 60 minutes
 
-Service number: 3
+Service number: 6294
 Stockport, Bus Station: 10:30
 Stockport, Dialstone Lane/Hillcrest Road: 10:42
 Marple, Navigation Hotel: 10:54
@@ -3944,7 +3944,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:16
 Stockport, Bus Station: 11:30
 Duration: 60 minutes
 
-Service number: 4
+Service number: 6295
 Stockport, Bus Station: 11:00
 Stockport, Dialstone Lane/Hillcrest Road: 11:12
 Marple, Navigation Hotel: 11:24
@@ -3955,7 +3955,7 @@ Stockport, Lower Bents Lane/Stockport Road: 11:46
 Stockport, Bus Station: 12:00
 Duration: 60 minutes
 
-Service number: 5
+Service number: 6296
 Stockport, Bus Station: 11:30
 Stockport, Dialstone Lane/Hillcrest Road: 11:42
 Marple, Navigation Hotel: 11:54
@@ -3966,7 +3966,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:16
 Stockport, Bus Station: 12:30
 Duration: 60 minutes
 
-Service number: 6
+Service number: 6297
 Stockport, Bus Station: 12:00
 Stockport, Dialstone Lane/Hillcrest Road: 12:12
 Marple, Navigation Hotel: 12:24
@@ -3977,7 +3977,7 @@ Stockport, Lower Bents Lane/Stockport Road: 12:46
 Stockport, Bus Station: 13:00
 Duration: 60 minutes
 
-Service number: 7
+Service number: 6298
 Stockport, Bus Station: 12:30
 Stockport, Dialstone Lane/Hillcrest Road: 12:42
 Marple, Navigation Hotel: 12:54
@@ -3988,7 +3988,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:16
 Stockport, Bus Station: 13:30
 Duration: 60 minutes
 
-Service number: 8
+Service number: 6299
 Stockport, Bus Station: 13:00
 Stockport, Dialstone Lane/Hillcrest Road: 13:12
 Marple, Navigation Hotel: 13:24
@@ -3999,7 +3999,7 @@ Stockport, Lower Bents Lane/Stockport Road: 13:46
 Stockport, Bus Station: 14:00
 Duration: 60 minutes
 
-Service number: 9
+Service number: 6300
 Stockport, Bus Station: 13:30
 Stockport, Dialstone Lane/Hillcrest Road: 13:42
 Marple, Navigation Hotel: 13:54
@@ -4010,7 +4010,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:16
 Stockport, Bus Station: 14:30
 Duration: 60 minutes
 
-Service number: 10
+Service number: 6301
 Stockport, Bus Station: 14:00
 Stockport, Dialstone Lane/Hillcrest Road: 14:12
 Marple, Navigation Hotel: 14:24
@@ -4021,7 +4021,7 @@ Stockport, Lower Bents Lane/Stockport Road: 14:46
 Stockport, Bus Station: 15:00
 Duration: 60 minutes
 
-Service number: 11
+Service number: 6302
 Stockport, Bus Station: 14:30
 Stockport, Dialstone Lane/Hillcrest Road: 14:42
 Marple, Navigation Hotel: 14:54
@@ -4032,7 +4032,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:16
 Stockport, Bus Station: 15:30
 Duration: 60 minutes
 
-Service number: 12
+Service number: 6303
 Stockport, Bus Station: 15:00
 Stockport, Dialstone Lane/Hillcrest Road: 15:12
 Marple, Navigation Hotel: 15:24
@@ -4043,7 +4043,7 @@ Stockport, Lower Bents Lane/Stockport Road: 15:46
 Stockport, Bus Station: 16:00
 Duration: 60 minutes
 
-Service number: 13
+Service number: 6304
 Stockport, Bus Station: 15:30
 Stockport, Dialstone Lane/Hillcrest Road: 15:42
 Marple, Navigation Hotel: 15:54
@@ -4054,7 +4054,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:16
 Stockport, Bus Station: 16:30
 Duration: 60 minutes
 
-Service number: 14
+Service number: 6305
 Stockport, Bus Station: 16:00
 Stockport, Dialstone Lane/Hillcrest Road: 16:12
 Marple, Navigation Hotel: 16:24
@@ -4065,7 +4065,7 @@ Stockport, Lower Bents Lane/Stockport Road: 16:46
 Stockport, Bus Station: 17:00
 Duration: 60 minutes
 
-Service number: 15
+Service number: 6306
 Stockport, Bus Station: 16:30
 Stockport, Dialstone Lane/Hillcrest Road: 16:42
 Marple, Navigation Hotel: 16:54
@@ -4076,7 +4076,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:16
 Stockport, Bus Station: 17:30
 Duration: 60 minutes
 
-Service number: 16
+Service number: 6307
 Stockport, Bus Station: 17:00
 Stockport, Dialstone Lane/Hillcrest Road: 17:12
 Marple, Navigation Hotel: 17:24
@@ -4087,7 +4087,7 @@ Stockport, Lower Bents Lane/Stockport Road: 17:45
 Stockport, Bus Station: 17:56
 Duration: 56 minutes
 
-Service number: 17
+Service number: 6308
 Stockport, Bus Station: 17:30
 Stockport, Dialstone Lane/Hillcrest Road: 17:41
 Marple, Navigation Hotel: 17:51
@@ -4098,7 +4098,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:11
 Stockport, Bus Station: 18:22
 Duration: 52 minutes
 
-Service number: 18
+Service number: 6309
 Stockport, Bus Station: 18:00
 Stockport, Dialstone Lane/Hillcrest Road: 18:11
 Marple, Navigation Hotel: 18:21
@@ -4109,7 +4109,7 @@ Stockport, Lower Bents Lane/Stockport Road: 18:41
 Stockport, Bus Station: 18:52
 Duration: 52 minutes
 
-Service number: 19
+Service number: 6310
 Stockport, Bus Station: 18:30
 Stockport, Dialstone Lane/Hillcrest Road: 18:41
 Marple, Navigation Hotel: 18:51
@@ -4120,7 +4120,7 @@ Stockport, Lower Bents Lane/Stockport Road: 19:11
 Stockport, Bus Station: 19:22
 Duration: 52 minutes
 
-Service number: 20
+Service number: 6311
 Stockport, Bus Station: 19:00
 Stockport, Dialstone Lane/Hillcrest Road: 19:11
 Marple, Navigation Hotel: 19:21
@@ -4131,7 +4131,7 @@ Stockport, Lower Bents Lane/Stockport Road: 19:41
 Stockport, Bus Station: 19:52
 Duration: 52 minutes
 
-Service number: 21
+Service number: 6312
 Stockport, Bus Station: 19:30
 Stockport, Dialstone Lane/Hillcrest Road: 19:41
 Marple, Navigation Hotel: 19:51
@@ -4142,7 +4142,7 @@ Stockport, Lower Bents Lane/Stockport Road: 20:11
 Stockport, Bus Station: 20:22
 Duration: 52 minutes
 
-Service number: 22
+Service number: 6313
 Stockport, Bus Station: 20:00
 Stockport, Dialstone Lane/Hillcrest Road: 20:11
 Marple, Navigation Hotel: 20:21
@@ -4153,7 +4153,7 @@ Stockport, Lower Bents Lane/Stockport Road: 20:41
 Stockport, Bus Station: 20:52
 Duration: 52 minutes
 
-Service number: 23
+Service number: 6314
 Stockport, Bus Station: 21:00
 Stockport, Dialstone Lane/Hillcrest Road: 21:11
 Marple, Navigation Hotel: 21:21
@@ -4164,7 +4164,7 @@ Stockport, Lower Bents Lane/Stockport Road: 21:41
 Stockport, Bus Station: 21:52
 Duration: 52 minutes
 
-Service number: 24
+Service number: 6315
 Stockport, Bus Station: 22:00
 Stockport, Dialstone Lane/Hillcrest Road: 22:11
 Marple, Navigation Hotel: 22:21
@@ -4175,7 +4175,7 @@ Stockport, Lower Bents Lane/Stockport Road: 22:41
 Stockport, Bus Station: 22:52
 Duration: 52 minutes
 
-Service number: 25
+Service number: 6316
 Stockport, Bus Station: 23:10
 Stockport, Dialstone Lane/Hillcrest Road: 23:21
 Marple, Navigation Hotel: 23:31
@@ -4189,7 +4189,7 @@ Duration: 52 minutes
 
 Route: 384, sunday
 --------------------------------------------
-Service number: 0
+Service number: 6434
 Stockport, Bus Station: 08:15
 Stockport, Asda/Sainsbury's: 08:18
 Stockport, Lower Bents Lane/Stockport Road: 08:25
@@ -4201,7 +4201,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 08:56
 Stockport, Bus Station: 09:06
 Duration: 51 minutes
 
-Service number: 1
+Service number: 6435
 Stockport, Bus Station: 09:15
 Stockport, Asda/Sainsbury's: 09:18
 Stockport, Lower Bents Lane/Stockport Road: 09:25
@@ -4213,7 +4213,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 09:57
 Stockport, Bus Station: 10:08
 Duration: 53 minutes
 
-Service number: 2
+Service number: 6436
 Stockport, Bus Station: 09:45
 Stockport, Asda/Sainsbury's: 09:50
 Stockport, Lower Bents Lane/Stockport Road: 10:00
@@ -4225,7 +4225,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 10:34
 Stockport, Bus Station: 10:45
 Duration: 60 minutes
 
-Service number: 3
+Service number: 6437
 Stockport, Bus Station: 10:15
 Stockport, Asda/Sainsbury's: 10:20
 Stockport, Lower Bents Lane/Stockport Road: 10:30
@@ -4237,7 +4237,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:04
 Stockport, Bus Station: 11:15
 Duration: 60 minutes
 
-Service number: 4
+Service number: 6438
 Stockport, Bus Station: 10:45
 Stockport, Asda/Sainsbury's: 10:50
 Stockport, Lower Bents Lane/Stockport Road: 11:00
@@ -4249,7 +4249,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 11:34
 Stockport, Bus Station: 11:45
 Duration: 60 minutes
 
-Service number: 5
+Service number: 6439
 Stockport, Bus Station: 11:15
 Stockport, Asda/Sainsbury's: 11:20
 Stockport, Lower Bents Lane/Stockport Road: 11:30
@@ -4261,7 +4261,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:04
 Stockport, Bus Station: 12:15
 Duration: 60 minutes
 
-Service number: 6
+Service number: 6440
 Stockport, Bus Station: 11:45
 Stockport, Asda/Sainsbury's: 11:50
 Stockport, Lower Bents Lane/Stockport Road: 12:00
@@ -4273,7 +4273,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 12:34
 Stockport, Bus Station: 12:45
 Duration: 60 minutes
 
-Service number: 7
+Service number: 6441
 Stockport, Bus Station: 12:15
 Stockport, Asda/Sainsbury's: 12:20
 Stockport, Lower Bents Lane/Stockport Road: 12:30
@@ -4285,7 +4285,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:04
 Stockport, Bus Station: 13:15
 Duration: 60 minutes
 
-Service number: 8
+Service number: 6442
 Stockport, Bus Station: 12:45
 Stockport, Asda/Sainsbury's: 12:50
 Stockport, Lower Bents Lane/Stockport Road: 13:00
@@ -4297,7 +4297,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 13:34
 Stockport, Bus Station: 13:45
 Duration: 60 minutes
 
-Service number: 9
+Service number: 6443
 Stockport, Bus Station: 13:15
 Stockport, Asda/Sainsbury's: 13:20
 Stockport, Lower Bents Lane/Stockport Road: 13:30
@@ -4309,7 +4309,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:04
 Stockport, Bus Station: 14:15
 Duration: 60 minutes
 
-Service number: 10
+Service number: 6444
 Stockport, Bus Station: 13:45
 Stockport, Asda/Sainsbury's: 13:50
 Stockport, Lower Bents Lane/Stockport Road: 14:00
@@ -4321,7 +4321,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 14:34
 Stockport, Bus Station: 14:45
 Duration: 60 minutes
 
-Service number: 11
+Service number: 6445
 Stockport, Bus Station: 14:15
 Stockport, Asda/Sainsbury's: 14:20
 Stockport, Lower Bents Lane/Stockport Road: 14:30
@@ -4333,7 +4333,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:04
 Stockport, Bus Station: 15:15
 Duration: 60 minutes
 
-Service number: 12
+Service number: 6446
 Stockport, Bus Station: 14:45
 Stockport, Asda/Sainsbury's: 14:50
 Stockport, Lower Bents Lane/Stockport Road: 15:00
@@ -4345,7 +4345,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 15:34
 Stockport, Bus Station: 15:45
 Duration: 60 minutes
 
-Service number: 13
+Service number: 6447
 Stockport, Bus Station: 15:15
 Stockport, Asda/Sainsbury's: 15:20
 Stockport, Lower Bents Lane/Stockport Road: 15:30
@@ -4357,7 +4357,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:04
 Stockport, Bus Station: 16:15
 Duration: 60 minutes
 
-Service number: 14
+Service number: 6448
 Stockport, Bus Station: 15:45
 Stockport, Asda/Sainsbury's: 15:50
 Stockport, Lower Bents Lane/Stockport Road: 16:00
@@ -4369,7 +4369,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 16:34
 Stockport, Bus Station: 16:45
 Duration: 60 minutes
 
-Service number: 15
+Service number: 6449
 Stockport, Bus Station: 16:15
 Stockport, Asda/Sainsbury's: 16:20
 Stockport, Lower Bents Lane/Stockport Road: 16:30
@@ -4381,7 +4381,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:04
 Stockport, Bus Station: 17:15
 Duration: 60 minutes
 
-Service number: 16
+Service number: 6450
 Stockport, Bus Station: 16:45
 Stockport, Asda/Sainsbury's: 16:50
 Stockport, Lower Bents Lane/Stockport Road: 17:00
@@ -4393,7 +4393,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:33
 Stockport, Bus Station: 17:43
 Duration: 58 minutes
 
-Service number: 17
+Service number: 6451
 Stockport, Bus Station: 17:15
 Stockport, Asda/Sainsbury's: 17:18
 Stockport, Lower Bents Lane/Stockport Road: 17:25
@@ -4405,7 +4405,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 17:56
 Stockport, Bus Station: 18:06
 Duration: 51 minutes
 
-Service number: 18
+Service number: 6452
 Stockport, Bus Station: 17:45
 Stockport, Asda/Sainsbury's: 17:48
 Stockport, Lower Bents Lane/Stockport Road: 17:55
@@ -4417,7 +4417,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:26
 Stockport, Bus Station: 18:36
 Duration: 51 minutes
 
-Service number: 19
+Service number: 6453
 Stockport, Bus Station: 18:15
 Stockport, Asda/Sainsbury's: 18:18
 Stockport, Lower Bents Lane/Stockport Road: 18:25
@@ -4429,7 +4429,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 18:56
 Stockport, Bus Station: 19:06
 Duration: 51 minutes
 
-Service number: 20
+Service number: 6454
 Stockport, Bus Station: 18:45
 Stockport, Asda/Sainsbury's: 18:48
 Stockport, Lower Bents Lane/Stockport Road: 18:55
@@ -4441,7 +4441,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:26
 Stockport, Bus Station: 19:36
 Duration: 51 minutes
 
-Service number: 21
+Service number: 6455
 Stockport, Bus Station: 19:15
 Stockport, Asda/Sainsbury's: 19:18
 Stockport, Lower Bents Lane/Stockport Road: 19:25
@@ -4453,7 +4453,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 19:56
 Stockport, Bus Station: 20:06
 Duration: 51 minutes
 
-Service number: 22
+Service number: 6456
 Stockport, Bus Station: 19:45
 Stockport, Asda/Sainsbury's: 19:48
 Stockport, Lower Bents Lane/Stockport Road: 19:55
@@ -4465,7 +4465,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 20:26
 Stockport, Bus Station: 20:36
 Duration: 51 minutes
 
-Service number: 23
+Service number: 6457
 Stockport, Bus Station: 20:45
 Stockport, Asda/Sainsbury's: 20:48
 Stockport, Lower Bents Lane/Stockport Road: 20:55
@@ -4477,7 +4477,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 21:26
 Stockport, Bus Station: 21:36
 Duration: 51 minutes
 
-Service number: 24
+Service number: 6458
 Stockport, Bus Station: 21:45
 Stockport, Asda/Sainsbury's: 21:48
 Stockport, Lower Bents Lane/Stockport Road: 21:55
@@ -4489,7 +4489,7 @@ Stockport, Dialstone Lane/Hillcrest Road: 22:26
 Stockport, Bus Station: 22:36
 Duration: 51 minutes
 
-Service number: 25
+Service number: 6459
 Stockport, Bus Station: 22:45
 Stockport, Asda/Sainsbury's: 22:48
 Stockport, Lower Bents Lane/Stockport Road: 22:55
