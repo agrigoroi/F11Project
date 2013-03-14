@@ -26,6 +26,7 @@ CLASSES = \
 		database.java \
 		Someclass.java \
 		Service.java \
+		TimingPoint.java \
 
 
 default: classes
