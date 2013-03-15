@@ -5,7 +5,7 @@ JC = javac
 JR = java
 .SUFFIXES: .java .class
 .java.class:
-		$(JC) $(JCFLAGS) $*.java
+		$(JC) -Xlint:deprecation $(JCFLAGS) $*.java
 
 CLASSES = \
 		GUI/LoginGUI.java \
