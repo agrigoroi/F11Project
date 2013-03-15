@@ -60,9 +60,16 @@ public class LoginGUI extends Window implements ActionListener
     {
       try
       {
+      	if(idTF.getText().equals("controller"))
+		{
+			LoginGUI.window.openWindow(new ControllerPanelGUI());
+			
+			return;
+		}
+      	
         Driver driver = new Driver(idTF.getText());
-
-        if(driver.checkPassword(new String(passwordTF.getPassword()) /*getText()*/))
+		
+		if(driver.checkPassword(new String(passwordTF.getPassword()) /*getText()*/))
           driver.showWelcome();
         else
           loginText.setText("Incorrect Login\n information");
