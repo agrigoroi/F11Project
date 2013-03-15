@@ -62,7 +62,7 @@ public class LoginGUI extends Window implements ActionListener
       {
         Driver driver = new Driver(idTF.getText());
 
-        if(driver.checkPassword(passwordTF.getText()))
+        if(driver.checkPassword(new String(passwordTF.getPassword()) /*getText()*/))
           driver.showWelcome();
         else
           loginText.setText("Incorrect Login\n information");
