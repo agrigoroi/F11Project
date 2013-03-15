@@ -4,29 +4,21 @@ import java.util.*;
 public class Someclass 
 {
 
-	public static int getTotalDuration()
+	public static int getTotalDuration(TimetableInfo.timetableKind dayType)
 	{
 		int routes[] = BusStopInfo.getRoutes();
-		int totalDuration = 0;
-		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
+		int thisDuration = 0;
+		for(int i = 0; i < routes.length; i++)
 		{
-			int thisDuration = 0;
-			for(int i = 0; i < routes.length; i++)
+			int routeID = routes[i];
+			int numberOfServices = TimetableInfo.getServices(routeID, dayType).length;
+			for(int index = 0; index < numberOfServices; index++)
 			{
-				int routeID = routes[i];
-				int numberOfServices = TimetableInfo.getServices(routeID, dayType).length;
-				for(int index = 0; index < numberOfServices; index++)
-				{
-					Service service = new Service(index, routeID, dayType);
-					thisDuration += service.getDuration();
-				}
+				Service service = new Service(index, routeID, dayType);
+				thisDuration += service.getDuration();
 			}
-			if(dayType == TimetableInfo.timetableKind.weekday)
-				totalDuration += thisDuration*5;
-			else
-				totalDuration += thisDuration;
 		}
-		return totalDuration;
+		return thisDuration;
 	}
 
 	public static void printFullTimetable()
@@ -70,50 +62,117 @@ public class Someclass
 		HashMap<Integer, Integer> rosterDrivers = new HashMap<Integer, Integer>();
 		HashMap<Integer, Integer> rosterBusses = new HashMap<Integer, Integer>();
 		
-		TimetableInfo.timetableKind dayType = TimetableInfo.timetableKind.weekday;
 		int drivers[] = DriverInfo.getDrivers();
 		Arrays.sort(drivers);
+		int busses[] = BusInfo.getBuses();
 		int routes[] = BusStopInfo.getRoutes();
 
-		int minutesWorked[] = new int[drivers.length];
-
 		int numberOfDrivers = DriverInfo.getDrivers().length;
-		double workPerDay = (getTotalDuration()*1.0)/(numberOfDrivers*7.0);
-		for (int driver = 0; driver < drivers.length ;driver++)
+		
+		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
 		{
-			int driverID = drivers[driver];
-			Date nextAvailable = TimingPoint.getMidnight();
-			System.out.print(driverID + ":");
-			for(int route = 0; route < routes.length; route++)
+			int minutesWorked[] = new int[drivers.length];
+			if(dayType == TimetableInfo.timetableKind.weekday)
 			{
-				int routeID = routes[route];
-				// System.out.println("    Trying route " + routeID);
-				int numberOfServices = TimetableInfo.getServices(routeID, dayType).length;
-				for(int index = 1; index < numberOfServices; index++)
-				{
-					Service service = new Service(index, routeID, dayType);
-					// System.out.println("        Trying Service " + service.getID());
-					if(service.getTime(0).after(nextAvailable))
-						if(!rosterDrivers.containsKey(service.getID()))
-						{
-							rosterDrivers.put(service.getID(), driverID);
-							minutesWorked[driver] += service.getDuration();
-							nextAvailable = service.getTime(service.getNumberOfTimingPoints()-1);
-							System.out.print(" " + service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + ")");
-							// System.out.print("            Driver is assigned to " + service.getID());
-							// System.out.println(" next available is " + simpleDateFormat.format(nextAvailable));
-							if(minutesWorked[driver] > workPerDay)
-								break;
-						}
-						// else
-							// System.out.println("            Service is already assigned");
-					// else
-						// System.out.println("            Driver is not available for this service");
-				}					
-				if(nextAvailable.getTime() - TimingPoint.getMidnight().getTime() > 0)
-					break;
+				rosterDrivers.put(6460, drivers[0]);
+				minutesWorked[0] += 9;
 			}
-			System.out.println(" ");
+			System.out.println(dayType);
+			System.out.println("-----------------------------------------");
+			double workPerDay = (getTotalDuration(dayType)*1.0)/(numberOfDrivers);
+			workPerDay = workPerDay * 0.9;
+			System.out.println(workPerDay);
+			for (int driver = 0; driver < drivers.length ;driver++)
+			{
+				int driverID = drivers[driver];
+				Date nextAvailable = null;
+				System.out.print(driverID + ":");
+				
+				int numberOfServices = TimetableInfo.getServices(routes[0], dayType).length;
+				for(int index = 0; index < numberOfServices; index++)
+					{
+						Service service = new Service(index, routes[0], dayType), serviceback;
+						if(dayType == TimetableInfo.timetableKind.weekday)
+							serviceback = new Service(index+1, routes[1], dayType);
+						else
+							serviceback = new Service(index, routes[1], dayType);
+						// System.out.println("        Trying Service " + service.getID());
+						if((nextAvailable == null) || (service.getTime(0).after(nextAvailable)))
+							if(!rosterDrivers.containsKey(service.getID()))
+							{
+								rosterDrivers.put(service.getID(), driverID);
+								rosterDrivers.put(serviceback.getID(), driverID);
+								//rosterBusses.put(service.getID(), busses[index]);
+								if(nextAvailable == null)
+								{
+									long difference = serviceback.getTime(serviceback.getNumberOfTimingPoints()-1).getTime() - service.getTime(0).getTime();
+									minutesWorked[driver] += (int)(difference/(1000*60));
+								}
+								else
+								{
+									long difference = serviceback.getTime(service.getNumberOfTimingPoints()-1).getTime() - nextAvailable.getTime();
+									minutesWorked[driver] += (int)(difference/(1000*60));
+								}
+								nextAvailable = serviceback.getTime(serviceback.getNumberOfTimingPoints()-1);
+								System.out.print(" " + service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + ")" + minutesWorked[driver]);
+								System.out.print(" " + serviceback.getID() + "(" + simpleDateFormat.format(serviceback.getTime(0)) + ")" + minutesWorked[driver]);
+								// System.out.print("            Driver is assigned to " + service.getID());
+								// System.out.println(" next available is " + simpleDateFormat.format(nextAvailable));
+								if(minutesWorked[driver] > workPerDay)
+									break;
+							}
+							// else
+								// System.out.println("            Service is already assigned");
+						// else
+							// System.out.println("            Driver is not available for this service");
+					}
+				if(minutesWorked[driver] != 0)
+				{
+					System.out.println(" ");
+					continue;
+				}
+				for(int route = 2; route < routes.length; route++)
+				{
+					int routeID = routes[route];
+					// System.out.println("    Trying route " + routeID);
+					numberOfServices = TimetableInfo.getServices(routeID, dayType).length;
+					for(int index = 0; index < numberOfServices; index++)
+					{
+						Service service = new Service(index, routeID, dayType);
+						// System.out.println("        Trying Service " + service.getID());
+						if((nextAvailable == null)||(service.getTime(0).after(nextAvailable)))
+							if(!rosterDrivers.containsKey(service.getID()))
+							{
+								rosterDrivers.put(service.getID(), driverID);
+								if(nextAvailable == null)
+									minutesWorked[driver] += service.getDuration();
+								else
+								{
+									long difference = service.getTime(service.getNumberOfTimingPoints()-1).getTime() - nextAvailable.getTime();
+									minutesWorked[driver] += (int)(difference/(1000*60));
+								}
+								nextAvailable = service.getTime(service.getNumberOfTimingPoints()-1);
+								System.out.print(" " + service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + ")" + minutesWorked[driver]);
+								// System.out.print("            Driver is assigned to " + service.getID());
+								// System.out.println(" next available is " + simpleDateFormat.format(nextAvailable));
+								if(minutesWorked[driver] > workPerDay)
+									break;
+							}
+							// else
+								// System.out.println("            Service is already assigned");
+						// else
+							// System.out.println("            Driver is not available for this service");
+					}					
+					if(minutesWorked[driver] > 0)
+						break;
+				}
+				System.out.println(" ");
+			}
 		}
+		for (Map.Entry entry : rosterDrivers.entrySet())
+		{
+    		System.out.println(entry.getKey() + ": " + entry.getValue());
+		}
+
 	}
 }
