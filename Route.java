@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.EnumMap;
 
 /**
  * Instantiatable Class which represents information about a route.
@@ -8,6 +9,7 @@ public class Route
 {
 	private int id;
 	private String name;
+	private EnumMap<TimetableInfo.timetableKind, Service[]> cachedServices = new EnumMap<TimetableInfo.timetableKind, Service[]>(TimetableInfo.timetableKind.class);
 
 	public Route(int id)
 	{
@@ -26,11 +28,20 @@ public class Route
 
 	public Service[] getServices(TimetableInfo.timetableKind dayType)
 	{
-		int numberOfServices = TimetableInfo.getNumberOfServices(this.id, dayType);
-		Service[] services = new Service[numberOfServices];
-		for(int i=0; i<numberOfServices; i++)
-			services[i] = new Service(i, this, dayType);
-		return services;
+		return getServices(dayType, false);
+	}
+
+	private Service[] getServices(TimetableInfo.timetableKind dayType, boolean updateFromDatabase)
+	{
+		if((!cachedServices.containsKey(dayType)) || (updateFromDatabase))
+		{
+			int numberOfServices = TimetableInfo.getNumberOfServices(this.id, dayType);
+			Service[] services = new Service[numberOfServices];
+			for(int i=0; i<numberOfServices; i++)
+				services[i] = new Service(i, this, dayType);
+			cachedServices.put(dayType, services);
+		}
+		return cachedServices.get(dayType);
 	}
 	
 	/**
