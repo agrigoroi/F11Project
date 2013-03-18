@@ -12,7 +12,7 @@ public class Route
 	public Route(int id)
 	{
 		this.id = id;
-		this.name = BusStopInfo.getRouteName();
+		this.name = BusStopInfo.getRouteName(id);
 	}
 
 	public static Route[] getAll()
@@ -20,12 +20,21 @@ public class Route
 		int[] routesID = BusStopInfo.getRoutes();
 		Route[] routes = new Route[routesID.length];
 		for(int i=0;i<routesID.length;i++)
-			routes[i] = new Bus(routesID[i]);
+			routes[i] = new Route(routesID[i]);
 		return routes;
+	}
+
+	public Service[] getServices(TimetableInfo.timetableKind dayType)
+	{
+		int numberOfServices = TimetableInfo.getNumberOfServices(this.id, dayType);
+		Service[] services = new Service[numberOfServices];
+		for(int i=0; i<numberOfServices; i++)
+			services[i] = new Service(i, this, dayType);
+		return services;
 	}
 	
 	/**
-         * Returns the ID of this bus
+         * Returns the ID of this route
          */
 	public int getID()
 	{
@@ -33,9 +42,9 @@ public class Route
 	}
 	
 	/**
-         * Returns the ID of this bus
+         * Returns the name of this route
          */
-	public int getName()
+	public String getName()
 	{
 	  	return this.name;
 	}

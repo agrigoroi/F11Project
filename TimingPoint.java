@@ -5,15 +5,6 @@ public class TimingPoint
 	private int stop;
 	private Date time;
 
-
-	public static Date getMidnight()
-	{
-		Long timeVal  = new Date().getTime();
-		timeVal = timeVal - timeVal % (24 * 60 * 60 * 1000);
-		return new Date(timeVal);
-	}
-
-
 	public TimingPoint(int stop, Date time)
 	{
 		this.stop = stop;

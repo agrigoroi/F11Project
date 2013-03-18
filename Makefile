@@ -17,11 +17,14 @@ CLASSES = \
 		GUI/WelcomeGUI.java \
 		BusInfo.java \
 		BusStopInfo.java \
+		Bus.java \
+		database.java \
 		Driver.java \
 		DriverInfo.java \
 		InvalidQueryException.java \
 		Request.java \
 		RequestInfo.java \
+		Route.java \
 		TimetableInfo.java \
 		database.java \
 		Someclass.java \

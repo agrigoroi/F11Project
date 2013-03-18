@@ -6,14 +6,14 @@ public class Service
 {
 	private int id;
 	private int index;
-	private int routeID;
+	private Route route;
 	private TimetableInfo.timetableKind dayType;
 	private TimingPoint[] timingPoints;
 
 	private void updateTimingPoints()
 	{
-		int times[] = TimetableInfo.getServiceTimes(routeID, dayType, index);
-		int stops[] = TimetableInfo.getTimingPointsIDs(routeID, dayType, index);
+		int times[] = TimetableInfo.getServiceTimes(route.getID(), dayType, index);
+		int stops[] = TimetableInfo.getTimingPointsIDs(route.getID(), dayType, index);
 		this.timingPoints = new TimingPoint[times.length];
 		boolean needsResorting = false;
 		for(int i=1;i<times.length;i++)
@@ -22,6 +22,7 @@ public class Service
 				for(int j=i-1;j>=0;j--)
 					times[j]+=1440;
 				needsResorting = true;
+				break;
 			}
 		if(needsResorting)
 			for(int i=0;i<times.length;i++)
@@ -44,7 +45,7 @@ public class Service
 		this.index = index;
 		this.route = route;
 		this.dayType = dayType;
-		this.id = TimetableInfo.getServices(routeID, dayType)[index];
+		this.id = TimetableInfo.getServices(route.getID(), dayType)[index];
 		updateTimingPoints();
 	}
 
@@ -53,9 +54,14 @@ public class Service
 		return id;
 	}
 
-	public int getRouteID()
+	public int getIndex()
 	{
-		return routeID;
+		return index;
+	}
+
+	public Route getRoute()
+	{
+		return route;
 	}
 
 	public TimetableInfo.timetableKind getDayType()
@@ -93,5 +99,17 @@ public class Service
 	public int getDuration()
 	{
 		return (int)((timingPoints[timingPoints.length-1].getTime().getTime() - timingPoints[0].getTime().getTime())/(1000 * 60));
+	}
+
+	// Simple Hash function, need for the hashmap
+	public int hashCode()
+	{
+		return id;
+	}
+
+	@Override
+	public boolean equals(Object s)
+	{
+		return (((Service)s).getID() == this.id);
 	}
 }

@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Arrays;
 
 /**
  * Instantiatable Class which represents information about drivers and their availability.
@@ -23,7 +24,7 @@ public class Driver
 	private String password;
 	private final static int totalHolidays = 25;
 
-	private populate(int driverID)
+	private void populate(int driverID)
 	{
 		this.id = driverID;
 		this.name = DriverInfo.getName(this.id);
@@ -34,14 +35,14 @@ public class Driver
 
 	public Driver(int driverID)
 	{
-		poputate(this.id);
+		populate(driverID);
 	}
 	
 	public Driver(String driverNumber) throws Exception
 	{
 		try
 		{
-			this.id = DriverInfo.findDriver(Integer.parseInt(driverNumber));
+			this.id = DriverInfo.findDriver(driverNumber);
 			if(this.id == 0)
 				throw new Exception();
 			populate(this.id);
@@ -57,6 +58,7 @@ public class Driver
 	{
 		int driversID[] = DriverInfo.getDrivers();
 		Driver drivers[] = new Driver[driversID.length];
+		Arrays.sort(driversID);
 		for(int i=0;i<driversID.length;i++)
 			drivers[i] = new Driver(driversID[i]);
 		return drivers;
@@ -160,11 +162,19 @@ public class Driver
 		int[] driver_ids = DriverInfo.getDrivers();
 		Driver[] drivers = new Driver[driver_ids.length];
 		for(int index = 0; index < driver_ids.length; index++)
-			try
-			{
-				drivers[index] = new Driver(((Integer)driver_ids[index]).toString());
-			}
-			catch(Exception e){}
+			drivers[index] = new Driver(driver_ids[index]);
 		return drivers;
+	}
+
+	// Simple Hash function, need for the hashmap
+	public int hashCode()
+	{
+		return id;
+	}
+
+	@Override
+	public boolean equals(Object d)
+	{
+		return (((Driver)d).getID() == this.id);
 	}
 }

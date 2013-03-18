@@ -16,7 +16,7 @@ public class Bus
 	public Bus(int id)
 	{
 		this.id = id;
-		this.number = BusInfo.busNumber();
+		this.number = BusInfo.busNumber(id);
 	}
 
 	public static Bus[] getAll()
@@ -39,7 +39,7 @@ public class Bus
 	/**
          * Returns the ID of this bus
          */
-	public int getNumber()
+	public String getNumber()
 	{
 	  	return this.number;
 	}
