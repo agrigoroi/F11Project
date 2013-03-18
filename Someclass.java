@@ -3,12 +3,14 @@ import java.util.*;
 
 public class Someclass 
 {
-
+	// A map that contains the driver allocation to services
 	private static HashMap<Service, Driver> rosterDrivers = new HashMap<Service, Driver>();
+	// Map that contains which bus to which services is allocated
 	private static HashMap<Service, Bus> rosterBusses = new HashMap<Service, Bus>();
 	private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
 
 
+	// Return the sum of duration of all services on a given dayType;
 	public static int getTotalDuration(TimetableInfo.timetableKind dayType)
 	{
 		Route[] routes = Route.getAll();
@@ -22,6 +24,7 @@ public class Someclass
 		return thisDuration;
 	}
 
+	// Prints a full version of the bus timetable
 	public static void printFullTimetable()
 	{
 		Route[] routes = Route.getAll();
@@ -30,12 +33,16 @@ public class Someclass
 			for(Route route: routes)
 			{
 				System.out.println();
+				// Print the route name and the day
 				System.out.println("Route: " + route.getName() + ", " + dayType);
 				System.out.println("--------------------------------------------");
+				// Get all the services
 				Service[] services = route.getServices(dayType);
 				for(Service service: services)
 				{
+					// Print the number of the service
 					System.out.println("Service number: " + service.getID());
+					// Get all the timing points and print them
 					TimingPoint[] stops = service.getTimingPoints();
 					for(int j=0; j< stops.length; j++)
 						System.out.println(BusStopInfo.getFullName(stops[j].getStop()) + ": "
@@ -48,19 +55,24 @@ public class Someclass
 	}
 
 	/**
-	 * @param args
+	 * Assign drivers to services
 	 */
 	public static void generateDriverRoster()
 	{
+		// Get all the drivers, busses and routes
 		Driver drivers[] = Driver.getAll();
 		Bus busses[] = Bus.getAll();
 		Route routes[] = Route.getAll();
 		
 		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
 		{
+			// Keep track how much each driver worked a given day
 			HashMap<Driver, Integer> minutesWorked = new HashMap<Driver, Integer>();
 			for(Driver driver: drivers)
 				minutesWorked.put(driver, 0);
+			// If its weekday then its a special case, as the first service on route 0
+			// doesnt have a equivalent service that goes back
+			// so we just assign it to the first driver
 			if(dayType == TimetableInfo.timetableKind.weekday)
 			{
 				rosterDrivers.put(new Service(0, routes[0], dayType), drivers[0]);
@@ -78,17 +90,20 @@ public class Someclass
 				Service[] services = routes[0].getServices(dayType);
 				for(Service service: services)
 					{
+						// The service that goes back exactly after this one
 						Service serviceback;
 						if(dayType == TimetableInfo.timetableKind.weekday)
 							serviceback = new Service(service.getIndex()+1, routes[1], dayType);
 						else
 							serviceback = new Service(service.getIndex(), routes[1], dayType);
-						// System.out.println("        Trying Service " + service.getID());
+						// Check if the driver is available for this service and if the service is unassigned
 						if((nextAvailable == null) || (service.getTime(0).after(nextAvailable)))
 							if(!rosterDrivers.containsKey(service))
 							{
+								// Assign the driver to this service and service that returns back
 								rosterDrivers.put(service, driver);
 								rosterDrivers.put(serviceback, driver);
+								// Check how much time the driver will work and when it will be available
 								if(nextAvailable == null)
 								{
 									long difference = serviceback.getTime(serviceback.getNumberOfTimingPoints()-1).getTime() - service.getTime(0).getTime();
@@ -102,33 +117,31 @@ public class Someclass
 								nextAvailable = serviceback.getTime(serviceback.getNumberOfTimingPoints()-1);
 								System.out.print(" " + service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + ")");
 								System.out.print(" " + serviceback.getID() + "(" + simpleDateFormat.format(serviceback.getTime(0)) + ")" + minutesWorked.get(driver));
-								// System.out.print("            Driver is assigned to " + service.getID());
-								// System.out.println(" next available is " + simpleDateFormat.format(nextAvailable));
+								// If the driver worked enough today then assign services for the next drivers
 								if(minutesWorked.get(driver) > workPerDay)
 									break;
 							}
-							// else
-								// System.out.println("            Service is already assigned");
-						// else
-							// System.out.println("            Driver is not available for this service");
 					}
+				// Did we assign enough work to this driver?
 				if(minutesWorked.get(driver) != 0)
 				{
 					System.out.println(" ");
 					continue;
 				}
+				// Assign the circular services now
 				for(int routeIndex = 2; routeIndex < routes.length; routeIndex++)
 				{
 					Route route = routes[routeIndex];
-					// System.out.println("    Trying route " + routeID);
 					services = route.getServices(dayType);
 					for(Service service: services)
 					{
-						// System.out.println("        Trying Service " + service.getID());
+						// Check if the driver is available for this service and if the service is not assigned yet
 						if((nextAvailable == null)||(service.getTime(0).after(nextAvailable)))
 							if(!rosterDrivers.containsKey(service))
 							{
+								// Assign the service to this driver
 								rosterDrivers.put(service, driver);
+								// Compute how much time this driver will work and next time he is available
 								if(nextAvailable == null)
 									minutesWorked.put(driver, minutesWorked.get(driver) + service.getDuration());
 								else
@@ -143,20 +156,13 @@ public class Someclass
 								if(minutesWorked.get(driver) > workPerDay)
 									break;
 							}
-							// else
-								// System.out.println("            Service is already assigned");
-						// else
-							// System.out.println("            Driver is not available for this service");
-					}					
+					}
+					//Did this driver get any assignment?			
 					if(minutesWorked.get(driver) > 0)
 						break;
 				}
 				System.out.println(" ");
 			}
-		}
-		for (Map.Entry entry : rosterDrivers.entrySet())
-		{
-    		System.out.println(((Service)entry.getKey()).getID() + ": " + ((Driver)entry.getValue()).getID());
 		}
 	}
 
