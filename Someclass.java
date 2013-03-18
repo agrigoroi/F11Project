@@ -4,9 +4,9 @@ import java.util.*;
 public class Someclass 
 {
 
-	private HashMap<Service, Driver> rosterDrivers = new HashMap<Service, Driver>();
-	private HashMap<Service, Bus> rosterBusses = new HashMap<Service, Bus>();
-	private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
+	private static HashMap<Service, Driver> rosterDrivers = new HashMap<Service, Driver>();
+	private static HashMap<Service, Bus> rosterBusses = new HashMap<Service, Bus>();
+	private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
 
 
 	public static int getTotalDuration(TimetableInfo.timetableKind dayType)
@@ -38,8 +38,8 @@ public class Someclass
 					System.out.println("Service number: " + service.getID());
 					TimingPoint[] stops = service.getTimingPoints();
 					for(int j=0; j< stops.length; j++)
-						System.out.println(BusStopInfo.getFullName(stops[i].getStop()) + ": "
-							               + simpleDateFormat.format(stops[i].getTime()));
+						System.out.println(BusStopInfo.getFullName(stops[j].getStop()) + ": "
+							               + simpleDateFormat.format(stops[j].getTime()));
 					System.out.println("Duration: " + service.getDuration() + " minutes");
 					System.out.println();
 				}

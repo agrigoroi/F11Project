@@ -157,14 +157,6 @@ public class Driver
 	/**
          * Returns all the drivers in database
          */
-	public static Driver[] getDrivers()
-	{
-		int[] driver_ids = DriverInfo.getDrivers();
-		Driver[] drivers = new Driver[driver_ids.length];
-		for(int index = 0; index < driver_ids.length; index++)
-			drivers[index] = new Driver(driver_ids[index]);
-		return drivers;
-	}
 
 	// Simple Hash function, need for the hashmap
 	public int hashCode()
