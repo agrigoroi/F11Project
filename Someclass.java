@@ -59,22 +59,21 @@ public class Someclass
 
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
 		
-		HashMap<Integer, Integer> rosterDrivers = new HashMap<Integer, Integer>();
-		HashMap<Integer, Integer> rosterBusses = new HashMap<Integer, Integer>();
+		HashMap<Service, Driver> rosterDrivers = new HashMap<Service, Driver>();
+		HashMap<Integer, Bus> rosterBusses = new HashMap<Service, Bus>();
 		
-		int drivers[] = DriverInfo.getDrivers();
-		Arrays.sort(drivers);
-		int busses[] = BusInfo.getBuses();
-		int routes[] = BusStopInfo.getRoutes();
+		Driver drivers[] = Driver.getAll();
+		Bus busses[] = Bus.getAll();
+		Route routes[] = Route.getAll();
 
-		int numberOfDrivers = DriverInfo.getDrivers().length;
+		int numberOfDrivers = drivers.length;
 		
 		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
 		{
 			int minutesWorked[] = new int[drivers.length];
 			if(dayType == TimetableInfo.timetableKind.weekday)
 			{
-				rosterDrivers.put(6460, drivers[0]);
+				rosterDrivers.put(new Service(6460, route[0], dayType), drivers[0]);
 				minutesWorked[0] += 9;
 			}
 			System.out.println(dayType);
@@ -82,13 +81,14 @@ public class Someclass
 			double workPerDay = (getTotalDuration(dayType)*1.0)/(numberOfDrivers);
 			workPerDay = workPerDay * 0.9;
 			System.out.println(workPerDay);
-			for (int driver = 0; driver < drivers.length ;driver++)
+			for (Driver driver: drivers)
 			{
 				int driverID = drivers[driver];
 				Date nextAvailable = null;
 				System.out.print(driverID + ":");
 				
-				int numberOfServices = TimetableInfo.getServices(routes[0], dayType).length;
+				int numberOfServices = TimetableInfo.getServices(routes[0].getID, dayType).length;
+				Service[] services = routes[0].getServices(dayType);
 				for(int index = 0; index < numberOfServices; index++)
 					{
 						Service service = new Service(index, routes[0], dayType), serviceback;

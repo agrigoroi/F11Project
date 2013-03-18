@@ -17,44 +17,49 @@ import java.util.Date;
 public class Driver
 {
 	private Boolean exists = false;
-	private int id = -1;
+	private int id;
 	private String name;
 	private String number;
 	private String password;
 	private final static int totalHolidays = 25;
+
+	private populate(int driverID)
+	{
+		this.id = driverID;
+		this.name = DriverInfo.getName(this.id);
+		this.number = DriverInfo.getNumber(this.id);
+		this.password = DriverInfo.getPass(this.id);
+		this.exists = true;
+	}
+
+	public Driver(int driverID)
+	{
+		poputate(this.id);
+	}
 	
 	public Driver(String driverNumber) throws Exception
 	{
 		try
 		{
-			int driverIds[] = DriverInfo.getDrivers(), driverNumbers[] = new int[driverIds.length];
-			
-			//get driver numbers
-			for(int i = 0; i < driverIds.length; i++)
-				driverNumbers[i] = Integer.parseInt(DriverInfo.getNumber(driverIds[i]));
-			
-			//get the drivers id
-			for(int i = 0; i < driverNumbers.length; i++)
-				if(Integer.parseInt(driverNumber) == driverNumbers[i])
-				{
-					this.id = driverIds[i];
-					break;
-				}
-			
-			if(this.id == -1)
+			this.id = DriverInfo.findDriver(Integer.parseInt(driverNumber));
+			if(this.id == 0)
 				throw new Exception();
-			
-			this.name = DriverInfo.getName(this.id);
-			this.number = DriverInfo.getNumber(this.id);
-			this.password = DriverInfo.getPass(this.id);
-			this.exists = true;
+			populate(this.id);
 		}
 		catch(Exception ex)
 		{
 			this.exists = false;
-			
 			throw new Exception("Driver does not exist");
 		}	
+	}
+
+	public static Driver[] getAll()
+	{
+		int driversID[] = DriverInfo.getDrivers();
+		Driver drivers[] = new Driver[driversID.length];
+		for(int i=0;i<driversID.length;i++)
+			drivers[i] = new Driver(driversID[i]);
+		return drivers;
 	}
 
 	/**
