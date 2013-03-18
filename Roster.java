@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class Someclass 
+public class Roster
 {
 	// A map that contains the driver allocation to services
 	private static HashMap<Service, Driver> rosterDrivers = new HashMap<Service, Driver>();

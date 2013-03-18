@@ -27,7 +27,7 @@ CLASSES = \
 		Route.java \
 		TimetableInfo.java \
 		database.java \
-		Someclass.java \
+		Roster.java \
 		Service.java \
 		TimingPoint.java \
 
