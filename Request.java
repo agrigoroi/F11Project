@@ -61,7 +61,7 @@ public class Request {
 		if(driver.getHolidaysLeft() < getLength())
 			throw new Exception("Holiday duration is too big");
 		Date date = new Date(startDate.getTime());
-		Driver[] drivers = Driver.getDrivers();
+		Driver[] drivers = Driver.getAll();
 		while(date.compareTo(endDate) <= 0)  //iterate through every day in request
 		{
 			int availableDrivers = 0;  //Available drivers must be initialised to 0 for each new day
