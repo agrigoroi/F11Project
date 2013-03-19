@@ -40,6 +40,15 @@ public class Service
 			this.timingPoints[i] = new TimingPoint(stops[i], times[i]);
 	}
 
+	public Service(int index, Route route, TimetableInfo.timetableKind dayType, int id)
+	{
+		this.index = index;
+		this.route = route;
+		this.dayType = dayType;
+		this.id = id;
+		updateTimingPoints();
+	}
+
 	public Service(int index, Route route, TimetableInfo.timetableKind dayType)
 	{
 		this.index = index;

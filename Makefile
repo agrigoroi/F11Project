@@ -39,7 +39,7 @@ classes: $(CLASSES:.java=.class)
 run: default
 		cd ./GUI; $(JR) $(JRFLAGS) MainGUI
 run2: default
-		$(JR) $(JRFLAG2) Someclass
+		$(JR) $(JRFLAG2) Roster
 
 recompile: clean default
 

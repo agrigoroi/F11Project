@@ -35,10 +35,10 @@ public class Route
 	{
 		if((!cachedServices.containsKey(dayType)) || (updateFromDatabase))
 		{
-			int numberOfServices = TimetableInfo.getNumberOfServices(this.id, dayType);
-			Service[] services = new Service[numberOfServices];
-			for(int i=0; i<numberOfServices; i++)
-				services[i] = new Service(i, this, dayType);
+			int[] servicesID = TimetableInfo.getServices(this.id, dayType);
+			Service[] services = new Service[servicesID.length];
+			for(int i=0; i<servicesID.length; i++)
+				services[i] = new Service(i, this, dayType, servicesID[i]);
 			cachedServices.put(dayType, services);
 		}
 		return cachedServices.get(dayType);

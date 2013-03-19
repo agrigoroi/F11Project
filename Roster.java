@@ -88,14 +88,17 @@ public class Roster
 				Date nextAvailable = null;
 				System.out.print(driver.getID() + ":");
 				Service[] services = routes[0].getServices(dayType);
+				Service[] servicesBackID = routes[1].getServices(dayType);
 				for(Service service: services)
 					{
 						// The service that goes back exactly after this one
 						Service serviceback;
+						int index;
 						if(dayType == TimetableInfo.timetableKind.weekday)
-							serviceback = new Service(service.getIndex()+1, routes[1], dayType);
+							index = service.getIndex() + 1;
 						else
-							serviceback = new Service(service.getIndex(), routes[1], dayType);
+							index = service.getIndex();
+						serviceback = new Service(index, routes[1], dayType, servicesBackID[index].getID());
 						// Check if the driver is available for this service and if the service is unassigned
 						if((nextAvailable == null) || (service.getTime(0).after(nextAvailable)))
 							if(!rosterDrivers.containsKey(service))
