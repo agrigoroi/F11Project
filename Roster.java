@@ -1,10 +1,30 @@
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.io.*;
 
 public class Roster
 {
 	// Map that contains which bus to which services is allocated
 	private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
+
+	public static void printToFile(String filePath, String toPrint)
+	{
+		try
+		{
+			// Create file 
+			FileWriter fstream = new FileWriter(filePath);
+			BufferedWriter out = new BufferedWriter(fstream);
+			out.write(toPrint);
+			//Close the output stream
+			out.close();
+		}
+		catch (Exception e)
+		{//Catch exception if any
+			System.err.println("Error: " + e.getMessage());
+			System.exit(-1);
+		}
+
+	}
 
 
 	// Return the sum of duration of all services on a given dayType;
@@ -248,6 +268,23 @@ public class Roster
 		return rosterBusses;
 	}
 
+	public static String makeDriverTimetable(ArrayList<Service> assignedServices)
+	{
+		String timetableText = "";
+		Collections.sort(assignedServices);
+		for(Service service: assignedServices)
+		{
+			timetableText = timetableText + "Service number: " + service.getID() + "\n";
+			timetableText = timetableText + "Bus number: " + "\n";
+			TimingPoint[] stops = service.getTimingPoints();
+			for(int j=0; j< stops.length; j++)
+				timetableText = timetableText + BusStopInfo.getFullName(stops[j].getStop()) + ": "
+							  + simpleDateFormat.format(stops[j].getTime()) + "\n";
+			timetableText += "\n";
+		}
+		return timetableText;
+	}
+
 	public static void printDriverTimetable()
 	{
 		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
@@ -272,13 +309,9 @@ public class Roster
 			}
 			for(Map.Entry<Driver, ArrayList<Service>> rosterEntry: reversedRosterDrivers.entrySet())
 			{
-				System.out.print(((Driver)rosterEntry.getKey()).getID() + ": ");
-				ArrayList<Service> assignedServices = (ArrayList<Service>)rosterEntry.getValue();
-				for(Service service: assignedServices)
-				{
-					System.out.print(service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + " -- " + simpleDateFormat.format(service.getTime(service.getNumberOfTimingPoints() - 1)) + ") ");
-				}
-				System.out.println(" ");
+				printToFile("roster/"+dayType+"/"+((Driver)rosterEntry.getKey()).getID(),
+					        makeDriverTimetable((ArrayList<Service>)rosterEntry.getValue()));
+		
 			}
 		}
 	}
@@ -287,8 +320,6 @@ public class Roster
 	{
 		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
 		{
-			System.out.println(dayType);
-			System.out.println("--------------------------------");
 			HashMap<Service, Bus> rosterBusses = generateBusRoster(dayType);
 			//print the hashmap in a more prettier way;
 			// A map that links each bus to a list of services he is assigned to;

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 
-public class Service
+public class Service implements Comparable<Service>
 {
 	private int id;
 	private int index;
@@ -120,5 +120,11 @@ public class Service
 	public boolean equals(Object s)
 	{
 		return (((Service)s).getID() == this.id);
+	}
+
+	@Override
+	public int compareTo(Service otherService)
+	{
+		return (int)(this.getTime(0).getTime() - otherService.getTime(0).getTime());
 	}
 }
