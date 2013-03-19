@@ -30,6 +30,8 @@ CLASSES = \
 		Roster.java \
 		Service.java \
 		TimingPoint.java \
+		BusTimetable.java \
+		DriverTimetable.java \
 
 
 default: classes
