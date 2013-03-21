@@ -15,10 +15,14 @@ public class BusTimetable
 	/**
 	 * Assign busses to services
 	 */
+	public static ArrayList<HashMap<Service, Bus>> rosterBussesArray = new ArrayList<HashMap<Service, Bus>>();
+	
+	public static HashMap<Service, Bus> rosterBusses, weekdayRoster;
+	
 	public static HashMap<Service, Bus> generateBusRoster(TimetableInfo.timetableKind dayType)
 	{
 		// A map that contains the bus allocation to services
-		HashMap<Service, Bus> rosterBusses = new HashMap<Service, Bus>();
+		rosterBusses = new HashMap<Service, Bus>();
 		// Get all the Busses, busses and routes
 		Bus busses[] = Bus.getAll();
 		Route routes[] = Route.getAll();
@@ -90,7 +94,8 @@ public class BusTimetable
 	{
 		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
 		{
-			HashMap<Service, Bus> rosterBusses = generateBusRoster(dayType);
+			rosterBusses = generateBusRoster(dayType);
+			rosterBussesArray.add(rosterBusses);
 			//print the hashmap in a more prettier way;
 			// A map that links each bus to a list of services he is assigned to;
 			HashMap<Bus, ArrayList<Service>> reversedRosterBusses = new HashMap<Bus, ArrayList<Service>>();
@@ -112,10 +117,27 @@ public class BusTimetable
 				ArrayList<Service> assignedServices = (ArrayList<Service>)rosterEntry.getValue();
 				for(Service service: assignedServices)
 				{
-					System.out.print(service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + " -- " + simpleDateFormat.format(service.getTime(service.getNumberOfTimingPoints() - 1)) + ") ");
+					System.out.print(service.getID() + "(" + simpleDateFormat.format(service.getTime(0)) + " -- " + simpleDateFormat.format(service.getTime(service.getNumberOfTimingPoints() - 1)) + ") " + "\n");
 				}
 				System.out.println(" ");
 			}
+		
 		}
+	}
+	
+	
+	public static int getBus(int service)
+	{	
+		for (int i = 0; i < rosterBussesArray.size(); i++)
+		{
+			for(Map.Entry<Service, Bus> rosterEntry: rosterBussesArray.get(i).entrySet())
+			{
+				//System.out.println(((Service)rosterEntry.getKey()).getID() + " : " + service);
+				if(((Service)rosterEntry.getKey()).getID() == service)
+				  return ((Bus)rosterEntry.getValue()).getID();
+			}
+			
+		} 
+		return 0;
 	}
 }

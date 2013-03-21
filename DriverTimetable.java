@@ -122,7 +122,7 @@ public class DriverTimetable
 		for(Service service: assignedServices)
 		{
 			timetableText = timetableText + "Service number: " + service.getID() + "\n";
-			timetableText = timetableText + "Bus number: " + "\n";
+			timetableText = timetableText + "Bus number: "  + BusTimetable.getBus(service.getID()) + "\n";
 			TimingPoint[] stops = service.getTimingPoints();
 			for(int j=0; j< stops.length; j++)
 				timetableText = timetableText + BusStopInfo.getFullName(stops[j].getStop()) + ": "
