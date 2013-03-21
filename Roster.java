@@ -65,14 +65,22 @@ public class Roster
 				}
 			}
 		}
+		
+		return timetableText;
+	}
+	
+	public void run()
+	{
+	  database.openBusDatabase();
+		//System.out.println("Drivers\n------------------------");
+		DriverTimetable.printDriverTimetable();
+		//System.out.println("Busses\n------------------------");
+		//BusTimetable.printBusTimetable();
 	}
 
 	public static void main(String[] args)
 	{
-		database.openBusDatabase();
-		System.out.println("Drivers\n------------------------");
-		DriverTimetable.printDriverTimetable();
-		System.out.println("Busses\n------------------------");
-		BusTimetable.printBusTimetable();
+		Roster roster = new Roster();
+		roster.run();
 	}
 }

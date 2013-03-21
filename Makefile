@@ -15,6 +15,8 @@ CLASSES = \
 		GUI/Window.java \
 		GUI/HolidayGUI.java \
 		GUI/WelcomeGUI.java \
+		GUI/ControllerPanelGUI.java \
+		GUI/TimetableGUI.java \
 		BusInfo.java \
 		BusStopInfo.java \
 		Bus.java \

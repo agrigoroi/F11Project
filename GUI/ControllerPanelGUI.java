@@ -3,6 +3,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.JOptionPane;
 
 /**
  * @author Jack Farrelly
@@ -16,7 +17,8 @@ public class ControllerPanelGUI extends Window implements ActionListener
   private MainGUI window;
   private Container contents;
   
-  private JButton  btnRoster		= new JButton("Create roster");
+  protected static JButton  btnRoster		= new JButton("Create roster");
+  private          JButton  btnLogout		= new JButton("Log Out");
 	
   public ControllerPanelGUI()
   {
@@ -33,8 +35,10 @@ public class ControllerPanelGUI extends Window implements ActionListener
     contents.setLayout(new GridLayout(5, 1));
 		
     contents.add(btnRoster);
+    contents.add(btnLogout);
 		
     btnRoster.addActionListener(this);
+    btnLogout.addActionListener(this);
   }
 	
   /**
@@ -42,6 +46,36 @@ public class ControllerPanelGUI extends Window implements ActionListener
    */
   public void actionPerformed(ActionEvent e)
   {
-    //...
+    if(e.getSource() == btnRoster)
+    {
+      Runnable r = new Runnable()
+      {
+        public void run()
+        {
+          Roster roster = new Roster();
+          roster.run();
+          ControllerPanelGUI.unloading();
+        }
+      };
+      
+      ControllerPanelGUI.loading();
+      Thread t = new Thread(r);
+      t.start();
+    }
+    else if(e.getSource() == btnLogout)
+    {
+      window.openWindow(new LoginGUI());
+    }
+  }
+  
+  protected static void loading()
+  {
+    ControllerPanelGUI.btnRoster.setText("Creating roster, please wait...");
+    ControllerPanelGUI.btnRoster.setEnabled(false);
+  }
+  protected static void unloading()
+  {
+    ControllerPanelGUI.btnRoster.setText("Roster created!");
+    ControllerPanelGUI.btnRoster.setEnabled(true);
   }
 }
