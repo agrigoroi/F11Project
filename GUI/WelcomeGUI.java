@@ -59,7 +59,7 @@ public class WelcomeGUI extends Window implements ActionListener
   {
     //open up a timetable for the driver
     if(e.getSource() == btnViewTimetable)
-      ;
+      driver.showTimetable();
     //open up a window that displays a drivers current holidays
     else if(e.getSource() == btnSeeHolidays)
       driver.showHolidays();

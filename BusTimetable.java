@@ -111,6 +111,7 @@ public class BusTimetable
 					reversedRosterBusses.put(thisBus, assignedServices);
 				}
 			}
+			/*
 			for(Map.Entry<Bus, ArrayList<Service>> rosterEntry: reversedRosterBusses.entrySet())
 			{
 				System.out.print(((Bus)rosterEntry.getKey()).getID() + ": ");
@@ -121,6 +122,7 @@ public class BusTimetable
 				}
 				System.out.println(" ");
 			}
+			*/
 		
 		}
 	}

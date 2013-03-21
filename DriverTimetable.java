@@ -136,8 +136,8 @@ public class DriverTimetable
 	{
 		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
 		{
-			System.out.println(dayType);
-			System.out.println("--------------------------------");
+			//System.out.println(dayType);
+			//System.out.println("--------------------------------");
 			HashMap<Service, Driver> rosterDrivers = generateDriverRoster(dayType);
 			//print the hashmap in a more prettier way;
 			// A map that links each driver to a list of services he is assigned to;
@@ -156,7 +156,7 @@ public class DriverTimetable
 			}
 			for(Map.Entry<Driver, ArrayList<Service>> rosterEntry: reversedRosterDrivers.entrySet())
 			{
-				Roster.printToFile("roster/"+dayType+"/"+((Driver)rosterEntry.getKey()).getID(),
+				Roster.printToFile("../roster/"+dayType+"/"+((Driver)rosterEntry.getKey()).getID(),
 					        makeDriverTimetable((ArrayList<Service>)rosterEntry.getValue()));
 		
 			}

@@ -64,16 +64,22 @@ public class Roster
 					timetableText += "Duration: " + service.getDuration() + " minutes\n\n";
 				}
 			}
-		}
+		}		
 		return timetableText;
+	}
+	
+	public void run()
+	{
+	  database.openBusDatabase();
+	  //System.out.println("Drivers\n------------------------");
+          BusTimetable.printBusTimetable();
+          DriverTimetable.printDriverTimetable();
+	  //System.out.println("Busses\n------------------------");
 	}
 
 	public static void main(String[] args)
 	{
-		database.openBusDatabase();
-		System.out.println("Busses\n------------------------");
-		BusTimetable.printBusTimetable();
-		System.out.println("Drivers\n------------------------");
-		DriverTimetable.printDriverTimetable();
+		Roster roster = new Roster();
+		roster.run();
 	}
 }

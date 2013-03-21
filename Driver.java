@@ -96,6 +96,11 @@ public class Driver
 			LoginGUI.window.openWindow(new HolidayGUI(this, requests));
 	}
 	
+	public void showTimetable()
+	{
+	  LoginGUI.window.openWindow(new TimetableGUI(this));
+	}
+	
 	/**
          * Returns the name of this driver
          */
