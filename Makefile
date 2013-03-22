@@ -50,3 +50,4 @@ recompile: clean default
 clean:
 		$(RM) *.class
 		$(RM) ./GUI/*.class
+		$(RM) -r roster/*
