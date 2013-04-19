@@ -19,7 +19,7 @@ public class LoginGUI extends Window implements ActionListener
   
   private JTextField idTF;
   private JPasswordField passwordTF;
-  private JButton loginB, exitB;
+  private JButton loginB, exitB, passengerB = new JButton("Passenger");
   
   public static MainGUI window;
 	
@@ -30,7 +30,7 @@ public class LoginGUI extends Window implements ActionListener
   {
     window = _window;
     pane = window.getContentPane();
-    pane.setLayout(new GridLayout(4, 2));
+    pane.setLayout(new GridLayout(5, 2));
     
     pane.add(idL);
     idTF = new JTextField(10);
@@ -49,6 +49,9 @@ public class LoginGUI extends Window implements ActionListener
     loginB = new JButton("Login");
     loginB.addActionListener(this);
     pane.add(loginB);
+    
+    passengerB.addActionListener(this);
+    pane.add(passengerB);
   }
 	
   /**
@@ -61,25 +64,29 @@ public class LoginGUI extends Window implements ActionListener
       try
       {
       	if(idTF.getText().equals("controller"))
-		{
-			LoginGUI.window.openWindow(new ControllerPanelGUI());
+		    {
+			    LoginGUI.window.openWindow(new ControllerPanelGUI());
 			
-			return;
-		}
+			    return;
+		    }
       	
         Driver driver = new Driver(idTF.getText());
 		
-		if(driver.checkPassword(new String(passwordTF.getPassword()) /*getText()*/))
+		    if(driver.checkPassword(new String(passwordTF.getPassword()) /*getText()*/))
           driver.showWelcome();
         else
           loginText.setText("Incorrect Login\n information");
       }
       catch(Exception ex)
       {
-	loginText.setText("Incorrect Login\n information");
+        loginText.setText("Incorrect Login\n information");
       }
     }
     else if(e.getSource() == exitB)
       System.exit(0);
+    else if(e.getSource() == passengerB)
+    {
+      window.openWindow(new PassengerGUI());
+    }
   }
 }

@@ -3,6 +3,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.*;
 
 /**
  * @author Jack Farrelly
@@ -14,6 +15,8 @@ public class MainGUI extends JFrame
 {
   public static MainGUI window;
   public Container contents;
+  
+  private ArrayList<Window> windowStack = new ArrayList<Window>();
 	
   public MainGUI()
   {
@@ -35,6 +38,8 @@ public class MainGUI extends JFrame
     window.setSize(640, 480);
     window.repaint();
     window.setVisible(true);
+    
+    windowStack.add(newWindow);
   }  
 	
   /**
@@ -45,5 +50,16 @@ public class MainGUI extends JFrame
     database.openBusDatabase();
     window = new MainGUI();
     window.openWindow(new LoginGUI());
+  }
+  
+  /**
+   * Method to go back one window
+   */
+  public void back()
+  {
+    windowStack.remove(windowStack.size() - 1);
+    Window lastWindow = windowStack.remove(windowStack.size() - 1);
+    
+    openWindow(lastWindow);
   }
 }
