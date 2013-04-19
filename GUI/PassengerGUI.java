@@ -87,7 +87,7 @@ public class PassengerGUI extends Window implements ActionListener
       hours[i] = (i < 10) ? "0" + i : Integer.toString(i);
     
     for(int i = 0; i < 60; i++)
-      minutes[i] = Integer.toString(i);
+      minutes[i] = (i < 10) ? "0" + i : Integer.toString(i);
     
     contents.add(lblTime);
     

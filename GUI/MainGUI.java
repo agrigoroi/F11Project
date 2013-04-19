@@ -58,8 +58,12 @@ public class MainGUI extends JFrame
   public void back()
   {
     windowStack.remove(windowStack.size() - 1);
-    Window lastWindow = windowStack.remove(windowStack.size() - 1);
     
-    openWindow(lastWindow);
+    if(windowStack.size() > 0)
+    {
+      Window lastWindow = windowStack.remove(windowStack.size() - 1);
+      
+      openWindow(lastWindow);
+    }
   }
 }
