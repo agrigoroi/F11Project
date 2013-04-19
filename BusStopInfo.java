@@ -73,6 +73,11 @@ public class BusStopInfo
     return database.busDatabase.select_ids("bus_stop", "path", "route", route, "sequence");
   }
 
+  public static int[] getAllBusStops()
+  {
+    return database.busDatabase.select_ids("bus_stop_id", "bus_stop", "bus_stop_id");
+  }
+
   /**
    * Find a bus stop with a particular area code and name
    */
