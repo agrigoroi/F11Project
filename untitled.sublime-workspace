@@ -4,8 +4,72 @@
 		"selected_items":
 		[
 			[
+				"str",
+				"string_goal"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"Re",
+				"Reserve"
+			],
+			[
+				"xml",
+				"xml_body"
+			],
+			[
+				"rep",
+				"reply"
+			],
+			[
+				"W",
+				"WrongUsernameException"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"Avala",
+				"availability"
+			],
+			[
+				"slot",
+				"slot_id"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"ca",
+				"cachedServices"
+			],
+			[
+				"get",
+				"getServices"
+			],
+			[
 				"ser",
-				"services"
+				"serviceback"
+			],
+			[
+				"ro",
+				"route"
+			],
+			[
+				"rou",
+				"routes"
+			],
+			[
+				"dr",
+				"driver"
+			],
+			[
+				"dri",
+				"driver"
 			],
 			[
 				"buss",
@@ -20,16 +84,8 @@
 				"Driver"
 			],
 			[
-				"dri",
-				"driversID"
-			],
-			[
 				"Driver",
 				"DriverInfo"
-			],
-			[
-				"dr",
-				"driverID"
 			],
 			[
 				"Dr",
@@ -48,20 +104,8 @@
 				"println"
 			],
 			[
-				"ro",
-				"routeID"
-			],
-			[
 				"ne",
 				"nextAvailable"
-			],
-			[
-				"s",
-				"simpleDateFormat"
-			],
-			[
-				"pr",
-				"println"
 			],
 			[
 				"Drive",
@@ -160,10 +204,6 @@
 				"getDuration"
 			],
 			[
-				"get",
-				"getStops"
-			],
-			[
 				"route",
 				"routeID"
 			],
@@ -178,10 +218,6 @@
 			[
 				"st",
 				"stops"
-			],
-			[
-				"rou",
-				"routeID"
 			],
 			[
 				"stop",
@@ -268,10 +304,6 @@
 				"element"
 			],
 			[
-				"str",
-				"strcmp"
-			],
-			[
 				"ta",
 				"table"
 			],
@@ -298,10 +330,6 @@
 			[
 				"JU",
 				"JUMP_SIZE"
-			],
-			[
-				"de",
-				"deltay"
 			],
 			[
 				"GL",
@@ -486,143 +514,11 @@
 			[
 				"Ju",
 				"Julie"
-			],
-			[
-				"F",
-				"Flut"
-			],
-			[
-				"In",
-				"INSERT"
-			],
-			[
-				"fr",
-				"fprintf"
-			],
-			[
-				"te",
-				"testlabels"
-			],
-			[
-				"this",
-				"thislabel"
-			],
-			[
-				"di",
-				"digdata"
-			],
-			[
-				"H",
-				"HOW_MANY"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "Makefile",
-			"settings":
-			{
-				"buffer_size": 977,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "TimetableInfo.java",
-			"settings":
-			{
-				"buffer_size": 5455,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "import java.util.Date;\n\n/**\n * Instantiatable Class which represents information about a route.\n */\n \npublic class Route\n{\n	private int id;\n	private String name;\n\n	public Route(int id)\n	{\n		this.id = id;\n		this.name = BusStopInfo.getRouteName();\n	}\n\n	public static Route[] getAll()\n	{\n		int[] routesID = BusStopInfo.getRoutes();\n		Route[] routes = new Route[routesID.length];\n		for(int i=0;i<routesID.length;i++)\n			routes[i] = new Bus(routesID[i]);\n		return routes;\n	}\n\n	public Service[] getServices(TimetableInfo.timetableKind dayType)\n	{\n		int servicesID = TimetableInfo.getServices(this.id, dayType);\n		Service services = new Service[servicesID.length];\n		for(int i=0;i<servicesID.length;i++)\n			services[i] = new Service(servicesID[i]);\n	}\n	\n	/**\n         * Returns the ID of this bus\n         */\n	public int getID()\n	{\n	  	return this.id;\n	}\n	\n	/**\n         * Returns the ID of this bus\n         */\n	public int getName()\n	{\n	  	return this.name;\n	}\n\n}\n",
-			"file": "Route.java",
-			"file_size": 683,
-			"file_write_time": 1363605400000000,
-			"settings":
-			{
-				"buffer_size": 958,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "BusStopInfo.java",
-			"settings":
-			{
-				"buffer_size": 6846,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "import java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.Date;\n\npublic class Service\n{\n	private int id;\n	private int index;\n	private Route route;\n	private TimetableInfo.timetableKind dayType;\n	private TimingPoint[] timingPoints;\n\n	private void updateTimingPoints()\n	{\n		int times[] = TimetableInfo.getServiceTimes(route.getID(), dayType, index);\n		int stops[] = TimetableInfo.getTimingPointsIDs(route.getID(), dayType, index);\n		this.timingPoints = new TimingPoint[times.length];\n		boolean needsResorting = false;\n		for(int i=1;i<times.length;i++)\n			if(times[i]-times[i-1] > 60)\n			{\n				for(int j=i-1;j>=0;j--)\n					times[j]+=1440;\n				needsResorting = true;\n			}\n		if(needsResorting)\n			for(int i=0;i<times.length;i++)\n				for(int j=i+1;j<times.length;j++)\n					if(times[i]>times[j])\n					{\n						int temp = times[i];\n						times[i] = times[j];\n						times[j] = temp;\n						temp = stops[i];\n						stops[i] = stops[j];\n						stops[j] = temp;\n					}\n		for(int i=0;i<times.length;i++)\n			this.timingPoints[i] = new TimingPoint(stops[i], times[i]);\n	}\n\n	public Service(int index, Route route, TimetableInfo.timetableKind dayType)\n	{\n		this.index = index;\n		this.route = route;\n		this.dayType = dayType;\n		this.id = TimetableInfo.getServices(route.getID(), dayType)[index];\n		updateTimingPoints();\n	}\n\n	public int getID()\n	{\n		return id;\n	}\n\n	public Route getRoute()\n	{\n		return route;\n	}\n\n	public TimetableInfo.timetableKind getDayType()\n	{\n		return dayType;\n	}\n\n	// Returns all the stops\n	public TimingPoint[] getTimingPoints()\n	{\n		return this.timingPoints;\n	}\n\n	// Returns a single stop\n	public TimingPoint getTimingPoint(int index)\n	{\n		return this.timingPoints[index];\n	}\n\n	public int getStopID(int index)\n	{\n		return this.timingPoints[index].getStop();\n	}\n\n	public Date getTime(int index)\n	{\n		return this.timingPoints[index].getTime();\n	}\n\n	public int getNumberOfTimingPoints()\n	{\n		return timingPoints.length;\n	}\n\n	public int getDuration()\n	{\n		return (int)((timingPoints[timingPoints.length-1].getTime().getTime() - timingPoints[0].getTime().getTime())/(1000 * 60));\n	}\n}",
-			"file": "Service.java",
-			"file_size": 2076,
-			"file_write_time": 1363605484000000,
-			"settings":
-			{
-				"buffer_size": 2092,
-				"line_ending": "Unix",
-				"name": "public class Service"
-			}
-		},
-		{
-			"file": "Someclass.java",
-			"settings":
-			{
-				"buffer_size": 6907,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "DriverInfo.java",
-			"settings":
-			{
-				"buffer_size": 5287,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Driver.java",
-			"settings":
-			{
-				"buffer_size": 4068,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Bus.java",
-			"settings":
-			{
-				"buffer_size": 785,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "BusInfo.java",
-			"settings":
-			{
-				"buffer_size": 2733,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "TimingPoint.java",
-			"settings":
-			{
-				"buffer_size": 648,
-				"line_ending": "Unix",
-				"name": "public class Stop"
-			}
-		},
-		{
-			"file": "database.java",
-			"settings":
-			{
-				"buffer_size": 14308,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -656,6 +552,23 @@
 	},
 	"file_history":
 	[
+		"/home/alex/xkcd/xkcd-skein.c",
+		"/home/alex/xkcd/xkcd.go",
+		"/home/alex/28112/code.py",
+		"/home/alex/F11Project/Request.java",
+		"/home/alex/F11Project/Route.java",
+		"/home/alex/F11Project/Service.java",
+		"/home/alex/F11Project/Someclass.java",
+		"/home/alex/F11Project/Driver.java",
+		"/home/alex/F11Project/Someclass.class",
+		"/home/alex/F11Project/database.java",
+		"/home/alex/F11Project/BusInfo.java",
+		"/home/alex/F11Project/Bus.java",
+		"/home/alex/F11Project/DriverInfo.java",
+		"/home/alex/F11Project/BusStopInfo.java",
+		"/home/alex/F11Project/TimetableInfo.java",
+		"/home/alex/F11Project/TimingPoint.java",
+		"/home/alex/F11Project/Makefile",
 		"/home/S11/grigora1/COMP26120/ex11/greedy.c",
 		"/home/S11/grigora1/COMP26120/ex11/enum.c",
 		"/home/S11/grigora1/COMP26120/ex11/dp.c",
@@ -766,24 +679,7 @@
 		"/home/S11/grigora1/Downloads/ci.html",
 		"/home/S11/grigora1/Downloads/cimm.html",
 		"/home/S11/grigora1/Downloads/bc.html",
-		"/home/S11/grigora1/COMP23111/ex1/part2.sql",
-		"/home/S11/grigora1/COMP23111/ex1/part1.sql",
-		"/home/S11/grigora1/COMP24111/ex2/part1.matlab",
-		"/home/S11/grigora1/COMP26120/ex4/part5.c",
-		"/home/S11/grigora1/COMP26120/ex4/makefile",
-		"/home/S11/grigora1/COMP26120/ex4/part4.c",
-		"/home/S11/grigora1/COMP26120/ex4/part3.c",
-		"/home/S11/grigora1/COMP26120/ex4/part2.c",
-		"/home/S11/grigora1/COMP23111/ex1/ex2.sql",
-		"/home/S11/grigora1/COMP23111/ex1/ex1.sql",
-		"/home/S11/grigora1/COMP26120/ex4/part4. c",
-		"/home/S11/grigora1/COMP26120/ex4/part3.s",
-		"/home/S11/grigora1/ex1v3.sql",
-		"/home/S11/grigora1/COMP25111/ex1/answer.ltx",
-		"/home/S11/grigora1/COMP26120/ex2/Algorithms.txt",
-		"/home/S11/grigora1/COMP18112/ex3/gui/helloWorld.py",
-		"/home/S11/grigora1/COMP18112/ex3/client.py",
-		"/home/S11/grigora1/COMP18112/ex3/gui/base.py"
+		"/home/S11/grigora1/COMP23111/ex1/part2.sql"
 	],
 	"find":
 	{
@@ -801,6 +697,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getMsg",
+			"EnumMap",
+			"getDr",
 			"int",
 			"6463",
 			"service",
@@ -874,339 +773,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Makefile",
-					"settings":
-					{
-						"buffer_size": 977,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Makefile/Makefile.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "TimetableInfo.java",
-					"settings":
-					{
-						"buffer_size": 5455,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2238,
-								2238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 510.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Route.java",
-					"settings":
-					{
-						"buffer_size": 958,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								726,
-								726
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "BusStopInfo.java",
-					"settings":
-					{
-						"buffer_size": 6846,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1516,
-								1516
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2199.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Service.java",
-					"settings":
-					{
-						"buffer_size": 2092,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1308,
-								1308
-							]
-						],
-						"settings":
-						{
-							"auto_name": "public class Service",
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Someclass.java",
-					"settings":
-					{
-						"buffer_size": 6907,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3005,
-								3005
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 867.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "DriverInfo.java",
-					"settings":
-					{
-						"buffer_size": 5287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								890,
-								890
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "Driver.java",
-					"settings":
-					{
-						"buffer_size": 4068,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1419,
-								1419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "Bus.java",
-					"settings":
-					{
-						"buffer_size": 785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								547,
-								547
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "BusInfo.java",
-					"settings":
-					{
-						"buffer_size": 2733,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								475,
-								475
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "TimingPoint.java",
-					"settings":
-					{
-						"buffer_size": 648,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								251
-							]
-						],
-						"settings":
-						{
-							"auto_name": "public class Stop",
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "database.java",
-					"settings":
-					{
-						"buffer_size": 14308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4906,
-								4906
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2666.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -35,6 +35,7 @@ CLASSES = \
 		TimingPoint.java \
 		BusTimetable.java \
 		DriverTimetable.java \
+		Stop.java \
 
 
 default: classes

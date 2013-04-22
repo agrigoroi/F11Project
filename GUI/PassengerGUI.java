@@ -45,26 +45,10 @@ public class PassengerGUI extends Window implements ActionListener
     contents = window.getContentPane();
     contents.setLayout(new GridLayout(4, 3));
     
-    //build stops list
-    ArrayList<String> stopNames = new ArrayList<String>();
-    
-    int[] routes = BusStopInfo.getRoutes();
-    for(int i = 0; i < routes.length; i++)
-    {
-      int[] stops = BusStopInfo.getBusStops(routes[i]);
-      
-      for(int j = 0; j < stops.length; j++)
-        stopNames.add(BusStopInfo.getFullName(stops[j]));
-    }
-    
-    //remove duplicates
-    HashSet hs = new HashSet();
-    hs.addAll(stopNames);
-    stopNames.clear();
-    stopNames.addAll(hs);
-    
-    String[] stopsList = new String[stopNames.size()];
-    stopsList = stopNames.toArray(stopsList);
+    Stop[] stops = Stop.getAllStops();
+    String[] stopsList = new String[stops.length];
+    for(int i=0;i<stops.length;i++)
+      stopsList[i] = stops[i].getName();
     
     //from
     cmbFrom = new JComboBox(stopsList);
