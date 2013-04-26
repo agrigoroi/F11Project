@@ -24,9 +24,9 @@ public class RosterInfo
   { 
   }
 
-  public static int getRoster(int service, Date date)
+  public static int findID(int service, Date date)
   {
-    return database.busDatabase.find_id("timetable_id", "timetable", "service", service, date);
+    return database.busDatabase.find_id("timetable_id", "timetable", "service", service, "date", date);
   }
 
   public static int getDriver(int timetable_id)

@@ -35,6 +35,8 @@ CLASSES = \
 		TimingPoint.java \
 		BusTimetable.java \
 		DriverTimetable.java \
+		RosterInfo.java \
+		TestRosterInfo.java \
 
 
 default: classes
@@ -45,6 +47,8 @@ run: default
 		cd ./GUI; $(JR) $(JRFLAGS) MainGUI
 run2: default
 		$(JR) $(JRFLAG2) Roster
+testRosterInfo: default
+		$(JR) $(JRFLAG2) TestRosterInfo
 
 recompile: clean default
 
