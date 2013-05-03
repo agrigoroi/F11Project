@@ -130,6 +130,27 @@ fainess - take that into account
 How do drivers specify their resting days?
 drivers dont specify rest days, we do that. fairness.
 
+new requirements
+
+Is the journey planner only in use for the 3 series routes?
+yes. 
+
+Clarify "A passenger should be able to specify locations 
+either in terms of timing points or areas"?
+bus stops
+
+
+
+Who handles the delays?
+controller. assume this for now.
+
+
+SHould we display a full timetables with delays or just delays?
+flexible.
+
+When is the demo?
+3 weeks of work 4th is demo
+
 
 
 

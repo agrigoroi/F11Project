@@ -74,6 +74,7 @@ public class Roster
 	  //System.out.println("Drivers\n------------------------");
           BusTimetable.printBusTimetable();
           DriverTimetable.printDriverTimetable();
+	  printFullTimetable();
 	  //System.out.println("Busses\n------------------------");
 	}
 

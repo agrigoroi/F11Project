@@ -38,5 +38,19 @@ test algo
 create new tables for roster
 
 
+Iteration 3
+
+Add relationships to domain models
+Add controller GUI to deal with delays
+Database to store timetables
+Passenger journey planner GUI
+Passenger timetable GUI
+method for journey calculating
+method to put in delays for controller
+the many test plans and classes
+
+
+
+
 
 
