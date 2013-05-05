@@ -25,6 +25,16 @@ public class Route
 			routes[i] = new Route(routesID[i]);
 		return routes;
 	}
+	
+	public Service[] getServices(Date date)
+	{
+		return getServices(TimetableInfo.timetableKind(date));
+	}
+	
+	public Service[] getServices(Date date, boolean update)
+	{
+		return getServices(TimetableInfo.timetableKind(date), update);
+	}
 
 	public Service[] getServices(TimetableInfo.timetableKind dayType)
 	{

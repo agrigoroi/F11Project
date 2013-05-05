@@ -59,7 +59,7 @@ public class Roster
 					// Get all the timing points and print them
 					TimingPoint[] stops = service.getTimingPoints();
 					for(int j=0; j< stops.length; j++)
-						timetableText += BusStopInfo.getFullName(stops[j].getStop()) + ": "
+						timetableText += stops[j].getStop() + ": " + BusStopInfo.getFullName(stops[j].getStop()) + ": "
 							          + simpleDateFormat.format(stops[j].getTime()) + "\n";
 					timetableText += "Duration: " + service.getDuration() + " minutes\n\n";
 				}

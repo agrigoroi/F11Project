@@ -2,35 +2,43 @@ import java.util.Date;
 
 public class Journey{
 
-private Stop departBusStop;
-private Stop arrivalBusStop;
+private int departBusStop;
+private int arrivalBusStop;
 private Date departTime;
-private Date arrivalTime
-private Route route;
+private Date arrivalTime;
+private Service service;
 
-  public Journey(Stop dStop, Stop aStop, Date dTime, Date aTime, Route r)
+  public Journey(int dStop, int aStop, Date dTime, Date aTime, Service s)
   {
     departBusStop = dStop;
     arrivalBusStop = aStop;
     departTime = dTime;
     arrivalTime = aTime;
-    route=r;
+    service=s;
+  }
+  
+  public int getDepartBusStop()
+  {
+	  return departBusStop;
+  }
+  
+  public int getArrivalBusStop()
+  {
+	  return arrivalBusStop;
+  }
+  
+  public Service getService()
+  {
+	  return service;
+  }
+  
+  public Date getDepartTime()
+  {
+	  return this.departTime;
   }
   
   public Date getArrivalTime()
   {
-    return this.departTime;
+    return this.arrivalTime;
   }
-  
-  @Override
-	public boolean equals(Object j)
-	{
-		return (((Journey)j).getArrivalTime().equals(this.getArrivalTime()));
-	}
-
-	@Override
-	public int compareTo(Journey other)
-	{
-		return (int)(this.getArrivalTime().getTime() - other.getArrivalTime().getTime());
-	}
 }

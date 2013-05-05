@@ -1,27 +1,110 @@
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.PriorityQueue;
-
 
 public class JourneyPlanner
 {
-  PriorityQueue<> queue;
-  //plan a route for departure time
-  public static Journey[] departTimeJourney(Date time, Stop start, Stop end))
-  {
-    Route[] startRoutes = start.getRoutes();
-    
-    timetableKind dayType = timetableKind(time);
-    for(Route route: startRoutes) 
-    {
-      Service[] services = route.getServices();
-      // TODO: are the services sorted??
-      int thisService = 0;
-      while(services[thisService].getTime(0).getTime() < time.getTime())
-        thisService++;
-      
-    }
+	private static class QueueItem implements Comparable<QueueItem>
+	{
+		public int stop;
+		public Date time;
+		public Journey journey;
+		
+		public QueueItem(int stop, Date time, Journey journey)
+		{
+			this.stop = stop;
+			this.time = time;
+			this.journey = journey;
+		}
+		
+		public int compareTo(QueueItem other)
+		{
+			return time.compareTo(other.time);
+		}
+	}
+	
+	public static Route[] getRoutes(int stop)
+	{
+		int[] routesID = BusStopInfo.getRoutes(stop);
+		Route[] routes = new Route[routesID.length];
+		for(int i = 0; i < routesID.length; i++)
+			routes[i] = new Route(routesID[i]);
+		return routes;
+	}
+
+	public static Journey[] dijkstra(int startStop, int endStop, Date time)
+	{
+		PriorityQueue<QueueItem> queue = new PriorityQueue<QueueItem>();
+		HashMap<Integer, Journey[]> path = new HashMap<Integer, Journey[]>();
+		path.put(startStop, new Journey[0]);
+		queue.add(new QueueItem(startStop, time, null));
+		QueueItem next = queue.poll();
+		while(next != null)
+		{
+			if(next.journey != null)
+			{
+				Journey[] prevJourneys = path.get(next.journey.getDepartBusStop());
+				Journey[] thisJourneys = new Journey[prevJourneys.length + 1];
+				for(int i=0;i<prevJourneys.length;i++)
+					thisJourneys[i] = prevJourneys[i];
+				thisJourneys[prevJourneys.length] = next.journey;
+				path.put(next.stop, thisJourneys);
+			}
+			if(next.stop == endStop)
+			{
+				return path.get(endStop);
+			}
+			Route[] routes = getRoutes(next.stop);
+			for(Route route: routes)
+			{
+				Service[] services = route.getServices(next.time);
+				Service nextService = null;
+				Date nextServiceTime = null;
+				for(Service service: services)
+				{
+					TimingPoint[] timingPoints = service.getTimingPoints();
+					for(TimingPoint timingPoint: timingPoints)
+					{
+						if(timingPoint.getStop() == next.stop)
+							if(timingPoint.getTime().compareTo(next.time)>0)
+								if((nextServiceTime == null)||(nextServiceTime.compareTo(timingPoint.getTime())>0))
+								{
+									nextService = service;
+									nextServiceTime = timingPoint.getTime();
+								}
+					}
+				}
+				TimingPoint[] timingPoints = nextService.getTimingPoints();
+				int timingPointID = 0;
+				while(timingPoints[timingPointID].getStop() != next.stop)
+					timingPointID++;
+				timingPointID++;
+				while(timingPointID < timingPoints.length)
+				{
+					queue.add(new QueueItem(timingPoints[timingPointID].getStop(), timingPoints[timingPointID].getTime(),
+											new Journey(next.stop, timingPoints[timingPointID].getStop(), nextServiceTime, timingPoints[timingPointID].getTime(), nextService)));
+					timingPointID++;
+				}
+			}
+			next = queue.poll();
+		}
+		return null;
   }
-  //plan a route for arrival time
-  
-  
+
+	
+	private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
+	public static void main(String args[])
+	{
+		//Testing this stuff...
+		database.openBusDatabase();
+//		System.out.println(Roster.printFullTimetable());
+		Journey[] journeys = dijkstra(781, 783, new Date());
+		for(Journey journey: journeys)
+		{
+			System.out.println("Take bus " + journey.getService().getRoute().getName() +" from " + journey.getDepartBusStop() + " to " + journey.getArrivalBusStop());
+			System.out.println("Leaves at " + simpleDateFormat.format(journey.getDepartTime()) + " and arrives at " +simpleDateFormat.format(journey.getArrivalTime()));
+			System.out.println();
+		}
+	}
 }
