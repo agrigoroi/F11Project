@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.PriorityQueue;
@@ -32,29 +33,33 @@ public class JourneyPlanner
 			routes[i] = new Route(routesID[i]);
 		return routes;
 	}
+	
+	private static Journey[] makeJourney(HashMap<Integer, Journey> path, int startStop, int endStop)
+	{
+		ArrayList<Journey> journeys = new ArrayList<Journey>();
+		int thisStop = endStop;
+		while(thisStop != startStop)
+		{
+			Journey thisJourney = path.get(thisStop);
+			journeys.add(thisJourney);
+			thisStop = thisJourney.getDepartBusStop();
+		}
+		Journey[] toReturn = new Journey[journeys.size()];
+		toReturn = (Journey[]) journeys.toArray();
+		return toReturn;
+	}
 
 	public static Journey[] dijkstra(int startStop, int endStop, Date time)
 	{
 		PriorityQueue<QueueItem> queue = new PriorityQueue<QueueItem>();
-		HashMap<Integer, Journey[]> path = new HashMap<Integer, Journey[]>();
-		path.put(startStop, new Journey[0]);
+		HashMap<Integer, Journey> path = new HashMap<Integer, Journey>();
 		queue.add(new QueueItem(startStop, time, null));
 		QueueItem next = queue.poll();
 		while(next != null)
 		{
-			if(next.journey != null)
-			{
-				Journey[] prevJourneys = path.get(next.journey.getDepartBusStop());
-				Journey[] thisJourneys = new Journey[prevJourneys.length + 1];
-				for(int i=0;i<prevJourneys.length;i++)
-					thisJourneys[i] = prevJourneys[i];
-				thisJourneys[prevJourneys.length] = next.journey;
-				path.put(next.stop, thisJourneys);
-			}
+			path.put(next.stop, next.journey);
 			if(next.stop == endStop)
-			{
-				return path.get(endStop);
-			}
+				return makeJourney(path, startStop, endStop);
 			Route[] routes = getRoutes(next.stop);
 			for(Route route: routes)
 			{
