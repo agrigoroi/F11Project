@@ -11,20 +11,20 @@ public class JourneyPlanner
 		public int stop;
 		public Date time;
 		public Journey journey;
-		
+
 		public QueueItem(int stop, Date time, Journey journey)
 		{
 			this.stop = stop;
 			this.time = time;
 			this.journey = journey;
 		}
-		
+
 		public int compareTo(QueueItem other)
 		{
 			return time.compareTo(other.time);
 		}
 	}
-	
+
 	public static Route[] getRoutes(int stop)
 	{
 		int[] routesID = BusStopInfo.getRoutes(stop);
@@ -33,33 +33,37 @@ public class JourneyPlanner
 			routes[i] = new Route(routesID[i]);
 		return routes;
 	}
-	
-	private static Journey[] makeJourney(HashMap<Integer, Journey> path, int startStop, int endStop)
+
+	private static ArrayList<Journey> makeJourney(HashMap<Integer, Journey> path, int endStop)
 	{
 		ArrayList<Journey> journeys = new ArrayList<Journey>();
 		int thisStop = endStop;
-		while(thisStop != startStop)
+		while(true)
 		{
 			Journey thisJourney = path.get(thisStop);
-			journeys.add(thisJourney);
+			if(thisJourney == null)
+				break;
+			journeys.add(0, thisJourney);
 			thisStop = thisJourney.getDepartBusStop();
 		}
-		Journey[] toReturn = new Journey[journeys.size()];
-		toReturn = (Journey[]) journeys.toArray();
-		return toReturn;
+		return journeys;
 	}
 
-	public static Journey[] dijkstra(int startStop, int endStop, Date time)
+	public static ArrayList<Journey> dijkstra(String startStop, String endStop, Date time)
 	{
 		PriorityQueue<QueueItem> queue = new PriorityQueue<QueueItem>();
 		HashMap<Integer, Journey> path = new HashMap<Integer, Journey>();
-		queue.add(new QueueItem(startStop, time, null));
+		int[] startStops = BusStopInfo.getBusStopIds(startStop);
+		for(int i=0;i<startStops.length;i++)
+			queue.add(new QueueItem(startStops[i], time, null));
 		QueueItem next = queue.poll();
 		while(next != null)
 		{
+			while(path.containsKey(next.stop))
+				next = queue.poll();
 			path.put(next.stop, next.journey);
-			if(next.stop == endStop)
-				return makeJourney(path, startStop, endStop);
+			if(BusStopInfo.getFullName(next.stop).equals(endStop))
+				return makeJourney(path, next.stop);
 			Route[] routes = getRoutes(next.stop);
 			for(Route route: routes)
 			{
@@ -70,16 +74,19 @@ public class JourneyPlanner
 				{
 					TimingPoint[] timingPoints = service.getTimingPoints();
 					for(TimingPoint timingPoint: timingPoints)
-					{
 						if(timingPoint.getStop() == next.stop)
+						{
 							if(timingPoint.getTime().compareTo(next.time)>0)
 								if((nextServiceTime == null)||(nextServiceTime.compareTo(timingPoint.getTime())>0))
 								{
 									nextService = service;
 									nextServiceTime = timingPoint.getTime();
 								}
-					}
+							break;
+						}
 				}
+				if(nextService == null)
+					return null;
 				TimingPoint[] timingPoints = nextService.getTimingPoints();
 				int timingPointID = 0;
 				while(timingPoints[timingPointID].getStop() != next.stop)
@@ -87,8 +94,11 @@ public class JourneyPlanner
 				timingPointID++;
 				while(timingPointID < timingPoints.length)
 				{
-					queue.add(new QueueItem(timingPoints[timingPointID].getStop(), timingPoints[timingPointID].getTime(),
-											new Journey(next.stop, timingPoints[timingPointID].getStop(), nextServiceTime, timingPoints[timingPointID].getTime(), nextService)));
+					int[] nextStops = BusStopInfo.getBusStopIds(BusStopInfo.getFullName(timingPoints[timingPointID].getStop()));
+					for(int i=0;i<nextStops.length;i++)
+						if(path.containsKey(nextStops[i]) == false)
+							queue.add(new QueueItem(nextStops[i], timingPoints[timingPointID].getTime(),
+													new Journey(next.stop, nextStops[i], nextServiceTime, timingPoints[timingPointID].getTime(), nextService)));
 					timingPointID++;
 				}
 			}
@@ -97,17 +107,22 @@ public class JourneyPlanner
 		return null;
   }
 
-	
+
 	private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
 	public static void main(String args[])
 	{
 		//Testing this stuff...
 		database.openBusDatabase();
+		// int[] stops = BusStopInfo.getBusStopIds("Stockport, Bus Station");
+		// for(int i=0;i<stops.length;i++)
+		// {
+		// 	System.out.println(stops[i]);
+		// }
 //		System.out.println(Roster.printFullTimetable());
-		Journey[] journeys = dijkstra(781, 783, new Date());
+		ArrayList<Journey> journeys = dijkstra("Hayfield, Bus Station", "Romiley, Train Station", new Date());
 		for(Journey journey: journeys)
 		{
-			System.out.println("Take bus " + journey.getService().getRoute().getName() +" from " + journey.getDepartBusStop() + " to " + journey.getArrivalBusStop());
+			System.out.println("Take bus " + journey.getService().getRoute().getName() +" from " + BusStopInfo.getFullName(journey.getDepartBusStop()) + " to " + BusStopInfo.getFullName(journey.getArrivalBusStop()));
 			System.out.println("Leaves at " + simpleDateFormat.format(journey.getDepartTime()) + " and arrives at " +simpleDateFormat.format(journey.getArrivalTime()));
 			System.out.println();
 		}
