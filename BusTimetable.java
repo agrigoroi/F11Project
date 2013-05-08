@@ -1,11 +1,10 @@
-import java.text.SimpleDateFormat;
-import java.util.*;
-import java.io.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BusTimetable
 {
-
-	private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
 
 	public static HashMap<Service, Bus> generateBusRoster(Date date)
 	{
@@ -33,8 +32,6 @@ public class BusTimetable
 			rosterBusses.put(new Service(0, routes[0], dayType), busses[0]);
 		for (Bus bus: busses)
 		{
-			// Keep track how much time this bus worked a given day
-			int minutesWorked = 0;
 			Date nextAvailable = null;
 			Service[] services = routes[0].getServices(dayType);
 			Service[] servicesBack = routes[1].getServices(dayType);

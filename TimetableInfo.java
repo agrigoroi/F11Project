@@ -1,6 +1,6 @@
-
-import java.util.*;
-import static java.util.Calendar.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * A class providing information about timetables. This is given in a low-level

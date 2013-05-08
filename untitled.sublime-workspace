@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"serv",
+				"service"
+			],
+			[
+				"ro",
+				"roster"
+			],
+			[
+				"JR",
+				"JRFLAG2"
+			],
+			[
+				"tim",
+				"timetable_id"
+			],
+			[
+				"ti",
+				"timetable_id"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"time",
+				"timetable"
+			],
+			[
 				"bus",
 				"bus_stop_id"
 			],
@@ -22,18 +50,6 @@
 			[
 				"file",
 				"filePath"
-			],
-			[
-				"tim",
-				"timetableText"
-			],
-			[
-				"time",
-				"timetableText"
-			],
-			[
-				"ti",
-				"timetableText"
 			],
 			[
 				"getN",
@@ -70,10 +86,6 @@
 			[
 				"ass",
 				"assignedServices"
-			],
-			[
-				"ro",
-				"rosterEntry"
 			],
 			[
 				"ths",
@@ -238,10 +250,6 @@
 			[
 				"day",
 				"dayType"
-			],
-			[
-				"JR",
-				"JRFLAGS"
 			],
 			[
 				"cal",
@@ -506,122 +514,41 @@
 			[
 				"A",
 				"AlbumTracks"
-			],
-			[
-				"Vi",
-				"Vinyl"
-			],
-			[
-				"B",
-				"Blox"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Driver.java",
+			"file": "database.java",
 			"settings":
 			{
-				"buffer_size": 4052,
+				"buffer_size": 14308,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Request.java",
-			"settings":
-			{
-				"buffer_size": 4758,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Bus.java",
-			"settings":
-			{
-				"buffer_size": 790,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "BusInfo.java",
-			"settings":
-			{
-				"buffer_size": 2733,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Makefile",
-			"settings":
-			{
-				"buffer_size": 1122,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "TimingPoint.java",
-			"settings":
-			{
-				"buffer_size": 482,
-				"line_ending": "Unix",
-				"name": "public class Stop"
-			}
-		},
-		{
-			"file": "Roster.java",
-			"settings":
-			{
-				"buffer_size": 2499,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "DriverInfo.java",
-			"settings":
-			{
-				"buffer_size": 5287,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "BusStopInfo.java",
 			"settings":
 			{
-				"buffer_size": 6980,
+				"buffer_size": 6846,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "test.java",
+			"file": "Route.java",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1485,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "GUI/MainGUI.java",
+			"file": "TimetableInfo.java",
 			"settings":
 			{
-				"buffer_size": 886,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "DriverTimetable.java",
-			"settings":
-			{
-				"buffer_size": 6358,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "BusTimetable.java",
-			"settings":
-			{
-				"buffer_size": 5190,
-				"line_ending": "Unix"
+				"buffer_size": 5455,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -657,26 +584,43 @@
 	},
 	"file_history":
 	[
-		"/home/S11/grigora1/COMP28112/ex3/code.cpp",
-		"/home/S11/grigora1/COMP23420/F11Project/TimetableInfo.java",
-		"/home/S11/grigora1/COMP23420/F11Project/timetables.txt",
-		"/home/S11/grigora1/COMP23420/F11Project/Service.java",
+		"/home/S11/grigora1/COMP23420/F11Project/Driver.java",
+		"/home/S11/grigora1/COMP23420/F11Project/RequestInfo.java",
+		"/home/S11/grigora1/COMP23420/F11Project/TestRosterInfo.java",
 		"/home/S11/grigora1/COMP23420/F11Project/database.java",
+		"/home/S11/grigora1/COMP23420/F11Project/Request.java",
+		"/home/S11/grigora1/COMP23420/F11Project/Service.java",
+		"/home/S11/grigora1/COMP23420/F11Project/RosterInfo.java",
+		"/home/S11/grigora1/COMP23420/F11Project/DriverTimetable.java",
+		"/home/S11/grigora1/COMP23420/F11Project/GUI/MainGUI.java",
+		"/home/S11/grigora1/COMP23420/F11Project/BusStopInfo.java",
+		"/home/S11/grigora1/COMP23420/F11Project/DriverInfo.java",
+		"/home/S11/grigora1/COMP23420/F11Project/Roster.java",
+		"/home/S11/grigora1/COMP23420/F11Project/Makefile",
+		"/home/S11/grigora1/COMP23420/F11Project/BusTimetable.java",
+		"/home/S11/grigora1/COMP23420/F11Project/TimetableInfo.java",
+		"/home/S11/grigora1/COMP26120/ex12/graph_functions.c",
+		"/home/S11/grigora1/COMP26120/ex12/graph_search.c",
+		"/home/S11/grigora1/COMP26120/ex12/part1.c",
+		"/home/S11/grigora1/COMP26120/ex12/graph.h",
+		"/home/S11/grigora1/COMP23420/F11Project/TimingPoint.java",
+		"/home/S11/grigora1/COMP23420/F11Project/BusInfo.java",
+		"/home/S11/grigora1/COMP23420/F11Project/Bus.java",
+		"/home/S11/grigora1/COMP23420/F11Project/test.java",
+		"/home/S11/grigora1/COMP23420/F11Project/bus",
+		"/home/S11/grigora1/COMP28112/ex3/code.cpp",
+		"/home/S11/grigora1/COMP23420/F11Project/timetables.txt",
 		"/home/S11/grigora1/COMP23420/F11Project/Route.java",
 		"/home/S11/grigora1/COMP23420/F11Project/Bus",
 		"/home/S11/grigora1/COMP23420/F11Project/Request",
-		"/home/S11/grigora1/COMP23420/F11Project/Roster.java",
 		"/home/S11/grigora1/COMP23420/F11Project/Someclass.java",
-		"/home/S11/grigora1/COMP23420/F11Project/BusStopInfo.java",
 		"/home/S11/grigora1/COMP26120/ex11/greedy.c",
 		"/home/S11/grigora1/COMP26120/ex11/enum.c",
 		"/home/S11/grigora1/COMP26120/ex11/dp.c",
 		"/home/S11/grigora1/COMP26120/ex11/bnb.c",
 		"/home/S11/grigora1/COMP27112/ex2/ex2.c",
 		"/home/S11/grigora1/dojo/1.in",
-		"/home/S11/grigora1/COMP23420/F11Project/Request.java",
 		"/home/S11/grigora1/COMP23420/F11Project/untitled.sublime-workspace",
-		"/home/S11/grigora1/COMP23420/F11Project/BusInfo.java",
 		"/home/S11/grigora1/COMP26120/ex11/answers",
 		"/home/info/courses/COMP20262/Code_examples/bcd_convert.s",
 		"/home/S11/grigora1/COMP22712/ex1/constants.s",
@@ -767,24 +711,7 @@
 		"/home/S11/grigora1/COMP24111/ex2/part2.m",
 		"/home/S11/grigora1/COMP24111/ex2/divide9regions.m",
 		"/home/S11/grigora1/COMP24111/ex2/extractmyfeatures.m",
-		"/home/S11/grigora1/COMP24111/ex2/part1.m",
-		"/home/S11/grigora1/COMP26120/ex5/part1.c",
-		"/home/S11/grigora1/COMP26120/ex5/part2.c",
-		"/home/S11/grigora1/COMP26120/ex5/part3.c",
-		"/home/S11/grigora1/COMP26120/ex5/arrays.c",
-		"/home/S11/grigora1/COMP26120/ex4/part1.c",
-		"/home/S11/grigora1/Downloads/grigoroi.html",
-		"/home/S11/grigora1/Downloads/ci.html",
-		"/home/S11/grigora1/Downloads/cimm.html",
-		"/home/S11/grigora1/Downloads/bc.html",
-		"/home/S11/grigora1/COMP23111/ex1/part2.sql",
-		"/home/S11/grigora1/COMP23111/ex1/part1.sql",
-		"/home/S11/grigora1/COMP24111/ex2/part1.matlab",
-		"/home/S11/grigora1/COMP26120/ex4/part5.c",
-		"/home/S11/grigora1/COMP26120/ex4/makefile",
-		"/home/S11/grigora1/COMP26120/ex4/part4.c",
-		"/home/S11/grigora1/COMP26120/ex4/part3.c",
-		"/home/S11/grigora1/COMP26120/ex4/part2.c"
+		"/home/S11/grigora1/COMP24111/ex2/part1.m"
 	],
 	"find":
 	{
@@ -802,6 +729,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"stop",
+			"getID",
+			"set_field",
+			"insertRow",
+			"results",
+			"set_field",
+			"new_record",
+			"insert",
+			"select",
 			"getV",
 			"getValue",
 			"6195",
@@ -883,77 +819,79 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Driver.java",
+					"file": "database.java",
 					"settings":
 					{
-						"buffer_size": 4052,
+						"buffer_size": 14308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5341,
+								5341
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 382.0,
+						"translation.y": 2388.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Request.java",
+					"file": "BusStopInfo.java",
 					"settings":
 					{
-						"buffer_size": 4758,
+						"buffer_size": 6846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4710,
-								4710
+								1776,
+								1776
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 867.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "Bus.java",
+					"file": "Route.java",
 					"settings":
 					{
-						"buffer_size": 790,
+						"buffer_size": 1485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								388,
-								388
+								774,
+								774
 							]
 						],
 						"settings":
@@ -962,25 +900,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 153.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "BusInfo.java",
+					"file": "TimetableInfo.java",
 					"settings":
 					{
-						"buffer_size": 2733,
+						"buffer_size": 5455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								475,
-								475
+								5153,
+								5166
 							]
 						],
 						"settings":
@@ -990,252 +928,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Makefile",
-					"settings":
-					{
-						"buffer_size": 1122,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Makefile/Makefile.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "TimingPoint.java",
-					"settings":
-					{
-						"buffer_size": 482,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								90,
-								90
-							]
-						],
-						"settings":
-						{
-							"auto_name": "public class Stop",
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "Roster.java",
-					"settings":
-					{
-						"buffer_size": 2499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1035,
-								1035
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "DriverInfo.java",
-					"settings":
-					{
-						"buffer_size": 5287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								950,
-								950
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "BusStopInfo.java",
-					"settings":
-					{
-						"buffer_size": 6980,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1793,
-								1793
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1008.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "test.java",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "GUI/MainGUI.java",
-					"settings":
-					{
-						"buffer_size": 886,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								837,
-								837
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "DriverTimetable.java",
-					"settings":
-					{
-						"buffer_size": 6358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "BusTimetable.java",
-					"settings":
-					{
-						"buffer_size": 5190,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1998.0,
+						"translation.y": 2021.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1307,6 +1000,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 204.0,
 	"status_bar_visible": true
 }

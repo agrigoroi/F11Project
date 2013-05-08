@@ -1,6 +1,5 @@
 
-import java.util.*;
-import static java.util.Calendar.*;
+import java.util.Date;
 
 /**
  * A class providing information about timetables. This is given in a low-level
@@ -17,8 +16,6 @@ import static java.util.Calendar.*;
  */
 public class RosterInfo
 {
-  private static Calendar calendar = new GregorianCalendar();
-
   // This class is not intended to be instantiated
   private RosterInfo() 
   { 

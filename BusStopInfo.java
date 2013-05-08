@@ -1,5 +1,4 @@
 
-import java.util.*;
 
 /**
  * Information about bus stops. Real bus stops within the GMPTE area are
@@ -71,11 +70,6 @@ public class BusStopInfo
   {
     if (route == 0) throw new InvalidQueryException("Nonexistent route");
     return database.busDatabase.select_ids("bus_stop", "path", "route", route, "sequence");
-  }
-
-  public static int[] getAllBusStops()
-  {
-    return database.busDatabase.select_ids("bus_stop_id", "bus_stop", "bus_stop_id");
   }
 
   /**
