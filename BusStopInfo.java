@@ -1,27 +1,28 @@
-
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Information about bus stops. Real bus stops within the GMPTE area are
  * identified in a systematic way, but this is not the case for all the bus
  * stops within the scope of the the pilot IBMS as some of them are outside
  * the GMPTE area.<br><br>
- * 
- * Bus stops in the database are identified by an area and a name, 
+ *
+ * Bus stops in the database are identified by an area and a name,
  * e.g. "Hayfield, Bus Station" which is enough to uniqiely identify them.
  * Areas also have shorter codes, we.g. "HAY"<br><br>
- * 
+ *
  * Some bus stops are timing points, meaning that they appear on the timetable
  * associated with service times.<br><br>
- * 
+ *
  * None of the UCs in the pilot IBMS change bus stop information, so this
  * interface provides read-only access
  */
-public class BusStopInfo 
+public class BusStopInfo
 {
-  
+
   // This class is not intended to be instantiated
   private BusStopInfo()
-  { 
+  {
   }
 
   /**
@@ -33,7 +34,7 @@ public class BusStopInfo
   }
 
   /**
-   * Find a route with a given name. 
+   * Find a route with a given name.
    * @param name, the name of a route within the scope of the IBMS.
    * These can be found using getRouteName of each of the route IDs given
    * by getAllRoutes
@@ -102,6 +103,16 @@ public class BusStopInfo
   {
     if (area == 0) throw new InvalidQueryException("Nonexistent area");
     return database.busDatabase.select_ids("bus_stop_id", "bus_stop", "area", area, "name");
+  }
+
+  public static int[] getBusStopIds(String fullName)
+  {
+      String[] splited = fullName.split(", ");
+      if(splited.length != 2)
+        throw new InvalidQueryException("bus stop contains more than one comma");
+      int area_id = findAreaByName(splited[0]);
+      String source = database.join("bus_stop", "area", "area");
+      return database.busDatabase.select_ids("bus_stop_id", source, "area.area_id", area_id, "bus_stop.name", splited[1], "");
   }
 
   /**
@@ -195,5 +206,5 @@ public class BusStopInfo
   {
     return database.busDatabase.find_id("area", "name", name);
   }
-     
+
 }
