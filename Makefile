@@ -1,7 +1,6 @@
 JCFLAGS = -classpath .:./GUI:./GUI/jcalendar-1.4.jar
 JRFLAGS = -classpath .:..:./jcalendar-1.4.jar:../mysql-connector-java-5.1.12-bin.jar
 JRFLAG2 = -classpath .:./GUI:./GUI/jcalendar-1.4.jar:./mysql-connector-java-5.1.12-bin.jar
-TESTFLAG= -classpath .:..:../GUI:../GUI/jcalendar-1.4.jar:../mysql-connector-java-5.1.12-bin.jar
 
 JC = javac
 JR = java
@@ -39,6 +38,8 @@ CLASSES = \
 		DriverTimetable.java \
 		RosterInfo.java \
 		TestRosterInfo.java \
+		JourneyPlanner.java \
+		Journey.java \
 
 
 default: classes
@@ -49,6 +50,9 @@ run: default
 		cd ./GUI; $(JR) $(JRFLAGS) MainGUI
 run2: default
 		$(JR) $(JRFLAG2) Roster
+planner: default
+		$(JR) $(JRFLAG2) JourneyPlanner
+
 test: default
 		$(JR) $(TESTFLAG) test/*
 
