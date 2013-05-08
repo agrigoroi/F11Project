@@ -10,7 +10,7 @@ public class Roster
 	{
 		try
 		{
-			// Create file 
+			// Create file
 			FileWriter fstream = new FileWriter(filePath);
 			BufferedWriter out = new BufferedWriter(fstream);
 			out.write(toPrint);
@@ -36,6 +36,28 @@ public class Roster
 				thisDuration += service.getDuration();
 		}
 		return thisDuration;
+	}
+
+	public static String printTimetable(Route route, TimetableInfo.timetableKind dayType)
+	{
+		String timetableText = "";
+		// Print the route name and the day
+		timetableText += "Route: " + route.getName() + ", " + dayType
+		              + "\n--------------------------------------------\n";
+		// Get all the services
+		Service[] services = route.getServices(dayType);
+		for(Service service: services)
+		{
+			// Print the number of the service
+			timetableText += "Service number: " + service.getID() + "\n";
+			// Get all the timing points and print them
+			TimingPoint[] stops = service.getTimingPoints();
+			for(int j=0; j< stops.length; j++)
+				timetableText += stops[j].getStop() + ": " + BusStopInfo.getFullName(stops[j].getStop()) + ": "
+					          + simpleDateFormat.format(stops[j].getTime()) + "\n";
+			timetableText += "Duration: " + service.getDuration() + " minutes\n\n";
+		}
+		return timetableText;
 	}
 
 	// Prints a full version of the bus timetable
@@ -64,10 +86,10 @@ public class Roster
 					timetableText += "Duration: " + service.getDuration() + " minutes\n\n";
 				}
 			}
-		}		
+		}
 		return timetableText;
 	}
-	
+
 	public void run()
 	{
 	  database.openBusDatabase();
@@ -80,7 +102,12 @@ public class Roster
 
 	public static void main(String[] args)
 	{
-		Roster roster = new Roster();
-		roster.run();
+		database.openBusDatabase();
+		Route[] routes = Route.getAll();
+		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
+			for(Route route: routes)
+				printToFile(route.getName()+"_"+dayType, printTimetable(route, dayType));
+		// Roster roster = new Roster();
+		// roster.run();
 	}
 }
