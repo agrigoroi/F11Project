@@ -95,7 +95,7 @@ public class Service implements Comparable<Service>
 
 	public Date getTime(int index)
 	{
-		return this.timingPoints[index].getTime();
+		return new Date(this.timingPoints[index].getTime());
 	}
 
 	public int getNumberOfTimingPoints()
@@ -105,7 +105,7 @@ public class Service implements Comparable<Service>
 
 	public int getDuration()
 	{
-		return (int)((timingPoints[timingPoints.length-1].getTime().getTime() - timingPoints[0].getTime().getTime())/(1000 * 60));
+		return (int)((timingPoints[timingPoints.length-1].getTime() - timingPoints[0].getTime())/(1000 * 60));
 	}
 
 	// Simple Hash function, need for the hashmap

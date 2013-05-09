@@ -1,9 +1,9 @@
-import java.lang.*;
-import java.awt.*;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.JOptionPane;
+import java.awt.Container;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
 
 /**
  * @author Jack Farrelly
@@ -18,7 +18,8 @@ public class ControllerPanelGUI extends Window implements ActionListener
   private Container contents;
   
   protected static JButton  btnRoster		= new JButton("Create roster");
-  private          JButton  btnLogout		= new JButton("Log Out");
+  private          JButton  btnDelays   = new JButton("Impose delays"),
+                            btnLogout		= new JButton("Log out");
 	
   public ControllerPanelGUI()
   {
@@ -35,9 +36,11 @@ public class ControllerPanelGUI extends Window implements ActionListener
     contents.setLayout(new GridLayout(5, 1));
 		
     contents.add(btnRoster);
+    contents.add(btnDelays);
     contents.add(btnLogout);
 		
     btnRoster.addActionListener(this);
+    btnDelays.addActionListener(this);
     btnLogout.addActionListener(this);
   }
 	
@@ -61,6 +64,10 @@ public class ControllerPanelGUI extends Window implements ActionListener
       ControllerPanelGUI.loading();
       Thread t = new Thread(r);
       t.start();
+    }
+    else if(e.getSource() == btnDelays)
+    {
+      window.openWindow(new ControllerPanelDelaysGUI());
     }
     else if(e.getSource() == btnLogout)
     {

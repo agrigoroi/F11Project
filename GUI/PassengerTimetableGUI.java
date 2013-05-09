@@ -21,7 +21,7 @@ import javax.swing.JLabel;
  * that each perform a basic task such as requesting holidays,
  * viewing holidays and viewing timetables
  */
-public class PassengerGUI extends Window implements ActionListener
+public class PassengerTimetableGUI extends Window implements ActionListener
 {
   private MainGUI window;
   public Container contents;
@@ -34,7 +34,7 @@ public class PassengerGUI extends Window implements ActionListener
                  lblTo = new JLabel("To:"),
                  lblTime = new JLabel("Time:");
 	
-  public PassengerGUI()
+  public PassengerTimetableGUI()
   {
     
   }

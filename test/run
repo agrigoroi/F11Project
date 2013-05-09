@@ -1,1 +1,2 @@
 java -cp .:../GUI/.:../.:/usr/share/java/junit4.jar org.junit.runner.JUnitCore TestJourneyPlanner
+java -cp .:../GUI/.:../.:/usr/share/java/junit4.jar org.junit.runner.JUnitCore TestDriver

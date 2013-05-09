@@ -21,11 +21,11 @@ import javax.swing.JLabel;
  * that each perform a basic task such as requesting holidays,
  * viewing holidays and viewing timetables
  */
-public class PassengerGUI extends Window implements ActionListener
+public class PassengerJourneyPlannerGUI extends Window implements ActionListener
 {
   private MainGUI window;
   public Container contents;
-  private JButton btnBack = new JButton("Back"),
+  protected static JButton btnBack = new JButton("Back"),
                   btnSubmit = new JButton("Submit");
   
   private JComboBox cmbFrom, cmbTo, cmbTimeH, cmbTimeM;
@@ -34,7 +34,7 @@ public class PassengerGUI extends Window implements ActionListener
                  lblTo = new JLabel("To:"),
                  lblTime = new JLabel("Time:");
 	
-  public PassengerGUI()
+  public PassengerJourneyPlannerGUI()
   {
     
   }
@@ -111,6 +111,7 @@ public class PassengerGUI extends Window implements ActionListener
     btnBack.addActionListener(this);
     contents.add(new JLabel()); //filler
     contents.add(btnSubmit);
+    btnSubmit.addActionListener(this);
   }
 	
   /**
@@ -121,6 +122,32 @@ public class PassengerGUI extends Window implements ActionListener
     if(e.getSource() == btnBack)
       window.back();
     else if(e.getSource() == btnSubmit)
-      ;//...
+    {
+    	Runnable r = new Runnable()
+      {
+        public void run()
+        {
+          PassengerJourneyPlannerResultGUI result = new PassengerJourneyPlannerResultGUI((String) cmbFrom.getSelectedItem(), (String) cmbTo.getSelectedItem(), (String) cmbTimeH.getSelectedItem(), (String) cmbTimeM.getSelectedItem());
+          window.openWindow(result);
+          PassengerJourneyPlannerGUI.unloading();
+        }
+      };
+      
+      PassengerJourneyPlannerGUI.loading();
+      Thread t = new Thread(r);
+      t.start();
+    }
+      
+  }
+  
+  protected static void loading()
+  {
+    PassengerJourneyPlannerGUI.btnSubmit.setText("Planning route, please wait...");
+    PassengerJourneyPlannerGUI.btnSubmit.setEnabled(false);
+  }
+  protected static void unloading()
+  {
+    PassengerJourneyPlannerGUI.btnSubmit.setText("Submit");
+    PassengerJourneyPlannerGUI.btnSubmit.setEnabled(true);
   }
 }

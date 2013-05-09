@@ -15,22 +15,19 @@ import javax.swing.JLabel;
  * that each perform a basic task such as requesting holidays,
  * viewing holidays and viewing timetables
  */
-public class WelcomeGUI extends Window implements ActionListener
+public class PassengerWelcomeGUI extends Window implements ActionListener
 {
   private MainGUI window;
   public Container contents;
-  private Driver driver;
 	
-  private JLabel   lblWelcome		= new JLabel("Hello <DriverName>");
-  private JButton  btnViewTimetable	= new JButton("View timetable"),
-		   btnSeeHolidays	= new JButton("See holidays"),
-		   btnRequestHoliday	= new JButton("Request holiday"),
-	    	   btnLogout		= new JButton("Log Out");
+  private JLabel   lblWelcome		= new JLabel("Hello passenger");
+  private JButton  btnPlanJourney	= new JButton("Plan journey"),
+		   btnViewTimetable	= new JButton("View timetable"),
+		   btnExit		= new JButton("Exit");
 	
-  public WelcomeGUI(Driver driver)
+  public PassengerWelcomeGUI()
   {
-    this.driver = driver;
-    lblWelcome.setText("Hello " + driver.getName());
+    
   }
 
   /**
@@ -40,18 +37,16 @@ public class WelcomeGUI extends Window implements ActionListener
   {
     window = _window;
     contents = window.getContentPane();
-    contents.setLayout(new GridLayout(5, 1));
+    contents.setLayout(new GridLayout(4, 1));
 		
     contents.add(lblWelcome);
+    contents.add(btnPlanJourney);
     contents.add(btnViewTimetable);
-    contents.add(btnSeeHolidays);
-    contents.add(btnRequestHoliday);
-    contents.add(btnLogout);
+    contents.add(btnExit);
 		
+    btnPlanJourney.addActionListener(this);
     btnViewTimetable.addActionListener(this);
-    btnSeeHolidays.addActionListener(this);
-    btnRequestHoliday.addActionListener(this);
-    btnLogout.addActionListener(this);
+    btnExit.addActionListener(this);
   }
 	
   /**
@@ -60,18 +55,14 @@ public class WelcomeGUI extends Window implements ActionListener
   public void actionPerformed(ActionEvent e)
   {
     //open up a timetable for the driver
-    if(e.getSource() == btnViewTimetable)
-      driver.showTimetable();
+    if(e.getSource() == btnPlanJourney)
+      window.openWindow(new PassengerJourneyPlannerGUI());
     //open up a window that displays a drivers current holidays
-    else if(e.getSource() == btnSeeHolidays)
-      driver.showHolidays();
-    //open up a window to request more holidays
-    else if(e.getSource() == btnRequestHoliday)
-      window.openWindow(new RequestHolidayGUI(driver));
+    else if(e.getSource() == btnViewTimetable)
+      window.openWindow(new PassengerTimetableGUI());
     //Log the driver out
-    else if(e.getSource() == btnLogout)
+    else if(e.getSource() == btnExit)
     {
-      driver = null;
       window.openWindow(new LoginGUI());
     }
   }

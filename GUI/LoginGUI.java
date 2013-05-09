@@ -1,6 +1,12 @@
-import java.awt.*;
-import javax.swing.*;
-import java.awt.event.*;
+import java.awt.Container;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 /**
  * @author Anthony Glover
  *
@@ -86,7 +92,7 @@ public class LoginGUI extends Window implements ActionListener
       System.exit(0);
     else if(e.getSource() == passengerB)
     {
-      window.openWindow(new PassengerGUI());
+      window.openWindow(new PassengerWelcomeGUI());
     }
   }
 }
