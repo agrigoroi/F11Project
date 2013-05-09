@@ -1,9 +1,7 @@
-import java.lang.*;
-import java.awt.*;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
+import java.awt.Container;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
 
 /**
  * @author Jack Farrelly

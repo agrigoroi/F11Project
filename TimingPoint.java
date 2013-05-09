@@ -1,11 +1,10 @@
-import java.util.Date;
 
 public class TimingPoint
 {
 	private int stop;
-	private Date time;
+	private long time;
 
-	public TimingPoint(int stop, Date time)
+	public TimingPoint(int stop, long time)
 	{
 		this.stop = stop;
 		this.time = time;
@@ -13,9 +12,7 @@ public class TimingPoint
 
 	public TimingPoint(int stop, int time)
 	{
-		Long timeVal  = new Date().getTime();
-		timeVal = timeVal - timeVal % (24 * 60 * 60 * 1000);
-		this.time = new Date(timeVal + time * 60 * 1000);
+		this.time = time * 60 * 1000;
 		this.stop = stop;
 	}
 
@@ -24,7 +21,7 @@ public class TimingPoint
 		return stop;
 	}
 
-	public Date getTime()
+	public long getTime()
 	{
 		return time;
 	}

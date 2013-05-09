@@ -1,0 +1,1 @@
+javac -cp ../.:../GUI/.:/usr/share/java/junit4.jar *.java

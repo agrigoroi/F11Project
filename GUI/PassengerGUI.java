@@ -1,11 +1,16 @@
-import java.lang.*;
-import java.awt.*;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
-import java.util.*;
-import java.text.*;
+import java.awt.Container;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
 
 /**
  * @author Jack Farrelly
@@ -20,8 +25,6 @@ public class PassengerGUI extends Window implements ActionListener
 {
   private MainGUI window;
   public Container contents;
-  private Driver driver;
-  
   private JButton btnBack = new JButton("Back"),
                   btnSubmit = new JButton("Submit");
   
@@ -58,7 +61,7 @@ public class PassengerGUI extends Window implements ActionListener
     }
     
     //remove duplicates
-    HashSet hs = new HashSet();
+    HashSet<String> hs = new HashSet<String>();
     hs.addAll(stopNames);
     stopNames.clear();
     stopNames.addAll(hs);

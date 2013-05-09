@@ -10,6 +10,15 @@ public class Route
 	private int id;
 	private String name;
 	private EnumMap<TimetableInfo.timetableKind, Service[]> cachedServices = new EnumMap<TimetableInfo.timetableKind, Service[]>(TimetableInfo.timetableKind.class);
+	
+	public static Route[] getRoutes(int stop)
+	{
+		int[] routesID = BusStopInfo.getRoutes(stop);
+		Route[] routes = new Route[routesID.length];
+		for(int i = 0; i < routesID.length; i++)
+			routes[i] = new Route(routesID[i]);
+		return routes;
+	}
 
 	public Route(int id)
 	{
@@ -24,6 +33,16 @@ public class Route
 		for(int i=0;i<routesID.length;i++)
 			routes[i] = new Route(routesID[i]);
 		return routes;
+	}
+	
+	public Service[] getServices(Date date)
+	{
+		return getServices(TimetableInfo.timetableKind(date));
+	}
+	
+	public Service[] getServices(Date date, boolean update)
+	{
+		return getServices(TimetableInfo.timetableKind(date), update);
 	}
 
 	public Service[] getServices(TimetableInfo.timetableKind dayType)
