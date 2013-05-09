@@ -19,7 +19,10 @@ CLASSES = \
 		GUI/ControllerPanelGUI.java \
 		GUI/ControllerPanelDelaysGUI.java \
 		GUI/TimetableGUI.java \
-		GUI/PassengerGUI.java \
+		GUI/PassengerWelcomeGUI.java \
+		GUI/PassengerJourneyPlannerGUI.java \
+		GUI/PassengerJourneyPlannerResultGUI.java \
+		GUI/PassengerTimetableGUI.java \
 		BusInfo.java \
 		BusStopInfo.java \
 		Bus.java \

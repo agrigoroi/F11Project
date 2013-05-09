@@ -92,7 +92,7 @@ public class LoginGUI extends Window implements ActionListener
       System.exit(0);
     else if(e.getSource() == passengerB)
     {
-      window.openWindow(new PassengerGUI());
+      window.openWindow(new PassengerWelcomeGUI());
     }
   }
 }
