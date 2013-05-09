@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Information about bus stops. Real bus stops within the GMPTE area are

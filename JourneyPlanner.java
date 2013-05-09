@@ -42,6 +42,8 @@ public class JourneyPlanner
 
 	public static ArrayList<Journey> dijkstra(String startStop, String endStop, Date time)
 	{
+		Long today  = new Date().getTime();
+		today = today - today % (24 * 60 * 60 * 1000);
 		PriorityQueue<QueueItem> queue = new PriorityQueue<QueueItem>();
 		HashMap<Integer, Journey> path = new HashMap<Integer, Journey>();
 		int[] startStops = BusStopInfo.getBusStopIds(startStop);
@@ -67,11 +69,12 @@ public class JourneyPlanner
 					for(TimingPoint timingPoint: timingPoints)
 						if(timingPoint.getStop() == next.stop)
 						{
-							if(timingPoint.getTime().compareTo(next.time)>0)
-								if((nextServiceTime == null)||(nextServiceTime.compareTo(timingPoint.getTime())>0))
+							Date ServiceTime = new Date(today+timingPoint.getTime());
+							if(ServiceTime.compareTo(next.time)>0)
+								if((nextServiceTime == null)||(nextServiceTime.compareTo(ServiceTime)>0))
 								{
 									nextService = service;
-									nextServiceTime = timingPoint.getTime();
+									nextServiceTime = ServiceTime;
 								}
 							break;
 						}
@@ -88,8 +91,11 @@ public class JourneyPlanner
 					int[] nextStops = BusStopInfo.getBusStopIds(BusStopInfo.getFullName(timingPoints[timingPointID].getStop()));
 					for(int i=0;i<nextStops.length;i++)
 						if(path.containsKey(nextStops[i]) == false)
-							queue.add(new QueueItem(nextStops[i], timingPoints[timingPointID].getTime(),
-													new Journey(next.stop, nextStops[i], nextServiceTime, timingPoints[timingPointID].getTime(), nextService)));
+						{
+							Date arrivalTime = new Date(today+timingPoints[timingPointID].getTime());
+							queue.add(new QueueItem(nextStops[i], arrivalTime,
+													new Journey(next.stop, nextStops[i], nextServiceTime, arrivalTime, nextService)));
+						}
 					timingPointID++;
 				}
 			}

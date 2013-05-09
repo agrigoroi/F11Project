@@ -1,5 +1,6 @@
 import java.util.Date;
 
+
 public class Service implements Comparable<Service>
 {
 	private int id;
@@ -95,6 +96,13 @@ public class Service implements Comparable<Service>
 
 	public Date getTime(int index)
 	{
+		Long timeVal  = new Date().getTime();
+		timeVal = timeVal - timeVal % (24 * 60 * 60 * 1000);
+		return new Date(timeVal+this.timingPoints[index].getTime());
+	}
+	
+	public long getTimeInt(int index)
+	{
 		return this.timingPoints[index].getTime();
 	}
 
@@ -105,7 +113,7 @@ public class Service implements Comparable<Service>
 
 	public int getDuration()
 	{
-		return (int)((timingPoints[timingPoints.length-1].getTime().getTime() - timingPoints[0].getTime().getTime())/(1000 * 60));
+		return (int)((timingPoints[timingPoints.length-1].getTime() - timingPoints[0].getTime())/(1000 * 60));
 	}
 
 	// Simple Hash function, need for the hashmap
@@ -123,6 +131,6 @@ public class Service implements Comparable<Service>
 	@Override
 	public int compareTo(Service otherService)
 	{
-		return (int)(this.getTime(0).getTime() - otherService.getTime(0).getTime());
+		return (int)(this.getTimeInt(0) - otherService.getTimeInt(0));
 	}
 }
