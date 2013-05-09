@@ -105,5 +105,23 @@ public class JourneyPlannerTest {
 		testJourneyList(journeys);
 		printJourney(journeys);
 	}
+	
+	@Test
+	public final void testDijkstra3() {
+		Date date = makeDate(7, 40, TimetableInfo.timetableKind.weekday);
+		ArrayList<Journey> journeyList = JourneyPlanner.dijkstra("Hayfield, Bus Station", "Stockport, Asda/Sainsbury", date);
+		System.out.println("Journey from Hayfield, Bus Station to Stockport, Asda/Sainsbury");
+		if(journeyList == null)
+			fail("Route is null");
+		Journey[] journeys = new Journey[journeyList.size()];
+		int next = 0;
+		for(Journey journey: journeyList)
+		{
+			journeys[next] = journey;
+			next++;
+		}
+		testJourneyList(journeys);
+		printJourney(journeys);
+	}
 
 }

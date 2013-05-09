@@ -43,6 +43,18 @@ public class PassengerJourneyPlannerResultGUI extends Window implements ActionLi
     not sure how you implement them in your code so you have to put them in your dijkstra's algorithm
     */
   }
+  
+	private static Date makeDate(String hours, String minutes)
+	{
+		Calendar date = new GregorianCalendar();
+		// reset hour, minutes, seconds and millis
+		date.set(Calendar.HOUR_OF_DAY, 0);
+		date.set(Calendar.MINUTE, 0);
+		date.set(Calendar.SECOND, 0);
+		date.set(Calendar.MILLISECOND, 0);
+		Date day = new Date(date.getTime().getTime()+1000*60*(Integer.parseInt(minutes) + 60*Integer.parseInt(hours)));
+		return day;
+	}
 	
   /**
    * Shows the GUI window and adds the labels and buttons
@@ -55,14 +67,17 @@ public class PassengerJourneyPlannerResultGUI extends Window implements ActionLi
     
     database.openBusDatabase();
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
-		
-		ArrayList<Journey> journeys = JourneyPlanner.dijkstra(to, from, new Date());
+    
+		ArrayList<Journey> journeys = JourneyPlanner.dijkstra(to, from, makeDate(hours, minutes));
 		String output = "<html>";
-		for(Journey journey: journeys)
-		{
-			output += "Take bus " + journey.getService().getRoute().getName() +" from " + BusStopInfo.getFullName(journey.getDepartBusStop()) + " to " + BusStopInfo.getFullName(journey.getArrivalBusStop()) + "<br>";
-			output += "Leaves at " + simpleDateFormat.format(journey.getDepartTime()) + " and arrives at " +simpleDateFormat.format(journey.getArrivalTime())+"<br><br>";
-		}
+		if(journeys != null)
+			for(Journey journey: journeys)
+			{
+				output += "Take bus " + journey.getService().getRoute().getName() +" from " + BusStopInfo.getFullName(journey.getDepartBusStop()) + " to " + BusStopInfo.getFullName(journey.getArrivalBusStop()) + "<br>";
+				output += "Leaves at " + simpleDateFormat.format(journey.getDepartTime()) + " and arrives at " +simpleDateFormat.format(journey.getArrivalTime())+"<br><br>";
+			}
+		else
+			output += "The journey is not possible :((";
     output += "</html>";
     
     lblOutput.setText(output);

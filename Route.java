@@ -42,6 +42,7 @@ public class Route
 	
 	public Service[] getServices(Date date, boolean update)
 	{
+		date.setTime(date.getTime() + 1000*60*4);
 		return getServices(TimetableInfo.timetableKind(date), update);
 	}
 

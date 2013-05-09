@@ -53,14 +53,19 @@ public class JourneyPlanner
 		long today = date.getTime().getTime();
 		PriorityQueue<QueueItem> queue = new PriorityQueue<QueueItem>();
 		HashMap<Integer, Journey> path = new HashMap<Integer, Journey>();
+		ArrayList<Integer> routesUsed = new ArrayList<Integer>();
 		int[] startStops = BusStopInfo.getBusStopIds(startStop);
 		for(int i=0;i<startStops.length;i++)
 			queue.add(new QueueItem(startStops[i], time, null));
 		QueueItem next = queue.poll();
 		while(next != null)
 		{
-			while(path.containsKey(next.stop))
+			while((next != null) && (path.containsKey(next.stop)))
 				next = queue.poll();
+			if(next == null)
+				break;
+			if(next.journey != null)
+				routesUsed.add(next.journey.getService().getRoute().getID());
 			//System.out.println(next.stop + ": " + BusStopInfo.getFullName(next.stop) + ": " + simpleDateFormat.format(next.time));
 			path.put(next.stop, next.journey);
 			if(BusStopInfo.getFullName(next.stop).equals(endStop))
@@ -68,6 +73,10 @@ public class JourneyPlanner
 			Route[] routes = Route.getRoutes(next.stop);
 			for(Route route: routes)
 			{
+				// It is pointless to take the same buss again...
+				if(routesUsed.contains(route.getID()))
+					continue;
+				System.out.println(route.getName() + " " + simpleDateFormat.format(next.time));
 				Service[] services = route.getServices(next.time);
 				Service nextService = null;
 				Date nextServiceTime = null;

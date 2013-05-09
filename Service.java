@@ -10,6 +10,7 @@ public class Service implements Comparable<Service>
 
 	private void updateTimingPoints()
 	{
+		System.out.println("Service: " + id + " " + index);
 		int times[] = TimetableInfo.getServiceTimes(route.getID(), dayType, index);
 		int stops[] = TimetableInfo.getTimingPointsIDs(route.getID(), dayType, index);
 		this.timingPoints = new TimingPoint[times.length];
