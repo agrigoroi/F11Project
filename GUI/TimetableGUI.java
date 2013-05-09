@@ -1,9 +1,15 @@
-import java.lang.*;
-import java.awt.*;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
+import java.awt.Container;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
 
 /**
  * @author Jack Farrelly
