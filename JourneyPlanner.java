@@ -1,6 +1,8 @@
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
@@ -42,8 +44,13 @@ public class JourneyPlanner
 
 	public static ArrayList<Journey> dijkstra(String startStop, String endStop, Date time)
 	{
-		Long today  = new Date().getTime();
-		today = today - today % (24 * 60 * 60 * 1000);
+		Calendar date = new GregorianCalendar();
+		// reset hour, minutes, seconds and millis
+		date.set(Calendar.HOUR_OF_DAY, 0);
+		date.set(Calendar.MINUTE, 0);
+		date.set(Calendar.SECOND, 0);
+		date.set(Calendar.MILLISECOND, 0);
+		long today = date.getTime().getTime();
 		PriorityQueue<QueueItem> queue = new PriorityQueue<QueueItem>();
 		HashMap<Integer, Journey> path = new HashMap<Integer, Journey>();
 		int[] startStops = BusStopInfo.getBusStopIds(startStop);
@@ -54,6 +61,7 @@ public class JourneyPlanner
 		{
 			while(path.containsKey(next.stop))
 				next = queue.poll();
+			//System.out.println(next.stop + ": " + BusStopInfo.getFullName(next.stop) + ": " + simpleDateFormat.format(next.time));
 			path.put(next.stop, next.journey);
 			if(BusStopInfo.getFullName(next.stop).equals(endStop))
 				return makeJourney(path, next.stop);
@@ -80,7 +88,7 @@ public class JourneyPlanner
 						}
 				}
 				if(nextService == null)
-					return null;
+					continue;
 				TimingPoint[] timingPoints = nextService.getTimingPoints();
 				int timingPointID = 0;
 				while(timingPoints[timingPointID].getStop() != next.stop)

@@ -1,51 +1,63 @@
 Route: 358back, weekday
 --------------------------------------------
 Service number: 6512
-810: Newtown, Train Station: 07:13
-811: Low Leighton, Ollerset View Hospital: 07:16
-813: Birch Vale, Grouse Hotel: 07:19
-814: Hayfield, Bus Station: 07:22
+810: Newtown, Train Station: 06:13
+811: Low Leighton, Ollerset View Hospital: 06:16
+813: Birch Vale, Grouse Hotel: 06:19
+814: Hayfield, Bus Station: 06:22
 Duration: 9 minutes
 
 Service number: 6513
-804: Stockport, Bus Station: 07:15
-805: Marple, Offerton Fold: 07:24
-806: Marple, Navigation Hotel: 07:34
-807: Marple, Navigation Hotel: 07:36
-808: Strines, Royal Oak: 07:39
-809: New Mills, Bus Station: 07:45
-811: Low Leighton, Ollerset View Hospital: 07:49
-813: Birch Vale, Grouse Hotel: 07:52
-814: Hayfield, Bus Station: 07:55
+804: Stockport, Bus Station: 06:15
+805: Marple, Offerton Fold: 06:24
+806: Marple, Navigation Hotel: 06:34
+807: Marple, Navigation Hotel: 06:36
+808: Strines, Royal Oak: 06:39
+809: New Mills, Bus Station: 06:45
+811: Low Leighton, Ollerset View Hospital: 06:49
+813: Birch Vale, Grouse Hotel: 06:52
+814: Hayfield, Bus Station: 06:55
 Duration: 40 minutes
 
 Service number: 6514
-804: Stockport, Bus Station: 07:52
-805: Marple, Offerton Fold: 08:01
-806: Marple, Navigation Hotel: 08:11
-807: Marple, Navigation Hotel: 08:13
-808: Strines, Royal Oak: 08:18
-809: New Mills, Bus Station: 08:29
-811: Low Leighton, Ollerset View Hospital: 08:34
-813: Birch Vale, Grouse Hotel: 08:37
-814: Hayfield, Bus Station: 08:40
+804: Stockport, Bus Station: 06:52
+805: Marple, Offerton Fold: 07:01
+806: Marple, Navigation Hotel: 07:11
+807: Marple, Navigation Hotel: 07:13
+808: Strines, Royal Oak: 07:18
+809: New Mills, Bus Station: 07:29
+811: Low Leighton, Ollerset View Hospital: 07:34
+813: Birch Vale, Grouse Hotel: 07:37
+814: Hayfield, Bus Station: 07:40
 Duration: 48 minutes
 
 Service number: 6515
-804: Stockport, Bus Station: 08:25
-805: Marple, Offerton Fold: 08:37
-806: Marple, Navigation Hotel: 08:48
-807: Marple, Navigation Hotel: 08:51
-808: Strines, Royal Oak: 08:57
-809: New Mills, Bus Station: 09:08
-811: Low Leighton, Ollerset View Hospital: 09:13
-813: Birch Vale, Grouse Hotel: 09:16
-814: Hayfield, Bus Station: 09:19
+804: Stockport, Bus Station: 07:25
+805: Marple, Offerton Fold: 07:37
+806: Marple, Navigation Hotel: 07:48
+807: Marple, Navigation Hotel: 07:51
+808: Strines, Royal Oak: 07:57
+809: New Mills, Bus Station: 08:08
+811: Low Leighton, Ollerset View Hospital: 08:13
+813: Birch Vale, Grouse Hotel: 08:16
+814: Hayfield, Bus Station: 08:19
 Duration: 54 minutes
 
 Service number: 6516
-804: Stockport, Bus Station: 09:22
-805: Marple, Offerton Fold: 09:37
+804: Stockport, Bus Station: 08:22
+805: Marple, Offerton Fold: 08:37
+806: Marple, Navigation Hotel: 08:53
+807: Marple, Navigation Hotel: 08:56
+808: Strines, Royal Oak: 09:02
+809: New Mills, Bus Station: 09:13
+811: Low Leighton, Ollerset View Hospital: 09:18
+813: Birch Vale, Grouse Hotel: 09:21
+814: Hayfield, Bus Station: 09:24
+Duration: 62 minutes
+
+Service number: 6517
+804: Stockport, Bus Station: 09:30
+805: Marple, Offerton Fold: 09:42
 806: Marple, Navigation Hotel: 09:53
 807: Marple, Navigation Hotel: 09:56
 808: Strines, Royal Oak: 10:02
@@ -53,9 +65,9 @@ Service number: 6516
 811: Low Leighton, Ollerset View Hospital: 10:18
 813: Birch Vale, Grouse Hotel: 10:21
 814: Hayfield, Bus Station: 10:24
-Duration: 62 minutes
+Duration: 54 minutes
 
-Service number: 6517
+Service number: 6518
 804: Stockport, Bus Station: 10:30
 805: Marple, Offerton Fold: 10:42
 806: Marple, Navigation Hotel: 10:53
@@ -67,7 +79,7 @@ Service number: 6517
 814: Hayfield, Bus Station: 11:24
 Duration: 54 minutes
 
-Service number: 6518
+Service number: 6519
 804: Stockport, Bus Station: 11:30
 805: Marple, Offerton Fold: 11:42
 806: Marple, Navigation Hotel: 11:53
@@ -79,7 +91,7 @@ Service number: 6518
 814: Hayfield, Bus Station: 12:24
 Duration: 54 minutes
 
-Service number: 6519
+Service number: 6520
 804: Stockport, Bus Station: 12:30
 805: Marple, Offerton Fold: 12:42
 806: Marple, Navigation Hotel: 12:53
@@ -91,7 +103,7 @@ Service number: 6519
 814: Hayfield, Bus Station: 13:24
 Duration: 54 minutes
 
-Service number: 6520
+Service number: 6521
 804: Stockport, Bus Station: 13:30
 805: Marple, Offerton Fold: 13:42
 806: Marple, Navigation Hotel: 13:53
@@ -103,7 +115,7 @@ Service number: 6520
 814: Hayfield, Bus Station: 14:24
 Duration: 54 minutes
 
-Service number: 6521
+Service number: 6522
 804: Stockport, Bus Station: 14:30
 805: Marple, Offerton Fold: 14:42
 806: Marple, Navigation Hotel: 14:53
@@ -115,55 +127,55 @@ Service number: 6521
 814: Hayfield, Bus Station: 15:24
 Duration: 54 minutes
 
-Service number: 6522
-804: Stockport, Bus Station: 15:30
-805: Marple, Offerton Fold: 15:42
-806: Marple, Navigation Hotel: 15:53
-807: Marple, Navigation Hotel: 15:56
-808: Strines, Royal Oak: 16:02
-809: New Mills, Bus Station: 16:13
-811: Low Leighton, Ollerset View Hospital: 16:18
-813: Birch Vale, Grouse Hotel: 16:21
-814: Hayfield, Bus Station: 16:24
-Duration: 54 minutes
-
 Service number: 6523
-804: Stockport, Bus Station: 16:45
-805: Marple, Offerton Fold: 16:57
-806: Marple, Navigation Hotel: 17:08
-807: Marple, Navigation Hotel: 17:10
-808: Strines, Royal Oak: 17:16
-809: New Mills, Bus Station: 17:24
-811: Low Leighton, Ollerset View Hospital: 17:29
-813: Birch Vale, Grouse Hotel: 17:32
-814: Hayfield, Bus Station: 17:35
+804: Stockport, Bus Station: 15:45
+805: Marple, Offerton Fold: 15:57
+806: Marple, Navigation Hotel: 16:08
+807: Marple, Navigation Hotel: 16:10
+808: Strines, Royal Oak: 16:16
+809: New Mills, Bus Station: 16:24
+811: Low Leighton, Ollerset View Hospital: 16:29
+813: Birch Vale, Grouse Hotel: 16:32
+814: Hayfield, Bus Station: 16:35
 Duration: 50 minutes
 
 Service number: 6524
-804: Stockport, Bus Station: 17:45
-805: Marple, Offerton Fold: 17:58
-806: Marple, Navigation Hotel: 18:10
-807: Marple, Navigation Hotel: 18:12
-808: Strines, Royal Oak: 18:18
-809: New Mills, Bus Station: 18:26
-811: Low Leighton, Ollerset View Hospital: 18:31
-813: Birch Vale, Grouse Hotel: 18:34
-814: Hayfield, Bus Station: 18:37
+804: Stockport, Bus Station: 16:45
+805: Marple, Offerton Fold: 16:58
+806: Marple, Navigation Hotel: 17:10
+807: Marple, Navigation Hotel: 17:12
+808: Strines, Royal Oak: 17:18
+809: New Mills, Bus Station: 17:26
+811: Low Leighton, Ollerset View Hospital: 17:31
+813: Birch Vale, Grouse Hotel: 17:34
+814: Hayfield, Bus Station: 17:37
 Duration: 52 minutes
 
 Service number: 6525
-804: Stockport, Bus Station: 19:00
-805: Marple, Offerton Fold: 19:13
-806: Marple, Navigation Hotel: 19:25
-807: Marple, Navigation Hotel: 19:27
-808: Strines, Royal Oak: 19:33
-809: New Mills, Bus Station: 19:40
-811: Low Leighton, Ollerset View Hospital: 19:45
-813: Birch Vale, Grouse Hotel: 19:48
-814: Hayfield, Bus Station: 19:51
+804: Stockport, Bus Station: 18:00
+805: Marple, Offerton Fold: 18:13
+806: Marple, Navigation Hotel: 18:25
+807: Marple, Navigation Hotel: 18:27
+808: Strines, Royal Oak: 18:33
+809: New Mills, Bus Station: 18:40
+811: Low Leighton, Ollerset View Hospital: 18:45
+813: Birch Vale, Grouse Hotel: 18:48
+814: Hayfield, Bus Station: 18:51
 Duration: 51 minutes
 
 Service number: 6526
+804: Stockport, Bus Station: 19:15
+805: Marple, Offerton Fold: 19:24
+806: Marple, Navigation Hotel: 19:34
+807: Marple, Navigation Hotel: 19:36
+808: Strines, Royal Oak: 19:41
+809: New Mills, Bus Station: 19:47
+811: Low Leighton, Ollerset View Hospital: 19:51
+813: Birch Vale, Grouse Hotel: 19:54
+814: Hayfield, Bus Station: 19:57
+Duration: 42 minutes
+
+Service number: 6527
 804: Stockport, Bus Station: 20:15
 805: Marple, Offerton Fold: 20:24
 806: Marple, Navigation Hotel: 20:34
@@ -175,7 +187,7 @@ Service number: 6526
 814: Hayfield, Bus Station: 20:57
 Duration: 42 minutes
 
-Service number: 6527
+Service number: 6528
 804: Stockport, Bus Station: 21:15
 805: Marple, Offerton Fold: 21:24
 806: Marple, Navigation Hotel: 21:34
@@ -187,7 +199,7 @@ Service number: 6527
 814: Hayfield, Bus Station: 21:57
 Duration: 42 minutes
 
-Service number: 6528
+Service number: 6529
 804: Stockport, Bus Station: 22:15
 805: Marple, Offerton Fold: 22:24
 806: Marple, Navigation Hotel: 22:34
@@ -197,9 +209,12 @@ Service number: 6528
 811: Low Leighton, Ollerset View Hospital: 22:51
 813: Birch Vale, Grouse Hotel: 22:54
 814: Hayfield, Bus Station: 22:57
-Duration: 42 minutes
+815: Glossop, Little Hayfield: 22:59
+816: Glossop, Grouse Inn: 23:05
+817: Glossop, Henry Street: 23:12
+Duration: 57 minutes
 
-Service number: 6529
+Service number: 6530
 804: Stockport, Bus Station: 23:15
 805: Marple, Offerton Fold: 23:24
 806: Marple, Navigation Hotel: 23:34
@@ -209,20 +224,5 @@ Service number: 6529
 811: Low Leighton, Ollerset View Hospital: 23:51
 813: Birch Vale, Grouse Hotel: 23:54
 814: Hayfield, Bus Station: 23:57
-815: Glossop, Little Hayfield: 23:59
-816: Glossop, Grouse Inn: 00:05
-817: Glossop, Henry Street: 00:12
-Duration: 57 minutes
-
-Service number: 6530
-804: Stockport, Bus Station: 00:15
-805: Marple, Offerton Fold: 00:24
-806: Marple, Navigation Hotel: 00:34
-807: Marple, Navigation Hotel: 00:36
-808: Strines, Royal Oak: 00:41
-809: New Mills, Bus Station: 00:47
-811: Low Leighton, Ollerset View Hospital: 00:51
-813: Birch Vale, Grouse Hotel: 00:54
-814: Hayfield, Bus Station: 00:57
 Duration: 42 minutes
 

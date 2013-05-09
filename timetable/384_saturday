@@ -1,8 +1,32 @@
 Route: 384, saturday
 --------------------------------------------
 Service number: 6381
+781: Stockport, Bus Station: 06:45
+782: Stockport, Asda/Sainsbury: 06:48
+783: Stockport, Lower Bents Lane/Stockport Road: 06:55
+784: Romiley, Train Station: 07:02
+785: Romiley, Corcoran Drive: 07:06
+786: Marple, Norfolk Arms: 07:11
+787: Marple, Navigation Hotel: 07:16
+788: Stockport, Dialstone Lane/Hillcrest Road: 07:26
+789: Stockport, Bus Station: 07:36
+Duration: 51 minutes
+
+Service number: 6382
+781: Stockport, Bus Station: 07:15
+782: Stockport, Asda/Sainsbury: 07:18
+783: Stockport, Lower Bents Lane/Stockport Road: 07:25
+784: Romiley, Train Station: 07:32
+785: Romiley, Corcoran Drive: 07:36
+786: Marple, Norfolk Arms: 07:41
+787: Marple, Navigation Hotel: 07:46
+788: Stockport, Dialstone Lane/Hillcrest Road: 07:56
+789: Stockport, Bus Station: 08:06
+Duration: 51 minutes
+
+Service number: 6383
 781: Stockport, Bus Station: 07:45
-782: Stockport, Asda/Sainsbury's: 07:48
+782: Stockport, Asda/Sainsbury: 07:48
 783: Stockport, Lower Bents Lane/Stockport Road: 07:55
 784: Romiley, Train Station: 08:02
 785: Romiley, Corcoran Drive: 08:06
@@ -12,45 +36,69 @@ Service number: 6381
 789: Stockport, Bus Station: 08:36
 Duration: 51 minutes
 
-Service number: 6382
-781: Stockport, Bus Station: 08:15
-782: Stockport, Asda/Sainsbury's: 08:18
-783: Stockport, Lower Bents Lane/Stockport Road: 08:25
-784: Romiley, Train Station: 08:32
-785: Romiley, Corcoran Drive: 08:36
-786: Marple, Norfolk Arms: 08:41
-787: Marple, Navigation Hotel: 08:46
-788: Stockport, Dialstone Lane/Hillcrest Road: 08:56
-789: Stockport, Bus Station: 09:06
-Duration: 51 minutes
-
-Service number: 6383
-781: Stockport, Bus Station: 08:45
-782: Stockport, Asda/Sainsbury's: 08:48
-783: Stockport, Lower Bents Lane/Stockport Road: 08:55
-784: Romiley, Train Station: 09:02
-785: Romiley, Corcoran Drive: 09:06
-786: Marple, Norfolk Arms: 09:11
-787: Marple, Navigation Hotel: 09:16
-788: Stockport, Dialstone Lane/Hillcrest Road: 09:26
-789: Stockport, Bus Station: 09:36
-Duration: 51 minutes
-
 Service number: 6384
-781: Stockport, Bus Station: 09:10
-782: Stockport, Asda/Sainsbury's: 09:13
-783: Stockport, Lower Bents Lane/Stockport Road: 09:20
-784: Romiley, Train Station: 09:27
-785: Romiley, Corcoran Drive: 09:31
-786: Marple, Norfolk Arms: 09:37
-787: Marple, Navigation Hotel: 09:42
-788: Stockport, Dialstone Lane/Hillcrest Road: 09:53
-789: Stockport, Bus Station: 10:04
+781: Stockport, Bus Station: 08:10
+782: Stockport, Asda/Sainsbury: 08:13
+783: Stockport, Lower Bents Lane/Stockport Road: 08:20
+784: Romiley, Train Station: 08:27
+785: Romiley, Corcoran Drive: 08:31
+786: Marple, Norfolk Arms: 08:37
+787: Marple, Navigation Hotel: 08:42
+788: Stockport, Dialstone Lane/Hillcrest Road: 08:53
+789: Stockport, Bus Station: 09:04
 Duration: 54 minutes
 
 Service number: 6385
+781: Stockport, Bus Station: 08:30
+782: Stockport, Asda/Sainsbury: 08:35
+783: Stockport, Lower Bents Lane/Stockport Road: 08:45
+784: Romiley, Train Station: 08:53
+785: Romiley, Corcoran Drive: 08:57
+786: Marple, Norfolk Arms: 09:03
+787: Marple, Navigation Hotel: 09:08
+788: Stockport, Dialstone Lane/Hillcrest Road: 09:19
+789: Stockport, Bus Station: 09:30
+Duration: 60 minutes
+
+Service number: 6386
+781: Stockport, Bus Station: 08:45
+782: Stockport, Asda/Sainsbury: 08:50
+783: Stockport, Lower Bents Lane/Stockport Road: 09:00
+784: Romiley, Train Station: 09:08
+785: Romiley, Corcoran Drive: 09:12
+786: Marple, Norfolk Arms: 09:18
+787: Marple, Navigation Hotel: 09:23
+788: Stockport, Dialstone Lane/Hillcrest Road: 09:34
+789: Stockport, Bus Station: 09:45
+Duration: 60 minutes
+
+Service number: 6387
+781: Stockport, Bus Station: 09:00
+782: Stockport, Asda/Sainsbury: 09:05
+783: Stockport, Lower Bents Lane/Stockport Road: 09:15
+784: Romiley, Train Station: 09:23
+785: Romiley, Corcoran Drive: 09:27
+786: Marple, Norfolk Arms: 09:33
+787: Marple, Navigation Hotel: 09:38
+788: Stockport, Dialstone Lane/Hillcrest Road: 09:49
+789: Stockport, Bus Station: 10:00
+Duration: 60 minutes
+
+Service number: 6388
+781: Stockport, Bus Station: 09:15
+782: Stockport, Asda/Sainsbury: 09:20
+783: Stockport, Lower Bents Lane/Stockport Road: 09:30
+784: Romiley, Train Station: 09:38
+785: Romiley, Corcoran Drive: 09:42
+786: Marple, Norfolk Arms: 09:48
+787: Marple, Navigation Hotel: 09:53
+788: Stockport, Dialstone Lane/Hillcrest Road: 10:04
+789: Stockport, Bus Station: 10:15
+Duration: 60 minutes
+
+Service number: 6389
 781: Stockport, Bus Station: 09:30
-782: Stockport, Asda/Sainsbury's: 09:35
+782: Stockport, Asda/Sainsbury: 09:35
 783: Stockport, Lower Bents Lane/Stockport Road: 09:45
 784: Romiley, Train Station: 09:53
 785: Romiley, Corcoran Drive: 09:57
@@ -60,9 +108,9 @@ Service number: 6385
 789: Stockport, Bus Station: 10:30
 Duration: 60 minutes
 
-Service number: 6386
+Service number: 6390
 781: Stockport, Bus Station: 09:45
-782: Stockport, Asda/Sainsbury's: 09:50
+782: Stockport, Asda/Sainsbury: 09:50
 783: Stockport, Lower Bents Lane/Stockport Road: 10:00
 784: Romiley, Train Station: 10:08
 785: Romiley, Corcoran Drive: 10:12
@@ -72,9 +120,9 @@ Service number: 6386
 789: Stockport, Bus Station: 10:45
 Duration: 60 minutes
 
-Service number: 6387
+Service number: 6391
 781: Stockport, Bus Station: 10:00
-782: Stockport, Asda/Sainsbury's: 10:05
+782: Stockport, Asda/Sainsbury: 10:05
 783: Stockport, Lower Bents Lane/Stockport Road: 10:15
 784: Romiley, Train Station: 10:23
 785: Romiley, Corcoran Drive: 10:27
@@ -84,9 +132,9 @@ Service number: 6387
 789: Stockport, Bus Station: 11:00
 Duration: 60 minutes
 
-Service number: 6388
+Service number: 6392
 781: Stockport, Bus Station: 10:15
-782: Stockport, Asda/Sainsbury's: 10:20
+782: Stockport, Asda/Sainsbury: 10:20
 783: Stockport, Lower Bents Lane/Stockport Road: 10:30
 784: Romiley, Train Station: 10:38
 785: Romiley, Corcoran Drive: 10:42
@@ -96,9 +144,9 @@ Service number: 6388
 789: Stockport, Bus Station: 11:15
 Duration: 60 minutes
 
-Service number: 6389
+Service number: 6393
 781: Stockport, Bus Station: 10:30
-782: Stockport, Asda/Sainsbury's: 10:35
+782: Stockport, Asda/Sainsbury: 10:35
 783: Stockport, Lower Bents Lane/Stockport Road: 10:45
 784: Romiley, Train Station: 10:53
 785: Romiley, Corcoran Drive: 10:57
@@ -108,9 +156,9 @@ Service number: 6389
 789: Stockport, Bus Station: 11:30
 Duration: 60 minutes
 
-Service number: 6390
+Service number: 6394
 781: Stockport, Bus Station: 10:45
-782: Stockport, Asda/Sainsbury's: 10:50
+782: Stockport, Asda/Sainsbury: 10:50
 783: Stockport, Lower Bents Lane/Stockport Road: 11:00
 784: Romiley, Train Station: 11:08
 785: Romiley, Corcoran Drive: 11:12
@@ -120,9 +168,9 @@ Service number: 6390
 789: Stockport, Bus Station: 11:45
 Duration: 60 minutes
 
-Service number: 6391
+Service number: 6395
 781: Stockport, Bus Station: 11:00
-782: Stockport, Asda/Sainsbury's: 11:05
+782: Stockport, Asda/Sainsbury: 11:05
 783: Stockport, Lower Bents Lane/Stockport Road: 11:15
 784: Romiley, Train Station: 11:23
 785: Romiley, Corcoran Drive: 11:27
@@ -132,9 +180,9 @@ Service number: 6391
 789: Stockport, Bus Station: 12:00
 Duration: 60 minutes
 
-Service number: 6392
+Service number: 6396
 781: Stockport, Bus Station: 11:15
-782: Stockport, Asda/Sainsbury's: 11:20
+782: Stockport, Asda/Sainsbury: 11:20
 783: Stockport, Lower Bents Lane/Stockport Road: 11:30
 784: Romiley, Train Station: 11:38
 785: Romiley, Corcoran Drive: 11:42
@@ -144,9 +192,9 @@ Service number: 6392
 789: Stockport, Bus Station: 12:15
 Duration: 60 minutes
 
-Service number: 6393
+Service number: 6397
 781: Stockport, Bus Station: 11:30
-782: Stockport, Asda/Sainsbury's: 11:35
+782: Stockport, Asda/Sainsbury: 11:35
 783: Stockport, Lower Bents Lane/Stockport Road: 11:45
 784: Romiley, Train Station: 11:53
 785: Romiley, Corcoran Drive: 11:57
@@ -156,9 +204,9 @@ Service number: 6393
 789: Stockport, Bus Station: 12:30
 Duration: 60 minutes
 
-Service number: 6394
+Service number: 6398
 781: Stockport, Bus Station: 11:45
-782: Stockport, Asda/Sainsbury's: 11:50
+782: Stockport, Asda/Sainsbury: 11:50
 783: Stockport, Lower Bents Lane/Stockport Road: 12:00
 784: Romiley, Train Station: 12:08
 785: Romiley, Corcoran Drive: 12:12
@@ -168,9 +216,9 @@ Service number: 6394
 789: Stockport, Bus Station: 12:45
 Duration: 60 minutes
 
-Service number: 6395
+Service number: 6399
 781: Stockport, Bus Station: 12:00
-782: Stockport, Asda/Sainsbury's: 12:05
+782: Stockport, Asda/Sainsbury: 12:05
 783: Stockport, Lower Bents Lane/Stockport Road: 12:15
 784: Romiley, Train Station: 12:23
 785: Romiley, Corcoran Drive: 12:27
@@ -180,9 +228,9 @@ Service number: 6395
 789: Stockport, Bus Station: 13:00
 Duration: 60 minutes
 
-Service number: 6396
+Service number: 6400
 781: Stockport, Bus Station: 12:15
-782: Stockport, Asda/Sainsbury's: 12:20
+782: Stockport, Asda/Sainsbury: 12:20
 783: Stockport, Lower Bents Lane/Stockport Road: 12:30
 784: Romiley, Train Station: 12:38
 785: Romiley, Corcoran Drive: 12:42
@@ -192,9 +240,9 @@ Service number: 6396
 789: Stockport, Bus Station: 13:15
 Duration: 60 minutes
 
-Service number: 6397
+Service number: 6401
 781: Stockport, Bus Station: 12:30
-782: Stockport, Asda/Sainsbury's: 12:35
+782: Stockport, Asda/Sainsbury: 12:35
 783: Stockport, Lower Bents Lane/Stockport Road: 12:45
 784: Romiley, Train Station: 12:53
 785: Romiley, Corcoran Drive: 12:57
@@ -204,9 +252,9 @@ Service number: 6397
 789: Stockport, Bus Station: 13:30
 Duration: 60 minutes
 
-Service number: 6398
+Service number: 6402
 781: Stockport, Bus Station: 12:45
-782: Stockport, Asda/Sainsbury's: 12:50
+782: Stockport, Asda/Sainsbury: 12:50
 783: Stockport, Lower Bents Lane/Stockport Road: 13:00
 784: Romiley, Train Station: 13:08
 785: Romiley, Corcoran Drive: 13:12
@@ -216,9 +264,9 @@ Service number: 6398
 789: Stockport, Bus Station: 13:45
 Duration: 60 minutes
 
-Service number: 6399
+Service number: 6403
 781: Stockport, Bus Station: 13:00
-782: Stockport, Asda/Sainsbury's: 13:05
+782: Stockport, Asda/Sainsbury: 13:05
 783: Stockport, Lower Bents Lane/Stockport Road: 13:15
 784: Romiley, Train Station: 13:23
 785: Romiley, Corcoran Drive: 13:27
@@ -228,9 +276,9 @@ Service number: 6399
 789: Stockport, Bus Station: 14:00
 Duration: 60 minutes
 
-Service number: 6400
+Service number: 6404
 781: Stockport, Bus Station: 13:15
-782: Stockport, Asda/Sainsbury's: 13:20
+782: Stockport, Asda/Sainsbury: 13:20
 783: Stockport, Lower Bents Lane/Stockport Road: 13:30
 784: Romiley, Train Station: 13:38
 785: Romiley, Corcoran Drive: 13:42
@@ -240,9 +288,9 @@ Service number: 6400
 789: Stockport, Bus Station: 14:15
 Duration: 60 minutes
 
-Service number: 6401
+Service number: 6405
 781: Stockport, Bus Station: 13:30
-782: Stockport, Asda/Sainsbury's: 13:35
+782: Stockport, Asda/Sainsbury: 13:35
 783: Stockport, Lower Bents Lane/Stockport Road: 13:45
 784: Romiley, Train Station: 13:53
 785: Romiley, Corcoran Drive: 13:57
@@ -252,9 +300,9 @@ Service number: 6401
 789: Stockport, Bus Station: 14:30
 Duration: 60 minutes
 
-Service number: 6402
+Service number: 6406
 781: Stockport, Bus Station: 13:45
-782: Stockport, Asda/Sainsbury's: 13:50
+782: Stockport, Asda/Sainsbury: 13:50
 783: Stockport, Lower Bents Lane/Stockport Road: 14:00
 784: Romiley, Train Station: 14:08
 785: Romiley, Corcoran Drive: 14:12
@@ -264,9 +312,9 @@ Service number: 6402
 789: Stockport, Bus Station: 14:45
 Duration: 60 minutes
 
-Service number: 6403
+Service number: 6407
 781: Stockport, Bus Station: 14:00
-782: Stockport, Asda/Sainsbury's: 14:05
+782: Stockport, Asda/Sainsbury: 14:05
 783: Stockport, Lower Bents Lane/Stockport Road: 14:15
 784: Romiley, Train Station: 14:23
 785: Romiley, Corcoran Drive: 14:27
@@ -276,9 +324,9 @@ Service number: 6403
 789: Stockport, Bus Station: 15:00
 Duration: 60 minutes
 
-Service number: 6404
+Service number: 6408
 781: Stockport, Bus Station: 14:15
-782: Stockport, Asda/Sainsbury's: 14:20
+782: Stockport, Asda/Sainsbury: 14:20
 783: Stockport, Lower Bents Lane/Stockport Road: 14:30
 784: Romiley, Train Station: 14:38
 785: Romiley, Corcoran Drive: 14:42
@@ -288,9 +336,9 @@ Service number: 6404
 789: Stockport, Bus Station: 15:15
 Duration: 60 minutes
 
-Service number: 6405
+Service number: 6409
 781: Stockport, Bus Station: 14:30
-782: Stockport, Asda/Sainsbury's: 14:35
+782: Stockport, Asda/Sainsbury: 14:35
 783: Stockport, Lower Bents Lane/Stockport Road: 14:45
 784: Romiley, Train Station: 14:53
 785: Romiley, Corcoran Drive: 14:57
@@ -300,9 +348,9 @@ Service number: 6405
 789: Stockport, Bus Station: 15:30
 Duration: 60 minutes
 
-Service number: 6406
+Service number: 6410
 781: Stockport, Bus Station: 14:45
-782: Stockport, Asda/Sainsbury's: 14:50
+782: Stockport, Asda/Sainsbury: 14:50
 783: Stockport, Lower Bents Lane/Stockport Road: 15:00
 784: Romiley, Train Station: 15:08
 785: Romiley, Corcoran Drive: 15:12
@@ -312,9 +360,9 @@ Service number: 6406
 789: Stockport, Bus Station: 15:45
 Duration: 60 minutes
 
-Service number: 6407
+Service number: 6411
 781: Stockport, Bus Station: 15:00
-782: Stockport, Asda/Sainsbury's: 15:05
+782: Stockport, Asda/Sainsbury: 15:05
 783: Stockport, Lower Bents Lane/Stockport Road: 15:15
 784: Romiley, Train Station: 15:23
 785: Romiley, Corcoran Drive: 15:27
@@ -324,9 +372,9 @@ Service number: 6407
 789: Stockport, Bus Station: 16:00
 Duration: 60 minutes
 
-Service number: 6408
+Service number: 6412
 781: Stockport, Bus Station: 15:15
-782: Stockport, Asda/Sainsbury's: 15:20
+782: Stockport, Asda/Sainsbury: 15:20
 783: Stockport, Lower Bents Lane/Stockport Road: 15:30
 784: Romiley, Train Station: 15:38
 785: Romiley, Corcoran Drive: 15:42
@@ -336,9 +384,9 @@ Service number: 6408
 789: Stockport, Bus Station: 16:15
 Duration: 60 minutes
 
-Service number: 6409
+Service number: 6413
 781: Stockport, Bus Station: 15:30
-782: Stockport, Asda/Sainsbury's: 15:35
+782: Stockport, Asda/Sainsbury: 15:35
 783: Stockport, Lower Bents Lane/Stockport Road: 15:45
 784: Romiley, Train Station: 15:53
 785: Romiley, Corcoran Drive: 15:57
@@ -348,9 +396,9 @@ Service number: 6409
 789: Stockport, Bus Station: 16:30
 Duration: 60 minutes
 
-Service number: 6410
+Service number: 6414
 781: Stockport, Bus Station: 15:45
-782: Stockport, Asda/Sainsbury's: 15:50
+782: Stockport, Asda/Sainsbury: 15:50
 783: Stockport, Lower Bents Lane/Stockport Road: 16:00
 784: Romiley, Train Station: 16:08
 785: Romiley, Corcoran Drive: 16:12
@@ -360,9 +408,9 @@ Service number: 6410
 789: Stockport, Bus Station: 16:45
 Duration: 60 minutes
 
-Service number: 6411
+Service number: 6415
 781: Stockport, Bus Station: 16:00
-782: Stockport, Asda/Sainsbury's: 16:05
+782: Stockport, Asda/Sainsbury: 16:05
 783: Stockport, Lower Bents Lane/Stockport Road: 16:15
 784: Romiley, Train Station: 16:23
 785: Romiley, Corcoran Drive: 16:27
@@ -372,9 +420,9 @@ Service number: 6411
 789: Stockport, Bus Station: 17:00
 Duration: 60 minutes
 
-Service number: 6412
+Service number: 6416
 781: Stockport, Bus Station: 16:15
-782: Stockport, Asda/Sainsbury's: 16:20
+782: Stockport, Asda/Sainsbury: 16:20
 783: Stockport, Lower Bents Lane/Stockport Road: 16:30
 784: Romiley, Train Station: 16:38
 785: Romiley, Corcoran Drive: 16:42
@@ -384,9 +432,9 @@ Service number: 6412
 789: Stockport, Bus Station: 17:15
 Duration: 60 minutes
 
-Service number: 6413
+Service number: 6417
 781: Stockport, Bus Station: 16:30
-782: Stockport, Asda/Sainsbury's: 16:35
+782: Stockport, Asda/Sainsbury: 16:35
 783: Stockport, Lower Bents Lane/Stockport Road: 16:45
 784: Romiley, Train Station: 16:53
 785: Romiley, Corcoran Drive: 16:57
@@ -396,9 +444,9 @@ Service number: 6413
 789: Stockport, Bus Station: 17:30
 Duration: 60 minutes
 
-Service number: 6414
+Service number: 6418
 781: Stockport, Bus Station: 16:45
-782: Stockport, Asda/Sainsbury's: 16:50
+782: Stockport, Asda/Sainsbury: 16:50
 783: Stockport, Lower Bents Lane/Stockport Road: 17:00
 784: Romiley, Train Station: 17:08
 785: Romiley, Corcoran Drive: 17:12
@@ -408,9 +456,9 @@ Service number: 6414
 789: Stockport, Bus Station: 17:45
 Duration: 60 minutes
 
-Service number: 6415
+Service number: 6419
 781: Stockport, Bus Station: 17:00
-782: Stockport, Asda/Sainsbury's: 17:05
+782: Stockport, Asda/Sainsbury: 17:05
 783: Stockport, Lower Bents Lane/Stockport Road: 17:15
 784: Romiley, Train Station: 17:23
 785: Romiley, Corcoran Drive: 17:27
@@ -420,105 +468,81 @@ Service number: 6415
 789: Stockport, Bus Station: 18:00
 Duration: 60 minutes
 
-Service number: 6416
-781: Stockport, Bus Station: 17:15
-782: Stockport, Asda/Sainsbury's: 17:20
-783: Stockport, Lower Bents Lane/Stockport Road: 17:30
-784: Romiley, Train Station: 17:38
-785: Romiley, Corcoran Drive: 17:42
-786: Marple, Norfolk Arms: 17:48
-787: Marple, Navigation Hotel: 17:53
-788: Stockport, Dialstone Lane/Hillcrest Road: 18:04
-789: Stockport, Bus Station: 18:15
+Service number: 6420
+781: Stockport, Bus Station: 17:20
+782: Stockport, Asda/Sainsbury: 17:25
+783: Stockport, Lower Bents Lane/Stockport Road: 17:35
+784: Romiley, Train Station: 17:43
+785: Romiley, Corcoran Drive: 17:47
+786: Marple, Norfolk Arms: 17:53
+787: Marple, Navigation Hotel: 17:58
+788: Stockport, Dialstone Lane/Hillcrest Road: 18:09
+789: Stockport, Bus Station: 18:20
 Duration: 60 minutes
 
-Service number: 6417
-781: Stockport, Bus Station: 17:30
-782: Stockport, Asda/Sainsbury's: 17:35
-783: Stockport, Lower Bents Lane/Stockport Road: 17:45
-784: Romiley, Train Station: 17:53
-785: Romiley, Corcoran Drive: 17:57
-786: Marple, Norfolk Arms: 18:03
-787: Marple, Navigation Hotel: 18:08
-788: Stockport, Dialstone Lane/Hillcrest Road: 18:19
-789: Stockport, Bus Station: 18:30
+Service number: 6421
+781: Stockport, Bus Station: 17:40
+782: Stockport, Asda/Sainsbury: 17:45
+783: Stockport, Lower Bents Lane/Stockport Road: 17:55
+784: Romiley, Train Station: 18:03
+785: Romiley, Corcoran Drive: 18:07
+786: Marple, Norfolk Arms: 18:13
+787: Marple, Navigation Hotel: 18:18
+788: Stockport, Dialstone Lane/Hillcrest Road: 18:29
+789: Stockport, Bus Station: 18:40
 Duration: 60 minutes
 
-Service number: 6418
-781: Stockport, Bus Station: 17:45
-782: Stockport, Asda/Sainsbury's: 17:50
-783: Stockport, Lower Bents Lane/Stockport Road: 18:00
-784: Romiley, Train Station: 18:08
-785: Romiley, Corcoran Drive: 18:12
-786: Marple, Norfolk Arms: 18:18
-787: Marple, Navigation Hotel: 18:23
-788: Stockport, Dialstone Lane/Hillcrest Road: 18:34
-789: Stockport, Bus Station: 18:45
-Duration: 60 minutes
-
-Service number: 6419
+Service number: 6422
 781: Stockport, Bus Station: 18:00
-782: Stockport, Asda/Sainsbury's: 18:05
+782: Stockport, Asda/Sainsbury: 18:05
 783: Stockport, Lower Bents Lane/Stockport Road: 18:15
 784: Romiley, Train Station: 18:23
 785: Romiley, Corcoran Drive: 18:27
 786: Marple, Norfolk Arms: 18:33
 787: Marple, Navigation Hotel: 18:38
-788: Stockport, Dialstone Lane/Hillcrest Road: 18:49
-789: Stockport, Bus Station: 19:00
-Duration: 60 minutes
-
-Service number: 6420
-781: Stockport, Bus Station: 18:20
-782: Stockport, Asda/Sainsbury's: 18:25
-783: Stockport, Lower Bents Lane/Stockport Road: 18:35
-784: Romiley, Train Station: 18:43
-785: Romiley, Corcoran Drive: 18:47
-786: Marple, Norfolk Arms: 18:53
-787: Marple, Navigation Hotel: 18:58
-788: Stockport, Dialstone Lane/Hillcrest Road: 19:09
-789: Stockport, Bus Station: 19:20
-Duration: 60 minutes
-
-Service number: 6421
-781: Stockport, Bus Station: 18:40
-782: Stockport, Asda/Sainsbury's: 18:45
-783: Stockport, Lower Bents Lane/Stockport Road: 18:55
-784: Romiley, Train Station: 19:03
-785: Romiley, Corcoran Drive: 19:07
-786: Marple, Norfolk Arms: 19:13
-787: Marple, Navigation Hotel: 19:18
-788: Stockport, Dialstone Lane/Hillcrest Road: 19:29
-789: Stockport, Bus Station: 19:40
-Duration: 60 minutes
-
-Service number: 6422
-781: Stockport, Bus Station: 19:00
-782: Stockport, Asda/Sainsbury's: 19:05
-783: Stockport, Lower Bents Lane/Stockport Road: 19:15
-784: Romiley, Train Station: 19:23
-785: Romiley, Corcoran Drive: 19:27
-786: Marple, Norfolk Arms: 19:33
-787: Marple, Navigation Hotel: 19:38
-788: Stockport, Dialstone Lane/Hillcrest Road: 19:48
-789: Stockport, Bus Station: 19:58
+788: Stockport, Dialstone Lane/Hillcrest Road: 18:48
+789: Stockport, Bus Station: 18:58
 Duration: 58 minutes
 
 Service number: 6423
-781: Stockport, Bus Station: 19:20
-782: Stockport, Asda/Sainsbury's: 19:25
-783: Stockport, Lower Bents Lane/Stockport Road: 19:35
-784: Romiley, Train Station: 19:42
-785: Romiley, Corcoran Drive: 19:46
-786: Marple, Norfolk Arms: 19:51
-787: Marple, Navigation Hotel: 19:56
-788: Stockport, Dialstone Lane/Hillcrest Road: 20:06
-789: Stockport, Bus Station: 20:16
+781: Stockport, Bus Station: 18:20
+782: Stockport, Asda/Sainsbury: 18:25
+783: Stockport, Lower Bents Lane/Stockport Road: 18:35
+784: Romiley, Train Station: 18:42
+785: Romiley, Corcoran Drive: 18:46
+786: Marple, Norfolk Arms: 18:51
+787: Marple, Navigation Hotel: 18:56
+788: Stockport, Dialstone Lane/Hillcrest Road: 19:06
+789: Stockport, Bus Station: 19:16
 Duration: 56 minutes
 
 Service number: 6424
+781: Stockport, Bus Station: 18:45
+782: Stockport, Asda/Sainsbury: 18:48
+783: Stockport, Lower Bents Lane/Stockport Road: 18:55
+784: Romiley, Train Station: 19:02
+785: Romiley, Corcoran Drive: 19:06
+786: Marple, Norfolk Arms: 19:11
+787: Marple, Navigation Hotel: 19:16
+788: Stockport, Dialstone Lane/Hillcrest Road: 19:26
+789: Stockport, Bus Station: 19:36
+Duration: 51 minutes
+
+Service number: 6425
+781: Stockport, Bus Station: 19:15
+782: Stockport, Asda/Sainsbury: 19:18
+783: Stockport, Lower Bents Lane/Stockport Road: 19:25
+784: Romiley, Train Station: 19:32
+785: Romiley, Corcoran Drive: 19:36
+786: Marple, Norfolk Arms: 19:41
+787: Marple, Navigation Hotel: 19:46
+788: Stockport, Dialstone Lane/Hillcrest Road: 19:56
+789: Stockport, Bus Station: 20:06
+Duration: 51 minutes
+
+Service number: 6426
 781: Stockport, Bus Station: 19:45
-782: Stockport, Asda/Sainsbury's: 19:48
+782: Stockport, Asda/Sainsbury: 19:48
 783: Stockport, Lower Bents Lane/Stockport Road: 19:55
 784: Romiley, Train Station: 20:02
 785: Romiley, Corcoran Drive: 20:06
@@ -528,9 +552,9 @@ Service number: 6424
 789: Stockport, Bus Station: 20:36
 Duration: 51 minutes
 
-Service number: 6425
+Service number: 6427
 781: Stockport, Bus Station: 20:15
-782: Stockport, Asda/Sainsbury's: 20:18
+782: Stockport, Asda/Sainsbury: 20:18
 783: Stockport, Lower Bents Lane/Stockport Road: 20:25
 784: Romiley, Train Station: 20:32
 785: Romiley, Corcoran Drive: 20:36
@@ -540,9 +564,9 @@ Service number: 6425
 789: Stockport, Bus Station: 21:06
 Duration: 51 minutes
 
-Service number: 6426
+Service number: 6428
 781: Stockport, Bus Station: 20:45
-782: Stockport, Asda/Sainsbury's: 20:48
+782: Stockport, Asda/Sainsbury: 20:48
 783: Stockport, Lower Bents Lane/Stockport Road: 20:55
 784: Romiley, Train Station: 21:02
 785: Romiley, Corcoran Drive: 21:06
@@ -552,9 +576,9 @@ Service number: 6426
 789: Stockport, Bus Station: 21:36
 Duration: 51 minutes
 
-Service number: 6427
+Service number: 6429
 781: Stockport, Bus Station: 21:15
-782: Stockport, Asda/Sainsbury's: 21:18
+782: Stockport, Asda/Sainsbury: 21:18
 783: Stockport, Lower Bents Lane/Stockport Road: 21:25
 784: Romiley, Train Station: 21:32
 785: Romiley, Corcoran Drive: 21:36
@@ -564,9 +588,9 @@ Service number: 6427
 789: Stockport, Bus Station: 22:06
 Duration: 51 minutes
 
-Service number: 6428
+Service number: 6430
 781: Stockport, Bus Station: 21:45
-782: Stockport, Asda/Sainsbury's: 21:48
+782: Stockport, Asda/Sainsbury: 21:48
 783: Stockport, Lower Bents Lane/Stockport Road: 21:55
 784: Romiley, Train Station: 22:02
 785: Romiley, Corcoran Drive: 22:06
@@ -576,9 +600,9 @@ Service number: 6428
 789: Stockport, Bus Station: 22:36
 Duration: 51 minutes
 
-Service number: 6429
+Service number: 6431
 781: Stockport, Bus Station: 22:15
-782: Stockport, Asda/Sainsbury's: 22:18
+782: Stockport, Asda/Sainsbury: 22:18
 783: Stockport, Lower Bents Lane/Stockport Road: 22:25
 784: Romiley, Train Station: 22:32
 785: Romiley, Corcoran Drive: 22:36
@@ -588,9 +612,9 @@ Service number: 6429
 789: Stockport, Bus Station: 23:06
 Duration: 51 minutes
 
-Service number: 6430
+Service number: 6432
 781: Stockport, Bus Station: 22:45
-782: Stockport, Asda/Sainsbury's: 22:48
+782: Stockport, Asda/Sainsbury: 22:48
 783: Stockport, Lower Bents Lane/Stockport Road: 22:55
 784: Romiley, Train Station: 23:02
 785: Romiley, Corcoran Drive: 23:06
@@ -600,9 +624,9 @@ Service number: 6430
 789: Stockport, Bus Station: 23:36
 Duration: 51 minutes
 
-Service number: 6431
+Service number: 6433
 781: Stockport, Bus Station: 23:15
-782: Stockport, Asda/Sainsbury's: 23:18
+782: Stockport, Asda/Sainsbury: 23:18
 783: Stockport, Lower Bents Lane/Stockport Road: 23:25
 784: Romiley, Train Station: 23:32
 785: Romiley, Corcoran Drive: 23:36
@@ -610,29 +634,5 @@ Service number: 6431
 787: Marple, Navigation Hotel: 23:46
 788: Stockport, Dialstone Lane/Hillcrest Road: 23:56
 789: Stockport, Bus Station: 00:06
-Duration: 51 minutes
-
-Service number: 6432
-781: Stockport, Bus Station: 23:45
-782: Stockport, Asda/Sainsbury's: 23:48
-783: Stockport, Lower Bents Lane/Stockport Road: 23:55
-784: Romiley, Train Station: 00:02
-785: Romiley, Corcoran Drive: 00:06
-786: Marple, Norfolk Arms: 00:11
-787: Marple, Navigation Hotel: 00:16
-788: Stockport, Dialstone Lane/Hillcrest Road: 00:26
-789: Stockport, Bus Station: 00:36
-Duration: 51 minutes
-
-Service number: 6433
-781: Stockport, Bus Station: 00:15
-782: Stockport, Asda/Sainsbury's: 00:18
-783: Stockport, Lower Bents Lane/Stockport Road: 00:25
-784: Romiley, Train Station: 00:32
-785: Romiley, Corcoran Drive: 00:36
-786: Marple, Norfolk Arms: 00:41
-787: Marple, Navigation Hotel: 00:46
-788: Stockport, Dialstone Lane/Hillcrest Road: 00:56
-789: Stockport, Bus Station: 01:06
 Duration: 51 minutes
 

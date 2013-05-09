@@ -1,6 +1,28 @@
 Route: 383, saturday
 --------------------------------------------
 Service number: 6238
+770: Stockport, Bus Station: 06:30
+772: Stockport, Dialstone Lane/Hillcrest Road: 06:41
+773: Marple, Navigation Hotel: 06:51
+775: Marple, Norfolk Arms: 06:55
+776: Romiley, Corcoran Drive: 07:00
+777: Romiley, Train Station: 07:04
+779: Stockport, Lower Bents Lane/Stockport Road: 07:11
+780: Stockport, Bus Station: 07:22
+Duration: 52 minutes
+
+Service number: 6239
+770: Stockport, Bus Station: 07:00
+772: Stockport, Dialstone Lane/Hillcrest Road: 07:11
+773: Marple, Navigation Hotel: 07:21
+775: Marple, Norfolk Arms: 07:25
+776: Romiley, Corcoran Drive: 07:30
+777: Romiley, Train Station: 07:34
+779: Stockport, Lower Bents Lane/Stockport Road: 07:41
+780: Stockport, Bus Station: 07:52
+Duration: 52 minutes
+
+Service number: 6240
 770: Stockport, Bus Station: 07:30
 772: Stockport, Dialstone Lane/Hillcrest Road: 07:41
 773: Marple, Navigation Hotel: 07:51
@@ -11,51 +33,73 @@ Service number: 6238
 780: Stockport, Bus Station: 08:22
 Duration: 52 minutes
 
-Service number: 6239
+Service number: 6241
 770: Stockport, Bus Station: 08:00
 772: Stockport, Dialstone Lane/Hillcrest Road: 08:11
 773: Marple, Navigation Hotel: 08:21
 775: Marple, Norfolk Arms: 08:25
 776: Romiley, Corcoran Drive: 08:30
-777: Romiley, Train Station: 08:34
-779: Stockport, Lower Bents Lane/Stockport Road: 08:41
-780: Stockport, Bus Station: 08:52
-Duration: 52 minutes
-
-Service number: 6240
-770: Stockport, Bus Station: 08:30
-772: Stockport, Dialstone Lane/Hillcrest Road: 08:41
-773: Marple, Navigation Hotel: 08:51
-775: Marple, Norfolk Arms: 08:55
-776: Romiley, Corcoran Drive: 09:00
-777: Romiley, Train Station: 09:04
-779: Stockport, Lower Bents Lane/Stockport Road: 09:11
-780: Stockport, Bus Station: 09:22
-Duration: 52 minutes
-
-Service number: 6241
-770: Stockport, Bus Station: 09:00
-772: Stockport, Dialstone Lane/Hillcrest Road: 09:11
-773: Marple, Navigation Hotel: 09:21
-775: Marple, Norfolk Arms: 09:25
-776: Romiley, Corcoran Drive: 09:30
-777: Romiley, Train Station: 09:35
-779: Stockport, Lower Bents Lane/Stockport Road: 09:42
-780: Stockport, Bus Station: 09:56
+777: Romiley, Train Station: 08:35
+779: Stockport, Lower Bents Lane/Stockport Road: 08:42
+780: Stockport, Bus Station: 08:56
 Duration: 56 minutes
 
 Service number: 6242
-770: Stockport, Bus Station: 09:20
-772: Stockport, Dialstone Lane/Hillcrest Road: 09:31
-773: Marple, Navigation Hotel: 09:43
-775: Marple, Norfolk Arms: 09:47
-776: Romiley, Corcoran Drive: 09:53
-777: Romiley, Train Station: 09:58
-779: Stockport, Lower Bents Lane/Stockport Road: 10:05
-780: Stockport, Bus Station: 10:19
+770: Stockport, Bus Station: 08:20
+772: Stockport, Dialstone Lane/Hillcrest Road: 08:31
+773: Marple, Navigation Hotel: 08:43
+775: Marple, Norfolk Arms: 08:47
+776: Romiley, Corcoran Drive: 08:53
+777: Romiley, Train Station: 08:58
+779: Stockport, Lower Bents Lane/Stockport Road: 09:05
+780: Stockport, Bus Station: 09:19
 Duration: 59 minutes
 
 Service number: 6243
+770: Stockport, Bus Station: 08:37
+772: Stockport, Dialstone Lane/Hillcrest Road: 08:49
+773: Marple, Navigation Hotel: 09:01
+775: Marple, Norfolk Arms: 09:05
+776: Romiley, Corcoran Drive: 09:11
+777: Romiley, Train Station: 09:16
+779: Stockport, Lower Bents Lane/Stockport Road: 09:23
+780: Stockport, Bus Station: 09:37
+Duration: 60 minutes
+
+Service number: 6244
+770: Stockport, Bus Station: 08:52
+772: Stockport, Dialstone Lane/Hillcrest Road: 09:04
+773: Marple, Navigation Hotel: 09:16
+775: Marple, Norfolk Arms: 09:20
+776: Romiley, Corcoran Drive: 09:26
+777: Romiley, Train Station: 09:31
+779: Stockport, Lower Bents Lane/Stockport Road: 09:38
+780: Stockport, Bus Station: 09:52
+Duration: 60 minutes
+
+Service number: 6245
+770: Stockport, Bus Station: 09:07
+772: Stockport, Dialstone Lane/Hillcrest Road: 09:19
+773: Marple, Navigation Hotel: 09:31
+775: Marple, Norfolk Arms: 09:35
+776: Romiley, Corcoran Drive: 09:41
+777: Romiley, Train Station: 09:46
+779: Stockport, Lower Bents Lane/Stockport Road: 09:53
+780: Stockport, Bus Station: 10:07
+Duration: 60 minutes
+
+Service number: 6246
+770: Stockport, Bus Station: 09:22
+772: Stockport, Dialstone Lane/Hillcrest Road: 09:34
+773: Marple, Navigation Hotel: 09:46
+775: Marple, Norfolk Arms: 09:50
+776: Romiley, Corcoran Drive: 09:56
+777: Romiley, Train Station: 10:01
+779: Stockport, Lower Bents Lane/Stockport Road: 10:08
+780: Stockport, Bus Station: 10:22
+Duration: 60 minutes
+
+Service number: 6247
 770: Stockport, Bus Station: 09:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 09:49
 773: Marple, Navigation Hotel: 10:01
@@ -66,7 +110,7 @@ Service number: 6243
 780: Stockport, Bus Station: 10:37
 Duration: 60 minutes
 
-Service number: 6244
+Service number: 6248
 770: Stockport, Bus Station: 09:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 10:04
 773: Marple, Navigation Hotel: 10:16
@@ -77,7 +121,7 @@ Service number: 6244
 780: Stockport, Bus Station: 10:52
 Duration: 60 minutes
 
-Service number: 6245
+Service number: 6249
 770: Stockport, Bus Station: 10:07
 772: Stockport, Dialstone Lane/Hillcrest Road: 10:19
 773: Marple, Navigation Hotel: 10:31
@@ -88,7 +132,7 @@ Service number: 6245
 780: Stockport, Bus Station: 11:07
 Duration: 60 minutes
 
-Service number: 6246
+Service number: 6250
 770: Stockport, Bus Station: 10:22
 772: Stockport, Dialstone Lane/Hillcrest Road: 10:34
 773: Marple, Navigation Hotel: 10:46
@@ -99,7 +143,7 @@ Service number: 6246
 780: Stockport, Bus Station: 11:22
 Duration: 60 minutes
 
-Service number: 6247
+Service number: 6251
 770: Stockport, Bus Station: 10:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 10:49
 773: Marple, Navigation Hotel: 11:01
@@ -110,7 +154,7 @@ Service number: 6247
 780: Stockport, Bus Station: 11:37
 Duration: 60 minutes
 
-Service number: 6248
+Service number: 6252
 770: Stockport, Bus Station: 10:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 11:04
 773: Marple, Navigation Hotel: 11:16
@@ -121,7 +165,7 @@ Service number: 6248
 780: Stockport, Bus Station: 11:52
 Duration: 60 minutes
 
-Service number: 6249
+Service number: 6253
 770: Stockport, Bus Station: 11:07
 772: Stockport, Dialstone Lane/Hillcrest Road: 11:19
 773: Marple, Navigation Hotel: 11:31
@@ -132,7 +176,7 @@ Service number: 6249
 780: Stockport, Bus Station: 12:07
 Duration: 60 minutes
 
-Service number: 6250
+Service number: 6254
 770: Stockport, Bus Station: 11:22
 772: Stockport, Dialstone Lane/Hillcrest Road: 11:34
 773: Marple, Navigation Hotel: 11:46
@@ -143,7 +187,7 @@ Service number: 6250
 780: Stockport, Bus Station: 12:22
 Duration: 60 minutes
 
-Service number: 6251
+Service number: 6255
 770: Stockport, Bus Station: 11:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 11:49
 773: Marple, Navigation Hotel: 12:01
@@ -154,7 +198,7 @@ Service number: 6251
 780: Stockport, Bus Station: 12:37
 Duration: 60 minutes
 
-Service number: 6252
+Service number: 6256
 770: Stockport, Bus Station: 11:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 12:04
 773: Marple, Navigation Hotel: 12:16
@@ -165,7 +209,7 @@ Service number: 6252
 780: Stockport, Bus Station: 12:52
 Duration: 60 minutes
 
-Service number: 6253
+Service number: 6257
 770: Stockport, Bus Station: 12:07
 772: Stockport, Dialstone Lane/Hillcrest Road: 12:19
 773: Marple, Navigation Hotel: 12:31
@@ -176,7 +220,7 @@ Service number: 6253
 780: Stockport, Bus Station: 13:07
 Duration: 60 minutes
 
-Service number: 6254
+Service number: 6258
 770: Stockport, Bus Station: 12:22
 772: Stockport, Dialstone Lane/Hillcrest Road: 12:34
 773: Marple, Navigation Hotel: 12:46
@@ -187,7 +231,7 @@ Service number: 6254
 780: Stockport, Bus Station: 13:22
 Duration: 60 minutes
 
-Service number: 6255
+Service number: 6259
 770: Stockport, Bus Station: 12:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 12:49
 773: Marple, Navigation Hotel: 13:01
@@ -198,7 +242,7 @@ Service number: 6255
 780: Stockport, Bus Station: 13:37
 Duration: 60 minutes
 
-Service number: 6256
+Service number: 6260
 770: Stockport, Bus Station: 12:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 13:04
 773: Marple, Navigation Hotel: 13:16
@@ -209,7 +253,7 @@ Service number: 6256
 780: Stockport, Bus Station: 13:52
 Duration: 60 minutes
 
-Service number: 6257
+Service number: 6261
 770: Stockport, Bus Station: 13:07
 772: Stockport, Dialstone Lane/Hillcrest Road: 13:19
 773: Marple, Navigation Hotel: 13:31
@@ -220,7 +264,7 @@ Service number: 6257
 780: Stockport, Bus Station: 14:07
 Duration: 60 minutes
 
-Service number: 6258
+Service number: 6262
 770: Stockport, Bus Station: 13:22
 772: Stockport, Dialstone Lane/Hillcrest Road: 13:34
 773: Marple, Navigation Hotel: 13:46
@@ -231,7 +275,7 @@ Service number: 6258
 780: Stockport, Bus Station: 14:22
 Duration: 60 minutes
 
-Service number: 6259
+Service number: 6263
 770: Stockport, Bus Station: 13:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 13:49
 773: Marple, Navigation Hotel: 14:01
@@ -242,7 +286,7 @@ Service number: 6259
 780: Stockport, Bus Station: 14:37
 Duration: 60 minutes
 
-Service number: 6260
+Service number: 6264
 770: Stockport, Bus Station: 13:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 14:04
 773: Marple, Navigation Hotel: 14:16
@@ -253,7 +297,7 @@ Service number: 6260
 780: Stockport, Bus Station: 14:52
 Duration: 60 minutes
 
-Service number: 6261
+Service number: 6265
 770: Stockport, Bus Station: 14:07
 772: Stockport, Dialstone Lane/Hillcrest Road: 14:19
 773: Marple, Navigation Hotel: 14:31
@@ -264,7 +308,7 @@ Service number: 6261
 780: Stockport, Bus Station: 15:07
 Duration: 60 minutes
 
-Service number: 6262
+Service number: 6266
 770: Stockport, Bus Station: 14:22
 772: Stockport, Dialstone Lane/Hillcrest Road: 14:34
 773: Marple, Navigation Hotel: 14:46
@@ -275,7 +319,7 @@ Service number: 6262
 780: Stockport, Bus Station: 15:22
 Duration: 60 minutes
 
-Service number: 6263
+Service number: 6267
 770: Stockport, Bus Station: 14:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 14:49
 773: Marple, Navigation Hotel: 15:01
@@ -286,7 +330,7 @@ Service number: 6263
 780: Stockport, Bus Station: 15:37
 Duration: 60 minutes
 
-Service number: 6264
+Service number: 6268
 770: Stockport, Bus Station: 14:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 15:04
 773: Marple, Navigation Hotel: 15:16
@@ -297,7 +341,7 @@ Service number: 6264
 780: Stockport, Bus Station: 15:52
 Duration: 60 minutes
 
-Service number: 6265
+Service number: 6269
 770: Stockport, Bus Station: 15:07
 772: Stockport, Dialstone Lane/Hillcrest Road: 15:19
 773: Marple, Navigation Hotel: 15:31
@@ -308,7 +352,7 @@ Service number: 6265
 780: Stockport, Bus Station: 16:07
 Duration: 60 minutes
 
-Service number: 6266
+Service number: 6270
 770: Stockport, Bus Station: 15:22
 772: Stockport, Dialstone Lane/Hillcrest Road: 15:34
 773: Marple, Navigation Hotel: 15:46
@@ -319,7 +363,7 @@ Service number: 6266
 780: Stockport, Bus Station: 16:22
 Duration: 60 minutes
 
-Service number: 6267
+Service number: 6271
 770: Stockport, Bus Station: 15:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 15:49
 773: Marple, Navigation Hotel: 16:01
@@ -330,7 +374,7 @@ Service number: 6267
 780: Stockport, Bus Station: 16:37
 Duration: 60 minutes
 
-Service number: 6268
+Service number: 6272
 770: Stockport, Bus Station: 15:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 16:04
 773: Marple, Navigation Hotel: 16:16
@@ -341,7 +385,7 @@ Service number: 6268
 780: Stockport, Bus Station: 16:52
 Duration: 60 minutes
 
-Service number: 6269
+Service number: 6273
 770: Stockport, Bus Station: 16:07
 772: Stockport, Dialstone Lane/Hillcrest Road: 16:19
 773: Marple, Navigation Hotel: 16:31
@@ -352,7 +396,7 @@ Service number: 6269
 780: Stockport, Bus Station: 17:07
 Duration: 60 minutes
 
-Service number: 6270
+Service number: 6274
 770: Stockport, Bus Station: 16:22
 772: Stockport, Dialstone Lane/Hillcrest Road: 16:34
 773: Marple, Navigation Hotel: 16:46
@@ -363,7 +407,7 @@ Service number: 6270
 780: Stockport, Bus Station: 17:22
 Duration: 60 minutes
 
-Service number: 6271
+Service number: 6275
 770: Stockport, Bus Station: 16:37
 772: Stockport, Dialstone Lane/Hillcrest Road: 16:49
 773: Marple, Navigation Hotel: 17:01
@@ -374,7 +418,7 @@ Service number: 6271
 780: Stockport, Bus Station: 17:37
 Duration: 60 minutes
 
-Service number: 6272
+Service number: 6276
 770: Stockport, Bus Station: 16:52
 772: Stockport, Dialstone Lane/Hillcrest Road: 17:04
 773: Marple, Navigation Hotel: 17:16
@@ -385,95 +429,73 @@ Service number: 6272
 780: Stockport, Bus Station: 17:52
 Duration: 60 minutes
 
-Service number: 6273
-770: Stockport, Bus Station: 17:07
-772: Stockport, Dialstone Lane/Hillcrest Road: 17:19
-773: Marple, Navigation Hotel: 17:31
-775: Marple, Norfolk Arms: 17:35
-776: Romiley, Corcoran Drive: 17:41
-777: Romiley, Train Station: 17:46
-779: Stockport, Lower Bents Lane/Stockport Road: 17:53
-780: Stockport, Bus Station: 18:07
-Duration: 60 minutes
-
-Service number: 6274
-770: Stockport, Bus Station: 17:22
-772: Stockport, Dialstone Lane/Hillcrest Road: 17:34
-773: Marple, Navigation Hotel: 17:46
-775: Marple, Norfolk Arms: 17:50
-776: Romiley, Corcoran Drive: 17:56
-777: Romiley, Train Station: 18:01
-779: Stockport, Lower Bents Lane/Stockport Road: 18:08
-780: Stockport, Bus Station: 18:22
-Duration: 60 minutes
-
-Service number: 6275
-770: Stockport, Bus Station: 17:37
-772: Stockport, Dialstone Lane/Hillcrest Road: 17:49
-773: Marple, Navigation Hotel: 18:01
-775: Marple, Norfolk Arms: 18:05
-776: Romiley, Corcoran Drive: 18:11
-777: Romiley, Train Station: 18:16
-779: Stockport, Lower Bents Lane/Stockport Road: 18:23
-780: Stockport, Bus Station: 18:37
-Duration: 60 minutes
-
-Service number: 6276
-770: Stockport, Bus Station: 17:52
-772: Stockport, Dialstone Lane/Hillcrest Road: 18:04
-773: Marple, Navigation Hotel: 18:16
-775: Marple, Norfolk Arms: 18:20
-776: Romiley, Corcoran Drive: 18:26
-777: Romiley, Train Station: 18:31
-779: Stockport, Lower Bents Lane/Stockport Road: 18:38
-780: Stockport, Bus Station: 18:52
-Duration: 60 minutes
-
 Service number: 6277
+770: Stockport, Bus Station: 17:10
+772: Stockport, Dialstone Lane/Hillcrest Road: 17:22
+773: Marple, Navigation Hotel: 17:34
+775: Marple, Norfolk Arms: 17:38
+776: Romiley, Corcoran Drive: 17:44
+777: Romiley, Train Station: 17:49
+779: Stockport, Lower Bents Lane/Stockport Road: 17:56
+780: Stockport, Bus Station: 18:10
+Duration: 60 minutes
+
+Service number: 6278
+770: Stockport, Bus Station: 17:30
+772: Stockport, Dialstone Lane/Hillcrest Road: 17:42
+773: Marple, Navigation Hotel: 17:54
+775: Marple, Norfolk Arms: 17:58
+776: Romiley, Corcoran Drive: 18:04
+777: Romiley, Train Station: 18:09
+779: Stockport, Lower Bents Lane/Stockport Road: 18:16
+780: Stockport, Bus Station: 18:30
+Duration: 60 minutes
+
+Service number: 6279
+770: Stockport, Bus Station: 17:50
+772: Stockport, Dialstone Lane/Hillcrest Road: 18:02
+773: Marple, Navigation Hotel: 18:14
+775: Marple, Norfolk Arms: 18:18
+776: Romiley, Corcoran Drive: 18:24
+777: Romiley, Train Station: 18:29
+779: Stockport, Lower Bents Lane/Stockport Road: 18:36
+780: Stockport, Bus Station: 18:47
+Duration: 57 minutes
+
+Service number: 6280
 770: Stockport, Bus Station: 18:10
 772: Stockport, Dialstone Lane/Hillcrest Road: 18:22
 773: Marple, Navigation Hotel: 18:34
 775: Marple, Norfolk Arms: 18:38
-776: Romiley, Corcoran Drive: 18:44
-777: Romiley, Train Station: 18:49
-779: Stockport, Lower Bents Lane/Stockport Road: 18:56
-780: Stockport, Bus Station: 19:10
-Duration: 60 minutes
-
-Service number: 6278
-770: Stockport, Bus Station: 18:30
-772: Stockport, Dialstone Lane/Hillcrest Road: 18:42
-773: Marple, Navigation Hotel: 18:54
-775: Marple, Norfolk Arms: 18:58
-776: Romiley, Corcoran Drive: 19:04
-777: Romiley, Train Station: 19:09
-779: Stockport, Lower Bents Lane/Stockport Road: 19:16
-780: Stockport, Bus Station: 19:30
-Duration: 60 minutes
-
-Service number: 6279
-770: Stockport, Bus Station: 18:50
-772: Stockport, Dialstone Lane/Hillcrest Road: 19:02
-773: Marple, Navigation Hotel: 19:14
-775: Marple, Norfolk Arms: 19:18
-776: Romiley, Corcoran Drive: 19:24
-777: Romiley, Train Station: 19:29
-779: Stockport, Lower Bents Lane/Stockport Road: 19:36
-780: Stockport, Bus Station: 19:47
-Duration: 57 minutes
-
-Service number: 6280
-770: Stockport, Bus Station: 19:10
-772: Stockport, Dialstone Lane/Hillcrest Road: 19:22
-773: Marple, Navigation Hotel: 19:34
-775: Marple, Norfolk Arms: 19:38
-776: Romiley, Corcoran Drive: 19:43
-777: Romiley, Train Station: 19:47
-779: Stockport, Lower Bents Lane/Stockport Road: 19:54
-780: Stockport, Bus Station: 20:05
+776: Romiley, Corcoran Drive: 18:43
+777: Romiley, Train Station: 18:47
+779: Stockport, Lower Bents Lane/Stockport Road: 18:54
+780: Stockport, Bus Station: 19:05
 Duration: 55 minutes
 
 Service number: 6281
+770: Stockport, Bus Station: 18:30
+772: Stockport, Dialstone Lane/Hillcrest Road: 18:41
+773: Marple, Navigation Hotel: 18:51
+775: Marple, Norfolk Arms: 18:55
+776: Romiley, Corcoran Drive: 19:00
+777: Romiley, Train Station: 19:04
+779: Stockport, Lower Bents Lane/Stockport Road: 19:11
+780: Stockport, Bus Station: 19:22
+Duration: 52 minutes
+
+Service number: 6282
+770: Stockport, Bus Station: 19:00
+772: Stockport, Dialstone Lane/Hillcrest Road: 19:11
+773: Marple, Navigation Hotel: 19:21
+775: Marple, Norfolk Arms: 19:25
+776: Romiley, Corcoran Drive: 19:30
+777: Romiley, Train Station: 19:34
+779: Stockport, Lower Bents Lane/Stockport Road: 19:41
+780: Stockport, Bus Station: 19:52
+Duration: 52 minutes
+
+Service number: 6283
 770: Stockport, Bus Station: 19:30
 772: Stockport, Dialstone Lane/Hillcrest Road: 19:41
 773: Marple, Navigation Hotel: 19:51
@@ -484,7 +506,7 @@ Service number: 6281
 780: Stockport, Bus Station: 20:22
 Duration: 52 minutes
 
-Service number: 6282
+Service number: 6284
 770: Stockport, Bus Station: 20:00
 772: Stockport, Dialstone Lane/Hillcrest Road: 20:11
 773: Marple, Navigation Hotel: 20:21
@@ -495,7 +517,7 @@ Service number: 6282
 780: Stockport, Bus Station: 20:52
 Duration: 52 minutes
 
-Service number: 6283
+Service number: 6285
 770: Stockport, Bus Station: 20:30
 772: Stockport, Dialstone Lane/Hillcrest Road: 20:41
 773: Marple, Navigation Hotel: 20:51
@@ -506,7 +528,7 @@ Service number: 6283
 780: Stockport, Bus Station: 21:22
 Duration: 52 minutes
 
-Service number: 6284
+Service number: 6286
 770: Stockport, Bus Station: 21:00
 772: Stockport, Dialstone Lane/Hillcrest Road: 21:11
 773: Marple, Navigation Hotel: 21:21
@@ -517,7 +539,7 @@ Service number: 6284
 780: Stockport, Bus Station: 21:52
 Duration: 52 minutes
 
-Service number: 6285
+Service number: 6287
 770: Stockport, Bus Station: 21:30
 772: Stockport, Dialstone Lane/Hillcrest Road: 21:41
 773: Marple, Navigation Hotel: 21:51
@@ -528,7 +550,7 @@ Service number: 6285
 780: Stockport, Bus Station: 22:22
 Duration: 52 minutes
 
-Service number: 6286
+Service number: 6288
 770: Stockport, Bus Station: 22:00
 772: Stockport, Dialstone Lane/Hillcrest Road: 22:11
 773: Marple, Navigation Hotel: 22:21
@@ -539,7 +561,7 @@ Service number: 6286
 780: Stockport, Bus Station: 22:52
 Duration: 52 minutes
 
-Service number: 6287
+Service number: 6289
 770: Stockport, Bus Station: 22:30
 772: Stockport, Dialstone Lane/Hillcrest Road: 22:41
 773: Marple, Navigation Hotel: 22:51
@@ -550,36 +572,14 @@ Service number: 6287
 780: Stockport, Bus Station: 23:22
 Duration: 52 minutes
 
-Service number: 6288
-770: Stockport, Bus Station: 23:00
-772: Stockport, Dialstone Lane/Hillcrest Road: 23:11
-773: Marple, Navigation Hotel: 23:21
-775: Marple, Norfolk Arms: 23:25
-776: Romiley, Corcoran Drive: 23:30
-777: Romiley, Train Station: 23:34
-779: Stockport, Lower Bents Lane/Stockport Road: 23:41
-780: Stockport, Bus Station: 23:52
-Duration: 52 minutes
-
-Service number: 6289
-770: Stockport, Bus Station: 23:30
-772: Stockport, Dialstone Lane/Hillcrest Road: 23:41
-773: Marple, Navigation Hotel: 23:51
-775: Marple, Norfolk Arms: 23:55
-776: Romiley, Corcoran Drive: 00:00
-777: Romiley, Train Station: 00:04
-779: Stockport, Lower Bents Lane/Stockport Road: 00:11
-780: Stockport, Bus Station: 00:22
-Duration: 52 minutes
-
 Service number: 6290
-770: Stockport, Bus Station: 00:10
-772: Stockport, Dialstone Lane/Hillcrest Road: 00:21
-773: Marple, Navigation Hotel: 00:31
-775: Marple, Norfolk Arms: 00:35
-776: Romiley, Corcoran Drive: 00:40
-777: Romiley, Train Station: 00:44
-779: Stockport, Lower Bents Lane/Stockport Road: 00:51
-780: Stockport, Bus Station: 01:02
+770: Stockport, Bus Station: 23:10
+772: Stockport, Dialstone Lane/Hillcrest Road: 23:21
+773: Marple, Navigation Hotel: 23:31
+775: Marple, Norfolk Arms: 23:35
+776: Romiley, Corcoran Drive: 23:40
+777: Romiley, Train Station: 23:44
+779: Stockport, Lower Bents Lane/Stockport Road: 23:51
+780: Stockport, Bus Station: 00:02
 Duration: 52 minutes
 

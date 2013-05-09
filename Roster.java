@@ -1,6 +1,9 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.sql.Date;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class Roster
 {
@@ -40,6 +43,13 @@ public class Roster
 
 	public static String printTimetable(Route route, TimetableInfo.timetableKind dayType)
 	{
+		Calendar date = new GregorianCalendar();
+		// reset hour, minutes, seconds and millis
+		date.set(Calendar.HOUR_OF_DAY, 0);
+		date.set(Calendar.MINUTE, 0);
+		date.set(Calendar.SECOND, 0);
+		date.set(Calendar.MILLISECOND, 0);
+		long today = date.getTime().getTime();
 		String timetableText = "";
 		// Print the route name and the day
 		timetableText += "Route: " + route.getName() + ", " + dayType
@@ -54,7 +64,7 @@ public class Roster
 			TimingPoint[] stops = service.getTimingPoints();
 			for(int j=0; j< stops.length; j++)
 				timetableText += stops[j].getStop() + ": " + BusStopInfo.getFullName(stops[j].getStop()) + ": "
-					          + simpleDateFormat.format(stops[j].getTime()) + "\n";
+					          + simpleDateFormat.format(new Date(today+stops[j].getTime())) + "\n";
 			timetableText += "Duration: " + service.getDuration() + " minutes\n\n";
 		}
 		return timetableText;
@@ -106,7 +116,7 @@ public class Roster
 		Route[] routes = Route.getAll();
 		for(TimetableInfo.timetableKind dayType: TimetableInfo.timetableKind.values())
 			for(Route route: routes)
-				printToFile(route.getName()+"_"+dayType, printTimetable(route, dayType));
+				printToFile("timetable/" + route.getName()+"_"+dayType, printTimetable(route, dayType));
 		// Roster roster = new Roster();
 		// roster.run();
 	}
