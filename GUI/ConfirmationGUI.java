@@ -1,6 +1,9 @@
-import java.awt.*;
-import javax.swing.*;
-import java.awt.event.*;
+import java.awt.Container;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JLabel;
 
 /**
  * GUI Class
@@ -13,7 +16,6 @@ public class ConfirmationGUI extends Window implements ActionListener
   private MainGUI window;
   public Container contents;
   private Driver driver;
-  private Request request;
   
   private JLabel lblWelcome = new JLabel("Hello <DriverName>"),
                  info = new JLabel("You have requested holiday "),
@@ -27,7 +29,6 @@ public class ConfirmationGUI extends Window implements ActionListener
   {
 	  this.driver = driver;
 	  lblWelcome.setText("Hello " + driver.getName());
-	  this.request = request;
 	  start_date.setText("from " + request.getStartDate());
 	  end_date.setText("to " + request.getEndDate());
   }
