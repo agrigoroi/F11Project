@@ -4,9 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashSet;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -28,7 +26,7 @@ public class PassengerJourneyPlannerGUI extends Window implements ActionListener
   protected static JButton btnBack = new JButton("Back"),
                   btnSubmit = new JButton("Submit");
   
-  private JComboBox cmbFrom, cmbTo, cmbTimeH, cmbTimeM;
+  private JComboBox cmbTimeH, cmbTimeM;
   
   private JLabel lblFrom  = new JLabel("From:"),
                  lblTo = new JLabel("To:"),
