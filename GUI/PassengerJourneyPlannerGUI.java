@@ -42,46 +42,77 @@ public class PassengerJourneyPlannerGUI extends Window implements ActionListener
   /**
    * Shows the GUI window and adds the labels and buttons
    */
+  
+  private static int[] areasID;
+  private JComboBox stopListFrom = new JComboBox();
+  private JComboBox stopListTo   = new JComboBox();
+  
+  private static void populate(JComboBox stopList, int index)
+  {
+      int id = areasID[index];
+      int[] stopsID = BusStopInfo.getBusStopsInArea(id);
+      String[] stopsName = new String[stopsID.length];
+      stopList.removeAllItems();
+      for (int i=0; i<stopsID.length; i++)
+      {
+          stopsName[i] = BusStopInfo.getFullName(stopsID[i]);
+          boolean shouldAdd = true;
+          for (int j = 0; j < stopList.getItemCount(); j++)
+              if (stopList.getItemAt(j).equals(stopsName[i]))
+              {
+                  shouldAdd = false;
+                  break;
+              }
+          if (shouldAdd)
+              stopList.addItem(stopsName[i]);
+      }
+  }
+  
   public void show(MainGUI _window)
   {
     window = _window;
     contents = window.getContentPane();
     contents.setLayout(new GridLayout(4, 3));
-    
-    //build stops list
-    ArrayList<String> stopNames = new ArrayList<String>();
-    
-    int[] routes = BusStopInfo.getRoutes();
-    for(int i = 0; i < routes.length; i++)
+   
+    areasID = BusStopInfo.getAreas();
+    String[] areasName = new String[areasID.length];
+    for (int i = 0; i < areasID.length; i++)
+        areasName[i] = BusStopInfo.getAreaName(areasID[i]);
+    final JComboBox areaListFrom = new JComboBox(areasName);
+    final JComboBox areaListTo   = new JComboBox(areasName);
+    stopListFrom = new JComboBox();
+    stopListTo   = new JComboBox();
+
+    populate(stopListFrom, 0);
+    populate(stopListTo, 0);
+ 
+    areaListFrom.addActionListener (new ActionListener () 
     {
-      int[] stops = BusStopInfo.getBusStops(routes[i]);
-      
-      for(int j = 0; j < stops.length; j++)
-        stopNames.add(BusStopInfo.getFullName(stops[j]));
-    }
+        public void actionPerformed(ActionEvent e) 
+        {
+        	  populate(stopListFrom, areaListFrom.getSelectedIndex());
+         }
+    });
+    areaListTo.addActionListener (new ActionListener () 
+    {
+        public void actionPerformed(ActionEvent e) 
+        {
+        	  populate(stopListTo, areaListTo.getSelectedIndex());
+         }
+    });
     
-    //remove duplicates
-    HashSet<String> hs = new HashSet<String>();
-    hs.addAll(stopNames);
-    stopNames.clear();
-    stopNames.addAll(hs);
-    
-    String[] stopsList = new String[stopNames.size()];
-    stopsList = stopNames.toArray(stopsList);
+   
     
     //from
-    cmbFrom = new JComboBox(stopsList);
     
     contents.add(lblFrom);
-    contents.add(cmbFrom);
-    contents.add(new JLabel()); //filler
+    contents.add(areaListFrom);
+    contents.add(stopListFrom); 
     
-    //to
-    cmbTo = new JComboBox(stopsList);
     
     contents.add(lblTo);
-    contents.add(cmbTo);
-    contents.add(new JLabel()); //filler
+    contents.add(areaListTo);
+    contents.add(stopListTo); 
     
     //time
     String[] hours = new String[24], minutes = new String[60];
@@ -123,21 +154,11 @@ public class PassengerJourneyPlannerGUI extends Window implements ActionListener
       window.back();
     else if(e.getSource() == btnSubmit)
     {
-    	Runnable r = new Runnable()
-      {
-        public void run()
-        {
-          PassengerJourneyPlannerResultGUI result = new PassengerJourneyPlannerResultGUI((String) cmbFrom.getSelectedItem(), (String) cmbTo.getSelectedItem(), (String) cmbTimeH.getSelectedItem(), (String) cmbTimeM.getSelectedItem());
-          window.openWindow(result);
-          PassengerJourneyPlannerGUI.unloading();
-        }
-      };
-      
-      PassengerJourneyPlannerGUI.loading();
-      Thread t = new Thread(r);
-      t.start();
-    }
-      
+//    	PassengerJourneyPlannerGUI.loading();
+        PassengerJourneyPlannerResultGUI result = new PassengerJourneyPlannerResultGUI((String) stopListFrom.getSelectedItem(), (String) stopListTo.getSelectedItem(), (String) cmbTimeH.getSelectedItem(), (String) cmbTimeM.getSelectedItem());
+        window.openWindow(result);
+//      PassengerJourneyPlannerGUI.unloading();
+    }    
   }
   
   protected static void loading()

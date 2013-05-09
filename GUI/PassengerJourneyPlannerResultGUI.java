@@ -65,7 +65,6 @@ public class PassengerJourneyPlannerResultGUI extends Window implements ActionLi
     pane = window.getContentPane();
     pane.setLayout(new GridLayout(2, 2));
     
-    database.openBusDatabase();
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
     
 		ArrayList<Journey> journeys = JourneyPlanner.dijkstra(to, from, makeDate(hours, minutes));
