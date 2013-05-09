@@ -25,15 +25,6 @@ public class JourneyPlanner
 		}
 	}
 
-	public static Route[] getRoutes(int stop)
-	{
-		int[] routesID = BusStopInfo.getRoutes(stop);
-		Route[] routes = new Route[routesID.length];
-		for(int i = 0; i < routesID.length; i++)
-			routes[i] = new Route(routesID[i]);
-		return routes;
-	}
-
 	private static ArrayList<Journey> makeJourney(HashMap<Integer, Journey> path, int endStop)
 	{
 		ArrayList<Journey> journeys = new ArrayList<Journey>();
@@ -64,7 +55,7 @@ public class JourneyPlanner
 			path.put(next.stop, next.journey);
 			if(BusStopInfo.getFullName(next.stop).equals(endStop))
 				return makeJourney(path, next.stop);
-			Route[] routes = getRoutes(next.stop);
+			Route[] routes = Route.getRoutes(next.stop);
 			for(Route route: routes)
 			{
 				Service[] services = route.getServices(next.time);
