@@ -14,7 +14,7 @@ public class TestBusTimetable
   @BeforeClass
   public static void testSetup()
   {
-    roster
+   // roster
   }
   
   @AfterClass

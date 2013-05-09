@@ -32,14 +32,16 @@ public class TestJourneyPlanner {
     assertEquals("The departing stop must be the same", 781, journeys[0].getDepartBusStop());
   }
   
-  @Test public void testArrival()
+  @Test 
+  public void testArrival()
   {
     assertEquals("The final stop must be the same", 783, journeys[journeys.length-1].getArrivalBusStop());
   }
   
   //I saw something about the journey not being allowed to make the passenger take an after midnight
   //bus and then wait 5 hours for the next one. This tests for that.
-  @Test public void testMidnight()
+  @Test 
+  public void testMidnight()
   {
     //need to sort out the time bit at the end of here I think
     //boolean bool = (midnight[midnight.length-1].getArrivalTime().getTime() - midnight[0].getDepartTime().getTime()) < 5;
