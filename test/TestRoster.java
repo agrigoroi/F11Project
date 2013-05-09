@@ -6,7 +6,7 @@ import java.util.Date;
 import org.junit.Test;
 
 //This could probably do with a few good tests
-public class TestJourney
+public class TestRoster
 {
   @BeforeClass
   public static void testSetup()

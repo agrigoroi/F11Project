@@ -5,7 +5,7 @@ import org.junit.BeforeClass;
 import java.util.Date;
 import org.junit.Test;
 
-public class TestJourney
+public class TestRosterInfo
 {
   @BeforeClass
   public static void testSetup()
@@ -26,7 +26,7 @@ public class TestJourney
   
   //Test if it can handle bad timetable IDs
   @Test(expected = IllegalArgumentException.class)
-  public static void testBuild()
+  public static void testBuild1()
   {
     RosterInfo.getBus(-1);
   }

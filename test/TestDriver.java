@@ -22,35 +22,34 @@ public class TestDriver
   
   //Checks if it accpets a bad ID
   @Test(expected = IllegalArgumentException.class)
-  public static void testDriverBuild()
+  public void testDriverBuild()
   {
     Driver driverBad = new Driver(-1);
   }
   
   //Checks if it accpets a bad driver number
   @Test(expected = IllegalArgumentException.class)
-  public static void testDriverBuild2() throws Exception
+  public void testDriverBuild2() throws Exception
   {
     Driver driverBad2 = new Driver("0");
   }
   
   @Test
-  public static void testGetAllDrivers()
+  public void testGetAllDrivers()
   {
     //needs fiddling
     assertEquals("Should return 50 drivers", 50, driver.getAll().length);
   }
   
-  
   @Test
-  public static void testgetHolidaysLeft()
+  public void testgetHolidaysLeft()
   {
     //needs fiddling
     assertEquals("Should return 10 days",10, driver.getHolidaysLeft());
   }
-  
+    
   @Test
-  public static void testIsAvailable()
+  public void testIsAvailable()
   {
     Date date = new Date();
     date.setYear(2008);
