@@ -13,27 +13,19 @@ import javax.swing.JComboBox;
 import javax.swing.JLabel;
 
 /**
- * @author Jack Farrelly
+ * @author Anthony Glover
  *
  * GUI Class
- * GUI that acts as a 'hub' for the application
- * From here the user can access a variety of separate windows
- * that each perform a basic task such as requesting holidays,
- * viewing holidays and viewing timetables
+ * GUI that shows the passenger the timetable
  */
 public class PassengerTimetableGUI extends Window implements ActionListener
 {
   private MainGUI window;
   public Container contents;
   private JButton btnBack = new JButton("Back"),
-                  btnSubmit = new JButton("Submit");
-  
-  private JComboBox cmbFrom, cmbTo, cmbTimeH, cmbTimeM;
-  
-  private JLabel lblFrom  = new JLabel("From:"),
-                 lblTo = new JLabel("To:"),
-                 lblTime = new JLabel("Time:");
-	
+  				btnSubmit= new JButton("Submit");
+  private JComboBox routeSelected, typeOfDay;
+
   public PassengerTimetableGUI()
   {
     
@@ -48,69 +40,25 @@ public class PassengerTimetableGUI extends Window implements ActionListener
     contents = window.getContentPane();
     contents.setLayout(new GridLayout(4, 3));
     
-    //build stops list
-    ArrayList<String> stopNames = new ArrayList<String>();
+    String[] routes = {"358back","358out","383","384"};
+    String[] days = {"weekday","saturday","sunday"};
     
-    int[] routes = BusStopInfo.getRoutes();
-    for(int i = 0; i < routes.length; i++)
-    {
-      int[] stops = BusStopInfo.getBusStops(routes[i]);
-      
-      for(int j = 0; j < stops.length; j++)
-        stopNames.add(BusStopInfo.getFullName(stops[j]));
-    }
+
+    //sets up the day dropdown box
+    typeOfDay = new JComboBox(days);
+    typeOfDay.setSelectedIndex(2);
+    typeOfDay.addActionListener(this);
+    //Sets up the route dropdown
+    routeSelected = new JComboBox(routes);
+    routeSelected.setSelectedIndex(3);
+    routeSelected.addActionListener(this);
     
-    //remove duplicates
-    HashSet<String> hs = new HashSet<String>();
-    hs.addAll(stopNames);
-    stopNames.clear();
-    stopNames.addAll(hs);
-    
-    String[] stopsList = new String[stopNames.size()];
-    stopsList = stopNames.toArray(stopsList);
-    
-    //from
-    cmbFrom = new JComboBox(stopsList);
-    
-    contents.add(lblFrom);
-    contents.add(cmbFrom);
-    contents.add(new JLabel()); //filler
-    
-    //to
-    cmbTo = new JComboBox(stopsList);
-    
-    contents.add(lblTo);
-    contents.add(cmbTo);
-    contents.add(new JLabel()); //filler
-    
-    //time
-    String[] hours = new String[24], minutes = new String[60];
-    
-    for(int i = 0; i < 24; i++)
-      hours[i] = (i < 10) ? "0" + i : Integer.toString(i);
-    
-    for(int i = 0; i < 60; i++)
-      minutes[i] = (i < 10) ? "0" + i : Integer.toString(i);
-    
-    contents.add(lblTime);
-    
-    DateFormat format = new SimpleDateFormat("HH:mm");
-    String date = format.format(new Date());
-    
-    String[] time = date.split(":");
-    
-    cmbTimeH = new JComboBox(hours);
-    cmbTimeH.setSelectedIndex(Integer.parseInt(time[0]));
-    cmbTimeM = new JComboBox(minutes);
-    cmbTimeM.setSelectedIndex(Integer.parseInt(time[1]));
-    
-    contents.add(cmbTimeH);
-    contents.add(cmbTimeM);
-    
+    contents.add(routeSelected);
+    contents.add(typeOfDay);
     contents.add(btnBack);
     btnBack.addActionListener(this);
-    contents.add(new JLabel()); //filler
     contents.add(btnSubmit);
+    btnSubmit.addActionListener(this);
   }
 	
   /**
@@ -120,7 +68,11 @@ public class PassengerTimetableGUI extends Window implements ActionListener
   {
     if(e.getSource() == btnBack)
       window.back();
-    else if(e.getSource() == btnSubmit)
-      ;//...
+    else if(e.getSource() == btnSubmit){
+      String routess = (String)routeSelected.getSelectedItem();
+      String typeOfDayss = (String)typeOfDay.getSelectedItem();
+      PassengerTimetableResultGUI result = new PassengerTimetableResultGUI(routess, typeOfDayss);
+      window.openWindow(result);
+    }
   }
 }
